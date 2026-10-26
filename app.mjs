@@ -8,6 +8,20 @@ const releaseTypeLabel = record => record.release_type && record.release_type !=
 const statusOptions = ['unheard', 'want to hear', 'heard'];
 const dateLabel = (value, time = false) => value ? new Intl.DateTimeFormat(undefined, {year:'numeric', month:'short', day:'numeric', ...(time ? {hour:'numeric',minute:'2-digit'} : {})}).format(new Date(value)) : 'Date not recorded';
 
+// Visible corpus counts come from the loaded dataset; the numbers in index.html are only no-script fallbacks.
+export function renderCorpusCounts(doc, dataset, publications) {
+  const additions = dataset.filter(r => !r.list_group);
+  const years = additions.map(r => r.year).filter(Number.isInteger);
+  const values = {records: String(dataset.length), additions: String(additions.length), 'addition-years': years.length ? Math.min(...years) + '–' + Math.max(...years) : ''};
+  for (const node of doc.querySelectorAll('[data-count]')) if (Object.hasOwn(values, node.dataset.count)) node.textContent = values[node.dataset.count];
+  for (const node of doc.querySelectorAll('[data-count-label]')) node.setAttribute('aria-label', dataset.length + ' ' + node.dataset.countLabel);
+  const named = publications.length > 4 ? [...publications.slice(0,3), (publications.length - 3) + ' other publications'] : publications;
+  const list = typeof Intl.ListFormat === 'function' ? new Intl.ListFormat('en', {style:'long', type:'conjunction'}).format(named) : named.join(', ');
+  for (const node of doc.querySelectorAll('[data-publications]')) node.textContent = list.replace(', and ', ' and ');
+  const meta = doc.querySelector('meta[name="description"]');
+  if (meta) meta.setAttribute('content', meta.getAttribute('content').replace(/^\d+ releases/, dataset.length + ' releases'));
+}
+
 export function createApp({dataset, doc, storage, now = () => new Date().toISOString(), random = Math.random}) {
   const win = doc.defaultView;
   const $ = selector => doc.querySelector(selector);
@@ -42,6 +56,11 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   if ($('#filter-release_type')) $('#filter-release_type').innerHTML = options([...new Set(dataset.map(r => r.release_type).filter(Boolean))].sort(), 'All release types');
   const decades = [...new Set(dataset.filter(r => Number.isInteger(r.year)).map(r => Math.floor(r.year / 10) * 10))].sort((a,b) => a-b);
   $('#filter-decade').innerHTML = '<option value="">Every decade</option>' + decades.map(d => '<option value="' + d + '">' + d + 's</option>').join('') + '<option value="unknown">Unpublished / unknown</option>';
+  const publicationCounts = new Map();
+  for (const record of dataset) for (const publication of new Set((record.curation_sources || []).map(s => s.publication))) publicationCounts.set(publication, (publicationCounts.get(publication) || 0) + 1);
+  const publications = [...publicationCounts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0])).map(([publication]) => publication);
+  if ($('#filter-publication')) $('#filter-publication').innerHTML = '<option value="">All publications</option>' + publications.map(p => '<option value="' + escapeHTML(p) + '">' + escapeHTML(p) + '</option>').join('');
+  renderCorpusCounts(doc, dataset, publications);
 
   const genreCounts = new Map();
   for (const record of dataset) for (const genre of new Set(record.genres)) genreCounts.set(genre, (genreCounts.get(genre) || 0) + 1);
@@ -287,7 +306,7 @@ if (typeof document !== 'undefined' && document.querySelector('#main')) {
     const response = await fetch('./weird-music-machine-corpus.json');
     if (!response.ok) throw new Error('The record collection could not be loaded.');
     const dataset = await response.json();
-    if (!Array.isArray(dataset) || dataset.length !== 250 || new Set(dataset.map(r=>r.id)).size !== 250) throw new Error('The collection failed its integrity check.');
+    if (!Array.isArray(dataset) || !dataset.length || !dataset.every(r => r && typeof r.id === 'string' && r.id) || new Set(dataset.map(r=>r.id)).size !== dataset.length) throw new Error('The collection failed its integrity check.');
     let storage;
     try { storage = window.localStorage; } catch { storage = {getItem(){throw new Error('Storage unavailable');},setItem(){throw new Error('Storage unavailable');}}; }
     createApp({dataset,doc:document,storage});
