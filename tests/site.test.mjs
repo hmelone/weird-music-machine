@@ -210,6 +210,21 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
+  await t.test('the recommendation methodology is one collapsed disclosure beside the picks', async () => {
+    const {page} = await open(browser, url);
+    assert.equal(await page.isHidden('#how-recs'), true, 'hidden in the archive view');
+    await page.click('[data-tab="recommendations"] >> nth=0');
+    assert.equal(await page.isVisible('#how-recs'), true);
+    assert.equal(await page.evaluate(() => document.querySelector('#how-recs').open), false, 'collapsed by default');
+    await page.click('[data-tab="collection"] >> nth=0');
+    await page.click('[data-open-method]');
+    assert.equal(await page.evaluate(() => document.querySelector('#how-recs').open), true);
+    const text = await page.textContent('#how-recs');
+    for (const phrase of ['45%', 'twice as much', '0.3 ÷ (1 +', 'never recommended', 'deterministic', 'Surprise Me']) assert.ok(text.includes(phrase), phrase);
+    assert.equal(await page.$$eval('details.method', els => els.length), 1, 'no duplicate methodology');
+    await page.close();
+  });
+
   await t.test('a malformed corpus still fails the integrity check', async () => {
     const {page} = await open(browser, url, [...corpus, corpus[0]]);
     assert.equal((await counts(page)).failed, true);

@@ -182,6 +182,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   function renderCatalog() {
     const personal = view === 'recommendations';
     renderPathwayBanner();
+    $('#how-recs').hidden = !personal;
     $('.sort-label').hidden = personal;
     $('#view-heading').textContent = personal ? 'Follow your own strange path.' : 'A good place to get lost.';
     $('#view-kicker').textContent = personal ? '02 / THE MACHINE SAYS' : '02 / THE RECORDS';
@@ -349,6 +350,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (button.dataset.pathway) { reset(); filters.pathway = button.dataset.pathway; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); $('#pathway-banner')?.focus?.(); return; }
     if (button.dataset.editionBrowse) { reset(); filters.edition = button.dataset.editionBrowse; $('#filter-edition').value = filters.edition; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); return; }
     if (button.id === 'clear-pathway') { delete filters.pathway; limit = 24; render(); $('#search').focus(); return; }
+    if (button.dataset.openMethod !== undefined) { setView('recommendations'); $('#how-recs').open = true; $('#how-recs').scrollIntoView?.({behavior:'instant', block:'center'}); $('#how-recs summary').focus(); return; }
     if (button.dataset.survey === 'open') return openSurvey();
     if (button.dataset.survey === 'skip') { closeSurvey(); setSurvey({status: 'skipped', looking: [], strangeness: 'any', energy: 'any', more: [], less: [], savedAt: now()}, 'No problem. The machine will learn from your ratings.'); return; }
     if (button.dataset.survey === 'reset') { closeSurvey(); setSurvey({status: 'skipped', looking: [], strangeness: 'any', energy: 'any', more: [], less: [], savedAt: now()}, 'Preferences reset. Your ratings and listening log are unchanged.'); return; }
