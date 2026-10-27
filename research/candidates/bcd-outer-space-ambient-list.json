@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Ambient in Outer Space: Seven Artists Exploring the Final Frontier",
+ "credits": "By Samuel Tornow · Illustration by Andrew Khosravani · April 08, 2019",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/outer-space-ambient-list",
+ "published": "2019-04-08T11:00:49Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Steve Roach",
+   "title": "Bloodmoon Rising Complete 5 hour set",
+   "bandcamp_url": "https://steveroach.bandcamp.com/album/bloodmoon-rising-complete-5-hour-set",
+   "item_type": "album",
+   "band_location": "Tucson, Arizona"
+  },
+  {
+   "position": 2,
+   "artist": "Cold Womb Descent",
+   "title": "Ldaovh Trilogy",
+   "bandcamp_url": "https://coldwombdescent.bandcamp.com/album/ldaovh-trilogy",
+   "item_type": "album",
+   "band_location": "Svalbard and Jan Mayen"
+  },
+  {
+   "position": 3,
+   "artist": "Stellardrone",
+   "title": "Between The Rings",
+   "bandcamp_url": "https://stellardrone.bandcamp.com/album/between-the-rings",
+   "item_type": "album",
+   "band_location": "Lithuania"
+  },
+  {
+   "position": 4,
+   "artist": "William Basinski",
+   "title": "On Time Out of Time",
+   "bandcamp_url": "https://williambasinski.bandcamp.com/album/on-time-out-of-time",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  },
+  {
+   "position": 5,
+   "artist": "Melanohelios",
+   "title": "Steps.",
+   "bandcamp_url": "https://melanohelios.bandcamp.com/album/steps",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 6,
+   "artist": "Robert Scott Thompson",
+   "title": "Pale Blue Dot",
+   "bandcamp_url": "https://robert-scott-thompson.bandcamp.com/album/pale-blue-dot",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 7,
+   "artist": "Synphaera",
+   "title": "Particle Horizon",
+   "bandcamp_url": "https://synphaera.bandcamp.com/album/particle-horizon",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  }
+ ]
+}

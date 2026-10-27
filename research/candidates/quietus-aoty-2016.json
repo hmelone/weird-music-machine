@@ -1,0 +1,710 @@
+{
+ "publication": "The Quietus",
+ "list_title": "Albums of the Year 2016",
+ "page_title": "The Quietus Albums Of The Year 2016, In Association With Norman Records",
+ "list_type": "Year-end list (ranked)",
+ "list_year": 2016,
+ "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+ "picks": [
+  {
+   "position": 1,
+   "rank": 1,
+   "artist": "Årabrot",
+   "title": "The Gospel",
+   "label_in_source": "Fysisk Format"
+  },
+  {
+   "position": 2,
+   "rank": 2,
+   "artist": "Solange",
+   "title": "A Seat At The Table",
+   "label_in_source": "Saint Records/Columbia"
+  },
+  {
+   "position": 3,
+   "rank": 3,
+   "artist": "Innercity Ensemble",
+   "title": "III",
+   "label_in_source": "Instant Classic"
+  },
+  {
+   "position": 4,
+   "rank": 4,
+   "artist": "Jessy Lanza",
+   "title": "Oh No",
+   "label_in_source": "Hyperdub"
+  },
+  {
+   "position": 5,
+   "rank": 5,
+   "artist": "Shirley Collins",
+   "title": "Lodestar",
+   "label_in_source": "Domino"
+  },
+  {
+   "position": 6,
+   "rank": 6,
+   "artist": "Fat White Family",
+   "title": "Songs For Our Mothers",
+   "label_in_source": null
+  },
+  {
+   "position": 7,
+   "rank": 7,
+   "artist": "David Bowie",
+   "title": "Blackstar",
+   "label_in_source": "Columbia"
+  },
+  {
+   "position": 8,
+   "rank": 8,
+   "artist": "Ian William Craig",
+   "title": "Centres",
+   "label_in_source": "FatCat"
+  },
+  {
+   "position": 9,
+   "rank": 9,
+   "artist": "D∆WN",
+   "title": "Redemption",
+   "label_in_source": "Local Action"
+  },
+  {
+   "position": 10,
+   "rank": 10,
+   "artist": "Jenny Hval",
+   "title": "Blood Bitch",
+   "label_in_source": "Sacred Bones"
+  },
+  {
+   "position": 11,
+   "rank": 11,
+   "artist": "Frank Ocean",
+   "title": "Blond(e)",
+   "label_in_source": "Boys Don’t Cry"
+  },
+  {
+   "position": 12,
+   "rank": 12,
+   "artist": "Laura Cannell",
+   "title": "Simultaneous Flight Movement",
+   "label_in_source": "Brawl Records"
+  },
+  {
+   "position": 13,
+   "rank": 13,
+   "artist": "Matmos",
+   "title": "Ultimate Care II",
+   "label_in_source": "Thrill Jockey"
+  },
+  {
+   "position": 14,
+   "rank": 14,
+   "artist": "Klara Lewis",
+   "title": "Too",
+   "label_in_source": "Editions Mego"
+  },
+  {
+   "position": 15,
+   "rank": 15,
+   "artist": "Skepta",
+   "title": "Konnichiwa",
+   "label_in_source": "Boy Better Know"
+  },
+  {
+   "position": 16,
+   "rank": 16,
+   "artist": "The Caretaker",
+   "title": "Everywhere At The End Of Time",
+   "label_in_source": "History Always Favours The Winners"
+  },
+  {
+   "position": 17,
+   "rank": 17,
+   "artist": "Oranssi Pazuzu",
+   "title": "Värähtelijä",
+   "label_in_source": "Svart"
+  },
+  {
+   "position": 18,
+   "rank": 18,
+   "artist": "Shackleton",
+   "title": "Devotional Songs",
+   "label_in_source": "Honest Jon’s"
+  },
+  {
+   "position": 19,
+   "rank": 19,
+   "artist": "Peder Mannerfelt",
+   "title": "Controlling Body",
+   "label_in_source": "Peder Mannerfelt Produktion"
+  },
+  {
+   "position": 20,
+   "rank": 20,
+   "artist": "Marissa Nadler",
+   "title": "Strangers",
+   "label_in_source": "Bella Union"
+  },
+  {
+   "position": 21,
+   "rank": 21,
+   "artist": "Sote",
+   "title": "Hardcore Sounds From Tehran",
+   "label_in_source": "Opal Tapes"
+  },
+  {
+   "position": 22,
+   "rank": 22,
+   "artist": "Nick Cave & The Bad Seeds",
+   "title": "Skeleton Tree",
+   "label_in_source": "Bad Seed Ltd."
+  },
+  {
+   "position": 23,
+   "rank": 23,
+   "artist": "Katie Gately",
+   "title": "Color",
+   "label_in_source": "Tri Angle"
+  },
+  {
+   "position": 24,
+   "rank": 24,
+   "artist": "Sex Swing",
+   "title": "Sex Swing",
+   "label_in_source": "the Quietus Phonographic Corporation"
+  },
+  {
+   "position": 25,
+   "rank": 25,
+   "artist": "Brian Eno",
+   "title": "The Ship",
+   "label_in_source": "Beat"
+  },
+  {
+   "position": 26,
+   "rank": 26,
+   "artist": "King",
+   "title": "We Are King",
+   "label_in_source": "King Creative"
+  },
+  {
+   "position": 27,
+   "rank": 27,
+   "artist": "GNOD",
+   "title": "Mirror",
+   "label_in_source": "Rocket"
+  },
+  {
+   "position": 28,
+   "rank": 28,
+   "artist": "Wolfgang Buttress & Bees",
+   "title": "Be One",
+   "label_in_source": "Rivertones"
+  },
+  {
+   "position": 29,
+   "rank": 29,
+   "artist": "Jute Gyte",
+   "title": "Perdurance",
+   "label_in_source": "Jeshimoth Entertainment"
+  },
+  {
+   "position": 30,
+   "rank": 30,
+   "artist": "Huerco S",
+   "title": "For Those Of You Who Have Never (And Also Those Who Have)",
+   "label_in_source": "Proibito"
+  },
+  {
+   "position": 31,
+   "rank": 31,
+   "artist": "Blood Orange",
+   "title": "Freetown Sound",
+   "label_in_source": "Domino"
+  },
+  {
+   "position": 32,
+   "rank": 32,
+   "artist": "The Stargazer’s Assistant",
+   "title": "Remoteness Of Light",
+   "label_in_source": "House of Mythology"
+  },
+  {
+   "position": 33,
+   "rank": 33,
+   "artist": "A Tribe Called Quest",
+   "title": "We Got It From Here… Thank You 4 Your Service",
+   "label_in_source": "Epic"
+  },
+  {
+   "position": 34,
+   "rank": 34,
+   "artist": "Julianna Barwick",
+   "title": "Will",
+   "label_in_source": "Dead Oceans"
+  },
+  {
+   "position": 35,
+   "rank": 35,
+   "artist": "Radiohead",
+   "title": "A Moon Shaped Pool",
+   "label_in_source": "XL"
+  },
+  {
+   "position": 36,
+   "rank": 36,
+   "artist": "Suede",
+   "title": "Night Thoughts",
+   "label_in_source": "Warner"
+  },
+  {
+   "position": 37,
+   "rank": 37,
+   "artist": "Jambinai",
+   "title": "A Hermitage",
+   "label_in_source": "Bella Union"
+  },
+  {
+   "position": 38,
+   "rank": 38,
+   "artist": "Convextion",
+   "title": "2845",
+   "label_in_source": "a.r.t.l.e.s.s."
+  },
+  {
+   "position": 39,
+   "rank": 39,
+   "artist": "Kanye West",
+   "title": "The Life Of Pablo",
+   "label_in_source": "GOOD Music"
+  },
+  {
+   "position": 40,
+   "rank": 40,
+   "artist": "Kemper Norton",
+   "title": "Toll",
+   "label_in_source": "Front and Follow"
+  },
+  {
+   "position": 41,
+   "rank": 41,
+   "artist": "Puce Mary",
+   "title": "The Spiral",
+   "label_in_source": "Posh Isolation"
+  },
+  {
+   "position": 42,
+   "rank": 42,
+   "artist": "Black Merlin",
+   "title": "Hipnotik Tradisi",
+   "label_in_source": "Island Of The Gods"
+  },
+  {
+   "position": 43,
+   "rank": 43,
+   "artist": "Daniel Patrick Quinn",
+   "title": "I, Sun",
+   "label_in_source": null
+  },
+  {
+   "position": 44,
+   "rank": 44,
+   "artist": "Lord Tang",
+   "title": "Butterflies",
+   "label_in_source": "Meakusma"
+  },
+  {
+   "position": 45,
+   "rank": 45,
+   "artist": "Underworld",
+   "title": "Barbara Barbara, We Face A Shining Future",
+   "label_in_source": "Beat"
+  },
+  {
+   "position": 46,
+   "rank": 46,
+   "artist": "Kaitlyn Aurelia Smith & Suzanne Ciani",
+   "title": "Sunergy",
+   "label_in_source": "RVNG Intl."
+  },
+  {
+   "position": 47,
+   "rank": 47,
+   "artist": "Idris Ackamoor & The Pyramids",
+   "title": "We Be All Africans",
+   "label_in_source": "Strut"
+  },
+  {
+   "position": 48,
+   "rank": 48,
+   "artist": "Equiknoxx",
+   "title": "Bird Sound Power",
+   "label_in_source": "DDS"
+  },
+  {
+   "position": 49,
+   "rank": 49,
+   "artist": "Anna Meredith",
+   "title": "Varmints",
+   "label_in_source": "Moshi Moshi"
+  },
+  {
+   "position": 50,
+   "rank": 50,
+   "artist": "Factory Floor",
+   "title": "25 25",
+   "label_in_source": "DFA"
+  },
+  {
+   "position": 51,
+   "rank": 51,
+   "artist": "Tim Hecker",
+   "title": "Love Streams",
+   "label_in_source": "4AD"
+  },
+  {
+   "position": 52,
+   "rank": 52,
+   "artist": "Bully Fae",
+   "title": "Defy A Thing To Be",
+   "label_in_source": "Vague Terrain"
+  },
+  {
+   "position": 53,
+   "rank": 53,
+   "artist": "Beyoncé",
+   "title": "Lemonade",
+   "label_in_source": "Parkwood Entertainment"
+  },
+  {
+   "position": 54,
+   "rank": 54,
+   "artist": "Kano",
+   "title": "Made In The Manor",
+   "label_in_source": "Parlophone"
+  },
+  {
+   "position": 55,
+   "rank": 55,
+   "artist": "Bruxa Maria",
+   "title": "Human Condition",
+   "label_in_source": "Extreme Ultimate"
+  },
+  {
+   "position": 56,
+   "rank": 56,
+   "artist": "Grumbling Fur",
+   "title": "Furfour",
+   "label_in_source": "Thrill Jockey"
+  },
+  {
+   "position": 57,
+   "rank": 57,
+   "artist": "Leonard Cohen",
+   "title": "You Want It Darker",
+   "label_in_source": "Columbia"
+  },
+  {
+   "position": 58,
+   "rank": 58,
+   "artist": "Skee Mask",
+   "title": "Shred",
+   "label_in_source": "Ilian Tape"
+  },
+  {
+   "position": 59,
+   "rank": 59,
+   "artist": "Oren Ambarchi",
+   "title": "Hubris",
+   "label_in_source": "Editions Mego"
+  },
+  {
+   "position": 60,
+   "rank": 60,
+   "artist": "The Comet Is Coming",
+   "title": "Channel The Spirits",
+   "label_in_source": "The Leaf Label"
+  },
+  {
+   "position": 61,
+   "rank": 61,
+   "artist": "Babyfather",
+   "title": "BBF Hosted By DJ Escrow",
+   "label_in_source": "Hyperdub"
+  },
+  {
+   "position": 62,
+   "rank": 62,
+   "artist": "The Body",
+   "title": "No One Deserves Happiness",
+   "label_in_source": "Thrill Jockey"
+  },
+  {
+   "position": 63,
+   "rank": 63,
+   "artist": "G.H.",
+   "title": "Housebound Demigod",
+   "label_in_source": "Modern Love"
+  },
+  {
+   "position": 64,
+   "rank": 64,
+   "artist": "Darren Hayman",
+   "title": "Thankful Villages Vol. 1",
+   "label_in_source": "Rivertones"
+  },
+  {
+   "position": 65,
+   "rank": 65,
+   "artist": "Laniakea",
+   "title": "A Pot Of Powdered Nettles",
+   "label_in_source": "House Of Mythology"
+  },
+  {
+   "position": 66,
+   "rank": 66,
+   "artist": "Wacław Zimpel",
+   "title": "Lines",
+   "label_in_source": "Instant Classic"
+  },
+  {
+   "position": 67,
+   "rank": 67,
+   "artist": "Roly Porter",
+   "title": "Third Law",
+   "label_in_source": "Tri Angle"
+  },
+  {
+   "position": 68,
+   "rank": 68,
+   "artist": "Chance The Rapper",
+   "title": "Coloring Book",
+   "label_in_source": "Self-released"
+  },
+  {
+   "position": 69,
+   "rank": 69,
+   "artist": "Atlantikwall",
+   "title": "Atlantikwall",
+   "label_in_source": null
+  },
+  {
+   "position": 70,
+   "rank": 70,
+   "artist": "SHXCXCHCXSH",
+   "title": "SsSsSsSsSsSsSsSsSsSsSsSsSsSsSs",
+   "label_in_source": null
+  },
+  {
+   "position": 71,
+   "rank": 71,
+   "artist": "Marie Davidson",
+   "title": "Adieux Au Dancefloor",
+   "label_in_source": "Cititrax"
+  },
+  {
+   "position": 72,
+   "rank": 72,
+   "artist": "Pattern Man",
+   "title": "Pattern Man",
+   "label_in_source": "Self-released"
+  },
+  {
+   "position": 73,
+   "rank": 73,
+   "artist": "Julien Marchal",
+   "title": "Insight II (11)",
+   "label_in_source": "1631 Recordings"
+  },
+  {
+   "position": 74,
+   "rank": 74,
+   "artist": "Billy Bao",
+   "title": "The Lagos Sessions",
+   "label_in_source": "Night School"
+  },
+  {
+   "position": 75,
+   "rank": 75,
+   "artist": "Gyða Valtýsdóttir",
+   "title": "Epicycle",
+   "label_in_source": "12 Tónar"
+  },
+  {
+   "position": 76,
+   "rank": 76,
+   "artist": "Noura Mint Seymali",
+   "title": "Arbina",
+   "label_in_source": null
+  },
+  {
+   "position": 77,
+   "rank": 77,
+   "artist": "Mica Levi & Oliver Coates",
+   "title": "Remain Calm",
+   "label_in_source": "Slip"
+  },
+  {
+   "position": 78,
+   "rank": 78,
+   "artist": "Hen Ogledd",
+   "title": "Bronze",
+   "label_in_source": "alt.vinyl"
+  },
+  {
+   "position": 79,
+   "rank": 79,
+   "artist": "Kassem Mosse",
+   "title": "Disclosure",
+   "label_in_source": "Honest Jon’s"
+  },
+  {
+   "position": 80,
+   "rank": 80,
+   "artist": "Kristoffer Lo",
+   "title": "The Black Meat",
+   "label_in_source": "Propeller"
+  },
+  {
+   "position": 81,
+   "rank": 81,
+   "artist": "Hannah Peel",
+   "title": "Awake But Always Dreaming",
+   "label_in_source": "My Own Pleasure"
+  },
+  {
+   "position": 82,
+   "rank": 82,
+   "artist": "Sam Shalabi",
+   "title": "Isis and Osiris",
+   "label_in_source": "Nashazphone"
+  },
+  {
+   "position": 83,
+   "rank": 83,
+   "artist": "Pangaea",
+   "title": "In Drum Play",
+   "label_in_source": "Hessle Audio"
+  },
+  {
+   "position": 84,
+   "rank": 84,
+   "artist": "Ghold",
+   "title": "Pyr",
+   "label_in_source": "Ritual Productions"
+  },
+  {
+   "position": 85,
+   "rank": 85,
+   "artist": "FIS",
+   "title": "From Patterns To Details",
+   "label_in_source": "Subtext"
+  },
+  {
+   "position": 86,
+   "rank": 86,
+   "artist": "Carla dal Forno",
+   "title": "You Know What It’s Like",
+   "label_in_source": null
+  },
+  {
+   "position": 87,
+   "rank": 87,
+   "artist": "Swans",
+   "title": "The Glowing Man",
+   "label_in_source": "Young God"
+  },
+  {
+   "position": 88,
+   "rank": 88,
+   "artist": "Bon Iver",
+   "title": "22, A Million",
+   "label_in_source": "Jagjaguwar"
+  },
+  {
+   "position": 89,
+   "rank": 89,
+   "artist": "Omar-S",
+   "title": "The Best",
+   "label_in_source": "FXHE"
+  },
+  {
+   "position": 90,
+   "rank": 90,
+   "artist": "Knifeworld",
+   "title": "Bottled Out Of Eden",
+   "label_in_source": "Inside Out Music"
+  },
+  {
+   "position": 91,
+   "rank": 91,
+   "artist": "Gnaw Their Tongues",
+   "title": "Hymns For The Broken, Swollen And Silent",
+   "label_in_source": "Consouling Sounds"
+  },
+  {
+   "position": 92,
+   "rank": 92,
+   "artist": "John Cale",
+   "title": "M:FANS/Music For A New Society",
+   "label_in_source": "Domino"
+  },
+  {
+   "position": 93,
+   "rank": 93,
+   "artist": "The Invisible",
+   "title": "Patience",
+   "label_in_source": "Ninja Tune"
+  },
+  {
+   "position": 94,
+   "rank": 94,
+   "artist": "Wire",
+   "title": "Nocturnal Koreans",
+   "label_in_source": "Pink Flag"
+  },
+  {
+   "position": 95,
+   "rank": 95,
+   "artist": "Jackie Lynn",
+   "title": "Jackie Lynn",
+   "label_in_source": "Thrill Jockey"
+  },
+  {
+   "position": 96,
+   "rank": 96,
+   "artist": "The Dwarfs Of East Agouza",
+   "title": "Bes",
+   "label_in_source": "Nawa"
+  },
+  {
+   "position": 97,
+   "rank": 97,
+   "artist": "Cat’s Eyes",
+   "title": "Treasure House",
+   "label_in_source": "Kobalt"
+  },
+  {
+   "position": 98,
+   "rank": 98,
+   "artist": "Ahrkh Wagner",
+   "title": "Ahrkh Wagner",
+   "label_in_source": "Tesla Tapes"
+  },
+  {
+   "position": 99,
+   "rank": 99,
+   "artist": "Melt Yourself Down",
+   "title": "Last Evenings On Earth",
+   "label_in_source": "The Leaf Label"
+  },
+  {
+   "position": 100,
+   "rank": 100,
+   "artist": "Stein Urheim",
+   "title": "Strandebarm",
+   "label_in_source": "Hubro"
+  }
+ ]
+}

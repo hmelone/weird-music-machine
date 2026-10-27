@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "’90s Ambient: Diving Even Deeper",
+ "credits": "By Andy Beta · Illustration by George Adamson · January 30, 2023",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/90s-ambient-list-pt-2",
+ "published": "2023-01-30T14:58:25Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Infraction",
+   "title": "World Receiver",
+   "bandcamp_url": "https://infraction.bandcamp.com/album/world-receiver",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 2,
+   "artist": "Mental Groove Records / Musique Pour La Danse",
+   "title": "rEAGENZ - rEAGENZ (2021 remasters)",
+   "bandcamp_url": "https://shop.mentalgroove.ch/album/reagenz-reagenz-2021-remasters",
+   "item_type": "album",
+   "band_location": "Switzerland"
+  },
+  {
+   "position": 3,
+   "artist": "Anthony Manning",
+   "title": "Islets in Pink Polypropylene",
+   "bandcamp_url": "https://germstore.bandcamp.com/album/islets-in-pink-polypropylene",
+   "item_type": "album",
+   "band_location": "France"
+  },
+  {
+   "position": 4,
+   "artist": "another fine day",
+   "title": "life before land",
+   "bandcamp_url": "https://anotherfineday.bandcamp.com/album/life-before-land",
+   "item_type": "album",
+   "band_location": "UK"
+  },
+  {
+   "position": 5,
+   "artist": "Tournesol ",
+   "title": "Kokotsu (1994)",
+   "bandcamp_url": "https://tournesol-apollo.bandcamp.com/album/kokotsu-1994",
+   "item_type": "album",
+   "band_location": "Denmark"
+  },
+  {
+   "position": 6,
+   "artist": "Manna",
+   "title": "Manna (1995)",
+   "bandcamp_url": "https://manna-apollo.bandcamp.com/album/manna-1995",
+   "item_type": "album",
+   "band_location": "UK"
+  },
+  {
+   "position": 7,
+   "artist": "Music From Memory",
+   "title": "Oumuamua",
+   "bandcamp_url": "https://music-from-memory.bandcamp.com/album/oumuamua",
+   "item_type": "album",
+   "band_location": "The Netherlands"
+  }
+ ]
+}

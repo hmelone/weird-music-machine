@@ -1,0 +1,58 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Movietone, Flying Saucer Attack, and Bristol’s Quiet Psych Scene",
+ "credits": "By Louis Pattison · Illustration by Ian Grandjean · February 01, 2023",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/bristol-psych-scene-report",
+ "published": "2023-02-01T15:13:20Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Movietone",
+   "title": "Movietone",
+   "bandcamp_url": "https://movietone.bandcamp.com/album/movietone",
+   "item_type": "album",
+   "band_location": "Bristol, UK"
+  },
+  {
+   "position": 2,
+   "artist": "Flying Saucer Attack",
+   "title": "Flying Saucer Attack (aka Rural Psychedelia)",
+   "bandcamp_url": "https://flyingsaucerattack.bandcamp.com/album/flying-saucer-attack-aka-rural-psychedelia",
+   "item_type": "album",
+   "band_location": "Bristol, UK"
+  },
+  {
+   "position": 3,
+   "artist": "Crescent",
+   "title": "By The Roads And The Fields",
+   "bandcamp_url": "https://crescent.bandcamp.com/album/by-the-roads-and-the-fields",
+   "item_type": "album",
+   "band_location": "Bristol, UK"
+  },
+  {
+   "position": 4,
+   "artist": "The Third Eye Foundation",
+   "title": "Semtex",
+   "bandcamp_url": "https://thethirdeyefoundation.bandcamp.com/album/semtex",
+   "item_type": "album",
+   "band_location": "Nancy, France"
+  },
+  {
+   "position": 5,
+   "artist": "Textile Records",
+   "title": "MOVIETONE \"Peel Sessions 1994 - 1997\"",
+   "bandcamp_url": "https://textilerecords.bandcamp.com/album/movietone-peel-sessions-1994-1997",
+   "item_type": "album",
+   "band_location": "Paris, France"
+  },
+  {
+   "position": 6,
+   "artist": "Flying Saucer Attack",
+   "title": "Instrumentals 2015",
+   "bandcamp_url": "https://flyingsaucerattack.bandcamp.com/album/instrumentals-2015",
+   "item_type": "album",
+   "band_location": "Bristol, UK"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Ten Modern Shoegaze Bands: A Primer",
+ "credits": "By Jon Wiederhorn · May 26, 2017",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/modern-shoegaze-bands-list",
+ "published": "2017-05-26T10:46:42Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Kindling",
+   "title": "No Generation",
+   "bandcamp_url": "https://kndlng.bandcamp.com/album/no-generation",
+   "item_type": "album",
+   "band_location": "Easthampton, Massachusetts"
+  },
+  {
+   "position": 2,
+   "artist": "Rev Rev Rev",
+   "title": "Des fleurs magiques bourdonnaient",
+   "bandcamp_url": "https://revrevrev.bandcamp.com/album/des-fleurs-magiques-bourdonnaient",
+   "item_type": "album",
+   "band_location": "Modena, Italy"
+  },
+  {
+   "position": 3,
+   "artist": "Requiem Pour Un Twister",
+   "title": "Season Of Mist",
+   "bandcamp_url": "https://requiempouruntwister.bandcamp.com/album/season-of-mist",
+   "item_type": "album",
+   "band_location": "Paris, France"
+  },
+  {
+   "position": 4,
+   "artist": "Graveface Records & Curiosities",
+   "title": "Door To The Sun",
+   "bandcamp_url": "https://graveface.bandcamp.com/album/door-to-the-sun",
+   "item_type": "album",
+   "band_location": "Savannah, Georgia"
+  },
+  {
+   "position": 5,
+   "artist": "We Were Never Being Boring Collective",
+   "title": "WWNBB#077 - Unless",
+   "bandcamp_url": "https://wewereneverbeingboring.bandcamp.com/album/wwnbb-077-unless",
+   "item_type": "album",
+   "band_location": "San Francisco, California"
+  },
+  {
+   "position": 6,
+   "artist": "Deep Space Recordings",
+   "title": "In Surges",
+   "bandcamp_url": "https://deepspacerecordings.bandcamp.com/album/in-surges",
+   "item_type": "album",
+   "band_location": "Raleigh, North Carolina"
+  },
+  {
+   "position": 7,
+   "artist": "Nothing",
+   "title": "Tired of Tomorrow (Standard Version)",
+   "bandcamp_url": "https://nothing.bandcamp.com/album/tired-of-tomorrow-standard-version",
+   "item_type": "album",
+   "band_location": "Philadelphia, Pennsylvania"
+  },
+  {
+   "position": 8,
+   "artist": "LSD and the Search for God",
+   "title": "Heaven Is a Place",
+   "bandcamp_url": "https://lsdandthesearchforgod.bandcamp.com/album/heaven-is-a-place",
+   "item_type": "album",
+   "band_location": "San Francisco, California"
+  },
+  {
+   "position": 9,
+   "artist": "Soda Lilies",
+   "title": "Love Cemetery Tapes",
+   "bandcamp_url": "https://sodalilies.bandcamp.com/album/love-cemetery-tapes",
+   "item_type": "album",
+   "band_location": "Austin, Texas"
+  },
+  {
+   "position": 10,
+   "artist": "Kestrels",
+   "title": "Kestrels",
+   "bandcamp_url": "https://kestrels.bandcamp.com/album/kestrels-2",
+   "item_type": "album",
+   "band_location": "Halifax, Nova Scotia"
+  }
+ ]
+}

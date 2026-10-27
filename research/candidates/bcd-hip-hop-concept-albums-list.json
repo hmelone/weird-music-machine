@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "The Best Hip-Hop Concept Albums on Bandcamp",
+ "credits": "By Phillip Mlynar · November 02, 2020",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/hip-hop-concept-albums-list",
+ "published": "2020-11-02T18:57:48Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Del The Funky Homosapien",
+   "title": "Deltron 3030",
+   "bandcamp_url": "https://delthefunkyhomosapien.bandcamp.com/album/deltron-3030",
+   "item_type": "album",
+   "band_location": "Richmond, California"
+  },
+  {
+   "position": 2,
+   "artist": "Adrian Younge",
+   "title": "Twelve Reasons To Die (Deluxe)",
+   "bandcamp_url": "https://adrianyounge.bandcamp.com/album/twelve-reasons-to-die-deluxe",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  },
+  {
+   "position": 3,
+   "artist": "Masta Ace",
+   "title": "The Falling Season",
+   "bandcamp_url": "https://mastaace.bandcamp.com/album/the-falling-season",
+   "item_type": "album",
+   "band_location": "New York"
+  },
+  {
+   "position": 4,
+   "artist": "L'Orange",
+   "title": "The Night Took Us In Like Family",
+   "bandcamp_url": "https://lorange360.bandcamp.com/album/the-night-took-us-in-like-family",
+   "item_type": "album",
+   "band_location": "North Carolina"
+  },
+  {
+   "position": 5,
+   "artist": "clipping.",
+   "title": "Splendor & Misery",
+   "bandcamp_url": "https://clppng.bandcamp.com/album/splendor-misery",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  }
+ ]
+}

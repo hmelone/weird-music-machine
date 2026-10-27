@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Anatolian Rock 101: Key Releases to Know",
+ "credits": "By Joshua Minsoo Kim · July 17, 2020",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/anatolian-rock-list",
+ "published": "2020-07-17T18:02:48Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Baba Zula",
+   "title": "XX",
+   "bandcamp_url": "https://baba-zula.bandcamp.com/album/xx",
+   "item_type": "album",
+   "band_location": "Istanbul, Turkey"
+  },
+  {
+   "position": 2,
+   "artist": "Altin Gün",
+   "title": "On",
+   "bandcamp_url": "https://altingunband.bandcamp.com/album/on",
+   "item_type": "album",
+   "band_location": "Amsterdam, Netherlands"
+  },
+  {
+   "position": 3,
+   "artist": "Gaye Su Akyol",
+   "title": "İstikrarlı Hayal Hakikattir",
+   "bandcamp_url": "https://gayesuakyol.bandcamp.com/album/i-stikrarl-hayal-hakikattir",
+   "item_type": "album",
+   "band_location": "Istanbul, Turkey"
+  },
+  {
+   "position": 4,
+   "artist": "Ayyuka",
+   "title": "Maslak Halayı",
+   "bandcamp_url": "https://ayyuka.bandcamp.com/album/maslak-halay",
+   "item_type": "album",
+   "band_location": "Istanbul, Turkey"
+  },
+  {
+   "position": 5,
+   "artist": "Sven Wunder",
+   "title": "Eastern Flowers",
+   "bandcamp_url": "https://svenwunder.bandcamp.com/album/eastern-flowers",
+   "item_type": "album",
+   "band_location": "Sweden"
+  }
+ ]
+}

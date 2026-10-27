@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Weird Old Americana",
+ "credits": "By Andy Beta · Illustration by Emma Shore · January 04, 2023",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/weird-old-americana",
+ "published": "2023-01-04T14:45:13Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Efficient Space",
+   "title": "Ghost Riders",
+   "bandcamp_url": "https://efficientspace.bandcamp.com/album/ghost-riders",
+   "item_type": "album",
+   "band_location": "Melbourne, Australia"
+  },
+  {
+   "position": 2,
+   "artist": "Smiling C",
+   "title": "America Dream Reserve",
+   "bandcamp_url": "https://smilingc.bandcamp.com/album/america-dream-reserve",
+   "item_type": "album",
+   "band_location": "California"
+  },
+  {
+   "position": 3,
+   "artist": "Athens Of The North",
+   "title": "Is It What You Want",
+   "bandcamp_url": "https://aotns.bandcamp.com/album/is-it-what-you-want",
+   "item_type": "album",
+   "band_location": "Edinburgh, UK"
+  },
+  {
+   "position": 4,
+   "artist": "Freedom To Spend",
+   "title": "Back to the Woodlands",
+   "bandcamp_url": "https://freedomtospend.bandcamp.com/album/back-to-the-woodlands",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 5,
+   "artist": "Jon Iverson",
+   "title": "Many Worlds Interpretation",
+   "bandcamp_url": "https://joniverson.bandcamp.com/album/many-worlds-interpretation",
+   "item_type": "album",
+   "band_location": "California"
+  }
+ ]
+}

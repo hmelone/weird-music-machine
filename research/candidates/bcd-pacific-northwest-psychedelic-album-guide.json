@@ -1,0 +1,82 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Cascadian Psych in the ’90s: A History",
+ "credits": "By Erick Bradshaw · Illustration by Maria Contreras · January 16, 2025",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/pacific-northwest-psychedelic-album-guide",
+ "published": "2025-01-16T14:44:13Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Earth",
+   "title": "Pentastar: In The Style of Demons",
+   "bandcamp_url": "https://earthslr.bandcamp.com/album/pentastar-in-the-style-of-demons",
+   "item_type": "album",
+   "band_location": "Seattle, Washington"
+  },
+  {
+   "position": 2,
+   "artist": "Bugskull",
+   "title": "Distracted Snowflake Volume One",
+   "bandcamp_url": "https://bugskull.bandcamp.com/album/distracted-snowflake-volume-one",
+   "item_type": "album",
+   "band_location": "Austin, Texas"
+  },
+  {
+   "position": 3,
+   "artist": "Jessamine",
+   "title": "Jessamine",
+   "bandcamp_url": "https://jessamine.bandcamp.com/album/jessamine",
+   "item_type": "album",
+   "band_location": "Seattle, Washington"
+  },
+  {
+   "position": 4,
+   "artist": "King Black Acid",
+   "title": "Womb Star Session",
+   "bandcamp_url": "https://kingblackacid.bandcamp.com/album/womb-star-session",
+   "item_type": "album",
+   "band_location": "Portland, Oregon"
+  },
+  {
+   "position": 5,
+   "artist": "Magnog",
+   "title": "Magnog",
+   "bandcamp_url": "https://magnog.bandcamp.com/album/magnog",
+   "item_type": "album",
+   "band_location": "Edmonds, Washington"
+  },
+  {
+   "position": 6,
+   "artist": "C Average",
+   "title": "Second Reckoning",
+   "bandcamp_url": "https://caverage.bandcamp.com/album/second-reckoning",
+   "item_type": "album",
+   "band_location": "Olympia, Washington"
+  },
+  {
+   "position": 7,
+   "artist": "Union Pole Tapes",
+   "title": "I Love You",
+   "bandcamp_url": "https://unionpoletapes.bandcamp.com/album/i-love-you",
+   "item_type": "album",
+   "band_location": "Olympia, Washington"
+  },
+  {
+   "position": 8,
+   "artist": "Schema",
+   "title": "Schema",
+   "bandcamp_url": "https://schemaschema.bandcamp.com/album/schema",
+   "item_type": "album",
+   "band_location": "Seattle, Washington"
+  },
+  {
+   "position": 9,
+   "artist": "Fontanelle",
+   "title": "Style Drift",
+   "bandcamp_url": "https://fontanelle.bandcamp.com/album/style-drift",
+   "item_type": "album",
+   "band_location": "Portland, Oregon"
+  }
+ ]
+}

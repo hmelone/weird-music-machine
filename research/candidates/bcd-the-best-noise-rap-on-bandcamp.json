@@ -1,0 +1,58 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "The Best Noise Rap on Bandcamp",
+ "credits": "By John Morrison · January 10, 2020",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/the-best-noise-rap-on-bandcamp",
+ "published": "2020-01-10T16:36:18Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Adrian Sherwood",
+   "title": "Sherwood At The Controls vol. 2 1985-1990",
+   "bandcamp_url": "https://adriansherwood.bandcamp.com/album/sherwood-at-the-controls-vol-2-1985-1990",
+   "item_type": "album",
+   "band_location": "UK"
+  },
+  {
+   "position": 2,
+   "artist": "Dälek",
+   "title": "From Filthy Tongue Of Gods And Griots",
+   "bandcamp_url": "https://dalek.bandcamp.com/album/from-filthy-tongue-of-gods-and-griots",
+   "item_type": "album",
+   "band_location": "Union City, New Jersey"
+  },
+  {
+   "position": 3,
+   "artist": "Carl Kavorkian",
+   "title": "Tainted Razorblades",
+   "bandcamp_url": "https://carlkavorkian.bandcamp.com/album/tainted-razorblades",
+   "item_type": "album",
+   "band_location": "Philadelphia, Pennsylvania"
+  },
+  {
+   "position": 4,
+   "artist": "hecticrecs",
+   "title": "RAMMELLZEE - Cosmic Flush (tape edition))",
+   "bandcamp_url": "https://hecticrecs.bandcamp.com/album/rammellzee-cosmic-flush-tape-edition",
+   "item_type": "album",
+   "band_location": "Netherlands"
+  },
+  {
+   "position": 5,
+   "artist": "Laitdbac Records",
+   "title": "Machines That Make Civilization Fun",
+   "bandcamp_url": "https://laitdbac.bandcamp.com/album/machines-that-make-civilization-fun",
+   "item_type": "album",
+   "band_location": "Paris, France"
+  },
+  {
+   "position": 6,
+   "artist": "Divine Styler",
+   "title": "Spiral Walls Containing Autumns Of Light",
+   "bandcamp_url": "https://divinestyler.bandcamp.com/album/spiral-walls-containing-autumns-of-light",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  }
+ ]
+}

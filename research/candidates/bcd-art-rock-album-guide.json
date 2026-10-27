@@ -1,0 +1,58 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "The Art of Rock",
+ "credits": "By George Grella · April 09, 2026",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/art-rock-album-guide",
+ "published": "2026-04-09T17:59:32Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Henry Cow",
+   "title": "Desperate Straights",
+   "bandcamp_url": "https://henrycow.bandcamp.com/album/desperate-straights",
+   "item_type": "album",
+   "band_location": "Cambridge, UK"
+  },
+  {
+   "position": 2,
+   "artist": "Pere Ubu",
+   "title": "Theatre 140 - 1978",
+   "bandcamp_url": "https://pereubu.bandcamp.com/album/theatre-140-1978",
+   "item_type": "album",
+   "band_location": "Utica, Pennsylvania"
+  },
+  {
+   "position": 3,
+   "artist": "Television",
+   "title": "The Blow Up",
+   "bandcamp_url": "https://television.bandcamp.com/album/the-blow-up",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 4,
+   "artist": "The Red Krayola",
+   "title": "Malefactor, Ade",
+   "bandcamp_url": "https://theredkrayola.bandcamp.com/album/malefactor-ade",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  },
+  {
+   "position": 5,
+   "artist": "Peter Gabriel",
+   "title": "Peter Gabriel 1 (Car)",
+   "bandcamp_url": "https://petergabriel.bandcamp.com/album/peter-gabriel-1-car",
+   "item_type": "album",
+   "band_location": "England, UK"
+  },
+  {
+   "position": 6,
+   "artist": "Dumama",
+   "title": "Towards An Expanse",
+   "bandcamp_url": "https://dumama.bandcamp.com/album/towards-an-expanse",
+   "item_type": "album",
+   "band_location": "South Africa"
+  }
+ ]
+}

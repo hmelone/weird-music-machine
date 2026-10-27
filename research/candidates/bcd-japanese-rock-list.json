@@ -1,0 +1,74 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "A Beginner’s Guide to Japanese Rock on Bandcamp",
+ "credits": "By Patrick St. Michel · July 06, 2020",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/japanese-rock-list",
+ "published": "2020-07-06T17:54:29Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "CARNATION",
+   "title": "LOUD AND BEAUTY -Venture Business Show Vol.3-",
+   "bandcamp_url": "https://carnationweb.bandcamp.com/album/loud-and-beauty-venture-business-show-vol-3",
+   "item_type": "album",
+   "band_location": "Japan"
+  },
+  {
+   "position": 2,
+   "artist": "DYGL",
+   "title": "EP #1",
+   "bandcamp_url": "https://dygl.bandcamp.com/album/ep-1",
+   "item_type": "album",
+   "band_location": "Tokyo, Japan"
+  },
+  {
+   "position": 3,
+   "artist": "Specific Recordings",
+   "title": "Lovetheism",
+   "bandcamp_url": "https://specific.bandcamp.com/album/lovetheism",
+   "item_type": "album",
+   "band_location": "Metz, France"
+  },
+  {
+   "position": 4,
+   "artist": "Lucie,Too",
+   "title": "CHIME",
+   "bandcamp_url": "https://lucietoo.bandcamp.com/album/chime",
+   "item_type": "album",
+   "band_location": "Tochigi, Japan"
+  },
+  {
+   "position": 5,
+   "artist": "Mass of the Fermenting Dregs",
+   "title": "No New World",
+   "bandcamp_url": "https://massofthefermentingdregs.bandcamp.com/album/no-new-world",
+   "item_type": "album",
+   "band_location": "Japan"
+  },
+  {
+   "position": 6,
+   "artist": "ナードマグネット (Nerd Magnet)",
+   "title": "透明になったあなたへ (Dear My Invisible Friend)",
+   "bandcamp_url": "https://nerdmagnet.bandcamp.com/album/dear-my-invisible-friend",
+   "item_type": "album",
+   "band_location": "Osaka, Japan"
+  },
+  {
+   "position": 7,
+   "artist": "The Novembers",
+   "title": "At The Beginning",
+   "bandcamp_url": "https://the-novembers.bandcamp.com/album/at-the-beginning",
+   "item_type": "album",
+   "band_location": "Tokyo, Japan"
+  },
+  {
+   "position": 8,
+   "artist": "SPOOL",
+   "title": "SPOOL",
+   "bandcamp_url": "https://spool1991.bandcamp.com/album/spool",
+   "item_type": "album",
+   "band_location": "Tokyo, Japan"
+  }
+ ]
+}

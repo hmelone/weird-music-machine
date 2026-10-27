@@ -1,0 +1,34 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Sarah Louise’s Cosmic Guitar",
+ "credits": "By Danny Riley · June 05, 2017",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/sarah-louise-cosmic-guitar",
+ "published": "2017-06-05T06:43:25Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Sarah Louise",
+   "title": "Field Guide",
+   "bandcamp_url": "https://sarahlouise.bandcamp.com/album/field-guide-2",
+   "item_type": "album",
+   "band_location": "Asheville, North Carolina"
+  },
+  {
+   "position": 2,
+   "artist": "Sarah Louise",
+   "title": "Floating Rhododendron",
+   "bandcamp_url": "https://sarahlouise.bandcamp.com/album/floating-rhododendron",
+   "item_type": "album",
+   "band_location": "Asheville, North Carolina"
+  },
+  {
+   "position": 3,
+   "artist": "Sarah Louise",
+   "title": "House and Land",
+   "bandcamp_url": "https://sarahlouise.bandcamp.com/album/house-and-land",
+   "item_type": "album",
+   "band_location": "Asheville, North Carolina"
+  }
+ ]
+}

@@ -1,0 +1,710 @@
+{
+ "publication": "The Quietus",
+ "list_title": "Albums of the Year 2014",
+ "page_title": "Quietus Albums Of The Year 2014 (In Association With Norman Records)",
+ "list_type": "Year-end list (ranked)",
+ "list_year": 2014,
+ "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2014/",
+ "picks": [
+  {
+   "position": 1,
+   "rank": 1,
+   "artist": "Gazelle Twin",
+   "title": "UNFLESH",
+   "label_in_source": "Anti Ghost Moon Ray"
+  },
+  {
+   "position": 2,
+   "rank": 2,
+   "artist": "Scott Walker & Sunn O)))",
+   "title": "Soused",
+   "label_in_source": "4AD"
+  },
+  {
+   "position": 3,
+   "rank": 3,
+   "artist": "Swans",
+   "title": "To Be Kind",
+   "label_in_source": "Mute"
+  },
+  {
+   "position": 4,
+   "rank": 4,
+   "artist": "East India Youth",
+   "title": "TOTAL STRIFE FOREVER",
+   "label_in_source": "Stolen"
+  },
+  {
+   "position": 5,
+   "rank": 5,
+   "artist": "The Bug",
+   "title": "Angels & Devils",
+   "label_in_source": "Big Dada"
+  },
+  {
+   "position": 6,
+   "rank": 6,
+   "artist": "Grumbling Fur",
+   "title": "Preternaturals",
+   "label_in_source": "TQPC"
+  },
+  {
+   "position": 7,
+   "rank": 7,
+   "artist": "Katie Gately",
+   "title": "Pipes",
+   "label_in_source": "Blue Tapes"
+  },
+  {
+   "position": 8,
+   "rank": 8,
+   "artist": "Manic Street Preachers",
+   "title": "Futurology",
+   "label_in_source": "Sony"
+  },
+  {
+   "position": 9,
+   "rank": 9,
+   "artist": "Perc",
+   "title": "The Power And The Glory",
+   "label_in_source": "Perc Trax"
+  },
+  {
+   "position": 10,
+   "rank": 10,
+   "artist": "Jenny Hval & Susanna",
+   "title": "Meshes Of Voice",
+   "label_in_source": "SusannaSonata"
+  },
+  {
+   "position": 11,
+   "rank": 11,
+   "artist": "FKA twigs",
+   "title": "LP1",
+   "label_in_source": "Young Turks"
+  },
+  {
+   "position": 12,
+   "rank": 12,
+   "artist": "Zamilska",
+   "title": "Untune",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 13,
+   "rank": 13,
+   "artist": "Innercity Ensemble",
+   "title": "Black/White",
+   "label_in_source": "Instant Classic"
+  },
+  {
+   "position": 14,
+   "rank": 14,
+   "artist": "Cooly G",
+   "title": "Wait ‘Til Night",
+   "label_in_source": "Hyperdub"
+  },
+  {
+   "position": 15,
+   "rank": 15,
+   "artist": "Blacknecks",
+   "title": "006",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 16,
+   "rank": 16,
+   "artist": "English Heretic",
+   "title": "The Underworld Service",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 17,
+   "rank": 17,
+   "artist": "Freddie Gibbs and Madlib",
+   "title": "Piñata",
+   "label_in_source": "Madlib Invasion"
+  },
+  {
+   "position": 18,
+   "rank": 18,
+   "artist": "OAKE",
+   "title": "Auferstehung",
+   "label_in_source": "Downwards"
+  },
+  {
+   "position": 19,
+   "rank": 19,
+   "artist": "Grouper",
+   "title": "Ruins",
+   "label_in_source": "Kranky"
+  },
+  {
+   "position": 20,
+   "rank": 20,
+   "artist": "Kemper Norton",
+   "title": "Loor",
+   "label_in_source": "Front And Follow"
+  },
+  {
+   "position": 21,
+   "rank": 21,
+   "artist": "Maurice Louca",
+   "title": "Benhayyi Al-Baghbaghan",
+   "label_in_source": "Nawa"
+  },
+  {
+   "position": 22,
+   "rank": 22,
+   "artist": "Andy Stott",
+   "title": "Faith In Strangers",
+   "label_in_source": "Modern Love"
+  },
+  {
+   "position": 23,
+   "rank": 23,
+   "artist": "EEK ft. Islam Chipsy",
+   "title": "Live At The Cairo High Cinema Institute",
+   "label_in_source": "Nashazphone"
+  },
+  {
+   "position": 24,
+   "rank": 24,
+   "artist": "Jane Weaver",
+   "title": "Silver Globe",
+   "label_in_source": "Bird"
+  },
+  {
+   "position": 25,
+   "rank": 25,
+   "artist": "Daniel Patrick Quinn",
+   "title": "Acting The Rubber Pig",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 26,
+   "rank": 26,
+   "artist": "The Body",
+   "title": "I Shall Die Here",
+   "label_in_source": "RVNG Intl."
+  },
+  {
+   "position": 27,
+   "rank": 27,
+   "artist": "Chrononautz",
+   "title": "Public Domain Fuckover Series #1-6",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 28,
+   "rank": 28,
+   "artist": "Pharmakon",
+   "title": "Bestial Burden",
+   "label_in_source": "Sacred Bones"
+  },
+  {
+   "position": 29,
+   "rank": 29,
+   "artist": "Tweedy",
+   "title": "Sukierae",
+   "label_in_source": "dBpm Records"
+  },
+  {
+   "position": 30,
+   "rank": 30,
+   "artist": "Objekt",
+   "title": "Flatland",
+   "label_in_source": "PAN"
+  },
+  {
+   "position": 31,
+   "rank": 31,
+   "artist": "Jar Moff",
+   "title": "Financial Glam",
+   "label_in_source": "PAN"
+  },
+  {
+   "position": 32,
+   "rank": 32,
+   "artist": "Willie The Kid & Bronze Nazareth",
+   "title": "The Living Daylights",
+   "label_in_source": "Embassy"
+  },
+  {
+   "position": 33,
+   "rank": 33,
+   "artist": "Lorenzo Senni",
+   "title": "Superimpositions",
+   "label_in_source": "Boomkat"
+  },
+  {
+   "position": 34,
+   "rank": 34,
+   "artist": "Electric Wizard",
+   "title": "Time To Die",
+   "label_in_source": "Spinefarm"
+  },
+  {
+   "position": 35,
+   "rank": 35,
+   "artist": "Klara Lewis",
+   "title": "ETT",
+   "label_in_source": "Editions Mego"
+  },
+  {
+   "position": 36,
+   "rank": 36,
+   "artist": "Kassem Mosse",
+   "title": "Workshop 19",
+   "label_in_source": "Workshop"
+  },
+  {
+   "position": 37,
+   "rank": 37,
+   "artist": "Extreme Precautions",
+   "title": "Precaution One",
+   "label_in_source": "In Paradisum"
+  },
+  {
+   "position": 38,
+   "rank": 38,
+   "artist": "Kasai Allstars",
+   "title": "Beware The Fetish",
+   "label_in_source": "Crammed Discs"
+  },
+  {
+   "position": 39,
+   "rank": 39,
+   "artist": "Arabrot",
+   "title": "I Modi",
+   "label_in_source": "Fysisk Format"
+  },
+  {
+   "position": 40,
+   "rank": 40,
+   "artist": "Einsturzende Neubauten",
+   "title": "Lament",
+   "label_in_source": "BMG"
+  },
+  {
+   "position": 41,
+   "rank": 41,
+   "artist": "The Inward Circles",
+   "title": "Nimrod",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 42,
+   "rank": 42,
+   "artist": "Bohren & Der Club Of Gore",
+   "title": "Piano Nights",
+   "label_in_source": "Ipecac"
+  },
+  {
+   "position": 43,
+   "rank": 43,
+   "artist": "Future Islands",
+   "title": "Singles",
+   "label_in_source": "4AD"
+  },
+  {
+   "position": 44,
+   "rank": 44,
+   "artist": "Consumer Electronics",
+   "title": "Estuary English",
+   "label_in_source": "Dirter"
+  },
+  {
+   "position": 45,
+   "rank": 45,
+   "artist": "BONG",
+   "title": "Stoner Rock",
+   "label_in_source": "Ritual"
+  },
+  {
+   "position": 46,
+   "rank": 46,
+   "artist": "Nisennenmondai",
+   "title": "N",
+   "label_in_source": "BLAST First (petite"
+  },
+  {
+   "position": 47,
+   "rank": 47,
+   "artist": "Wild Beasts",
+   "title": "Present Tense",
+   "label_in_source": "Domino"
+  },
+  {
+   "position": 48,
+   "rank": 48,
+   "artist": "Olga Bell",
+   "title": "Krai",
+   "label_in_source": "One Little Indian"
+  },
+  {
+   "position": 49,
+   "rank": 49,
+   "artist": "Cut Hands",
+   "title": "Festival Of The Dead",
+   "label_in_source": "Blackest Ever Black"
+  },
+  {
+   "position": 50,
+   "rank": 50,
+   "artist": "Xiu Xiu",
+   "title": "Angel Guts, Red Classroom",
+   "label_in_source": "Bella Union"
+  },
+  {
+   "position": 51,
+   "rank": 51,
+   "artist": "Actress",
+   "title": "Ghettoville",
+   "label_in_source": "Werkdiscs"
+  },
+  {
+   "position": 52,
+   "rank": 52,
+   "artist": "YOB",
+   "title": "Clearing The Path To Ascend",
+   "label_in_source": "Neurot"
+  },
+  {
+   "position": 53,
+   "rank": 53,
+   "artist": "Owen Pallett",
+   "title": "In Conflict",
+   "label_in_source": "Domino"
+  },
+  {
+   "position": 54,
+   "rank": 54,
+   "artist": "Puce Mary",
+   "title": "Persona",
+   "label_in_source": "Posh Isolation"
+  },
+  {
+   "position": 55,
+   "rank": 55,
+   "artist": "DonChristian",
+   "title": "Renzo Piano",
+   "label_in_source": "Camp & Street"
+  },
+  {
+   "position": 56,
+   "rank": 56,
+   "artist": "Ibibio Sound Machine",
+   "title": "Ibibio Sound Machine",
+   "label_in_source": "Soundway"
+  },
+  {
+   "position": 57,
+   "rank": 57,
+   "artist": "Lee Gamble",
+   "title": "KOCH",
+   "label_in_source": "PAN"
+  },
+  {
+   "position": 58,
+   "rank": 58,
+   "artist": "Leyland Kirby Presents V/Vm",
+   "title": "The Death Of Rave (A Partial Flashback)",
+   "label_in_source": "History Always Favours The Winners"
+  },
+  {
+   "position": 59,
+   "rank": 59,
+   "artist": "Laibach",
+   "title": "Spectre",
+   "label_in_source": "Mute"
+  },
+  {
+   "position": 60,
+   "rank": 60,
+   "artist": "Shellac",
+   "title": "Dude Incredible",
+   "label_in_source": "Touch And Go"
+  },
+  {
+   "position": 61,
+   "rank": 61,
+   "artist": "Heterotic",
+   "title": "Weird Drift",
+   "label_in_source": "Planet Mu"
+  },
+  {
+   "position": 62,
+   "rank": 62,
+   "artist": "Liars",
+   "title": "Mess",
+   "label_in_source": "Mute"
+  },
+  {
+   "position": 63,
+   "rank": 63,
+   "artist": "Stein Urheim",
+   "title": "Stein Urheim",
+   "label_in_source": "Hubro"
+  },
+  {
+   "position": 64,
+   "rank": 64,
+   "artist": "Ekoplekz",
+   "title": "Unfidelity",
+   "label_in_source": "Planet Mu"
+  },
+  {
+   "position": 65,
+   "rank": 65,
+   "artist": "St. Vincent",
+   "title": "St. Vincent",
+   "label_in_source": "Loma Vista"
+  },
+  {
+   "position": 66,
+   "rank": 66,
+   "artist": "Sunn O))) & Ulver",
+   "title": "Terrestrials",
+   "label_in_source": "Southern Lord"
+  },
+  {
+   "position": 67,
+   "rank": 67,
+   "artist": "Russell Haswell",
+   "title": "37 Minute Workout",
+   "label_in_source": "DIAGONAL"
+  },
+  {
+   "position": 68,
+   "rank": 68,
+   "artist": "Noura Mint Seymali",
+   "title": "Tzenni",
+   "label_in_source": "Glitterbeat"
+  },
+  {
+   "position": 69,
+   "rank": 69,
+   "artist": "Stephen O’Malley, Oren Ambarchi & Randall Dunn",
+   "title": "Shade Themes From Kairos",
+   "label_in_source": "Drag City"
+  },
+  {
+   "position": 70,
+   "rank": 70,
+   "artist": "Plains Druid",
+   "title": "Plains Druid",
+   "label_in_source": "Blue Tapes"
+  },
+  {
+   "position": 71,
+   "rank": 71,
+   "artist": "The Budos Band",
+   "title": "Burnt Offering",
+   "label_in_source": "Daptone"
+  },
+  {
+   "position": 72,
+   "rank": 72,
+   "artist": "Anat Ben David",
+   "title": "MeleCh",
+   "label_in_source": "self-released"
+  },
+  {
+   "position": 73,
+   "rank": 73,
+   "artist": "Yvette",
+   "title": "Process",
+   "label_in_source": "Godmode"
+  },
+  {
+   "position": 74,
+   "rank": 74,
+   "artist": "milo",
+   "title": "a toothpaste suburb",
+   "label_in_source": "Hellfyre Club"
+  },
+  {
+   "position": 75,
+   "rank": 75,
+   "artist": "Merkabah",
+   "title": "Moloch",
+   "label_in_source": "Instant Classic"
+  },
+  {
+   "position": 76,
+   "rank": 76,
+   "artist": "Wrangler",
+   "title": "LA Spark",
+   "label_in_source": "Memetune"
+  },
+  {
+   "position": 77,
+   "rank": 77,
+   "artist": "Ronika",
+   "title": "Selectadisc",
+   "label_in_source": "Record Shop"
+  },
+  {
+   "position": 78,
+   "rank": 78,
+   "artist": "Bing & Ruth",
+   "title": "Tomorrow Was The Golden Age",
+   "label_in_source": "Happy Talk"
+  },
+  {
+   "position": 79,
+   "rank": 79,
+   "artist": "Azealia Banks",
+   "title": "Broke With Expensive Taste",
+   "label_in_source": "Prospect"
+  },
+  {
+   "position": 80,
+   "rank": 80,
+   "artist": "DJ Q",
+   "title": "Ineffable",
+   "label_in_source": "Local Action"
+  },
+  {
+   "position": 81,
+   "rank": 81,
+   "artist": "The Soft Pink Truth",
+   "title": "Why Do The Heathen Rage?",
+   "label_in_source": "Thrill Jockey"
+  },
+  {
+   "position": 82,
+   "rank": 82,
+   "artist": "Vince Staples",
+   "title": "Hell Can Wait",
+   "label_in_source": "Def Jam Recordings"
+  },
+  {
+   "position": 83,
+   "rank": 83,
+   "artist": "Tinariwen",
+   "title": "Emmar",
+   "label_in_source": "ANTI-"
+  },
+  {
+   "position": 84,
+   "rank": 84,
+   "artist": "The Juan Maclean",
+   "title": "In A Dream",
+   "label_in_source": "DFA"
+  },
+  {
+   "position": 85,
+   "rank": 85,
+   "artist": "Aphex Twin",
+   "title": "Syro",
+   "label_in_source": "WARP"
+  },
+  {
+   "position": 86,
+   "rank": 86,
+   "artist": "Toumani & Sidiki Diabate",
+   "title": "Toumani & Sidiki Diabate",
+   "label_in_source": "World Circuit"
+  },
+  {
+   "position": 87,
+   "rank": 87,
+   "artist": "Selim Lemouchi & His Enemies",
+   "title": "Earth Air Spirit Fire Water",
+   "label_in_source": "Van"
+  },
+  {
+   "position": 88,
+   "rank": 88,
+   "artist": "Behemoth",
+   "title": "The Satanist",
+   "label_in_source": "Nuclear Blast"
+  },
+  {
+   "position": 89,
+   "rank": 89,
+   "artist": "Wrekmeister Harmonies",
+   "title": "Then It Came Down",
+   "label_in_source": "Thrill Jockey"
+  },
+  {
+   "position": 90,
+   "rank": 90,
+   "artist": "Fumaca Preta",
+   "title": "Fumaca Preta",
+   "label_in_source": "Soundway"
+  },
+  {
+   "position": 91,
+   "rank": 91,
+   "artist": "Scott Miller, Lee Camfield & Merzbow",
+   "title": "No Closure",
+   "label_in_source": "Cold Spring"
+  },
+  {
+   "position": 92,
+   "rank": 92,
+   "artist": "Black Rain",
+   "title": "Dark Pool",
+   "label_in_source": "Blackest Ever Black"
+  },
+  {
+   "position": 93,
+   "rank": 93,
+   "artist": "Anthroprophh",
+   "title": "Outside The Circle",
+   "label_in_source": "Rocket"
+  },
+  {
+   "position": 94,
+   "rank": 94,
+   "artist": "Adult Jazz",
+   "title": "Gist Is",
+   "label_in_source": "Spare Thought"
+  },
+  {
+   "position": 95,
+   "rank": 95,
+   "artist": "Godflesh",
+   "title": "A World Lit Only By Fire",
+   "label_in_source": "Avalanche"
+  },
+  {
+   "position": 96,
+   "rank": 96,
+   "artist": "Obake",
+   "title": "Mutations",
+   "label_in_source": "Rare Noise"
+  },
+  {
+   "position": 97,
+   "rank": 97,
+   "artist": "Clark",
+   "title": "Clark",
+   "label_in_source": "WARP"
+  },
+  {
+   "position": 98,
+   "rank": 98,
+   "artist": "Joseph Curwen",
+   "title": "Shunned House",
+   "label_in_source": "City"
+  },
+  {
+   "position": 99,
+   "rank": 99,
+   "artist": "Echoes Of Yul",
+   "title": "Tether",
+   "label_in_source": "Zoharum"
+  },
+  {
+   "position": 100,
+   "rank": 100,
+   "artist": "Good Throb",
+   "title": "Fuck Off",
+   "label_in_source": "White Denim, Sabermetric, SuperFi"
+  }
+ ]
+}

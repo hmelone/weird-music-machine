@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Strange Folk",
+ "credits": "By Whitney Phaneuf · April 22, 2014",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/strange-folk",
+ "published": "2014-04-22T06:11:44Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Linda Perhacs",
+   "title": "The Soul of All Natural Things",
+   "bandcamp_url": "https://thesoulofallnaturalthings.bandcamp.com/album/the-soul-of-all-natural-things",
+   "item_type": "album",
+   "band_location": "Topanga, California"
+  },
+  {
+   "position": 2,
+   "artist": "Dragging an Ox through Water",
+   "title": "Panic Sentry",
+   "bandcamp_url": "https://dragginganox.bandcamp.com/album/panic-sentry",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 3,
+   "artist": "Michael Beach",
+   "title": "Golden Theft",
+   "bandcamp_url": "https://michaelbeach.bandcamp.com/album/golden-theft",
+   "item_type": "album",
+   "band_location": "Melbourne, Australia"
+  },
+  {
+   "position": 4,
+   "artist": "Arlt",
+   "title": "ARLT & THOMAS BONVALET",
+   "bandcamp_url": "https://arlt.bandcamp.com/album/arlt-thomas-bonvalet",
+   "item_type": "album",
+   "band_location": "Paris, France"
+  },
+  {
+   "position": 5,
+   "artist": "William Ryan Fritch",
+   "title": "Emptied Animal",
+   "bandcamp_url": "https://williamryanfritch.bandcamp.com/album/emptied-animal",
+   "item_type": "album",
+   "band_location": "California"
+  }
+ ]
+}

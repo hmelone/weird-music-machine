@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Football and Emo: A Love Story",
+ "credits": "By Ally-Jane Grossan, Robert Rubsam · Illustration by George Wylesol · June 15, 2017",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/football-and-emo-a-love-story",
+ "published": "2017-06-15T06:47:48Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "American Football",
+   "title": "American Football",
+   "bandcamp_url": "https://americanfootball.bandcamp.com/album/american-football",
+   "item_type": "album",
+   "band_location": "Champaign, Illinois"
+  },
+  {
+   "position": 2,
+   "artist": "Chinese Football",
+   "title": "Here comes a new challenger!",
+   "bandcamp_url": "https://chinesefootball.bandcamp.com/album/here-comes-a-new-challenger",
+   "item_type": "album",
+   "band_location": "Wuhan, China"
+  },
+  {
+   "position": 3,
+   "artist": "QUARTERBACKS",
+   "title": "QUARTERBACKS",
+   "bandcamp_url": "https://quarterbacks-tl.bandcamp.com/album/quarterbacks",
+   "item_type": "album",
+   "band_location": "Brooklyn, New York"
+  },
+  {
+   "position": 4,
+   "artist": "Glen Football",
+   "title": "Newtown Beach EP",
+   "bandcamp_url": "https://glenfootball.bandcamp.com/album/newtown-beach-ep",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 5,
+   "artist": "Community Records",
+   "title": "Corner",
+   "bandcamp_url": "https://communityrecords.bandcamp.com/album/corner",
+   "item_type": "album",
+   "band_location": "New Orleans, Louisiana"
+  }
+ ]
+}

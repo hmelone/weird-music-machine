@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Where to Start With Contemporary European Emo",
+ "credits": "By Jacopo Sanna · January 18, 2024",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/european-emo-list",
+ "published": "2024-01-18T19:00:36Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Stegosauro",
+   "title": "Stegosauro",
+   "bandcamp_url": "https://stegosauro.bandcamp.com/album/stegosauro",
+   "item_type": "album",
+   "band_location": "Veneto, Italy"
+  },
+  {
+   "position": 2,
+   "artist": "Comic Sans",
+   "title": "Éramos felices y no lo sabíamos",
+   "bandcamp_url": "https://comicsans.bandcamp.com/album/ramos-felices-y-no-lo-sab-amos",
+   "item_type": "album",
+   "band_location": "Donostia San Sebastian, Spain"
+  },
+  {
+   "position": 3,
+   "artist": "Va Fa Napoli",
+   "title": "VA FA NAPOLI",
+   "bandcamp_url": "https://vafanapoli.bandcamp.com/album/va-fa-napoli",
+   "item_type": "album",
+   "band_location": "Vienna, Austria"
+  },
+  {
+   "position": 4,
+   "artist": "Nevasca",
+   "title": "Горки / Slides",
+   "bandcamp_url": "https://nevasca.bandcamp.com/album/slides",
+   "item_type": "album",
+   "band_location": "Saint Petersburg, Russia"
+  },
+  {
+   "position": 5,
+   "artist": "I Love Your Lifestyle",
+   "title": "No Driver",
+   "bandcamp_url": "https://iloveyourlifestyle.bandcamp.com/album/no-driver",
+   "item_type": "album",
+   "band_location": "Sweden"
+  },
+  {
+   "position": 6,
+   "artist": "Flight Mode",
+   "title": "TX, '98",
+   "bandcamp_url": "https://flightmodeosl.bandcamp.com/album/tx-98",
+   "item_type": "album",
+   "band_location": "Oslo, Norway"
+  },
+  {
+   "position": 7,
+   "artist": "moshimoshi",
+   "title": "GREEN LP",
+   "bandcamp_url": "https://moshimoshihelsinki.bandcamp.com/album/green-lp",
+   "item_type": "album",
+   "band_location": "Helsinki, Finland"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Eight Albums Showcasing Power Ambient’s Chaotic, Contradictory Sound",
+ "credits": "By Shannon Nico Shreibak · May 27, 2020",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/power-ambient-list",
+ "published": "2020-05-27T13:45:09Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Dronedisco",
+   "title": "Challenger",
+   "bandcamp_url": "https://burningstarcore.bandcamp.com/album/challenger",
+   "item_type": "album",
+   "band_location": "Queens, New York"
+  },
+  {
+   "position": 2,
+   "artist": "DJ Netflex",
+   "title": "Edits 2019",
+   "bandcamp_url": "https://djnetflex.bandcamp.com/album/edits-2019",
+   "item_type": "album",
+   "band_location": "Manchester, UK"
+  },
+  {
+   "position": 3,
+   "artist": "Oneohtrix Point Never",
+   "title": "Rifts",
+   "bandcamp_url": "https://oneohtrixpointnever.bandcamp.com/album/rifts",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 4,
+   "artist": "Jan Nemeček",
+   "title": "Recurrences",
+   "bandcamp_url": "https://music.jannemecek.com/album/recurrences",
+   "item_type": "album",
+   "band_location": "Central Serbia, Serbia"
+  },
+  {
+   "position": 5,
+   "artist": "Scar Tissue",
+   "title": "Form / Alkaline",
+   "bandcamp_url": "https://scartissue.bandcamp.com/album/form-alkaline",
+   "item_type": "album",
+   "band_location": "Oakland, California"
+  },
+  {
+   "position": 6,
+   "artist": "Gamardah Fungus",
+   "title": "NATURAL STORM",
+   "bandcamp_url": "https://gamardahfungus.bandcamp.com/album/natural-storm",
+   "item_type": "album",
+   "band_location": "Dnipro, Ukraine"
+  },
+  {
+   "position": 7,
+   "artist": "Opollo",
+   "title": "Secret Towers",
+   "bandcamp_url": "https://opollo.bandcamp.com/album/secret-towers",
+   "item_type": "album",
+   "band_location": "Opole, Poland"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Seven Trippy Modern Psych-Rock Concept Albums on Bandcamp",
+ "credits": "By JR Moores · December 01, 2017",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/modern-psych-rock-concept-albums-on-bandcamp",
+ "published": "2017-12-01T06:42:09Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "Murder Of The Universe",
+   "bandcamp_url": "https://kinggizzard.bandcamp.com/album/murder-of-the-universe",
+   "item_type": "album",
+   "band_location": "Melbourne, Australia"
+  },
+  {
+   "position": 2,
+   "artist": "Circle",
+   "title": "Pori",
+   "bandcamp_url": "https://circlefinland.bandcamp.com/album/pori",
+   "item_type": "album",
+   "band_location": "Pori, Finland"
+  },
+  {
+   "position": 3,
+   "artist": "White Hills",
+   "title": "H-p1",
+   "bandcamp_url": "https://whitehills.bandcamp.com/album/h-p1",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 4,
+   "artist": "Moon Duo",
+   "title": "Occult Architecture Vol. 1",
+   "bandcamp_url": "https://moonduo.bandcamp.com/album/occult-architecture-vol-1",
+   "item_type": "album",
+   "band_location": "Portland, Oregon"
+  },
+  {
+   "position": 5,
+   "artist": "Mild High Club",
+   "title": "Skiptracing",
+   "bandcamp_url": "https://mildhighclub.bandcamp.com/album/skiptracing",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  },
+  {
+   "position": 6,
+   "artist": "Pontiak",
+   "title": "Living",
+   "bandcamp_url": "https://pontiak.bandcamp.com/album/living",
+   "item_type": "album",
+   "band_location": "Warrenton, Virginia"
+  },
+  {
+   "position": 7,
+   "artist": "Endless Boogie",
+   "title": "Vibe Killer",
+   "bandcamp_url": "https://endlessboogie.bandcamp.com/album/vibe-killer",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Eight Artists Pushing the Ambient Edges of Techno",
+ "credits": "By Jake Hulyer · January 03, 2019",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/ambient-techno-list",
+ "published": "2019-01-03T11:08:14Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "AEVA",
+   "title": "Superstars",
+   "bandcamp_url": "https://aeva.bandcamp.com/album/superstars",
+   "item_type": "album",
+   "band_location": "London, UK"
+  },
+  {
+   "position": 2,
+   "artist": "IVVVO",
+   "title": "Good, Bad, Baby, Horny",
+   "bandcamp_url": "https://ivvvo.bandcamp.com/album/good-bad-baby-horny",
+   "item_type": "album",
+   "band_location": "London, UK"
+  },
+  {
+   "position": 3,
+   "artist": "U-Udios",
+   "title": "U-Udios 2",
+   "bandcamp_url": "https://u-udios.bandcamp.com/album/u-udios-2",
+   "item_type": "album",
+   "band_location": "Washington, D.C."
+  },
+  {
+   "position": 4,
+   "artist": "vester koza",
+   "title": "loader mither",
+   "bandcamp_url": "https://vesterkoza.bandcamp.com/album/loader-mither",
+   "item_type": "album",
+   "band_location": "London, UK"
+  },
+  {
+   "position": 5,
+   "artist": "Barker",
+   "title": "Debiasing",
+   "bandcamp_url": "https://sambarker.bandcamp.com/album/debiasing",
+   "item_type": "album",
+   "band_location": "Berlin, Germany"
+  },
+  {
+   "position": 6,
+   "artist": "North Sea Dialect",
+   "title": "Local Guide",
+   "bandcamp_url": "https://northseadialect.bandcamp.com/album/local-guide",
+   "item_type": "album",
+   "band_location": "Scotland, UK"
+  },
+  {
+   "position": 7,
+   "artist": "PUSCHA",
+   "title": "Undulations",
+   "bandcamp_url": "https://puscha.bandcamp.com/album/undulations",
+   "item_type": "album",
+   "band_location": "Melbourne, Australia"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "A Guide to Breakbeats on Bandcamp",
+ "credits": "By John Morrison · November 09, 2018",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/breakbeat-list",
+ "published": "2018-11-09T11:02:36Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Producers Corner",
+   "title": "Ape Breaks 1",
+   "bandcamp_url": "https://producerscorner.bandcamp.com/album/ape-breaks-1",
+   "item_type": "album",
+   "band_location": "Costa Mesa, California"
+  },
+  {
+   "position": 2,
+   "artist": "Producers Corner",
+   "title": "Master Drummers Vol. 1",
+   "bandcamp_url": "https://producerscorner.bandcamp.com/album/master-drummers-vol-1",
+   "item_type": "album",
+   "band_location": "Costa Mesa, California"
+  },
+  {
+   "position": 3,
+   "artist": "Will Sessions",
+   "title": "Bobo Breaks (35 Drum Breaks)",
+   "bandcamp_url": "https://willsessions.bandcamp.com/album/bobo-breaks-35-drum-breaks",
+   "item_type": "album",
+   "band_location": "Detroit, Michigan"
+  },
+  {
+   "position": 4,
+   "artist": "Funky DL",
+   "title": "Drum Attic (30 Hip-Hop Break Loops & Sounds For “Producers, MC’s, DJ’s, Dancers & Mixtape Specialists” Programmed By Funky DL)",
+   "bandcamp_url": "https://funkydl.bandcamp.com/album/drum-attic-30-hip-hop-break-loops-sounds-for-producers-mc-s-dj-s-dancers-mixtape-specialists-programmed-by-funky-dl",
+   "item_type": "album",
+   "band_location": "London, UK"
+  },
+  {
+   "position": 5,
+   "artist": "Beat Tape Co-Op",
+   "title": "Beat Tape Co-Op Presents: Drum Loops & Breaks",
+   "bandcamp_url": "https://beattapeco-op.bandcamp.com/album/beat-tape-co-op-presents-drum-loops-breaks",
+   "item_type": "album",
+   "band_location": "California"
+  },
+  {
+   "position": 6,
+   "artist": "Pat Van Dyke",
+   "title": "PVD Breaks Vol 3.88",
+   "bandcamp_url": "https://pvdmusic.bandcamp.com/album/pvd-breaks-vol-388",
+   "item_type": "album",
+   "band_location": "New Jersey"
+  },
+  {
+   "position": 7,
+   "artist": "The Impellers",
+   "title": "As Sampled By",
+   "bandcamp_url": "https://theimpellers.bandcamp.com/album/as-sampled-by",
+   "item_type": "album",
+   "band_location": "Brighton, UK"
+  }
+ ]
+}

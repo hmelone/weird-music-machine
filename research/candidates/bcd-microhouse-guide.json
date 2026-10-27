@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Exploring Microhouse Past, Present, and Future",
+ "credits": "By Ted Davis · Photos by Josie Keefe · June 23, 2022",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/microhouse-guide",
+ "published": "2022-06-23T18:00:30Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Oval",
+   "title": "Systemisch (remastered 2013 reissue)",
+   "bandcamp_url": "https://oval.bandcamp.com/album/systemisch-remastered-2013-reissue",
+   "item_type": "album",
+   "band_location": "Berlin, Germany"
+  },
+  {
+   "position": 2,
+   "artist": "vladislav delay",
+   "title": "Vocalcity",
+   "bandcamp_url": "https://vladislavdelay.bandcamp.com/album/vocalcity",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 3,
+   "artist": "Jan Jelinek",
+   "title": "Loop-Finding-Jazz-Records",
+   "bandcamp_url": "https://janjelinek.bandcamp.com/album/loop-finding-jazz-records",
+   "item_type": "album",
+   "band_location": "Berlin, Germany"
+  },
+  {
+   "position": 4,
+   "artist": "DJ Koze",
+   "title": "Amygdala (PAMPACD007)",
+   "bandcamp_url": "https://djkoze.bandcamp.com/album/amygdala-pampacd007",
+   "item_type": "album",
+   "band_location": "Germany"
+  },
+  {
+   "position": 5,
+   "artist": "Jon Hopkins",
+   "title": "Immunity",
+   "bandcamp_url": "https://jonhopkins.bandcamp.com/album/immunity",
+   "item_type": "album",
+   "band_location": "London, UK"
+  },
+  {
+   "position": 6,
+   "artist": "Fuselab",
+   "title": "CODE-915913",
+   "bandcamp_url": "https://fuselab.bandcamp.com/album/code-915913",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 7,
+   "artist": "ISOLA",
+   "title": "EP1",
+   "bandcamp_url": "https://isolalv.bandcamp.com/album/ep1",
+   "item_type": "album",
+   "band_location": "Las Vegas, Nevada"
+  }
+ ]
+}

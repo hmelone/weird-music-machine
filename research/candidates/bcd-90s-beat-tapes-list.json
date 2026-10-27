@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Five Essential ’90s Beat Tapes on Bandcamp",
+ "credits": "By John Morrison · August 21, 2019",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/90s-beat-tapes-list",
+ "published": "2019-08-21T11:01:21Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Pete Rock",
+   "title": "Lost Sessions",
+   "bandcamp_url": "https://pete-rock.bandcamp.com/album/lost-sessions",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 2,
+   "artist": "DJ/PRODUCER K-DEF",
+   "title": "K-DEF BEATS FROM THE 90's VOL.1",
+   "bandcamp_url": "https://k-def.bandcamp.com/album/k-def-beats-from-the-90s-vol-1",
+   "item_type": "album",
+   "band_location": "New Jersey"
+  },
+  {
+   "position": 3,
+   "artist": "KutMasta Kurt",
+   "title": "Beat Tape - 1992",
+   "bandcamp_url": "https://kutmastakurt.bandcamp.com/album/beat-tape-1992",
+   "item_type": "album",
+   "band_location": "Kansas, Kentucky"
+  },
+  {
+   "position": 4,
+   "artist": "Dj Spinna",
+   "title": "DJ Spinna 1997 Beat Tape",
+   "bandcamp_url": "https://djspinna.bandcamp.com/album/dj-spinna-1997-beat-tape",
+   "item_type": "album",
+   "band_location": "Brooklyn, New York"
+  },
+  {
+   "position": 5,
+   "artist": "Blak Forest",
+   "title": "treehouse beats (95-98)",
+   "bandcamp_url": "https://blakforest.bandcamp.com/album/treehouse-beats-95-98",
+   "item_type": "album",
+   "band_location": "California"
+  }
+ ]
+}

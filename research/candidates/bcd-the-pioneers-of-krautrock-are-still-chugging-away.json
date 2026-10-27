@@ -1,0 +1,74 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "The Pioneers of Krautrock Are Still Chugging Away",
+ "credits": "By Louis Pattison · Illustration by Maria Jesus Contreras · September 15, 2022",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/the-pioneers-of-krautrock-are-still-chugging-away",
+ "published": "2022-09-15T13:45:53Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "CAN",
+   "title": "Ege Bamyasi",
+   "bandcamp_url": "https://canofficial.bandcamp.com/album/ege-bamyasi",
+   "item_type": "album",
+   "band_location": "Germany"
+  },
+  {
+   "position": 2,
+   "artist": "Akuphone",
+   "title": "Arkaoda",
+   "bandcamp_url": "https://akuphone.bandcamp.com/album/arkaoda",
+   "item_type": "album",
+   "band_location": "France"
+  },
+  {
+   "position": 3,
+   "artist": "faust",
+   "title": ",,Daumenbruch''",
+   "bandcamp_url": "https://faust-berlin.bandcamp.com/album/daumenbruch",
+   "item_type": "album",
+   "band_location": "Berlin, Germany"
+  },
+  {
+   "position": 4,
+   "artist": "Klaus Schulze",
+   "title": "Deus Arrakis",
+   "bandcamp_url": "https://klausschulze.bandcamp.com/album/deus-arrakis",
+   "item_type": "album",
+   "band_location": null
+  },
+  {
+   "position": 5,
+   "artist": "Kscope",
+   "title": "Raum",
+   "bandcamp_url": "https://kscopemusic.bandcamp.com/album/raum",
+   "item_type": "album",
+   "band_location": "London, UK"
+  },
+  {
+   "position": 6,
+   "artist": "Roedelius",
+   "title": "Wahre Liebe",
+   "bandcamp_url": "https://roedelius-official.bandcamp.com/album/wahre-liebe",
+   "item_type": "album",
+   "band_location": "Berlin, Germany"
+  },
+  {
+   "position": 7,
+   "artist": "Radikal Records",
+   "title": "Transhuman",
+   "bandcamp_url": "https://radikal.bandcamp.com/album/transhuman",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 8,
+   "artist": "Harald Grosskopf",
+   "title": "QUETZALKRAUTL",
+   "bandcamp_url": "https://haraldgrosskopf1.bandcamp.com/album/quetzalkrautl",
+   "item_type": "album",
+   "band_location": "Cologne, Germany"
+  }
+ ]
+}

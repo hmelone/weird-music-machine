@@ -1,0 +1,66 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Footwork’s New Wave",
+ "credits": "By Jude Noel · Illustration by Maria Jesus Contreras · January 15, 2026",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/new-footwork-album-guide",
+ "published": "2026-01-15T14:51:35Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "username",
+   "title": "LOOK WHAT YOU DID",
+   "bandcamp_url": "https://username.bandcamp.com/album/look-what-you-did",
+   "item_type": "album",
+   "band_location": "Nashville, Tennessee"
+  },
+  {
+   "position": 2,
+   "artist": "GHOST REPORTER",
+   "title": "Know What I Mean",
+   "bandcamp_url": "https://ghostreporter.bandcamp.com/album/know-what-i-mean",
+   "item_type": "album",
+   "band_location": "Oakland, California"
+  },
+  {
+   "position": 3,
+   "artist": "sn3squik",
+   "title": "next",
+   "bandcamp_url": "https://sn3squik.bandcamp.com/album/next",
+   "item_type": "album",
+   "band_location": "California"
+  },
+  {
+   "position": 4,
+   "artist": "sn3squik",
+   "title": "project sn3smao",
+   "bandcamp_url": "https://sn3squik.bandcamp.com/album/project-sn3smao",
+   "item_type": "album",
+   "band_location": "California"
+  },
+  {
+   "position": 5,
+   "artist": "sydney runner",
+   "title": "rk - raw time",
+   "bandcamp_url": "https://vampiremutual.bandcamp.com/album/rk-raw-time",
+   "item_type": "album",
+   "band_location": "Philadelphia, Pennsylvania"
+  },
+  {
+   "position": 6,
+   "artist": "pax",
+   "title": "GET RICH OR TRY DYING",
+   "bandcamp_url": "https://pictochat.bandcamp.com/album/get-rich-or-try-dying",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  },
+  {
+   "position": 7,
+   "artist": "auntie",
+   "title": "yhtbt",
+   "bandcamp_url": "https://auntieauntieauntie.bandcamp.com/album/yhtbt",
+   "item_type": "album",
+   "band_location": "Milwaukee, Wisconsin"
+  }
+ ]
+}

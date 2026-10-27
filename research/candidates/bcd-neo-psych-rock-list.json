@@ -1,0 +1,50 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "The Best ’80s Neo-Psych on Bandcamp",
+ "credits": "By John Morrison · Illustration by Juila Dufosse · September 20, 2021",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/neo-psych-rock-list",
+ "published": "2021-09-20T17:58:57Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Bevis Frond",
+   "title": "Triptych",
+   "bandcamp_url": "https://bevisfrond.bandcamp.com/album/triptych",
+   "item_type": "album",
+   "band_location": "Walthamstow"
+  },
+  {
+   "position": 2,
+   "artist": "The Soft Boys",
+   "title": "Underwater Moonlight",
+   "bandcamp_url": "https://thesoftboys.bandcamp.com/album/underwater-moonlight",
+   "item_type": "album",
+   "band_location": "Cambridge, UK"
+  },
+  {
+   "position": 3,
+   "artist": "The Three O'Clock",
+   "title": "Sixteen Tambourines (Remastered Edition)",
+   "bandcamp_url": "https://thethreeoclock.bandcamp.com/album/sixteen-tambourines-remastered-edition",
+   "item_type": "album",
+   "band_location": "Los Angeles, California"
+  },
+  {
+   "position": 4,
+   "artist": "Green Pajamas",
+   "title": "The Complete Book Of Hours",
+   "bandcamp_url": "https://greenpajamas.bandcamp.com/album/the-complete-book-of-hours",
+   "item_type": "album",
+   "band_location": "Seattle, Washington"
+  },
+  {
+   "position": 5,
+   "artist": "Area Pirata Rec",
+   "title": "Stories We Can Tell & More",
+   "bandcamp_url": "https://areapiratarec.bandcamp.com/album/stories-we-can-tell-more",
+   "item_type": "album",
+   "band_location": "Pisa, Italy"
+  }
+ ]
+}

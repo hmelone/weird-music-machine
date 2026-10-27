@@ -1,0 +1,58 @@
+{
+ "publication": "Bandcamp Daily",
+ "list_title": "Deeper Listening: An Introduction to Drone Composition",
+ "credits": "By Vanessa Ague · May 17, 2021",
+ "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+ "url": "https://daily.bandcamp.com/lists/drone-composition-list",
+ "published": "2021-05-17T17:51:27Z",
+ "picks": [
+  {
+   "position": 1,
+   "artist": "Pauline Oliveros",
+   "title": "Four Meditations / Sound Geometrics",
+   "bandcamp_url": "https://paulineoliveros2.bandcamp.com/album/four-meditations-sound-geometrics",
+   "item_type": "album",
+   "band_location": "Kingston, New York"
+  },
+  {
+   "position": 2,
+   "artist": "imprec",
+   "title": "Vice Versa, etc.",
+   "bandcamp_url": "https://imprec.bandcamp.com/album/vice-versa-etc",
+   "item_type": "album",
+   "band_location": "Massachusetts"
+  },
+  {
+   "position": 3,
+   "artist": "Laurie Spiegel",
+   "title": "The Expanding Universe",
+   "bandcamp_url": "https://lauriespiegel.bandcamp.com/album/the-expanding-universe",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 4,
+   "artist": "Ellen Fullman",
+   "title": "The Long String Instrument",
+   "bandcamp_url": "https://ellenfullman-sv.bandcamp.com/album/the-long-string-instrument",
+   "item_type": "album",
+   "band_location": "Berkeley, California"
+  },
+  {
+   "position": 5,
+   "artist": "XI Records",
+   "title": "Four Full Flutes",
+   "bandcamp_url": "https://xirecords.bandcamp.com/album/four-full-flutes",
+   "item_type": "album",
+   "band_location": "New York, New York"
+  },
+  {
+   "position": 6,
+   "artist": "Blank Forms Editions",
+   "title": "Petra",
+   "bandcamp_url": "https://blankformseditions.bandcamp.com/album/petra",
+   "item_type": "album",
+   "band_location": "Brooklyn, New York"
+  }
+ ]
+}
