@@ -4337,7 +4337,25 @@
    "url": "https://musicbrainz.org/release-group/4671e08c-b6a3-394c-b792-0caf9b6ac23a",
    "title": "Ammnesia",
    "artist": "Mr. Fingers",
-   "resolved_by_hand": "artist discography browse on MusicBrainz"
+   "resolved_by_hand": "artist discography browse on MusicBrainz",
+   "first_release_date": "1988-05",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "acid house",
+    "deep house",
+    "electronic",
+    "house"
+   ],
+   "tags": [
+    "acid house",
+    "deep house",
+    "electronic",
+    "house"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/47878"
+   ]
   },
   "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
  },
@@ -5763,7 +5781,23 @@
    "url": "https://musicbrainz.org/release-group/e9711519-80b1-43e4-b318-f6239a00458d",
    "title": "約束はできない",
    "artist": "Ché‐SHIZU",
-   "resolved_by_hand": "artist discography browse on MusicBrainz"
+   "resolved_by_hand": "artist discography browse on MusicBrainz",
+   "first_release_date": "1984",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk rock",
+    "psychedelic rock",
+    "rock"
+   ],
+   "tags": [
+    "folk rock",
+    "psychedelic rock",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/66188"
+   ]
   },
   "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
  },

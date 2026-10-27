@@ -1,0 +1,1960 @@
+{
+ "cand-1308": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "b6b457bc-476d-4574-b08c-feaedd7f1cf0",
+   "date": "2002",
+   "country": "JP",
+   "labels": [
+    "[no label]"
+   ],
+   "url": "https://musicbrainz.org/release/b6b457bc-476d-4574-b08c-feaedd7f1cf0"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Ain't Group Sounds",
+   "[no label]"
+  ]
+ },
+ "cand-0377": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "6fe97227-e45b-3230-a78a-49d75bd974da",
+   "date": "1980",
+   "country": "GB",
+   "labels": [
+    "Armageddon Records"
+   ],
+   "url": "https://musicbrainz.org/release/6fe97227-e45b-3230-a78a-49d75bd974da"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Armageddon Records"
+  ]
+ },
+ "cand-0426": {
+  "artist_country": "SE",
+  "chosen_release": {
+   "id": "3aa1c1d1-cef3-4a8e-86e6-6e9522f2bea3",
+   "date": "1970",
+   "country": "SE",
+   "labels": [
+    "Decibel Records"
+   ],
+   "url": "https://musicbrainz.org/release/3aa1c1d1-cef3-4a8e-86e6-6e9522f2bea3"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Decibel Records"
+  ]
+ },
+ "cand-0423": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "76e2105b-67b4-4b54-9e22-2a5d2439a9b3",
+   "date": "1986",
+   "country": "JP",
+   "labels": [
+    "P.S.F. Records"
+   ],
+   "url": "https://musicbrainz.org/release/76e2105b-67b4-4b54-9e22-2a5d2439a9b3"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "P.S.F. Records"
+  ]
+ },
+ "cand-0465": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "a0d01d8b-e3c7-4abc-9baa-e8ae1ebd9e85",
+   "date": "2003-07-08",
+   "country": "US",
+   "labels": [
+    "ATP Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/a0d01d8b-e3c7-4abc-9baa-e8ae1ebd9e85"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "ATP Recordings"
+  ]
+ },
+ "cand-0463": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "5814c18e-27af-4b99-b56d-a88bd5dc3d8e",
+   "date": "2006-03-16",
+   "country": "US",
+   "labels": [
+    "Drag City"
+   ],
+   "url": "https://musicbrainz.org/release/5814c18e-27af-4b99-b56d-a88bd5dc3d8e"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Drag City",
+   "Wichita"
+  ]
+ },
+ "cand-0362": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "5dec868b-a39b-44f7-93f9-a2e9792f8a0f",
+   "date": "2017-02-03",
+   "country": "US",
+   "labels": [
+    "Sacred Bones Records"
+   ],
+   "url": "https://musicbrainz.org/release/5dec868b-a39b-44f7-93f9-a2e9792f8a0f"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Sacred Bones Records"
+  ]
+ },
+ "cand-0360": {
+  "artist_country": "FI",
+  "chosen_release": {
+   "id": "7a7b5b39-a69c-4b2a-a2e9-ad0e32c2ff68",
+   "date": "1998-04",
+   "country": "FI",
+   "labels": [
+    "Metamorphos"
+   ],
+   "url": "https://musicbrainz.org/release/7a7b5b39-a69c-4b2a-a2e9-ad0e32c2ff68"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Feldspar Records",
+   "Metamorphos"
+  ]
+ },
+ "cand-0648": {
+  "artist_country": "SE",
+  "chosen_release": {
+   "id": "f858434d-9dda-4fcf-bc65-e9ebfd377a31",
+   "date": "2012-10-10",
+   "country": "SE",
+   "labels": [
+    "Universal Music"
+   ],
+   "url": "https://musicbrainz.org/release/f858434d-9dda-4fcf-bc65-e9ebfd377a31"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Rocket Recordings",
+   "Universal Music"
+  ]
+ },
+ "cand-0453": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "6fc04789-b6a6-4042-a088-30b4506f9e42",
+   "date": "1994-11-30",
+   "country": "US",
+   "labels": [
+    "kranky"
+   ],
+   "url": "https://musicbrainz.org/release/6fc04789-b6a6-4042-a088-30b4506f9e42"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "kranky"
+  ]
+ },
+ "cand-0643": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "4898942e-2075-4aba-bd2a-880dd0a2f650",
+   "date": "2012",
+   "country": "GB",
+   "labels": [
+    "Stolen Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/4898942e-2075-4aba-bd2a-880dd0a2f650"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Stolen Recordings"
+  ]
+ },
+ "cand-1118": {
+  "artist_country": "GR",
+  "chosen_release": {
+   "id": "159e895e-8868-4627-b107-55b15c9db11a",
+   "date": "1972",
+   "country": "GB",
+   "labels": [
+    "Vertigo"
+   ],
+   "url": "https://musicbrainz.org/release/159e895e-8868-4627-b107-55b15c9db11a"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Vertigo"
+  ]
+ },
+ "cand-1161": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "868cc741-e3bc-31bc-9dac-756e35c8f152",
+   "date": "1999-10-27",
+   "country": "JP",
+   "labels": [
+    "A.K.A.records",
+    "A.K.A.records"
+   ],
+   "url": "https://musicbrainz.org/release/868cc741-e3bc-31bc-9dac-756e35c8f152"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "A.K.A.records"
+  ]
+ },
+ "cand-0654": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "8a8eda26-4f02-4683-b118-e538c8c56f53",
+   "date": "2013-07-23",
+   "country": "US",
+   "labels": [
+    "Thrill Jockey"
+   ],
+   "url": "https://musicbrainz.org/release/8a8eda26-4f02-4683-b118-e538c8c56f53"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Thrill Jockey"
+  ]
+ },
+ "cand-1274": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "c1804e30-7be7-47fb-901d-3065136e9f76",
+   "date": "1972",
+   "country": "DE",
+   "labels": [
+    "Brain"
+   ],
+   "url": "https://musicbrainz.org/release/c1804e30-7be7-47fb-901d-3065136e9f76"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Brain"
+  ]
+ },
+ "cand-1275": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "57731d0e-6787-4bc3-b8da-611deb2f2e75",
+   "date": "1973",
+   "country": "DE",
+   "labels": [
+    "Philips"
+   ],
+   "url": "https://musicbrainz.org/release/57731d0e-6787-4bc3-b8da-611deb2f2e75"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Philips",
+   "Vertigo"
+  ]
+ },
+ "cand-1192": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "297f494a-8e80-349e-bae4-61fa32079ec6",
+   "date": "1981",
+   "country": "DE",
+   "labels": [
+    "Spoon Records"
+   ],
+   "url": "https://musicbrainz.org/release/297f494a-8e80-349e-bae4-61fa32079ec6"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Spoon Records"
+  ]
+ },
+ "cand-1062": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "7d92a39f-0455-43b7-80f3-f6a917fc4f2a",
+   "date": "1984",
+   "country": "DE",
+   "labels": [
+    "Inteam GmbH"
+   ],
+   "url": "https://musicbrainz.org/release/7d92a39f-0455-43b7-80f3-f6a917fc4f2a"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Inteam GmbH"
+  ]
+ },
+ "cand-0316": {
+  "artist_country": null,
+  "chosen_release": {
+   "id": "e80ea5ab-fb06-439a-bb47-e1dbb53f0064",
+   "date": "1996",
+   "country": "GB",
+   "labels": [
+    "Psi-fi"
+   ],
+   "url": "https://musicbrainz.org/release/e80ea5ab-fb06-439a-bb47-e1dbb53f0064"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Psi-fi"
+  ]
+ },
+ "cand-0128": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "44215324-de05-4662-bbb1-e4c8af7ec9e0",
+   "date": "2018-03-23",
+   "country": null,
+   "labels": [
+    "Duophonic"
+   ],
+   "url": "https://musicbrainz.org/release/44215324-de05-4662-bbb1-e4c8af7ec9e0"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Duophonic"
+  ]
+ },
+ "cand-1279": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "b4d8754e-e113-47e4-ad28-fcd5fbb65829",
+   "date": "2009-10",
+   "country": "GB",
+   "labels": [
+    "ATP Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/b4d8754e-e113-47e4-ad28-fcd5fbb65829"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "ATP Recordings",
+   "Hostess Entertainment Unlimited"
+  ]
+ },
+ "cand-0657": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "6ad46321-76b9-4a96-b453-2d5494e5d561",
+   "date": "2013-09-09",
+   "country": "GB",
+   "labels": [
+    "DFA Records"
+   ],
+   "url": "https://musicbrainz.org/release/6ad46321-76b9-4a96-b453-2d5494e5d561"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "DFA Records",
+   "P‐VINE RECORDS"
+  ]
+ },
+ "cand-0873": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "0e98dee0-d76c-4245-a1f8-043c0d53facb",
+   "date": "2015-04-20",
+   "country": "GB",
+   "labels": [
+    "Rocket Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/0e98dee0-d76c-4245-a1f8-043c0d53facb"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Rocket Recordings"
+  ]
+ },
+ "cand-0954": {
+  "artist_country": "PL",
+  "chosen_release": {
+   "id": "8471a36c-22a6-4acc-9473-5a23855e3e62",
+   "date": "2016-10-24",
+   "country": "PL",
+   "labels": [
+    "Instant Classic"
+   ],
+   "url": "https://musicbrainz.org/release/8471a36c-22a6-4acc-9473-5a23855e3e62"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Instant Classic"
+  ]
+ },
+ "cand-1107": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "04a8e2a5-9ab7-42c4-ad14-3154aa988545",
+   "date": "1999-09-27",
+   "country": "GB",
+   "labels": [
+    "Duophonic"
+   ],
+   "url": "https://musicbrainz.org/release/04a8e2a5-9ab7-42c4-ad14-3154aa988545"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Duophonic",
+   "EastWest Japan",
+   "Elektra"
+  ]
+ },
+ "cand-1053": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "1292a5c1-7c6d-4e22-9d4d-d99876517e03",
+   "date": "1987",
+   "country": "GB",
+   "labels": [
+    "Glass Records"
+   ],
+   "url": "https://musicbrainz.org/release/1292a5c1-7c6d-4e22-9d4d-d99876517e03"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Glass Records"
+  ]
+ },
+ "cand-0618": {
+  "artist_country": "AU",
+  "chosen_release": {
+   "id": "f715e93f-dceb-4772-8458-d04cc6f75b3d",
+   "date": "2012-08-28",
+   "country": "AT",
+   "labels": [
+    "Editions Mego"
+   ],
+   "url": "https://musicbrainz.org/release/f715e93f-dceb-4772-8458-d04cc6f75b3d"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Editions Mego"
+  ]
+ },
+ "cand-0109": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "17be69f5-c0a2-47eb-8c52-07054f73a9e1",
+   "date": "1994",
+   "country": "US",
+   "labels": [
+    "Skin Graft Records"
+   ],
+   "url": "https://musicbrainz.org/release/17be69f5-c0a2-47eb-8c52-07054f73a9e1"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Skin Graft Records"
+  ]
+ },
+ "cand-0107": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "dac63be1-2383-4ab4-8749-c0c3285ce9fa",
+   "date": "1994-03-14",
+   "country": "US",
+   "labels": [
+    "Merge Records"
+   ],
+   "url": "https://musicbrainz.org/release/dac63be1-2383-4ab4-8749-c0c3285ce9fa"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Merge Records"
+  ]
+ },
+ "cand-1230": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "5d029bf1-3644-4184-bfc5-b01f501f791c",
+   "date": "2000",
+   "country": "US",
+   "labels": [
+    "Load Records"
+   ],
+   "url": "https://musicbrainz.org/release/5d029bf1-3644-4184-bfc5-b01f501f791c"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Load Records"
+  ]
+ },
+ "cand-1109": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "f93765ca-c918-496d-87cf-e7629c16928d",
+   "date": "2000-01-17",
+   "country": "US",
+   "labels": [
+    "Touch and Go Records"
+   ],
+   "url": "https://musicbrainz.org/release/f93765ca-c918-496d-87cf-e7629c16928d"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Touch and Go Records"
+  ]
+ },
+ "cand-1080": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "862d10e4-8aac-41db-9f26-8be17a168945",
+   "date": "1991",
+   "country": "US",
+   "labels": [
+    "Ecstatic Peace!",
+    "New Alliance Records"
+   ],
+   "url": "https://musicbrainz.org/release/862d10e4-8aac-41db-9f26-8be17a168945"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Ecstatic Peace!",
+   "New Alliance Records"
+  ]
+ },
+ "cand-1313": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "fa6ee78b-1677-4135-ac80-2a1c8855fc99",
+   "date": "1981",
+   "country": "GB",
+   "labels": [
+    "Rough Trade"
+   ],
+   "url": "https://musicbrainz.org/release/fa6ee78b-1677-4135-ac80-2a1c8855fc99"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Rough Trade"
+  ]
+ },
+ "cand-1112": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "114855e0-b472-4f52-a460-6de1b2e2506a",
+   "date": "1982-03-08",
+   "country": "GB",
+   "labels": [
+    "Kamera Records"
+   ],
+   "url": "https://musicbrainz.org/release/114855e0-b472-4f52-a460-6de1b2e2506a"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Kamera Records"
+  ]
+ },
+ "cand-0067": {
+  "artist_country": "AU",
+  "chosen_release": {
+   "id": "5b58ce1d-ee1c-3a23-9859-641d77ee4d09",
+   "date": "2008-05-05",
+   "country": "AU",
+   "labels": [
+    "AARGHT! Records"
+   ],
+   "url": "https://musicbrainz.org/release/5b58ce1d-ee1c-3a23-9859-641d77ee4d09"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "AARGHT! Records",
+   "Goner Records"
+  ]
+ },
+ "cand-0879": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "f5be107d-4f98-43da-8601-f8a2865e2151",
+   "date": "2015-10-02",
+   "country": "GB",
+   "labels": [
+    "Rocket Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/f5be107d-4f98-43da-8601-f8a2865e2151"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Rocket Recordings"
+  ]
+ },
+ "cand-0974": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "ac1f0c6f-9958-44a6-8b7c-15d0fb9a91fc",
+   "date": "2016-11-25",
+   "country": "GB",
+   "labels": [
+    "The Quietus Phonographic Corporation"
+   ],
+   "url": "https://musicbrainz.org/release/ac1f0c6f-9958-44a6-8b7c-15d0fb9a91fc"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "The Quietus Phonographic Corporation"
+  ]
+ },
+ "cand-0952": {
+  "artist_country": "NO",
+  "chosen_release": {
+   "id": "050bd781-9a8c-4b65-8c8e-f17db0fd05d6",
+   "date": "2016",
+   "country": "NO",
+   "labels": [
+    "Fysisk Format"
+   ],
+   "url": "https://musicbrainz.org/release/050bd781-9a8c-4b65-8c8e-f17db0fd05d6"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Fysisk Format"
+  ]
+ },
+ "cand-0529": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "0d931fd6-343e-4a71-b4e8-3cd7463dc185",
+   "date": "2012-12-04",
+   "country": "US",
+   "labels": [
+    "Brutal Panda Records"
+   ],
+   "url": "https://musicbrainz.org/release/0d931fd6-343e-4a71-b4e8-3cd7463dc185"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Brutal Panda Records",
+   "Wordclock",
+   "[no label]"
+  ]
+ },
+ "cand-1367": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "fe5407d9-ae08-4d83-ab10-3b296ff3a1bb",
+   "date": "1988",
+   "country": "GB",
+   "labels": [
+    "Rough Trade",
+    "Rough Trade"
+   ],
+   "url": "https://musicbrainz.org/release/fe5407d9-ae08-4d83-ab10-3b296ff3a1bb"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Rough Trade",
+   "Rough Trade America"
+  ]
+ },
+ "cand-1358": {
+  "artist_country": null,
+  "chosen_release": {
+   "id": "4b79a42f-6e16-4c3f-814b-8a90113f7946",
+   "date": "1986-11",
+   "country": "GB",
+   "labels": [
+    "4AD"
+   ],
+   "url": "https://musicbrainz.org/release/4b79a42f-6e16-4c3f-814b-8a90113f7946"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "4AD"
+  ]
+ },
+ "cand-0095": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "b0aea18b-0261-3230-96d7-ae52b80b50d5",
+   "date": "1993",
+   "country": "GB",
+   "labels": [
+    "FSA Records"
+   ],
+   "url": "https://musicbrainz.org/release/b0aea18b-0261-3230-96d7-ae52b80b50d5"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "FSA Records"
+  ]
+ },
+ "cand-0094": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "a4e61385-2472-43c6-9f92-9b63b3c0ccd2",
+   "date": "1995-10-30",
+   "country": "GB",
+   "labels": [
+    "Planet Records"
+   ],
+   "url": "https://musicbrainz.org/release/a4e61385-2472-43c6-9f92-9b63b3c0ccd2"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Planet Records"
+  ]
+ },
+ "cand-0512": {
+  "artist_country": "NZ",
+  "chosen_release": {
+   "id": "18a20963-bade-4087-91b4-1ceb429227fb",
+   "date": "1993",
+   "country": "NZ",
+   "labels": [
+    "Flying Nun Records"
+   ],
+   "url": "https://musicbrainz.org/release/18a20963-bade-4087-91b4-1ceb429227fb"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Flying Nun Records",
+   "Matador"
+  ]
+ },
+ "cand-0511": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "7f34286a-e993-415f-a434-7aebe24a772a",
+   "date": "2005-10-05",
+   "country": "JP",
+   "labels": [
+    "Vinyl Junkie Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/7f34286a-e993-415f-a434-7aebe24a772a"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Vinyl Junkie Recordings"
+  ]
+ },
+ "cand-0503": {
+  "artist_country": "CA",
+  "chosen_release": {
+   "id": "25039283-0ad8-41f9-95ca-216cac76cd8e",
+   "date": "2013-04-23",
+   "country": "US",
+   "labels": [
+    "Mexican Summer"
+   ],
+   "url": "https://musicbrainz.org/release/25039283-0ad8-41f9-95ca-216cac76cd8e"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Mexican Summer",
+   "Popfrenzy Records"
+  ]
+ },
+ "cand-0500": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "20e6a95d-7931-4f9f-8357-74f652b3067f",
+   "date": "2010-10-01",
+   "country": "XW",
+   "labels": [
+    "Type"
+   ],
+   "url": "https://musicbrainz.org/release/20e6a95d-7931-4f9f-8357-74f652b3067f"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Type"
+  ]
+ },
+ "cand-0518": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "2baefe95-f207-32d6-ab12-644a733a30e3",
+   "date": "1994-04-04",
+   "country": "US",
+   "labels": [
+    "Trance Syndicate"
+   ],
+   "url": "https://musicbrainz.org/release/2baefe95-f207-32d6-ab12-644a733a30e3"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Trance Syndicate"
+  ]
+ },
+ "cand-0560": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "434dd8db-b330-4825-865f-84dbedb53b88",
+   "date": "1998",
+   "country": "GB",
+   "labels": [
+    "Domino"
+   ],
+   "url": "https://musicbrainz.org/release/434dd8db-b330-4825-865f-84dbedb53b88"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Domino"
+  ]
+ },
+ "cand-0565": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "ede16cc2-7034-4ca4-b490-e627a96a2b04",
+   "date": "2000",
+   "country": "GB",
+   "labels": [
+    "Domino"
+   ],
+   "url": "https://musicbrainz.org/release/ede16cc2-7034-4ca4-b490-e627a96a2b04"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Domino",
+   "Merge Records"
+  ]
+ },
+ "cand-0207": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "3997b0d5-f5fe-4c8c-bc1b-d4e15fd504f7",
+   "date": "2003-02-04",
+   "country": "US",
+   "labels": [
+    "Jade Tree"
+   ],
+   "url": "https://musicbrainz.org/release/3997b0d5-f5fe-4c8c-bc1b-d4e15fd504f7"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Jade Tree",
+   "Quattro Disc"
+  ]
+ },
+ "cand-0246": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "3f41825e-5e12-477f-a0f8-76a0a9086297",
+   "date": "1999-09-14",
+   "country": "US",
+   "labels": [
+    "Polyvinyl"
+   ],
+   "url": "https://musicbrainz.org/release/3f41825e-5e12-477f-a0f8-76a0a9086297"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Polyvinyl"
+  ]
+ },
+ "cand-0212": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "83abb3fb-5c54-31b7-ae9a-4a0a07ab9098",
+   "date": "2002-10-15",
+   "country": "US",
+   "labels": [
+    "Jade Tree"
+   ],
+   "url": "https://musicbrainz.org/release/83abb3fb-5c54-31b7-ae9a-4a0a07ab9098"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Jade Tree"
+  ]
+ },
+ "cand-0247": {
+  "artist_country": "CN",
+  "chosen_release": {
+   "id": "d9c0b3a3-bca1-4e4d-ab82-8a01c2b30f8e",
+   "date": "2017-03-03",
+   "country": "CN",
+   "labels": [
+    "[no label]"
+   ],
+   "url": "https://musicbrainz.org/release/d9c0b3a3-bca1-4e4d-ab82-8a01c2b30f8e"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Wild Records",
+   "[no label]"
+  ]
+ },
+ "cand-0231": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "240a146d-58cb-46ff-9e3e-bda0423a14e3",
+   "date": "2021-03-05",
+   "country": "XW",
+   "labels": [
+    "[no label]"
+   ],
+   "url": "https://musicbrainz.org/release/240a146d-58cb-46ff-9e3e-bda0423a14e3"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "[no label]"
+  ]
+ },
+ "cand-0226": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "f758a5cb-4f74-4ed5-80e5-dd05382a7f10",
+   "date": "2020-03-13",
+   "country": "US",
+   "labels": [
+    "Triple Crown Records"
+   ],
+   "url": "https://musicbrainz.org/release/f758a5cb-4f74-4ed5-80e5-dd05382a7f10"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Triple Crown Records"
+  ]
+ },
+ "cand-0227": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "1d50f075-cb08-456a-801f-6f92586840b2",
+   "date": "2019-05-18",
+   "country": "XW",
+   "labels": [
+    "[no label]"
+   ],
+   "url": "https://musicbrainz.org/release/1d50f075-cb08-456a-801f-6f92586840b2"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Run for Cover Records",
+   "[no label]"
+  ]
+ },
+ "cand-1218": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "9b63aaaa-d19d-4842-91f8-157b68cf5693",
+   "date": "1996-06-11",
+   "country": "US",
+   "labels": [
+    "Instinct Ambient"
+   ],
+   "url": "https://musicbrainz.org/release/9b63aaaa-d19d-4842-91f8-157b68cf5693"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Instinct Ambient"
+  ]
+ },
+ "cand-1217": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "3a39a151-14ab-40f8-ae2e-77352d6896c4",
+   "date": "1988",
+   "country": "US",
+   "labels": [
+    "Fortuna Records"
+   ],
+   "url": "https://musicbrainz.org/release/3a39a151-14ab-40f8-ae2e-77352d6896c4"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Fortuna Records"
+  ]
+ },
+ "cand-1294": {
+  "artist_country": "RU",
+  "chosen_release": {
+   "id": "73675c1e-7976-47fb-a761-d2b80a7f4e09",
+   "date": "1986",
+   "country": "SU",
+   "labels": [
+    "Мелодия"
+   ],
+   "url": "https://musicbrainz.org/release/73675c1e-7976-47fb-a761-d2b80a7f4e09"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Мелодия"
+  ]
+ },
+ "cand-1346": {
+  "artist_country": "FR",
+  "chosen_release": {
+   "id": "1ebce573-99b9-4a05-ae6d-ef4e601c5aa4",
+   "date": "1988",
+   "country": "FR",
+   "labels": [
+    "INA-GRM"
+   ],
+   "url": "https://musicbrainz.org/release/1ebce573-99b9-4a05-ae6d-ef4e601c5aa4"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "INA-GRM"
+  ]
+ },
+ "cand-1344": {
+  "artist_country": "FR",
+  "chosen_release": {
+   "id": "2a1da8c9-02ec-44be-8444-3a9e3f034575",
+   "date": "1995",
+   "country": "FR",
+   "labels": [
+    "INA-GRM"
+   ],
+   "url": "https://musicbrainz.org/release/2a1da8c9-02ec-44be-8444-3a9e3f034575"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "INA-GRM"
+  ]
+ },
+ "cand-0297": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "b52a59d5-de53-4e55-a05f-84ecb11921e4",
+   "date": "2019-09-20",
+   "country": "US",
+   "labels": [
+    "Empire of Signs"
+   ],
+   "url": "https://musicbrainz.org/release/b52a59d5-de53-4e55-a05f-84ecb11921e4"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Empire of Signs"
+  ]
+ },
+ "cand-0195": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "396cad9a-8722-4543-a254-82f6430d0cbb",
+   "date": "1985",
+   "country": "NL",
+   "labels": [
+    "Apollo Records"
+   ],
+   "url": "https://musicbrainz.org/release/396cad9a-8722-4543-a254-82f6430d0cbb"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Apollo Records"
+  ]
+ },
+ "cand-0194": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "26792f3d-3026-49a0-9bb2-1a61895acd72",
+   "date": "1980",
+   "country": "US",
+   "labels": [
+    "Philo"
+   ],
+   "url": "https://musicbrainz.org/release/26792f3d-3026-49a0-9bb2-1a61895acd72"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Philo"
+  ]
+ },
+ "cand-0173": {
+  "artist_country": "CA",
+  "chosen_release": {
+   "id": "9f5ecedf-f815-43df-8b05-071f82658a32",
+   "date": "2014-11-03",
+   "country": "CA",
+   "labels": [
+    "Constellation Tatsu"
+   ],
+   "url": "https://musicbrainz.org/release/9f5ecedf-f815-43df-8b05-071f82658a32"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Constellation Tatsu"
+  ]
+ },
+ "cand-1323": {
+  "artist_country": "FI",
+  "chosen_release": {
+   "id": "2a6b96c8-5740-47cc-b0c8-d14abff73636",
+   "date": "2000-02-18",
+   "country": "XW",
+   "labels": [
+    "Huume Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/2a6b96c8-5740-47cc-b0c8-d14abff73636"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Chain Reaction",
+   "Huume Recordings"
+  ]
+ },
+ "cand-0959": {
+  "artist_country": "CA",
+  "chosen_release": {
+   "id": "bf23ebce-f935-4b15-8dc8-a294ad663d87",
+   "date": "2016-07-08",
+   "country": "GB",
+   "labels": [
+    "130701"
+   ],
+   "url": "https://musicbrainz.org/release/bf23ebce-f935-4b15-8dc8-a294ad663d87"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "130701",
+   "FatCat Records"
+  ]
+ },
+ "cand-0980": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "14286393-8f94-41e9-9048-19ef4006e9e7",
+   "date": "2016-06-21",
+   "country": "US",
+   "labels": [
+    "Proibito"
+   ],
+   "url": "https://musicbrainz.org/release/14286393-8f94-41e9-9048-19ef4006e9e7"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Proibito"
+  ]
+ },
+ "cand-0668": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "d2174c2c-1926-4637-91a9-7d8d7ef92c64",
+   "date": "2013-08",
+   "country": "DE",
+   "labels": [
+    "PAN"
+   ],
+   "url": "https://musicbrainz.org/release/d2174c2c-1926-4637-91a9-7d8d7ef92c64"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "PAN"
+  ]
+ },
+ "cand-0892": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "375ebdf6-db98-4c79-b5aa-ab9a6db25c8e",
+   "date": "2015-04-13",
+   "country": "US",
+   "labels": [
+    "RVNG Intl."
+   ],
+   "url": "https://musicbrainz.org/release/375ebdf6-db98-4c79-b5aa-ab9a6db25c8e"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "RVNG Intl."
+  ]
+ },
+ "cand-1055": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "c7a751c1-99c4-44b0-94cd-192d942c0b2c",
+   "date": "1988-05",
+   "country": "GB",
+   "labels": [
+    "Jack Trax"
+   ],
+   "url": "https://musicbrainz.org/release/c7a751c1-99c4-44b0-94cd-192d942c0b2c"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Jack Trax"
+  ]
+ },
+ "cand-1061": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "bdad1e44-05c5-4e15-a44e-6c254f92f7bb",
+   "date": "1997-11-14",
+   "country": "US",
+   "labels": [
+    "Planet E"
+   ],
+   "url": "https://musicbrainz.org/release/bdad1e44-05c5-4e15-a44e-6c254f92f7bb"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Planet E"
+  ]
+ },
+ "cand-0663": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "03743f65-dce7-4f1f-8970-3546e6ce4bf1",
+   "date": "2013-05-13",
+   "country": "GB",
+   "labels": [
+    "Planet Mu"
+   ],
+   "url": "https://musicbrainz.org/release/03743f65-dce7-4f1f-8970-3546e6ce4bf1"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Planet Mu"
+  ]
+ },
+ "cand-0252": {
+  "artist_country": null,
+  "chosen_release": {
+   "id": "9c530a2a-1dc8-4672-b4d7-7ff887b5bc0a",
+   "date": "2021-08-13",
+   "country": "XW",
+   "labels": [
+    "Planet Mu"
+   ],
+   "url": "https://musicbrainz.org/release/9c530a2a-1dc8-4672-b4d7-7ff887b5bc0a"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Planet Mu"
+  ]
+ },
+ "cand-0606": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "2a20caa4-0c92-4a93-ae11-953c30b78267",
+   "date": "2012-10-18",
+   "country": "GB",
+   "labels": [
+    "Modern Love"
+   ],
+   "url": "https://musicbrainz.org/release/2a20caa4-0c92-4a93-ae11-953c30b78267"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Modern Love"
+  ]
+ },
+ "cand-0784": {
+  "artist_country": "IT",
+  "chosen_release": {
+   "id": "ea89af62-ed4a-450b-bba3-963bcf754db3",
+   "date": "2014-08-29",
+   "country": "XW",
+   "labels": [
+    "Boomkat Editions"
+   ],
+   "url": "https://musicbrainz.org/release/ea89af62-ed4a-450b-bba3-963bcf754db3"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Boomkat Editions"
+  ]
+ },
+ "cand-0471": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "759634ea-1235-4fc3-a376-14e844017813",
+   "date": "2017-11-03",
+   "country": "GB",
+   "labels": [
+    "Golden Teacher"
+   ],
+   "url": "https://musicbrainz.org/release/759634ea-1235-4fc3-a376-14e844017813"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Golden Teacher"
+  ]
+ },
+ "cand-1320": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "ebd7ef85-4e8d-45cf-9de2-6538bfefa075",
+   "date": "2004-06-22",
+   "country": "US",
+   "labels": [
+    "DFA Records"
+   ],
+   "url": "https://musicbrainz.org/release/ebd7ef85-4e8d-45cf-9de2-6538bfefa075"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "DFA Records",
+   "FatCat Records"
+  ]
+ },
+ "cand-0325": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "0a037803-a0b2-4c0a-9364-6371b92c48c7",
+   "date": "2001-02-02",
+   "country": "DE",
+   "labels": [
+    "~scape"
+   ],
+   "url": "https://musicbrainz.org/release/0a037803-a0b2-4c0a-9364-6371b92c48c7"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "~scape"
+  ]
+ },
+ "cand-0858": {
+  "artist_country": "EG",
+  "chosen_release": {
+   "id": "340f3a2d-9f4a-4d65-8408-047d4b776821",
+   "date": "2015-05-18",
+   "country": "EG",
+   "labels": [
+    "Nashazphone"
+   ],
+   "url": "https://musicbrainz.org/release/340f3a2d-9f4a-4d65-8408-047d4b776821"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Nashazphone"
+  ]
+ },
+ "cand-0536": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "1a413cdf-01ec-4ba8-acb8-acb71ec8b002",
+   "date": "2002-08-05",
+   "country": "US",
+   "labels": [
+    "Ipecac Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/1a413cdf-01ec-4ba8-acb8-acb71ec8b002"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Ipecac Recordings"
+  ]
+ },
+ "cand-0540": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "2cd8a0b7-a662-4100-908c-1a66fe6e0d3e",
+   "date": "1992-04-14",
+   "country": "US",
+   "labels": [
+    "Giant"
+   ],
+   "url": "https://musicbrainz.org/release/2cd8a0b7-a662-4100-908c-1a66fe6e0d3e"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Giant"
+  ]
+ },
+ "cand-1240": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "22a8ede3-e377-4c33-a483-7c0b06de5d25",
+   "date": "1999-08-10",
+   "country": "US",
+   "labels": [
+    "Ruffhouse Records"
+   ],
+   "url": "https://musicbrainz.org/release/22a8ede3-e377-4c33-a483-7c0b06de5d25"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Ruffhouse Records"
+  ]
+ },
+ "cand-1072": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "c197ce2e-7c92-4108-af77-a73f43b0c8c6",
+   "date": "1996-07",
+   "country": "XE",
+   "labels": [
+    "Gee Street",
+    "Gee Street"
+   ],
+   "url": "https://musicbrainz.org/release/c197ce2e-7c92-4108-af77-a73f43b0c8c6"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Gee Street"
+  ]
+ },
+ "cand-1101": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "0281c010-96f1-416b-9546-73222abb3661",
+   "date": "1998",
+   "country": "US",
+   "labels": [
+    "Sun Large Music"
+   ],
+   "url": "https://musicbrainz.org/release/0281c010-96f1-416b-9546-73222abb3661"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Sun Large Music"
+  ]
+ },
+ "cand-0046": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "0a17e68a-6768-43c7-b480-e5badde25ba3",
+   "date": "2016-04-15",
+   "country": "US",
+   "labels": [
+    "Backwoodz Studioz"
+   ],
+   "url": "https://musicbrainz.org/release/0a17e68a-6768-43c7-b480-e5badde25ba3"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Backwoodz Studioz"
+  ]
+ },
+ "cand-0825": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "cbd24867-dfe9-4dd3-993a-a93e2741d263",
+   "date": "2014-09-23",
+   "country": "XW",
+   "labels": [
+    "Hellfyre Club"
+   ],
+   "url": "https://musicbrainz.org/release/cbd24867-dfe9-4dd3-993a-a93e2741d263"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Hellfyre Club"
+  ]
+ },
+ "cand-0277": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "1731373f-aee3-4573-987a-80d18fc731f2",
+   "date": "2016-09-09",
+   "country": "US",
+   "labels": [
+    "Deathbomb Arc",
+    "Sub Pop Records"
+   ],
+   "url": "https://musicbrainz.org/release/1731373f-aee3-4573-987a-80d18fc731f2"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Deathbomb Arc",
+   "Sub Pop Records"
+  ]
+ },
+ "cand-1079": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "9c04980f-d728-47e7-b930-8701689f4cbe",
+   "date": "1993-08",
+   "country": "US",
+   "labels": [
+    "Black Label"
+   ],
+   "url": "https://musicbrainz.org/release/9c04980f-d728-47e7-b930-8701689f4cbe"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Black Label"
+  ]
+ },
+ "cand-0039": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "9751c056-7bad-4e70-a220-1f1185571278",
+   "date": "2016-06-24",
+   "country": "XW",
+   "labels": [
+    "[no label]"
+   ],
+   "url": "https://musicbrainz.org/release/9751c056-7bad-4e70-a220-1f1185571278"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Chaos Kitchen Music",
+   "[no label]"
+  ]
+ },
+ "cand-0398": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "1e1267d2-1092-45f0-8bf3-f31e5aa18bb8",
+   "date": "2025-09-05",
+   "country": "XW",
+   "labels": [
+    "We Are Busy Bodies"
+   ],
+   "url": "https://musicbrainz.org/release/1e1267d2-1092-45f0-8bf3-f31e5aa18bb8"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "We Are Busy Bodies"
+  ]
+ },
+ "cand-0178": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "88f9eb4e-efce-437b-bac7-1416fc775156",
+   "date": "2022-11-18",
+   "country": "US",
+   "labels": [
+    "Three Lobed Recordings"
+   ],
+   "url": "https://musicbrainz.org/release/88f9eb4e-efce-437b-bac7-1416fc775156"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Three Lobed Recordings"
+  ]
+ },
+ "cand-1142": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "18ea65e8-32dd-3f7c-a18b-0a0bc40652dc",
+   "date": "1971-04",
+   "country": "GB",
+   "labels": [
+    "Topic Records"
+   ],
+   "url": "https://musicbrainz.org/release/18ea65e8-32dd-3f7c-a18b-0a0bc40652dc"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Topic Records"
+  ]
+ },
+ "cand-0383": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "a2a71ae1-de62-4c6b-a61e-dc6181f79c44",
+   "date": "2025-02-28",
+   "country": "JP",
+   "labels": [
+    "hermine"
+   ],
+   "url": "https://musicbrainz.org/release/a2a71ae1-de62-4c6b-a61e-dc6181f79c44"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Psychic Hotline",
+   "hermine"
+  ]
+ },
+ "cand-0956": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "3e05b583-7636-46fb-a5e5-0098c1afce62",
+   "date": "2016-11-04",
+   "country": "GB",
+   "labels": [
+    "Domino"
+   ],
+   "url": "https://musicbrainz.org/release/3e05b583-7636-46fb-a5e5-0098c1afce62"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Domino"
+  ]
+ },
+ "cand-0291": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "716968bc-83ad-42f0-83b1-8a99e3c3f9f6",
+   "date": "1984",
+   "country": "JP",
+   "labels": [
+    "Zero Records"
+   ],
+   "url": "https://musicbrainz.org/release/716968bc-83ad-42f0-83b1-8a99e3c3f9f6"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Zero Records"
+  ]
+ },
+ "cand-0295": {
+  "artist_country": "JP",
+  "chosen_release": {
+   "id": "de21b323-9441-40f5-9b75-65057575be52",
+   "date": "2018-08-25",
+   "country": "JP",
+   "labels": [
+    "Pong‐Kong Records"
+   ],
+   "url": "https://musicbrainz.org/release/de21b323-9441-40f5-9b75-65057575be52"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Pong‐Kong Records"
+  ]
+ },
+ "cand-0189": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "f1c20581-d130-4b7f-ab33-6a53fc56c559",
+   "date": "2023-11-03",
+   "country": "XW",
+   "labels": [
+    "World of Echo"
+   ],
+   "url": "https://musicbrainz.org/release/f1c20581-d130-4b7f-ab33-6a53fc56c559"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "World of Echo"
+  ]
+ },
+ "cand-0871": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "63a95ab6-f7a8-4a47-bf10-27f4936d955e",
+   "date": "2015-08-29",
+   "country": "GB",
+   "labels": [
+    "Front & Follow"
+   ],
+   "url": "https://musicbrainz.org/release/63a95ab6-f7a8-4a47-bf10-27f4936d955e"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Front & Follow"
+  ]
+ },
+ "cand-1207": {
+  "artist_country": "AR",
+  "chosen_release": {
+   "id": "d70806be-fe64-4f2e-9a2d-baebddeb894d",
+   "date": "2017-02-28",
+   "country": "BE",
+   "labels": [
+    "Crammed Discs"
+   ],
+   "url": "https://musicbrainz.org/release/d70806be-fe64-4f2e-9a2d-baebddeb894d"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Crammed Discs",
+   "Hostess Entertainment Unlimited"
+  ]
+ },
+ "cand-0888": {
+  "artist_country": "PL",
+  "chosen_release": {
+   "id": "49691ba4-6bd0-45f4-9235-e89d0cdbf0d4",
+   "date": "2015-11-16",
+   "country": "GB",
+   "labels": [
+    "Penultimate Press"
+   ],
+   "url": "https://musicbrainz.org/release/49691ba4-6bd0-45f4-9235-e89d0cdbf0d4"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Penultimate Press"
+  ]
+ },
+ "cand-1301": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "bc1c4b7d-2f00-4196-ad30-8467ee7595aa",
+   "date": "1980",
+   "country": "DE",
+   "labels": [
+    "CBS",
+    "CBS"
+   ],
+   "url": "https://musicbrainz.org/release/bc1c4b7d-2f00-4196-ad30-8467ee7595aa"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "CBS"
+  ]
+ },
+ "cand-1332": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "b72e3d2a-1704-479d-82dc-d0158f1d2c09",
+   "date": "1973",
+   "country": "GB",
+   "labels": [
+    "Island"
+   ],
+   "url": "https://musicbrainz.org/release/b72e3d2a-1704-479d-82dc-d0158f1d2c09"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Island",
+   "Polydor"
+  ]
+ },
+ "cand-1124": {
+  "artist_country": "ET",
+  "chosen_release": {
+   "id": "fd107d3a-50d6-4def-8b21-cbe624a81b42",
+   "date": "2006",
+   "country": "FR",
+   "labels": [
+    "Buda Musique"
+   ],
+   "url": "https://musicbrainz.org/release/fd107d3a-50d6-4def-8b21-cbe624a81b42"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Buda Musique"
+  ]
+ },
+ "cand-1120": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "df151c91-79cf-49a6-9bab-374dec6a1812",
+   "date": "1969",
+   "country": "US",
+   "labels": [
+    "impulse!"
+   ],
+   "url": "https://musicbrainz.org/release/df151c91-79cf-49a6-9bab-374dec6a1812"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "impulse!"
+  ]
+ },
+ "cand-0333": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "95e576b5-3b67-40bb-ae39-17ea34799de8",
+   "date": "2000",
+   "country": "US",
+   "labels": [
+    "Just Dreams"
+   ],
+   "url": "https://musicbrainz.org/release/95e576b5-3b67-40bb-ae39-17ea34799de8"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Just Dreams"
+  ]
+ },
+ "cand-0335": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "6d372020-e0ac-4db7-b1e0-1ecb3bd8dd2f",
+   "date": "2013-04-08",
+   "country": "US",
+   "labels": [
+    "Irritable Hedgehog",
+    "Penultimate Press"
+   ],
+   "url": "https://musicbrainz.org/release/6d372020-e0ac-4db7-b1e0-1ecb3bd8dd2f"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Irritable Hedgehog",
+   "Penultimate Press"
+  ]
+ },
+ "cand-1083": {
+  "artist_country": null,
+  "chosen_release": {
+   "id": "232dbb0d-62ca-475c-89f8-24b36ac6a098",
+   "date": "2009-03-09",
+   "country": "US",
+   "labels": [
+    "VHF Records"
+   ],
+   "url": "https://musicbrainz.org/release/232dbb0d-62ca-475c-89f8-24b36ac6a098"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "VHF Records"
+  ]
+ },
+ "cand-0649": {
+  "artist_country": "US",
+  "chosen_release": {
+   "id": "b839fcf8-2faf-4732-a6f2-0421043cc197",
+   "date": "2012-07-24",
+   "country": "US",
+   "labels": [
+    "Thrill Jockey"
+   ],
+   "url": "https://musicbrainz.org/release/b839fcf8-2faf-4732-a6f2-0421043cc197"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Thrill Jockey"
+  ]
+ },
+ "cand-1244": {
+  "artist_country": "ML",
+  "chosen_release": {
+   "id": "11ff7e8a-ceaf-4e36-affc-08d056c62931",
+   "date": "2010",
+   "country": "US",
+   "labels": [
+    "Clermont Music"
+   ],
+   "url": "https://musicbrainz.org/release/11ff7e8a-ceaf-4e36-affc-08d056c62931"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Clermont Music"
+  ]
+ },
+ "cand-0703": {
+  "artist_country": "ML",
+  "chosen_release": {
+   "id": "41b7faf4-88c3-487b-9b4a-a64cca025db4",
+   "date": "2013-09-13",
+   "country": "GB",
+   "labels": [
+    "Glitterbeat"
+   ],
+   "url": "https://musicbrainz.org/release/41b7faf4-88c3-487b-9b4a-a64cca025db4"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Glitterbeat",
+   "Glitterbeat Records"
+  ]
+ },
+ "cand-0819": {
+  "artist_country": "MR",
+  "chosen_release": {
+   "id": "ad82076d-4e56-4c15-8607-8678b3632b63",
+   "date": "2014-06-20",
+   "country": null,
+   "labels": [
+    "Glitterbeat"
+   ],
+   "url": "https://musicbrainz.org/release/ad82076d-4e56-4c15-8607-8678b3632b63"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Glitterbeat"
+  ]
+ },
+ "cand-1337": {
+  "artist_country": "DE",
+  "chosen_release": {
+   "id": "59642cf7-cfee-4e06-afec-9b5297669d06",
+   "date": "2013-05-17",
+   "country": "XW",
+   "labels": [
+    "Ndagga"
+   ],
+   "url": "https://musicbrainz.org/release/59642cf7-cfee-4e06-afec-9b5297669d06"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Ndagga"
+  ]
+ },
+ "cand-0854": {
+  "artist_country": "CD",
+  "chosen_release": {
+   "id": "92d44caf-6c0d-44a7-a841-ec16cbce73e1",
+   "date": "2015-05-18",
+   "country": "GB",
+   "labels": [
+    "World Circuit"
+   ],
+   "url": "https://musicbrainz.org/release/92d44caf-6c0d-44a7-a841-ec16cbce73e1"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "World Circuit"
+  ]
+ },
+ "cand-0042": {
+  "artist_country": "TR",
+  "chosen_release": {
+   "id": "1df6b1a0-3228-469a-82b3-02c36fa2173b",
+   "date": "2018-10-26",
+   "country": "TR",
+   "labels": [
+    "Glitterbeat"
+   ],
+   "url": "https://musicbrainz.org/release/1df6b1a0-3228-469a-82b3-02c36fa2173b"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Dunganga Records",
+   "Glitterbeat"
+  ]
+ },
+ "cand-0145": {
+  "artist_country": "PE",
+  "chosen_release": {
+   "id": "8715ad15-0d43-49c2-badd-e7e6b995350f",
+   "date": "2019-09-06",
+   "country": "XW",
+   "labels": [
+    "Barbès Records"
+   ],
+   "url": "https://musicbrainz.org/release/8715ad15-0d43-49c2-badd-e7e6b995350f"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Barbès Records"
+  ]
+ },
+ "cand-0987": {
+  "artist_country": "KR",
+  "chosen_release": {
+   "id": "00131d56-443c-408f-bc8e-1bc140dc6df6",
+   "date": "2016-06-17",
+   "country": "GB",
+   "labels": [
+    "Bella Union"
+   ],
+   "url": "https://musicbrainz.org/release/00131d56-443c-408f-bc8e-1bc140dc6df6"
+  },
+  "basis": "earliest dated release",
+  "first_year_labels": [
+   "Bella Union"
+  ]
+ },
+ "cand-1063": {
+  "artist_country": "GB",
+  "chosen_release": {
+   "id": "c785ee52-5d0e-4051-b418-9dfab1d32e37",
+   "date": "1986",
+   "country": "GB",
+   "labels": [
+    "On-U Sound"
+   ],
+   "url": "https://musicbrainz.org/release/c785ee52-5d0e-4051-b418-9dfab1d32e37"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "On-U Sound"
+  ]
+ },
+ "cand-1208": {
+  "artist_country": "BE",
+  "chosen_release": {
+   "id": "f33dc430-de6c-42d2-bc1b-bb9bd602e18a",
+   "date": "2014-10-13",
+   "country": "BE",
+   "labels": [
+    "Crammed Discs"
+   ],
+   "url": "https://musicbrainz.org/release/f33dc430-de6c-42d2-bc1b-bb9bd602e18a"
+  },
+  "basis": "first-year release in artist country",
+  "first_year_labels": [
+   "Crammed Discs"
+  ]
+ }
+}

@@ -58,12 +58,16 @@ for s in selection:
         label = c['label']
     else:
         chosen = (lab.get('chosen_release') or {}).get('labels') or []
-        chosen = ['self-released' if l == '[no label]' else l for l in dict.fromkeys(chosen)]
+        chosen = ['self-released' if l == '[no label]' else l.replace('\u2010', '-') for l in dict.fromkeys(chosen)]  # MusicBrainz uses U+2010 hyphens
         label = ' / '.join(chosen) or None
         if label is None:
             notes.append('No label is recorded for the first release on MusicBrainz.')
         elif lab.get('basis') == 'earliest dated release' and lab.get('artist_country') and (lab.get('chosen_release') or {}).get('country') not in (None, lab.get('artist_country')):
             notes.append(f"Label is from the earliest documented release ({lab['chosen_release']['country']}); no first-year release from the artist's country is listed on MusicBrainz.")
+        others = [('self-released' if l == '[no label]' else l) for l in lab.get('first_year_labels', [])]
+        others = [l for l in dict.fromkeys(others) if l not in chosen]
+        if label and others:
+            notes.append('Other labels issuing it in the first year (MusicBrainz): ' + ', '.join(others) + '.')
     if review:
         notes.append(review)
 

@@ -24,7 +24,7 @@ mb = json.load(open(mb_path)); out = {}
 for cid, entry in mb.items():
     m = entry.get('match')
     if not m: continue
-    cached = [f for f in (f'{cid}-rg-r1.json', f'{cid}-rg.json') if os.path.exists(os.path.join(raw, f))]
+    cached = [] if m.get('resolved_by_hand') else [f for f in (f'{cid}-rg-r1.json', f'{cid}-rg.json') if os.path.exists(os.path.join(raw, f))]
     rg = json.load(open(os.path.join(raw, cached[0]))) if cached else get(f"https://musicbrainz.org/ws/2/release-group/{m['id']}?fmt=json&inc=artist-credits+genres+tags+url-rels+releases", f'{cid}-rg-hand.json')
     if not cached:  # hand-resolved match: fill in what the search pass would have recorded
         m.update({'first_release_date': rg.get('first-release-date'), 'primary_type': rg.get('primary-type'), 'secondary_types': rg.get('secondary-types', []), 'genres': [g['name'] for g in rg.get('genres', [])], 'tags': [t['name'] for t in rg.get('tags', [])][:12], 'urls': sorted({r['url']['resource'] for r in rg.get('relations', []) if r.get('url')})})
