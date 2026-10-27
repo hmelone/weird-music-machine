@@ -38,7 +38,12 @@ for s in selection:
     cid = s['candidate_id']; m = (mb.get(cid) or {}).get('match') or {}
     artist = m.get('artist') or s['artist_in_source']; title = m.get('title') or s['title_in_source']
     tries = [urllib.parse.unquote(u.split('/wiki/')[1]).replace('_', ' ') for u in m.get('urls', []) if 'en.wikipedia.org/wiki/' in u]
-    tries += [f'{title} ({artist} album)', f'{title} (album)', title]
+    year = (m.get('first_release_date') or '')[:4]
+    names = list(dict.fromkeys(x.replace('\u2010', '-').replace('\u2019', "'") for x in (artist, s['artist_in_source'])))
+    titles = list(dict.fromkeys(x.replace('\u2010', '-').replace('\u2019', "'") for x in (title, s['title_in_source'])))
+    for t in titles:
+        for a in names: tries.append(f'{t} ({a} album)')
+        tries += [f'{t} ({year} album)', f'{t} (album)', f'{t} (EP)', t]
     found = None
     for t in dict.fromkeys(tries):
         text = fetch(t)

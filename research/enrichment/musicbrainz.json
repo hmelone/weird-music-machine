@@ -1,0 +1,7245 @@
+{
+ "cand-1308": {
+  "query_artist": "Les Rallizes Denudes",
+  "query_title": "Heavier Than A Death In The Family",
+  "search_hits": [
+   {
+    "id": "aaf3bf6d-f747-3c3e-bfa4-35b084a491f9",
+    "score": 100,
+    "title": "Heavier Than a Death in the Family",
+    "artist": "Les Rallizes Dénudés",
+    "first_release_date": "2002",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   }
+  ],
+  "match": {
+   "id": "aaf3bf6d-f747-3c3e-bfa4-35b084a491f9",
+   "url": "https://musicbrainz.org/release-group/aaf3bf6d-f747-3c3e-bfa4-35b084a491f9",
+   "title": "Heavier Than a Death in the Family",
+   "artist": "Les Rallizes Dénudés",
+   "first_release_date": "2002",
+   "primary_type": "Album",
+   "secondary_types": [
+    "Live"
+   ],
+   "genres": [
+    "rock",
+    "noise",
+    "psychedelic rock"
+   ],
+   "tags": [
+    "rock",
+    "noise",
+    "psychedelic rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/unauth/les-rallizes-denudes/heavier-than-a-death-in-the-family/",
+    "https://www.allmusic.com/album/mw0002006332",
+    "https://www.discogs.com/master/263925",
+    "https://www.wikidata.org/wiki/Q104881525"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "b6b457bc-476d-4574-b08c-feaedd7f1cf0",
+    "title": "Heavier Than a Death in the Family",
+    "date": "2002",
+    "country": "JP",
+    "status": "Bootleg",
+    "labels": [
+     {
+      "name": "[no label]",
+      "catno": "[none]"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0377": {
+  "query_artist": "The Soft Boys",
+  "query_title": "Underwater Moonlight",
+  "search_hits": [
+   {
+    "id": "d9046296-1811-3504-8199-4a557cf97872",
+    "score": 100,
+    "title": "Underwater Moonlight",
+    "artist": "The Soft Boys",
+    "first_release_date": "1980",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d9046296-1811-3504-8199-4a557cf97872",
+   "url": "https://musicbrainz.org/release-group/d9046296-1811-3504-8199-4a557cf97872",
+   "title": "Underwater Moonlight",
+   "artist": "The Soft Boys",
+   "first_release_date": "1980",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "post-punk",
+    "alternative rock",
+    "jangle pop",
+    "neo-psychedelia",
+    "psychedelic"
+   ],
+   "tags": [
+    "post-punk",
+    "alternative rock",
+    "angular",
+    "anxious",
+    "atmospheric",
+    "cynical",
+    "eclectic",
+    "energetic",
+    "humorous",
+    "jangle pop",
+    "love",
+    "lyrical dissonance"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/the_soft_boys/underwater_moonlight/",
+    "https://www.allmusic.com/album/mw0000845522",
+    "https://www.discogs.com/master/50152",
+    "https://www.wikidata.org/wiki/Q684063"
+   ],
+   "release_count": 9,
+   "earliest_release": {
+    "id": "6fe97227-e45b-3230-a78a-49d75bd974da",
+    "title": "Underwater Moonlight",
+    "date": "1980",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Armageddon Records",
+      "catno": "ARM 1"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0426": {
+  "query_artist": "Träd, Gräs och Stenar",
+  "query_title": "Träd, Gräs och Stenar",
+  "search_hits": [
+   {
+    "id": "3dc68fc7-bef2-3833-af2d-f04c372f8026",
+    "score": 100,
+    "title": "Träd, gräs och stenar",
+    "artist": "Träd, gräs och stenar",
+    "first_release_date": "1970",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "0fcf678b-4a27-427e-80d8-4a830d7d219a",
+    "score": 100,
+    "title": "Träd, gräs och stenar",
+    "artist": "Träd, gräs och stenar",
+    "first_release_date": "2016-04-08",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "3dc68fc7-bef2-3833-af2d-f04c372f8026",
+   "url": "https://musicbrainz.org/release-group/3dc68fc7-bef2-3833-af2d-f04c372f8026",
+   "title": "Träd, gräs och stenar",
+   "artist": "Träd, gräs och stenar",
+   "first_release_date": "1970",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "psychedelic rock",
+    "rock"
+   ],
+   "tags": [
+    "progg",
+    "psychedelic rock",
+    "rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000445286",
+    "https://www.discogs.com/master/22213"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "3aa1c1d1-cef3-4a8e-86e6-6e9522f2bea3",
+    "title": "Träd, gräs och stenar",
+    "date": "1970",
+    "country": "SE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Decibel Records",
+      "catno": "DRS 3702"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0423": {
+  "query_artist": "High Rise",
+  "query_title": "High Rise II",
+  "search_hits": [
+   {
+    "id": "84dbdd71-fd91-3582-a1ca-e1f86d9be4d5",
+    "score": 100,
+    "title": "High Rise II",
+    "artist": "High Rise",
+    "first_release_date": "1986",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "84dbdd71-fd91-3582-a1ca-e1f86d9be4d5",
+   "url": "https://musicbrainz.org/release-group/84dbdd71-fd91-3582-a1ca-e1f86d9be4d5",
+   "title": "High Rise II",
+   "artist": "High Rise",
+   "first_release_date": "1986",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "garage rock",
+    "psychedelic rock",
+    "rock",
+    "garage psych",
+    "heavy psych",
+    "noise rock",
+    "punk"
+   ],
+   "tags": [
+    "garage rock",
+    "psychedelic rock",
+    "rock",
+    "garage psych",
+    "heavy psych",
+    "noise rock",
+    "punk"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/high-rise/high-rise-ii/",
+    "https://www.discogs.com/master/178633"
+   ],
+   "release_count": 6,
+   "earliest_release": {
+    "id": "76e2105b-67b4-4b54-9e22-2a5d2439a9b3",
+    "title": "High Rise II",
+    "date": "1986",
+    "country": "JP",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "P.S.F. Records",
+      "catno": "PSF-2"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0465": {
+  "query_artist": "Bardo Pond",
+  "query_title": "On The Ellipse",
+  "search_hits": [
+   {
+    "id": "42ec75ff-c43e-3c0d-abc0-a7c274d53240",
+    "score": 100,
+    "title": "On the Ellipse",
+    "artist": "Bardo Pond",
+    "first_release_date": "2003-07-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "42ec75ff-c43e-3c0d-abc0-a7c274d53240",
+   "url": "https://musicbrainz.org/release-group/42ec75ff-c43e-3c0d-abc0-a7c274d53240",
+   "title": "On the Ellipse",
+   "artist": "Bardo Pond",
+   "first_release_date": "2003-07-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "post-rock",
+    "rock"
+   ],
+   "tags": [
+    "post-rock",
+    "rock"
+   ],
+   "urls": [
+    "https://pitchfork.com/reviews/albums/560-on-the-ellipse/",
+    "https://rateyourmusic.com/release/album/bardo-pond/on-the-ellipse/",
+    "https://www.allmusic.com/album/mw0000598241",
+    "https://www.discogs.com/master/38430",
+    "https://www.wikidata.org/wiki/Q7091346"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "e73f3c98-b0d4-43bd-af68-91571745d56b",
+    "title": "On the Ellipse",
+    "date": "2003",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "ATP Recordings",
+      "catno": "ATPRLP6"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0463": {
+  "query_artist": "Espers",
+  "query_title": "II",
+  "search_hits": [
+   {
+    "id": "7c3926cb-142d-32b4-83a5-8006fa06d3e7",
+    "score": 100,
+    "title": "II",
+    "artist": "Espers",
+    "first_release_date": "2006-03-16",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "7c3926cb-142d-32b4-83a5-8006fa06d3e7",
+   "url": "https://musicbrainz.org/release-group/7c3926cb-142d-32b4-83a5-8006fa06d3e7",
+   "title": "II",
+   "artist": "Espers",
+   "first_release_date": "2006-03-16",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk rock",
+    "indie folk",
+    "indie rock",
+    "neo-psychedelia",
+    "psychedelic rock",
+    "rock"
+   ],
+   "tags": [
+    "folk rock",
+    "indie folk",
+    "indie rock",
+    "neo-psychedelia",
+    "psychedelic rock",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/espers/ii/",
+    "https://www.allmusic.com/album/mw0000420706",
+    "https://www.discogs.com/master/4123",
+    "https://www.musik-sammler.de/album/103522/",
+    "https://www.wikidata.org/wiki/Q16847150"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "5814c18e-27af-4b99-b56d-a88bd5dc3d8e",
+    "title": "II",
+    "date": "2006-03-16",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Drag City",
+      "catno": "DC310"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0362": {
+  "query_artist": "Moon Duo",
+  "query_title": "Occult Architecture Vol. 1",
+  "search_hits": [
+   {
+    "id": "dc5f49b7-e62a-4ff6-9290-957acb19661e",
+    "score": 100,
+    "title": "Occult Architecture, Vol. 1",
+    "artist": "Moon Duo",
+    "first_release_date": "2017-02-03",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "dc5f49b7-e62a-4ff6-9290-957acb19661e",
+   "url": "https://musicbrainz.org/release-group/dc5f49b7-e62a-4ff6-9290-957acb19661e",
+   "title": "Occult Architecture, Vol. 1",
+   "artist": "Moon Duo",
+   "first_release_date": "2017-02-03",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "neo-psychedelia",
+    "noise pop",
+    "psychedelic rock",
+    "rock"
+   ],
+   "tags": [
+    "neo-psychedelia",
+    "noise pop",
+    "psychedelic rock",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/moon-duo/occult-architecture-vol-1/",
+    "https://www.allmusic.com/album/mw0002998929",
+    "https://www.discogs.com/master/1127173"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "5dec868b-a39b-44f7-93f9-a2e9792f8a0f",
+    "title": "Occult Architecture Vol. 1",
+    "date": "2017-02-03",
+    "country": "US",
+    "status": null,
+    "labels": [
+     {
+      "name": "Sacred Bones Records",
+      "catno": "SBR-168"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0360": {
+  "query_artist": "Circle",
+  "query_title": "Pori",
+  "search_hits": [
+   {
+    "id": "34c8cd54-f025-3a18-b411-4e088064ef78",
+    "score": 100,
+    "title": "Pori",
+    "artist": "Circle",
+    "first_release_date": "1998-04",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "958cf609-d3e5-438b-9b76-8059d0d59aa0",
+    "score": 91,
+    "title": "Suur-Pori",
+    "artist": "Circle",
+    "first_release_date": "2013-02-20",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Soundtrack",
+     "Live"
+    ]
+   }
+  ],
+  "match": {
+   "id": "34c8cd54-f025-3a18-b411-4e088064ef78",
+   "url": "https://musicbrainz.org/release-group/34c8cd54-f025-3a18-b411-4e088064ef78",
+   "title": "Pori",
+   "artist": "Circle",
+   "first_release_date": "1998-04",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "rock",
+    "alternative rock",
+    "art rock",
+    "krautrock",
+    "post-rock",
+    "psychedelic rock"
+   ],
+   "tags": [
+    "electronic",
+    "rock",
+    "alternative rock",
+    "art rock",
+    "krautrock",
+    "post-rock",
+    "psychedelic rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/circle/pori/",
+    "https://www.discogs.com/master/81356"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "e67e99b3-1aa6-4021-b0a1-da933076a8fe",
+    "title": "Pori",
+    "date": "1998",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Feldspar Records",
+      "catno": "spar:3"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0648": {
+  "query_artist": "Goat",
+  "query_title": "World Music",
+  "search_hits": [
+   {
+    "id": "9546cb68-06db-4ca0-ac14-0ddf8df889db",
+    "score": 100,
+    "title": "World Music",
+    "artist": "Goat",
+    "first_release_date": "2012-08-20",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "9546cb68-06db-4ca0-ac14-0ddf8df889db",
+   "url": "https://musicbrainz.org/release-group/9546cb68-06db-4ca0-ac14-0ddf8df889db",
+   "title": "World Music",
+   "artist": "Goat",
+   "first_release_date": "2012-08-20",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "krautrock",
+    "afrobeat",
+    "psychedelic",
+    "psychedelic rock",
+    "heavy psych",
+    "zamrock"
+   ],
+   "tags": [
+    "krautrock",
+    "afrobeat",
+    "psychedelic",
+    "psychedelic rock",
+    "afro-rock",
+    "heavy psych",
+    "zamrock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/goat_f6/world_music/",
+    "https://www.allmusic.com/album/mw0002406239",
+    "https://www.bbc.co.uk/music/reviews/jbhf",
+    "https://www.discogs.com/master/464768",
+    "https://www.wikidata.org/wiki/Q24037537"
+   ],
+   "release_count": 8,
+   "earliest_release": {
+    "id": "19780164-09aa-4c72-b8ae-c08d57b5b063",
+    "title": "World Music",
+    "date": "2012",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Rocket Recordings",
+      "catno": "Launch048"
+     },
+     {
+      "name": "Rocket Recordings",
+      "catno": "LAUNCH053"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0453": {
+  "query_artist": "Jessamine",
+  "query_title": "Jessamine",
+  "search_hits": [
+   {
+    "id": "3a1fd39e-f207-335b-8084-e62d18dbea5d",
+    "score": 100,
+    "title": "Jessamine",
+    "artist": "Jessamine",
+    "first_release_date": "1994-11-30",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "3a1fd39e-f207-335b-8084-e62d18dbea5d",
+   "url": "https://musicbrainz.org/release-group/3a1fd39e-f207-335b-8084-e62d18dbea5d",
+   "title": "Jessamine",
+   "artist": "Jessamine",
+   "first_release_date": "1994-11-30",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "psychedelic rock",
+    "rock",
+    "space rock",
+    "space rock revival"
+   ],
+   "tags": [
+    "electronic",
+    "psychedelic rock",
+    "rock",
+    "space rock",
+    "space rock revival"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "6fc04789-b6a6-4042-a088-30b4506f9e42",
+    "title": "Jessamine",
+    "date": "1994-11-30",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "kranky",
+      "catno": "KRANK 003"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0643": {
+  "query_artist": "Bo Ningen",
+  "query_title": "Line The Wall",
+  "search_hits": [
+   {
+    "id": "1f02bb15-e87d-419e-b7d4-7fec014aa224",
+    "score": 100,
+    "title": "Line the Wall",
+    "artist": "Bo Ningen",
+    "first_release_date": "2012-10-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "1f02bb15-e87d-419e-b7d4-7fec014aa224",
+   "url": "https://musicbrainz.org/release-group/1f02bb15-e87d-419e-b7d4-7fec014aa224",
+   "title": "Line the Wall",
+   "artist": "Bo Ningen",
+   "first_release_date": "2012-10-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "psychedelic rock",
+    "rock"
+   ],
+   "tags": [
+    "psychedelic rock",
+    "rock"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "4898942e-2075-4aba-bd2a-880dd0a2f650",
+    "title": "Line the Wall",
+    "date": "2012",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Stolen Recordings",
+      "catno": "SR060"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1118": {
+  "query_artist": "Aphrodite’s Child",
+  "query_title": "666 (The Apocalypse of John, 13/18)",
+  "search_hits": [
+   {
+    "id": "9eb48d7e-2425-32d9-8d0b-54903d4a66be",
+    "score": 100,
+    "title": "666",
+    "artist": "Aphrodite’s Child",
+    "first_release_date": "1972-06",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "840e3bd6-d4e3-431f-9d56-2b715456e938",
+    "score": 84,
+    "title": "End of the World / It’s Five O’Clock / 666",
+    "artist": "Aphrodite’s Child",
+    "first_release_date": "2004",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   },
+   {
+    "id": "21eec65a-caf6-48d0-9b91-03a1ecc0f08f",
+    "score": 75,
+    "title": "The Best of",
+    "artist": "Aphrodite’s Child",
+    "first_release_date": "1994",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   },
+   {
+    "id": "7fcc697a-5ddf-4243-862d-1c73d284f33f",
+    "score": 75,
+    "title": "The Best Of",
+    "artist": "Aphrodite’s Child",
+    "first_release_date": "1994",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   },
+   {
+    "id": "0a81b153-42ce-34ef-be1f-f3ae941039f3",
+    "score": 74,
+    "title": "End of the World",
+    "artist": "Aphrodite’s Child",
+    "first_release_date": "1968-11-06",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "9eb48d7e-2425-32d9-8d0b-54903d4a66be",
+   "url": "https://musicbrainz.org/release-group/9eb48d7e-2425-32d9-8d0b-54903d4a66be",
+   "title": "666",
+   "artist": "Aphrodite’s Child",
+   "first_release_date": "1972-06",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "rock",
+    "progressive",
+    "progressive rock"
+   ],
+   "tags": [
+    "rock",
+    "progressive",
+    "progressive rock",
+    "1–4 wochen",
+    "english",
+    "offizielle charts"
+   ],
+   "urls": [
+    "https://genius.com/albums/Aphrodites-child/666",
+    "https://rateyourmusic.com/release/album/aphrodites-child/666/",
+    "https://www.allmusic.com/album/mw0000501041",
+    "https://www.discogs.com/master/6200",
+    "https://www.last.fm/music/Aphrodite's+Child/666",
+    "https://www.musik-sammler.de/album/80662/",
+    "https://www.offiziellecharts.de/charts/album-details-7526",
+    "https://www.wikidata.org/wiki/Q2031398"
+   ],
+   "release_count": 20,
+   "earliest_release": {
+    "id": "159e895e-8868-4627-b107-55b15c9db11a",
+    "title": "666",
+    "date": "1972",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Vertigo",
+      "catno": "6673 001"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1161": {
+  "query_artist": "Boredoms",
+  "query_title": "Vision Creation Newsun",
+  "search_hits": [
+   {
+    "id": "1c205925-2cfe-35c0-81de-d7ef17df9658",
+    "score": null,
+    "title": "Vision Creation Newsun",
+    "artist": "Boredoms",
+    "first_release_date": null,
+    "primary_type": null,
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "1c205925-2cfe-35c0-81de-d7ef17df9658",
+   "url": "https://musicbrainz.org/release-group/1c205925-2cfe-35c0-81de-d7ef17df9658",
+   "title": "VISION CREATION NEWSUN",
+   "artist": "BOREDOMS",
+   "first_release_date": "1999-10-27",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental rock",
+    "neo-psychedelia",
+    "psychedelic rock",
+    "space rock"
+   ],
+   "tags": [
+    "experimental rock",
+    "neo-psychedelia",
+    "psychedelic rock",
+    "space rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/boredoms/vision-creation-newsun/",
+    "https://www.discogs.com/master/8668",
+    "https://www.wikidata.org/wiki/Q7936147"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "868cc741-e3bc-31bc-9dac-756e35c8f152",
+    "title": "VISION CREATION NEWSUN",
+    "date": "1999-10-27",
+    "country": "JP",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "A.K.A.records",
+      "catno": "WPC6-10044"
+     },
+     {
+      "name": "A.K.A.records",
+      "catno": "WPC6-10045"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "Boredoms",
+   "query_title": "Vision Creation Newsun",
+   "rejected_match": "https://musicbrainz.org/release-group/0626bb5e-f69d-30a2-a42c-12593a4d4878"
+  }
+ },
+ "cand-0654": {
+  "query_artist": "Grumbling Fur",
+  "query_title": "Glynnaestra",
+  "search_hits": [
+   {
+    "id": "98e85d96-092a-4c8e-a41c-65456406a483",
+    "score": 100,
+    "title": "Glynnaestra",
+    "artist": "Grumbling Fur",
+    "first_release_date": "2013-07-23",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "98e85d96-092a-4c8e-a41c-65456406a483",
+   "url": "https://musicbrainz.org/release-group/98e85d96-092a-4c8e-a41c-65456406a483",
+   "title": "Glynnaestra",
+   "artist": "Grumbling Fur",
+   "first_release_date": "2013-07-23",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "psychedelic rock",
+    "rock",
+    "synth-pop"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "psychedelic rock",
+    "rock",
+    "synth-pop"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "8a8eda26-4f02-4683-b118-e538c8c56f53",
+    "title": "Glynnaestra",
+    "date": "2013-07-23",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Thrill Jockey",
+      "catno": "Thrill 341"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1274": {
+  "query_artist": "Cluster",
+  "query_title": "II",
+  "search_hits": [
+   {
+    "id": "6a12c5ee-2a74-3036-891f-99ac0c6638bd",
+    "score": 100,
+    "title": "Cluster II",
+    "artist": "Cluster",
+    "first_release_date": "1972",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "6a12c5ee-2a74-3036-891f-99ac0c6638bd",
+   "url": "https://musicbrainz.org/release-group/6a12c5ee-2a74-3036-891f-99ac0c6638bd",
+   "title": "Cluster II",
+   "artist": "Cluster",
+   "first_release_date": "1972",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "ambient",
+    "krautrock",
+    "progressive electronic"
+   ],
+   "tags": [
+    "electronic",
+    "ambient",
+    "krautrock",
+    "progressive electronic"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/Cluster_II_(album)",
+    "https://www.discogs.com/master/9927",
+    "https://www.wikidata.org/wiki/Q29203"
+   ],
+   "release_count": 8,
+   "earliest_release": {
+    "id": "c1804e30-7be7-47fb-901d-3065136e9f76",
+    "title": "Cluster II",
+    "date": "1972",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Brain",
+      "catno": "BRAIN 1006"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1275": {
+  "query_artist": "Kraftwerk",
+  "query_title": "Ralf Und Florian",
+  "search_hits": [
+   {
+    "id": "6d2f3c22-7f2f-3076-9005-96c6540616f7",
+    "score": 100,
+    "title": "Ralf & Florian",
+    "artist": "Kraftwerk",
+    "first_release_date": "1973",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "fdbf3521-552f-400e-a94c-d819a0e6f34e",
+    "score": 58,
+    "title": "Kraftwerk 2 / Ralph and Florian",
+    "artist": "Kraftwerk",
+    "first_release_date": "2003",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   },
+   {
+    "id": "38aaca58-4e2d-439e-ac8a-112d4afc2e97",
+    "score": 51,
+    "title": "Pop Und Avantgarde",
+    "artist": "Kraftwerk",
+    "first_release_date": "2025-07-04",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "8ac80c60-1121-46fa-90a0-e8f7ba81a347",
+    "score": 46,
+    "title": "Kling und Klang: Live a Milano 1991",
+    "artist": "Kraftwerk",
+    "first_release_date": "1997",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   }
+  ],
+  "match": {
+   "id": "6d2f3c22-7f2f-3076-9005-96c6540616f7",
+   "url": "https://musicbrainz.org/release-group/6d2f3c22-7f2f-3076-9005-96c6540616f7",
+   "title": "Ralf & Florian",
+   "artist": "Kraftwerk",
+   "first_release_date": "1973",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electro",
+    "electronic",
+    "experimental",
+    "progressive electronic"
+   ],
+   "tags": [
+    "electro",
+    "electronic",
+    "experimental",
+    "progressive electronic"
+   ],
+   "urls": [
+    "https://genius.com/albums/Kraftwerk/Ralf-und-florian",
+    "https://rateyourmusic.com/release/album/kraftwerk/ralf_and_florian/",
+    "https://www.discogs.com/master/30519",
+    "https://www.musik-sammler.de/album/22836/",
+    "https://www.wikidata.org/wiki/Q523793"
+   ],
+   "release_count": 9,
+   "earliest_release": {
+    "id": "e4d727d2-e71a-47ee-8203-3ba14c1df659",
+    "title": "Ralf & Florian",
+    "date": "1973",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Philips",
+      "catno": "6305 197"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1192": {
+  "query_artist": "Can",
+  "query_title": "Delay 1968",
+  "search_hits": [
+   {
+    "id": "a6dd321d-9bf4-3c17-8946-137642e50578",
+    "score": 100,
+    "title": "Delay 1968",
+    "artist": "CAN",
+    "first_release_date": "1981",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "a6dd321d-9bf4-3c17-8946-137642e50578",
+   "url": "https://musicbrainz.org/release-group/a6dd321d-9bf4-3c17-8946-137642e50578",
+   "title": "Delay 1968",
+   "artist": "CAN",
+   "first_release_date": "1981",
+   "primary_type": "Album",
+   "secondary_types": [
+    "Compilation"
+   ],
+   "genres": [
+    "krautrock",
+    "rock",
+    "progressive rock"
+   ],
+   "tags": [
+    "krautrock",
+    "rock",
+    "progressive rock"
+   ],
+   "urls": [
+    "https://genius.com/albums/Can/Delay-1968",
+    "https://rateyourmusic.com/release/album/can/delay-1968/",
+    "https://www.allmusic.com/album/mw0000204687",
+    "https://www.discogs.com/master/16327",
+    "https://www.musik-sammler.de/album/36558/",
+    "https://www.progarchives.com/album.asp?id=3520",
+    "https://www.wikidata.org/wiki/Q5253467"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "297f494a-8e80-349e-bae4-61fa32079ec6",
+    "title": "Delay 1968",
+    "date": "1981",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Spoon Records",
+      "catno": "SPOON 012"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1062": {
+  "query_artist": "Manuel Göttsching",
+  "query_title": "E2-E4",
+  "search_hits": [
+   {
+    "id": "07ecedf1-6af6-3fee-b794-60946f503def",
+    "score": 100,
+    "title": "E2‐E4",
+    "artist": "Manuel Göttsching",
+    "first_release_date": "1984",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "79d2a1cd-d6c7-468e-9d8f-718ce7567f9a",
+    "score": 93,
+    "title": "E2-E4 Live",
+    "artist": "Manuel Göttsching",
+    "first_release_date": "2005-11-11",
+    "primary_type": "Single",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "ae5f6554-23d4-494d-b4a5-6d2d56309342",
+    "score": 84,
+    "title": "E2-E4 Live In Japan",
+    "artist": "Manuel Göttsching",
+    "first_release_date": "2009-08-05",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "34753b27-4d10-423b-b822-c65d8cddc7e0",
+    "score": 60,
+    "title": "Chill House Vol. 6 / E2-E4",
+    "artist": "Various Artists / Manuel Göttsching",
+    "first_release_date": "2001-06-06",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "07ecedf1-6af6-3fee-b794-60946f503def",
+   "url": "https://musicbrainz.org/release-group/07ecedf1-6af6-3fee-b794-60946f503def",
+   "title": "E2‐E4",
+   "artist": "Manuel Göttsching",
+   "first_release_date": "1984",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "electronic",
+    "berlin school",
+    "experimental"
+   ],
+   "tags": [
+    "ambient",
+    "electronic",
+    "minimal",
+    "berlin school",
+    "experimental"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/manuel_gottsching/e2_e4/",
+    "https://www.allmusic.com/album/mw0000061584",
+    "https://www.discogs.com/master/2786",
+    "https://www.wikidata.org/wiki/Q1273664"
+   ],
+   "release_count": 11,
+   "earliest_release": {
+    "id": "7d92a39f-0455-43b7-80f3-f6a917fc4f2a",
+    "title": "E2‐E4",
+    "date": "1984",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Inteam GmbH",
+      "catno": "ID 20.004"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0316": {
+  "query_artist": "Cozmic Corridors",
+  "query_title": "Cozmic Corridors",
+  "search_hits": [
+   {
+    "id": "33d081cb-3144-4ece-aa55-dc4d168ef7c2",
+    "score": 100,
+    "title": "Cozmic Corridors",
+    "artist": "Cozmic Corridors",
+    "first_release_date": "1996",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "33d081cb-3144-4ece-aa55-dc4d168ef7c2",
+   "url": "https://musicbrainz.org/release-group/33d081cb-3144-4ece-aa55-dc4d168ef7c2",
+   "title": "Cozmic Corridors",
+   "artist": "Cozmic Corridors",
+   "first_release_date": "1996",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "electronic",
+    "krautrock",
+    "rock"
+   ],
+   "tags": [
+    "ambient",
+    "electronic",
+    "krautrock",
+    "rock"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "e80ea5ab-fb06-439a-bb47-e1dbb53f0064",
+    "title": "Cozmic Corridors",
+    "date": "1996",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Psi-fi",
+      "catno": "PSCD0001"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0128": {
+  "query_artist": "Cavern of Anti-Matter",
+  "query_title": "Hormone Lemonade",
+  "search_hits": [
+   {
+    "id": "c3e89e9f-e2a3-4566-b7cc-a2114a938409",
+    "score": 100,
+    "title": "Hormone Lemonade",
+    "artist": "Cavern of Anti‐Matter",
+    "first_release_date": "2018-03-23",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "c3e89e9f-e2a3-4566-b7cc-a2114a938409",
+   "url": "https://musicbrainz.org/release-group/c3e89e9f-e2a3-4566-b7cc-a2114a938409",
+   "title": "Hormone Lemonade",
+   "artist": "Cavern of Anti‐Matter",
+   "first_release_date": "2018-03-23",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental rock",
+    "indie rock",
+    "krautrock",
+    "rock",
+    "synth-pop"
+   ],
+   "tags": [
+    "electronic",
+    "experimental rock",
+    "indie rock",
+    "krautrock",
+    "rock",
+    "synth-pop"
+   ],
+   "urls": [
+    "https://genius.com/albums/Cavern-of-anti-matter/Hormone-lemonade",
+    "https://rateyourmusic.com/release/album/cavern-of-anti-matter/hormone-lemonade/",
+    "https://www.allmusic.com/album/mw0003142497",
+    "https://www.discogs.com/master/1331428"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "813e1b14-9c06-47c9-af41-aed6e64d681c",
+    "title": "Hormone Lemonade",
+    "date": "2018-03-23",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Duophonic",
+      "catno": "DUHFCD38"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1279": {
+  "query_artist": "Fuck Buttons",
+  "query_title": "Tarot Sport",
+  "search_hits": [
+   {
+    "id": "ae8add31-2b86-4757-adbf-9c1b34e0635b",
+    "score": 100,
+    "title": "Tarot Sport",
+    "artist": "Fuck Buttons",
+    "first_release_date": "2009-10-12",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "ae8add31-2b86-4757-adbf-9c1b34e0635b",
+   "url": "https://musicbrainz.org/release-group/ae8add31-2b86-4757-adbf-9c1b34e0635b",
+   "title": "Tarot Sport",
+   "artist": "Fuck Buttons",
+   "first_release_date": "2009-10-12",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "rock"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "post rock",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/fuck_buttons/tarot_sport/",
+    "https://www.bbc.co.uk/music/reviews/82n8",
+    "https://www.discogs.com/master/190836",
+    "https://www.wikidata.org/wiki/Q7686566"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "b4d8754e-e113-47e4-ad28-fcd5fbb65829",
+    "title": "Tarot Sport",
+    "date": "2009-10",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "ATP Recordings",
+      "catno": "ATPRLP35"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0657": {
+  "query_artist": "Factory Floor",
+  "query_title": "Factory Floor",
+  "search_hits": [
+   {
+    "id": "eb1830eb-b119-4bbf-a847-7c16863e36e8",
+    "score": 100,
+    "title": "Factory Floor",
+    "artist": "Factory Floor",
+    "first_release_date": "2013-09-09",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "eb1830eb-b119-4bbf-a847-7c16863e36e8",
+   "url": "https://musicbrainz.org/release-group/eb1830eb-b119-4bbf-a847-7c16863e36e8",
+   "title": "Factory Floor",
+   "artist": "Factory Floor",
+   "first_release_date": "2013-09-09",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electro",
+    "electronic",
+    "electronic rock",
+    "leftfield",
+    "post-punk",
+    "rock",
+    "techno"
+   ],
+   "tags": [
+    "electro",
+    "electronic",
+    "electronic rock",
+    "leftfield",
+    "podcast",
+    "post-punk",
+    "rock",
+    "techno"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/Factory_Floor_(album)",
+    "https://rateyourmusic.com/release/album/factory_floor/factory_floor/",
+    "https://www.allmusic.com/album/mw0002556858",
+    "https://www.discogs.com/master/594304",
+    "https://www.wikidata.org/wiki/Q16257407"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "cc022160-25a5-41b1-9172-7ca0ea4c30f6",
+    "title": "Factory Floor",
+    "date": "2013-09-09",
+    "country": "AF",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "DFA Records",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0873": {
+  "query_artist": "GNOD",
+  "query_title": "Infinity Machines",
+  "search_hits": [
+   {
+    "id": "fd4cd5c1-8d9a-4b9e-8e4e-454bd9e74b02",
+    "score": 100,
+    "title": "Infinity Machines",
+    "artist": "Gnod",
+    "first_release_date": "2015-04-20",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "fd4cd5c1-8d9a-4b9e-8e4e-454bd9e74b02",
+   "url": "https://musicbrainz.org/release-group/fd4cd5c1-8d9a-4b9e-8e4e-454bd9e74b02",
+   "title": "Infinity Machines",
+   "artist": "Gnod",
+   "first_release_date": "2015-04-20",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "avant-garde",
+    "drone",
+    "dub",
+    "electronic",
+    "experimental",
+    "free jazz",
+    "jazz",
+    "leftfield",
+    "noise",
+    "rock"
+   ],
+   "tags": [
+    "ambient",
+    "avant-garde",
+    "drone",
+    "dub",
+    "electronic",
+    "experimental",
+    "free jazz",
+    "jazz",
+    "leftfield",
+    "noise",
+    "rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0002836742",
+    "https://www.discogs.com/master/829578"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "0e98dee0-d76c-4245-a1f8-043c0d53facb",
+    "title": "Infinity Machines",
+    "date": "2015-04-20",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Rocket Recordings",
+      "catno": "Launch 072"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0954": {
+  "query_artist": "Innercity Ensemble",
+  "query_title": "III",
+  "search_hits": [
+   {
+    "id": "aaffe083-3908-4bcb-8d72-f9ee23fc68d3",
+    "score": 100,
+    "title": "III",
+    "artist": "Innercity Ensemble",
+    "first_release_date": "2016-10-20",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "aaffe083-3908-4bcb-8d72-f9ee23fc68d3",
+   "url": "https://musicbrainz.org/release-group/aaffe083-3908-4bcb-8d72-f9ee23fc68d3",
+   "title": "III",
+   "artist": "Innercity Ensemble",
+   "first_release_date": "2016-10-20",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "experimental",
+    "noise"
+   ],
+   "tags": [
+    "ambient",
+    "experimental",
+    "noise"
+   ],
+   "urls": [],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "446fb44c-4b2f-407c-a72a-b4b17df28c57",
+    "title": "III",
+    "date": "2016-10-20",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Instant Classic",
+      "catno": "MA23"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1107": {
+  "query_artist": "Stereolab",
+  "query_title": "Cobra And Phases Group Play Voltage In The Milky Night",
+  "search_hits": [
+   {
+    "id": "48834f45-dfb1-3e67-b456-1b233e3380c4",
+    "score": 100,
+    "title": "Cobra and Phases Group Play Voltage in the Milky Night",
+    "artist": "Stereolab",
+    "first_release_date": "1999-09-15",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "48834f45-dfb1-3e67-b456-1b233e3380c4",
+   "url": "https://musicbrainz.org/release-group/48834f45-dfb1-3e67-b456-1b233e3380c4",
+   "title": "Cobra and Phases Group Play Voltage in the Milky Night",
+   "artist": "Stereolab",
+   "first_release_date": "1999-09-15",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "indie rock",
+    "jazz",
+    "pop",
+    "rock"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "indie rock",
+    "jazz",
+    "pop",
+    "rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000245572",
+    "https://www.discogs.com/master/30676",
+    "https://www.wikidata.org/wiki/Q2981179"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "a3d8c286-b1d3-3dfe-9333-f3c7dadaf3bb",
+    "title": "Cobra and Phases Group Play Voltage in the Milky Night",
+    "date": "1999",
+    "country": "XE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Elektra",
+      "catno": "7559-62465-2"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1053": {
+  "query_artist": "Spacemen 3",
+  "query_title": "The Perfect Prescription",
+  "search_hits": [
+   {
+    "id": "d2e3c169-3f87-3ffe-bc88-ad95386cc378",
+    "score": 100,
+    "title": "The Perfect Prescription",
+    "artist": "Spacemen 3",
+    "first_release_date": "1987",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d2e3c169-3f87-3ffe-bc88-ad95386cc378",
+   "url": "https://musicbrainz.org/release-group/d2e3c169-3f87-3ffe-bc88-ad95386cc378",
+   "title": "The Perfect Prescription",
+   "artist": "Spacemen 3",
+   "first_release_date": "1987",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "rock",
+    "indie rock",
+    "neo-psychedelia",
+    "pop",
+    "psychedelic rock"
+   ],
+   "tags": [
+    "rock",
+    "indie rock",
+    "neo-psychedelia",
+    "pop",
+    "psychedelic rock"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/The_Perfect_Prescription",
+    "https://www.discogs.com/master/31523",
+    "https://www.wikidata.org/wiki/Q6145016"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "1292a5c1-7c6d-4e22-9d4d-d99876517e03",
+    "title": "The Perfect Prescription",
+    "date": "1987",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Glass Records",
+      "catno": "GLALP 026"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0618": {
+  "query_artist": "Oren Ambarchi",
+  "query_title": "Sagittarian Domain",
+  "search_hits": [
+   {
+    "id": "6a007736-210e-4aee-93b9-13080015af28",
+    "score": 100,
+    "title": "Sagittarian Domain",
+    "artist": "Oren Ambarchi",
+    "first_release_date": "2012-08-28",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "6a007736-210e-4aee-93b9-13080015af28",
+   "url": "https://musicbrainz.org/release-group/6a007736-210e-4aee-93b9-13080015af28",
+   "title": "Sagittarian Domain",
+   "artist": "Oren Ambarchi",
+   "first_release_date": "2012-08-28",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "rock"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/465728"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "f715e93f-dceb-4772-8458-d04cc6f75b3d",
+    "title": "Sagittarian Domain",
+    "date": "2012-08-28",
+    "country": "AT",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Editions Mego",
+      "catno": "eMEGO 144"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0109": {
+  "query_artist": "Dazzling Killmen",
+  "query_title": "Face of Collapse: Deluxe Edition",
+  "search_hits": [
+   {
+    "id": "621e2c02-3d00-376b-9d65-4dcedb372b03",
+    "score": 100,
+    "title": "Face of Collapse",
+    "artist": "Dazzling Killmen",
+    "first_release_date": "1994",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "535ce9ee-506d-4599-8baa-3a72c9e7c137",
+    "score": 36,
+    "title": "Dog Face",
+    "artist": "Dazzling Dee and Disco Dave",
+    "first_release_date": "1986",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "96e958a0-390c-4057-8c49-b2b809a0d12d",
+    "score": 32,
+    "title": "2012 SBS 가요대전 The Color of K-Pop",
+    "artist": "Dazzling Red",
+    "first_release_date": "2012-12-27",
+    "primary_type": "Single",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "621e2c02-3d00-376b-9d65-4dcedb372b03",
+   "url": "https://musicbrainz.org/release-group/621e2c02-3d00-376b-9d65-4dcedb372b03",
+   "title": "Face of Collapse",
+   "artist": "Dazzling Killmen",
+   "first_release_date": "1994",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "jazz rock",
+    "math rock",
+    "noise",
+    "rock"
+   ],
+   "tags": [
+    "jazz rock",
+    "math rock",
+    "noise",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/dazzling-killmen/face-of-collapse-3/",
+    "https://www.albumoftheyear.org/album/51352-dazzling-killmen-face-of-collapse.php",
+    "https://www.allmusic.com/album/mw0000116478",
+    "https://www.discogs.com/master/113757",
+    "https://www.last.fm/music/Dazzling+Killmen/Face+of+Collapse",
+    "https://www.wikidata.org/wiki/Q16991991"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "17be69f5-c0a2-47eb-8c52-07054f73a9e1",
+    "title": "Face of Collapse",
+    "date": "1994",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Skin Graft Records",
+      "catno": "GR 12CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0107": {
+  "query_artist": "Breadwinner",
+  "query_title": "Burner",
+  "search_hits": [
+   {
+    "id": "df47d1f5-418c-3aa0-9d6e-4f3fc718c9e7",
+    "score": 100,
+    "title": "The Burner",
+    "artist": "Breadwinner",
+    "first_release_date": "1994-03-14",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "df47d1f5-418c-3aa0-9d6e-4f3fc718c9e7",
+   "url": "https://musicbrainz.org/release-group/df47d1f5-418c-3aa0-9d6e-4f3fc718c9e7",
+   "title": "The Burner",
+   "artist": "Breadwinner",
+   "first_release_date": "1994-03-14",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "math rock",
+    "heavy metal",
+    "rock"
+   ],
+   "tags": [
+    "math rock",
+    "heavy metal",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/678175"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "dac63be1-2383-4ab4-8749-c0c3285ce9fa",
+    "title": "The Burner",
+    "date": "1994-03-14",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Merge Records",
+      "catno": "MRG-052CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1230": {
+  "query_artist": "Men’s Recovery Project",
+  "query_title": "Bolides Over Basra",
+  "search_hits": [
+   {
+    "id": "760e56a9-ccd2-32e9-b748-8c7a6761e117",
+    "score": 100,
+    "title": "Bolides Over Basra",
+    "artist": "Men’s Recovery Project",
+    "first_release_date": "2000",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "760e56a9-ccd2-32e9-b748-8c7a6761e117",
+   "url": "https://musicbrainz.org/release-group/760e56a9-ccd2-32e9-b748-8c7a6761e117",
+   "title": "Bolides Over Basra",
+   "artist": "Men’s Recovery Project",
+   "first_release_date": "2000",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [
+    "https://www.discogs.com/master/50847"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "5d029bf1-3644-4184-bfc5-b01f501f791c",
+    "title": "Bolides Over Basra",
+    "date": "2000",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Load Records",
+      "catno": "Load 020"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1109": {
+  "query_artist": "Storm & Stress",
+  "query_title": "Under Thunder And Fluorescent Lights",
+  "search_hits": [
+   {
+    "id": "c46f3cc4-96fb-3b26-8f28-27c0f8da99e2",
+    "score": 100,
+    "title": "Under Thunder and Fluorescent Light",
+    "artist": "Storm and Stress",
+    "first_release_date": "2000-01-17",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "e14d088b-782e-422b-974c-e5520d0579d0",
+    "score": 40,
+    "title": "Fluorescent",
+    "artist": "Broshi & Hypedelic",
+    "first_release_date": "2024-11-18",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "842ef51d-8d85-4d53-a1e4-e4204db27821",
+    "score": 40,
+    "title": "Fluorescent",
+    "artist": "luv pug & cxlt.",
+    "first_release_date": "2022-03-11",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "0e20a2fa-63df-4de4-a7a4-3319665a1552",
+    "score": 38,
+    "title": "Under the Lights",
+    "artist": "tiffny & avii",
+    "first_release_date": "2025-12-19",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "3f7a5806-64a0-4bda-9b28-501743ec2e1c",
+    "score": 37,
+    "title": "Under Bright Lights",
+    "artist": "TWERL & Ekko & Sidetrack ft. Indy Skies",
+    "first_release_date": "2022-03-25",
+    "primary_type": "Single",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "c46f3cc4-96fb-3b26-8f28-27c0f8da99e2",
+   "url": "https://musicbrainz.org/release-group/c46f3cc4-96fb-3b26-8f28-27c0f8da99e2",
+   "title": "Under Thunder and Fluorescent Light",
+   "artist": "Storm and Stress",
+   "first_release_date": "2000-01-17",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "art rock",
+    "experimental",
+    "free improvisation",
+    "jazz",
+    "post-rock",
+    "rock"
+   ],
+   "tags": [
+    "art rock",
+    "experimental",
+    "free improvisation",
+    "jazz",
+    "post-rock",
+    "rock"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "f93765ca-c918-496d-87cf-e7629c16928d",
+    "title": "Under Thunder and Fluorescent Light",
+    "date": "2000-01-17",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Touch and Go Records",
+      "catno": "tg203cd"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1080": {
+  "query_artist": "Rudolph Grey",
+  "query_title": "Mask Of Light",
+  "search_hits": [
+   {
+    "id": "bfab23b5-e358-320b-84dd-b98a8d4fe52b",
+    "score": 100,
+    "title": "Mask of Light",
+    "artist": "Rudolph Grey",
+    "first_release_date": "1991",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "bfab23b5-e358-320b-84dd-b98a8d4fe52b",
+   "url": "https://musicbrainz.org/release-group/bfab23b5-e358-320b-84dd-b98a8d4fe52b",
+   "title": "Mask of Light",
+   "artist": "Rudolph Grey",
+   "first_release_date": "1991",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "862d10e4-8aac-41db-9f26-8be17a168945",
+    "title": "Mask of Light",
+    "date": "1991",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Ecstatic Peace!",
+      "catno": "E#10"
+     },
+     {
+      "name": "New Alliance Records",
+      "catno": "NAR CD 050"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1313": {
+  "query_artist": "This Heat",
+  "query_title": "Deceit",
+  "search_hits": [
+   {
+    "id": "db33265e-8494-32f1-8892-4fa0add9cf16",
+    "score": 100,
+    "title": "Deceit",
+    "artist": "This Heat",
+    "first_release_date": "1981",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "db33265e-8494-32f1-8892-4fa0add9cf16",
+   "url": "https://musicbrainz.org/release-group/db33265e-8494-32f1-8892-4fa0add9cf16",
+   "title": "Deceit",
+   "artist": "This Heat",
+   "first_release_date": "1981",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental rock",
+    "post-punk",
+    "avant-garde",
+    "experimental",
+    "art rock",
+    "avant-folk",
+    "avant-prog",
+    "industrial",
+    "musique concrète",
+    "post-rock",
+    "rock",
+    "tape music"
+   ],
+   "tags": [
+    "experimental rock",
+    "post-punk",
+    "avant-garde",
+    "experimental",
+    "art rock",
+    "avant-folk",
+    "avant-prog",
+    "industrial",
+    "musique concrète",
+    "post-rock",
+    "rock",
+    "tape music"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/this_heat/deceit/",
+    "https://www.allmusic.com/album/mw0000073264",
+    "https://www.discogs.com/master/86166",
+    "https://www.progarchives.com/album.asp?id=12040",
+    "https://www.wikidata.org/wiki/Q3020983"
+   ],
+   "release_count": 6,
+   "earliest_release": {
+    "id": "fa6ee78b-1677-4135-ac80-2a1c8855fc99",
+    "title": "Deceit",
+    "date": "1981",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Rough Trade",
+      "catno": "ROUGH 26"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1112": {
+  "query_artist": "The Fall",
+  "query_title": "Hex Enduction Hour",
+  "search_hits": [
+   {
+    "id": "71d6b717-75e8-373c-a482-32c58c241b35",
+    "score": 100,
+    "title": "Hex Enduction Hour",
+    "artist": "The Fall",
+    "first_release_date": "1982-03-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "71d6b717-75e8-373c-a482-32c58c241b35",
+   "url": "https://musicbrainz.org/release-group/71d6b717-75e8-373c-a482-32c58c241b35",
+   "title": "Hex Enduction Hour",
+   "artist": "The Fall",
+   "first_release_date": "1982-03-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "post-punk",
+    "indie rock",
+    "rock"
+   ],
+   "tags": [
+    "post-punk",
+    "indie rock",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/the-fall/hex-enduction-hour/",
+    "https://www.allmusic.com/album/mw0000652913",
+    "https://www.discogs.com/master/19232",
+    "https://www.wikidata.org/wiki/Q1943772"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "114855e0-b472-4f52-a460-6de1b2e2506a",
+    "title": "Hex Enduction Hour",
+    "date": "1982-03-08",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Kamera Records",
+      "catno": "KAM 005"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0067": {
+  "query_artist": "Eddy Current Suppression Ring",
+  "query_title": "Primary Colours",
+  "search_hits": [
+   {
+    "id": "c9b2d7e7-6814-31f2-b06f-7b5ea3b8de7d",
+    "score": 100,
+    "title": "Primary Colours",
+    "artist": "Eddy Current Suppression Ring",
+    "first_release_date": "2008-05-05",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "0b19abf6-503b-41f1-b72b-9b85a9773b10",
+    "score": 94,
+    "title": "Primary Colours +",
+    "artist": "Eddy Current Suppression Ring",
+    "first_release_date": "2009-08-17",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "c9b2d7e7-6814-31f2-b06f-7b5ea3b8de7d",
+   "url": "https://musicbrainz.org/release-group/c9b2d7e7-6814-31f2-b06f-7b5ea3b8de7d",
+   "title": "Primary Colours",
+   "artist": "Eddy Current Suppression Ring",
+   "first_release_date": "2008-05-05",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "garage rock",
+    "punk",
+    "rock"
+   ],
+   "tags": [
+    "garage rock",
+    "punk",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/eddy_current_suppression_ring/primary_colours/",
+    "https://www.allmusic.com/album/mw0000818796",
+    "https://www.discogs.com/master/290310"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "5ec6e62a-4b6b-498d-9507-b2d66b7c975d",
+    "title": "Primary Colours",
+    "date": "2008",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Goner Records",
+      "catno": "41 GONE"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0879": {
+  "query_artist": "Hey Colossus",
+  "query_title": "Radio Static High",
+  "search_hits": [
+   {
+    "id": "51f01aed-8613-454b-ba7a-885a5148262f",
+    "score": 100,
+    "title": "Radio Static High",
+    "artist": "Hey Colossus",
+    "first_release_date": "2015-10-02",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "51f01aed-8613-454b-ba7a-885a5148262f",
+   "url": "https://musicbrainz.org/release-group/51f01aed-8613-454b-ba7a-885a5148262f",
+   "title": "Radio Static High",
+   "artist": "Hey Colossus",
+   "first_release_date": "2015-10-02",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "doom metal",
+    "hard rock",
+    "krautrock",
+    "post-rock",
+    "psychedelic rock",
+    "rock",
+    "space rock"
+   ],
+   "tags": [
+    "doom metal",
+    "hard rock",
+    "krautrock",
+    "post-rock",
+    "psychedelic rock",
+    "rock",
+    "space rock"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "f5be107d-4f98-43da-8601-f8a2865e2151",
+    "title": "Radio Static High",
+    "date": "2015-10-02",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Rocket Recordings",
+      "catno": "LAUNCH083"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0974": {
+  "query_artist": "Sex Swing",
+  "query_title": "Sex Swing",
+  "search_hits": [
+   {
+    "id": "0b76f493-7df3-4cc6-a50e-1eebaa5c5956",
+    "score": 100,
+    "title": "Sex Swing",
+    "artist": "Sex Swing",
+    "first_release_date": "2016-11-25",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "0b76f493-7df3-4cc6-a50e-1eebaa5c5956",
+   "url": "https://musicbrainz.org/release-group/0b76f493-7df3-4cc6-a50e-1eebaa5c5956",
+   "title": "Sex Swing",
+   "artist": "Sex Swing",
+   "first_release_date": "2016-11-25",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental",
+    "noise",
+    "rock"
+   ],
+   "tags": [
+    "experimental",
+    "noise",
+    "rock"
+   ],
+   "urls": [],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "ac1f0c6f-9958-44a6-8b7c-15d0fb9a91fc",
+    "title": "Sex Swing",
+    "date": "2016-11-25",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "The Quietus Phonographic Corporation",
+      "catno": "GID007CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0952": {
+  "query_artist": "Årabrot",
+  "query_title": "The Gospel",
+  "search_hits": [
+   {
+    "id": "52c6c9a1-4d7e-4579-b631-96ba9435033b",
+    "score": 100,
+    "title": "The Gospel",
+    "artist": "Årabrot",
+    "first_release_date": "2016-02-26",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "52c6c9a1-4d7e-4579-b631-96ba9435033b",
+   "url": "https://musicbrainz.org/release-group/52c6c9a1-4d7e-4579-b631-96ba9435033b",
+   "title": "The Gospel",
+   "artist": "Årabrot",
+   "first_release_date": "2016-02-26",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "noise",
+    "alternative rock",
+    "doom metal",
+    "experimental",
+    "rock"
+   ],
+   "tags": [
+    "noise",
+    "alternative rock",
+    "doom metal",
+    "experimental",
+    "rock"
+   ],
+   "urls": [
+    "https://genius.com/albums/Arabrot/The-gospel",
+    "https://rateyourmusic.com/release/album/arabrot/the-gospel/",
+    "https://www.allmusic.com/album/mw0002911853",
+    "https://www.discogs.com/master/967777",
+    "https://www.metalmusicarchives.com/album/arabrot/the-gospel",
+    "https://www.musik-sammler.de/album/795478/",
+    "https://www.spirit-of-metal.com/en/album/The_Gospel/312803"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "050bd781-9a8c-4b65-8c8e-f17db0fd05d6",
+    "title": "The Gospel",
+    "date": "2016",
+    "country": "NO",
+    "status": null,
+    "labels": [
+     {
+      "name": "Fysisk Format",
+      "catno": "FY090LP"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0529": {
+  "query_artist": "Kowloon Walled City",
+  "query_title": "Container Ships",
+  "search_hits": [
+   {
+    "id": "f8ea1b69-0dbf-44cc-895e-1db5d717f115",
+    "score": 100,
+    "title": "Container Ships",
+    "artist": "Kowloon Walled City",
+    "first_release_date": "2012-12-04",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "f8ea1b69-0dbf-44cc-895e-1db5d717f115",
+   "url": "https://musicbrainz.org/release-group/f8ea1b69-0dbf-44cc-895e-1db5d717f115",
+   "title": "Container Ships",
+   "artist": "Kowloon Walled City",
+   "first_release_date": "2012-12-04",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "noise",
+    "rock"
+   ],
+   "tags": [
+    "noise",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/499074"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "2111327a-0a1b-4bf9-8049-69afad52fdeb",
+    "title": "Container Ships",
+    "date": "2012-12-04",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Brutal Panda Records",
+      "catno": "BPR-17"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1367": {
+  "query_artist": "A.R. Kane",
+  "query_title": "69",
+  "search_hits": [
+   {
+    "id": "c85dfe0a-81aa-34dc-ab74-e517ddb3321d",
+    "score": 100,
+    "title": "69",
+    "artist": "A.R. Kane",
+    "first_release_date": "1988",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "c85dfe0a-81aa-34dc-ab74-e517ddb3321d",
+   "url": "https://musicbrainz.org/release-group/c85dfe0a-81aa-34dc-ab74-e517ddb3321d",
+   "title": "69",
+   "artist": "A.R. Kane",
+   "first_release_date": "1988",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "dream pop",
+    "electronic",
+    "experimental",
+    "indie rock",
+    "rock"
+   ],
+   "tags": [
+    "dream pop",
+    "electronic",
+    "experimental",
+    "indie rock",
+    "oceanic",
+    "rock"
+   ],
+   "urls": [
+    "https://pitchfork.com/reviews/albums/ar-kane-69/",
+    "https://rateyourmusic.com/release/album/a_r__kane/69/"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "fe5407d9-ae08-4d83-ab10-3b296ff3a1bb",
+    "title": "69",
+    "date": "1988",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Rough Trade",
+      "catno": "ROUGH 119 CD"
+     },
+     {
+      "name": "Rough Trade",
+      "catno": "Rough cd 119"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1358": {
+  "query_artist": "Dif Juz",
+  "query_title": "Out Of The Trees",
+  "search_hits": [
+   {
+    "id": "0184f0f0-0c28-48fe-8e1c-5c99efb511cb",
+    "score": 100,
+    "title": "Out of the Trees",
+    "artist": "Dif Juz",
+    "first_release_date": "1986-11",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "0184f0f0-0c28-48fe-8e1c-5c99efb511cb",
+   "url": "https://musicbrainz.org/release-group/0184f0f0-0c28-48fe-8e1c-5c99efb511cb",
+   "title": "Out of the Trees",
+   "artist": "Dif Juz",
+   "first_release_date": "1986-11",
+   "primary_type": "Album",
+   "secondary_types": [
+    "Compilation"
+   ],
+   "genres": [
+    "post-rock",
+    "rock"
+   ],
+   "tags": [
+    "post-rock",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/17131"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "4b79a42f-6e16-4c3f-814b-8a90113f7946",
+    "title": "Out of the Trees",
+    "date": "1986-11",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "4AD",
+      "catno": "MAD 612"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0095": {
+  "query_artist": "Flying Saucer Attack",
+  "query_title": "Flying Saucer Attack (aka Rural Psychedelia)",
+  "search_hits": [
+   {
+    "id": "1d98e158-dfcf-3723-87d4-abcc8c48c143",
+    "score": 100,
+    "title": "Flying Saucer Attack",
+    "artist": "Flying Saucer Attack",
+    "first_release_date": "1993",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "ce348990-2769-4dc3-bca4-f2e4c4b61509",
+    "score": 70,
+    "title": "Cowboy Flying Saucer",
+    "artist": "Cowboy Flying Saucer",
+    "first_release_date": "2017-07-01",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "75016029-e5cf-4989-ab7f-89cd14650b47",
+    "score": 56,
+    "title": "Saucer",
+    "artist": "Saucer",
+    "first_release_date": "1994",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "e9f334df-e441-3065-968d-320b1184e718",
+    "score": 44,
+    "title": "Attack! Attack!",
+    "artist": "Attack! Attack!",
+    "first_release_date": "2008-10-06",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "ae3caf40-3b60-4039-9ff0-e83c788ba3ab",
+    "score": 44,
+    "title": "Attack Attack!",
+    "artist": "Attack Attack!",
+    "first_release_date": "2010-06-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "1d98e158-dfcf-3723-87d4-abcc8c48c143",
+   "url": "https://musicbrainz.org/release-group/1d98e158-dfcf-3723-87d4-abcc8c48c143",
+   "title": "Flying Saucer Attack",
+   "artist": "Flying Saucer Attack",
+   "first_release_date": "1993",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "rock",
+    "ambient pop",
+    "experimental",
+    "experimental rock",
+    "indie rock",
+    "noise rock",
+    "post-rock",
+    "shoegaze",
+    "space rock"
+   ],
+   "tags": [
+    "rock",
+    "ambient pop",
+    "experimental",
+    "experimental rock",
+    "indie rock",
+    "noise rock",
+    "post-rock",
+    "shoegaze",
+    "shoegazing",
+    "space rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000089733",
+    "https://www.discogs.com/master/21723",
+    "https://www.wikidata.org/wiki/Q18809212"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "b0aea18b-0261-3230-96d7-ae52b80b50d5",
+    "title": "Flying Saucer Attack",
+    "date": "1993",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "FSA Records",
+      "catno": "fsa62"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0094": {
+  "query_artist": "Movietone",
+  "query_title": "Movietone",
+  "search_hits": [
+   {
+    "id": "ab312969-8eac-322c-b40d-e6688e00b064",
+    "score": 100,
+    "title": "Movietone",
+    "artist": "Movietone",
+    "first_release_date": "1995-10-30",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "ab312969-8eac-322c-b40d-e6688e00b064",
+   "url": "https://musicbrainz.org/release-group/ab312969-8eac-322c-b40d-e6688e00b064",
+   "title": "Movietone",
+   "artist": "Movietone",
+   "first_release_date": "1995-10-30",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental",
+    "indie rock",
+    "psychedelic rock",
+    "rock",
+    "shoegaze",
+    "slowcore"
+   ],
+   "tags": [
+    "experimental",
+    "indie rock",
+    "psychedelic rock",
+    "rock",
+    "shoegaze",
+    "shoegazer",
+    "slowcore"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/186838"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "a4e61385-2472-43c6-9f92-9b63b3c0ccd2",
+    "title": "Movietone",
+    "date": "1995-10-30",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Planet Records",
+      "catno": "punk 010 CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0512": {
+  "query_artist": "Bailter Space",
+  "query_title": "Robot World",
+  "search_hits": [
+   {
+    "id": "403dddcc-4647-36b0-91da-975a1b5f1b11",
+    "score": 100,
+    "title": "Robot World",
+    "artist": "Bailter Space",
+    "first_release_date": "1993-04-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "403dddcc-4647-36b0-91da-975a1b5f1b11",
+   "url": "https://musicbrainz.org/release-group/403dddcc-4647-36b0-91da-975a1b5f1b11",
+   "title": "Robot World",
+   "artist": "Bailter Space",
+   "first_release_date": "1993-04-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "indie rock",
+    "rock",
+    "shoegaze"
+   ],
+   "tags": [
+    "indie rock",
+    "rock",
+    "shoegaze"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/bailter-space/robot-world/",
+    "https://www.allmusic.com/album/mw0000101745",
+    "https://www.discogs.com/master/21542",
+    "https://www.wikidata.org/wiki/Q7353379"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "18a20963-bade-4087-91b4-1ceb429227fb",
+    "title": "Robot World",
+    "date": "1993",
+    "country": "NZ",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Flying Nun Records",
+      "catno": "FNCD259"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "Bailterspace",
+   "query_title": "Robot World",
+   "rejected_match": "https://musicbrainz.org/release-group/f43a79d6-a227-4d51-8f13-baadb42a1751"
+  }
+ },
+ "cand-0511": {
+  "query_artist": "astrobrite",
+  "query_title": "pinkshinyultrablast",
+  "search_hits": [
+   {
+    "id": "0baef050-4f8d-38ff-90a1-68f1eba157da",
+    "score": 100,
+    "title": "pinkshinyultrablast",
+    "artist": "astrobrite",
+    "first_release_date": "2005-10-05",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "0baef050-4f8d-38ff-90a1-68f1eba157da",
+   "url": "https://musicbrainz.org/release-group/0baef050-4f8d-38ff-90a1-68f1eba157da",
+   "title": "pinkshinyultrablast",
+   "artist": "astrobrite",
+   "first_release_date": "2005-10-05",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "rock",
+    "shoegaze"
+   ],
+   "tags": [
+    "rock",
+    "shoegaze"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/astrobrite/pinkshinyultrablast/",
+    "https://www.discogs.com/master/269014"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "7f34286a-e993-415f-a434-7aebe24a772a",
+    "title": "pinkshinyultrablast",
+    "date": "2005-10-05",
+    "country": "JP",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Vinyl Junkie Recordings",
+      "catno": "DDCJ-3002"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0503": {
+  "query_artist": "No Joy",
+  "query_title": "Wait To Pleasure",
+  "search_hits": [
+   {
+    "id": "cdc2eb2b-06a8-4ba7-8684-830f5bd1cc56",
+    "score": 100,
+    "title": "Wait to Pleasure",
+    "artist": "No Joy",
+    "first_release_date": "2013-04-23",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "cdc2eb2b-06a8-4ba7-8684-830f5bd1cc56",
+   "url": "https://musicbrainz.org/release-group/cdc2eb2b-06a8-4ba7-8684-830f5bd1cc56",
+   "title": "Wait to Pleasure",
+   "artist": "No Joy",
+   "first_release_date": "2013-04-23",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "indie rock",
+    "shoegaze"
+   ],
+   "tags": [
+    "indie rock",
+    "shoegaze"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/no_joy/wait_to_pleasure/",
+    "https://www.allmusic.com/album/mw0002497558",
+    "https://www.discogs.com/master/552005",
+    "https://www.wikidata.org/wiki/Q17145437"
+   ],
+   "release_count": 6,
+   "earliest_release": {
+    "id": "8e9222c3-633d-4293-8c43-97c554391987",
+    "title": "Wait to Pleasure",
+    "date": "2013-04-23",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Mexican Summer",
+      "catno": "MEX148"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0500": {
+  "query_artist": "Jefre Cantu-Ledesma",
+  "query_title": "LOVE IS A STREAM",
+  "search_hits": [
+   {
+    "id": "a7a06806-48ec-457f-a8de-d70a5858b6ee",
+    "score": 100,
+    "title": "Love Is a Stream",
+    "artist": "Jefre Cantu‐Ledesma",
+    "first_release_date": "2010-10-01",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "a7a06806-48ec-457f-a8de-d70a5858b6ee",
+   "url": "https://musicbrainz.org/release-group/a7a06806-48ec-457f-a8de-d70a5858b6ee",
+   "title": "Love Is a Stream",
+   "artist": "Jefre Cantu‐Ledesma",
+   "first_release_date": "2010-10-01",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "drone",
+    "electronic",
+    "shoegaze"
+   ],
+   "tags": [
+    "drone",
+    "electronic",
+    "shoegaze"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/jefre-cantu-ledesma/love-is-a-stream/",
+    "https://www.allmusic.com/album/mw0002059569",
+    "https://www.discogs.com/master/284676",
+    "https://www.musik-sammler.de/album/560546/"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "20e6a95d-7931-4f9f-8357-74f652b3067f",
+    "title": "Love Is a Stream",
+    "date": "2010-10-01",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Type",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0518": {
+  "query_artist": "Bedhead",
+  "query_title": "WhatFunLifeWas",
+  "search_hits": [
+   {
+    "id": "d0ff466b-a297-3eb9-bc31-9a4e24b8dc3e",
+    "score": 100,
+    "title": "WhatFunLifeWas",
+    "artist": "Bedhead",
+    "first_release_date": "1994-04-04",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d0ff466b-a297-3eb9-bc31-9a4e24b8dc3e",
+   "url": "https://musicbrainz.org/release-group/d0ff466b-a297-3eb9-bc31-9a4e24b8dc3e",
+   "title": "WhatFunLifeWas",
+   "artist": "Bedhead",
+   "first_release_date": "1994-04-04",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "alternative rock",
+    "indie rock",
+    "rock"
+   ],
+   "tags": [
+    "alternative rock",
+    "indie rock",
+    "rock",
+    "shoegazer"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000625618",
+    "https://www.discogs.com/master/72119",
+    "https://www.wikidata.org/wiki/Q17151652"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "e358cac3-de30-4804-877e-c4d0f745e5be",
+    "title": "WhatFunLifeWas",
+    "date": "1994-04-04",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Trance Syndicate",
+      "catno": "TR-21CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0560": {
+  "query_artist": "Hood",
+  "query_title": "Rustic Houses, Forlorn Valleys",
+  "search_hits": [
+   {
+    "id": "6abc3a9e-cf98-3f19-bed1-39f796379321",
+    "score": 100,
+    "title": "Rustic Houses Forlorn Valleys",
+    "artist": "Hood",
+    "first_release_date": "1998",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "6abc3a9e-cf98-3f19-bed1-39f796379321",
+   "url": "https://musicbrainz.org/release-group/6abc3a9e-cf98-3f19-bed1-39f796379321",
+   "title": "Rustic Houses Forlorn Valleys",
+   "artist": "Hood",
+   "first_release_date": "1998",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "post-rock",
+    "slowcore"
+   ],
+   "tags": [
+    "post-rock",
+    "slowcore"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/Rustic_Houses,_Forlorn_Valleys",
+    "https://www.allmusic.com/album/mw0000040145",
+    "https://www.discogs.com/master/9169",
+    "https://www.wikidata.org/wiki/Q7382486"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "434dd8db-b330-4825-865f-84dbedb53b88",
+    "title": "Rustic Houses Forlorn Valleys",
+    "date": "1998",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Domino",
+      "catno": "WIGCD 42"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0565": {
+  "query_artist": "Pram",
+  "query_title": "The Museum Of Imaginary Animals",
+  "search_hits": [
+   {
+    "id": "3a0250a5-3e8a-37e7-8d7a-b48ba2b79a0e",
+    "score": 100,
+    "title": "The Museum of Imaginary Animals",
+    "artist": "Pram",
+    "first_release_date": "2000",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "3a0250a5-3e8a-37e7-8d7a-b48ba2b79a0e",
+   "url": "https://musicbrainz.org/release-group/3a0250a5-3e8a-37e7-8d7a-b48ba2b79a0e",
+   "title": "The Museum of Imaginary Animals",
+   "artist": "Pram",
+   "first_release_date": "2000",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "rock"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "rock"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "ede16cc2-7034-4ca4-b490-e627a96a2b04",
+    "title": "The Museum of Imaginary Animals",
+    "date": "2000",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Domino",
+      "catno": "WIGCD 80"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0207": {
+  "query_artist": "Joan of Arc",
+  "query_title": "So Much Staying Alive and Lovelessness",
+  "search_hits": [
+   {
+    "id": "703b4562-6880-3f97-a53f-81d71b4f7b47",
+    "score": 100,
+    "title": "So Much Staying Alive and Lovelessness",
+    "artist": "Joan of Arc",
+    "first_release_date": "2003-02-03",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "703b4562-6880-3f97-a53f-81d71b4f7b47",
+   "url": "https://musicbrainz.org/release-group/703b4562-6880-3f97-a53f-81d71b4f7b47",
+   "title": "So Much Staying Alive and Lovelessness",
+   "artist": "Joan of Arc",
+   "first_release_date": "2003-02-03",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "indie rock",
+    "rock"
+   ],
+   "tags": [
+    "indie rock",
+    "rock",
+    "post rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/148864",
+    "https://www.wikidata.org/wiki/Q7549430"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "8760032a-5147-43f9-a75d-bb90f9f18e31",
+    "title": "So Much Staying Alive and Lovelessness",
+    "date": "2003-02-03",
+    "country": "JP",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Quattro Disc",
+      "catno": "クアトロ-049"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0246": {
+  "query_artist": "American Football",
+  "query_title": "American Football",
+  "search_hits": [
+   {
+    "id": "8e40a68c-58e8-3c92-a763-645fda2ce8a7",
+    "score": null,
+    "title": "American Football",
+    "artist": "American Football",
+    "first_release_date": null,
+    "primary_type": null,
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "8e40a68c-58e8-3c92-a763-645fda2ce8a7",
+   "url": "https://musicbrainz.org/release-group/8e40a68c-58e8-3c92-a763-645fda2ce8a7",
+   "title": "American Football",
+   "artist": "American Football",
+   "first_release_date": "1999-09-14",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "emo",
+    "alternative rock",
+    "math rock",
+    "midwest emo",
+    "post-rock",
+    "rock",
+    "slowcore"
+   ],
+   "tags": [
+    "emo",
+    "alternative rock",
+    "math rock",
+    "midwest emo",
+    "post-rock",
+    "rock",
+    "self-titled",
+    "slowcore"
+   ],
+   "urls": [
+    "http://www.stylusmagazine.com/review.php?ID=23",
+    "https://rateyourmusic.com/release/album/american_football/american_football/",
+    "https://www.discogs.com/master/191896",
+    "https://www.wikidata.org/wiki/Q4743797"
+   ],
+   "release_count": 7,
+   "earliest_release": {
+    "id": "3f41825e-5e12-477f-a0f8-76a0a9086297",
+    "title": "American Football",
+    "date": "1999-09-14",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Polyvinyl",
+      "catno": "PRC-025"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "American Football",
+   "query_title": "American Football",
+   "rejected_match": "https://musicbrainz.org/release-group/f98334d4-5eb5-48b2-820b-faa8db645c10"
+  }
+ },
+ "cand-0212": {
+  "query_artist": "Jets to Brazil",
+  "query_title": "Perfecting Loneliness",
+  "search_hits": [
+   {
+    "id": "56e7585f-0763-352a-8f80-d41a1cedf148",
+    "score": 100,
+    "title": "Perfecting Loneliness",
+    "artist": "Jets to Brazil",
+    "first_release_date": "2002-10-15",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "56e7585f-0763-352a-8f80-d41a1cedf148",
+   "url": "https://musicbrainz.org/release-group/56e7585f-0763-352a-8f80-d41a1cedf148",
+   "title": "Perfecting Loneliness",
+   "artist": "Jets to Brazil",
+   "first_release_date": "2002-10-15",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "emo",
+    "indie rock",
+    "rock"
+   ],
+   "tags": [
+    "emo",
+    "indie rock",
+    "rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000227238",
+    "https://www.discogs.com/master/124049",
+    "https://www.wikidata.org/wiki/Q16966860"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "83abb3fb-5c54-31b7-ae9a-4a0a07ab9098",
+    "title": "Perfecting Loneliness",
+    "date": "2002-10-15",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Jade Tree",
+      "catno": "JT1079"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0247": {
+  "query_artist": "Chinese Football",
+  "query_title": "Here comes a new challenger!",
+  "search_hits": [
+   {
+    "id": "91ecb563-4ce5-4878-bc9c-1e5bea70637c",
+    "score": 100,
+    "title": "Here Comes a New Challenger!!!",
+    "artist": "Chinese Football",
+    "first_release_date": "2017-03-03",
+    "primary_type": "EP",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "91ecb563-4ce5-4878-bc9c-1e5bea70637c",
+   "url": "https://musicbrainz.org/release-group/91ecb563-4ce5-4878-bc9c-1e5bea70637c",
+   "title": "Here Comes a New Challenger!!!",
+   "artist": "Chinese Football",
+   "first_release_date": "2017-03-03",
+   "primary_type": "EP",
+   "secondary_types": [],
+   "genres": [
+    "math rock",
+    "rock",
+    "emo",
+    "indie rock",
+    "midwest emo"
+   ],
+   "tags": [
+    "math rock",
+    "rock",
+    "emo",
+    "indie",
+    "indie rock",
+    "midwest emo"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "d9c0b3a3-bca1-4e4d-ab82-8a01c2b30f8e",
+    "title": "Here Comes a New Challenger!!!",
+    "date": "2017-03-03",
+    "country": "CN",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "[no label]",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0231": {
+  "query_artist": "Home Is Where",
+  "query_title": "i became birds",
+  "search_hits": [
+   {
+    "id": "75b7985a-1076-4b05-bc7a-604529fc4495",
+    "score": 100,
+    "title": "i became birds",
+    "artist": "Home Is Where",
+    "first_release_date": "2021-03-05",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "75b7985a-1076-4b05-bc7a-604529fc4495",
+   "url": "https://musicbrainz.org/release-group/75b7985a-1076-4b05-bc7a-604529fc4495",
+   "title": "i became birds",
+   "artist": "Home Is Where",
+   "first_release_date": "2021-03-05",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "emo",
+    "post-hardcore",
+    "country",
+    "folk",
+    "folk rock",
+    "indie rock",
+    "midwest emo",
+    "punk",
+    "rock",
+    "screamo"
+   ],
+   "tags": [
+    "emo",
+    "post-hardcore",
+    "country",
+    "folk",
+    "folk rock",
+    "indie rock",
+    "midwest emo",
+    "punk",
+    "rock",
+    "screamo"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/home-is-where/i-became-birds/"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "240a146d-58cb-46ff-9e3e-bda0423a14e3",
+    "title": "i became birds",
+    "date": "2021-03-05",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "[no label]",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0226": {
+  "query_artist": "Dogleg",
+  "query_title": "Melee",
+  "search_hits": [
+   {
+    "id": "93b2b428-7541-4955-9025-1ec8d091be1d",
+    "score": 100,
+    "title": "Melee",
+    "artist": "Dogleg",
+    "first_release_date": "2020-03-13",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "93b2b428-7541-4955-9025-1ec8d091be1d",
+   "url": "https://musicbrainz.org/release-group/93b2b428-7541-4955-9025-1ec8d091be1d",
+   "title": "Melee",
+   "artist": "Dogleg",
+   "first_release_date": "2020-03-13",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "emo"
+   ],
+   "tags": [
+    "emo"
+   ],
+   "urls": [
+    "https://genius.com/albums/Dogleg/Melee",
+    "https://rateyourmusic.com/release/album/dogleg/melee/",
+    "https://www.discogs.com/master/1699669",
+    "https://www.wikidata.org/wiki/Q96392564"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "f758a5cb-4f74-4ed5-80e5-dd05382a7f10",
+    "title": "Melee",
+    "date": "2020-03-13",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Triple Crown Records",
+      "catno": "[none]"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0227": {
+  "query_artist": "glass beach",
+  "query_title": "the first glass beach album",
+  "search_hits": [
+   {
+    "id": "a491e185-9c1e-47a0-964b-137b802aa928",
+    "score": 100,
+    "title": "the first glass beach album",
+    "artist": "glass beach",
+    "first_release_date": "2019-05-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "37a5c89a-f24a-4688-807b-17af4c5128e9",
+    "score": 94,
+    "title": "the first glass beach album demos",
+    "artist": "glass beach",
+    "first_release_date": null,
+    "primary_type": "Album",
+    "secondary_types": [
+     "Demo"
+    ]
+   },
+   {
+    "id": "50b42e98-14b3-4abd-892a-57f2cfa4c148",
+    "score": 86,
+    "title": "color bars (the first glass beach album outtake)",
+    "artist": "glass beach",
+    "first_release_date": "2019-07-30",
+    "primary_type": "Single",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "a491e185-9c1e-47a0-964b-137b802aa928",
+   "url": "https://musicbrainz.org/release-group/a491e185-9c1e-47a0-964b-137b802aa928",
+   "title": "the first glass beach album",
+   "artist": "glass beach",
+   "first_release_date": "2019-05-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "indie rock",
+    "art pop",
+    "emo",
+    "progressive rock"
+   ],
+   "tags": [
+    "indie rock",
+    "art pop",
+    "emo",
+    "progressive rock",
+    "self-titled"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0003337067",
+    "https://www.last.fm/music/Glass+Beach/the+first+glass+beach+album",
+    "https://www.wikidata.org/wiki/Q111951259"
+   ],
+   "release_count": 6,
+   "earliest_release": {
+    "id": "352140b4-3fc5-4ea1-8417-29ebe76bc959",
+    "title": "the first glass beach album",
+    "date": "2019-05-18",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Run for Cover Records",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-1218": {
+  "query_artist": "Tetsou Inoue",
+  "query_title": "World Receiver",
+  "search_hits": [
+   {
+    "id": "230defe0-62ca-31e1-aec1-439370212e39",
+    "score": 100,
+    "title": "World Receiver",
+    "artist": "Tetsu Inoue",
+    "first_release_date": "1996-06-11",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "230defe0-62ca-31e1-aec1-439370212e39",
+   "url": "https://musicbrainz.org/release-group/230defe0-62ca-31e1-aec1-439370212e39",
+   "title": "World Receiver",
+   "artist": "Tetsu Inoue",
+   "first_release_date": "1996-06-11",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "electronic"
+   ],
+   "tags": [
+    "ambient",
+    "electronic"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/45050"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "9b63aaaa-d19d-4842-91f8-157b68cf5693",
+    "title": "World Receiver",
+    "date": "1996-06-11",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Instinct Ambient",
+      "catno": "AMB-6002-2"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1217": {
+  "query_artist": "Steve Roach",
+  "query_title": "Dreamtime Return",
+  "search_hits": [
+   {
+    "id": "a5571aa9-10a8-3ade-b0b6-fd50e03ba46e",
+    "score": 100,
+    "title": "Dreamtime Return",
+    "artist": "Steve Roach",
+    "first_release_date": "1988-06-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "a5571aa9-10a8-3ade-b0b6-fd50e03ba46e",
+   "url": "https://musicbrainz.org/release-group/a5571aa9-10a8-3ade-b0b6-fd50e03ba46e",
+   "title": "Dreamtime Return",
+   "artist": "Steve Roach",
+   "first_release_date": "1988-06-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "electronic",
+    "tribal ambient",
+    "instrumental"
+   ],
+   "tags": [
+    "ambient",
+    "electronic",
+    "tribal ambient",
+    "atmospheric",
+    "calm",
+    "concept album",
+    "desert",
+    "ethereal",
+    "hypnotic",
+    "instrumental",
+    "meditative",
+    "mysterious"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/steve-roach/dreamtime-return/",
+    "https://www.allmusic.com/album/mw0000201882",
+    "https://www.discogs.com/master/52509",
+    "https://www.musik-sammler.de/album/814137/",
+    "https://www.wikidata.org/wiki/Q1952515"
+   ],
+   "release_count": 8,
+   "earliest_release": {
+    "id": "3a39a151-14ab-40f8-ae2e-77352d6896c4",
+    "title": "Dreamtime Return",
+    "date": "1988",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Fortuna Records",
+      "catno": "18055-1"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1294": {
+  "query_artist": "Edward Artemiev",
+  "query_title": "Warmth Of Earth",
+  "search_hits": [
+   {
+    "id": "b4866bc7-f04c-3839-b007-c22b615533d0",
+    "score": 100,
+    "title": "Warmth of Earth",
+    "artist": "Eduard Artemiev",
+    "first_release_date": "1986",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "aa17954f-7bc2-4152-97b7-f1a989df2d63",
+    "score": 55,
+    "title": "Symptom of Life",
+    "artist": "ARTEMIEV",
+    "first_release_date": "2016-09-19",
+    "primary_type": "EP",
+    "secondary_types": []
+   },
+   {
+    "id": "83cbc827-ff05-3de7-88fe-da4a74a1f4eb",
+    "score": 47,
+    "title": "Point of Intersection",
+    "artist": "Artemiy Artemiev",
+    "first_release_date": "1997",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "887afd0e-6a18-3eb0-be9a-ba51b05f07d2",
+    "score": 47,
+    "title": "Mysticism of Sound",
+    "artist": "Artemiy Artemiev",
+    "first_release_date": "1999",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "1a75452f-ef61-3d0d-a715-c90f33e3dc1d",
+    "score": 45,
+    "title": "Five Mystery Tales of Asia",
+    "artist": "Artemiy Artemiev",
+    "first_release_date": "1998",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "b4866bc7-f04c-3839-b007-c22b615533d0",
+   "url": "https://musicbrainz.org/release-group/b4866bc7-f04c-3839-b007-c22b615533d0",
+   "title": "Warmth of Earth",
+   "artist": "Eduard Artemiev",
+   "first_release_date": "1986",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "art rock",
+    "avant-garde",
+    "electronic",
+    "rock"
+   ],
+   "tags": [
+    "ambient",
+    "art rock",
+    "avant-garde",
+    "electronic",
+    "rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000993477",
+    "https://www.discogs.com/master/127218"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "73675c1e-7976-47fb-a761-d2b80a7f4e09",
+    "title": "Тепло Земли",
+    "date": "1986",
+    "country": "SU",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Мелодия",
+      "catno": "С60 23029 000"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1346": {
+  "query_artist": "Michel Redolfi",
+  "query_title": "Desert Tracks",
+  "search_hits": [
+   {
+    "id": "4a1fcbec-6bd7-4377-99a5-b62c998d1b49",
+    "score": 100,
+    "title": "Desert Tracks",
+    "artist": "Michel Redolfi",
+    "first_release_date": "1988",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "4a1fcbec-6bd7-4377-99a5-b62c998d1b49",
+   "url": "https://musicbrainz.org/release-group/4a1fcbec-6bd7-4377-99a5-b62c998d1b49",
+   "title": "Desert Tracks",
+   "artist": "Michel Redolfi",
+   "first_release_date": "1988",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "musique concrète"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "musique concrète"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "1ebce573-99b9-4a05-ae6d-ef4e601c5aa4",
+    "title": "Desert Tracks",
+    "date": "1988",
+    "country": "FR",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "INA-GRM",
+      "catno": "INA C 1005"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1344": {
+  "query_artist": "Luc Ferrari",
+  "query_title": "Presque Rien",
+  "search_hits": [
+   {
+    "id": "e68b6484-d067-33ba-af23-ace8ecaf8bd8",
+    "score": 100,
+    "title": "Presque rien",
+    "artist": "Luc Ferrari",
+    "first_release_date": "1995",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "913e04c9-5b9a-4000-b2f0-a499be8d016f",
+    "score": 70,
+    "title": "Madame de Shanghai / Après Presque Rien / Visage 2",
+    "artist": "Luc Ferrari",
+    "first_release_date": "2011",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "b0bf038b-2c4e-3300-aee8-58061452cc12",
+    "score": 66,
+    "title": "Acousmatrix III: Petite Symphonie / Strathoven / Presque rien avec filles / Hétérozygote",
+    "artist": "Luc Ferrari",
+    "first_release_date": "1990",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "232c9231-3bed-4f50-b040-087a48585409",
+    "score": 52,
+    "title": "Presque rien no. 1 / Société II",
+    "artist": "Luc Ferrari; Ensemble instrumental de musique contemporaine de Paris, Konstantin Simonovich",
+    "first_release_date": "1970",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "e68b6484-d067-33ba-af23-ace8ecaf8bd8",
+   "url": "https://musicbrainz.org/release-group/e68b6484-d067-33ba-af23-ace8ecaf8bd8",
+   "title": "Presque rien",
+   "artist": "Luc Ferrari",
+   "first_release_date": "1995",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "musique concrète",
+    "ambient",
+    "experimental",
+    "field recording",
+    "non-music"
+   ],
+   "tags": [
+    "electronic",
+    "musique concrète",
+    "ambient",
+    "experimental",
+    "field recording",
+    "non-music"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/1305129",
+    "https://www.discogs.com/master/266922"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "2a1da8c9-02ec-44be-8444-3a9e3f034575",
+    "title": "Presque rien",
+    "date": "1995",
+    "country": "FR",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "INA-GRM",
+      "catno": "ina c 2008 cd"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0297": {
+  "query_artist": "Inoyama Land",
+  "query_title": "Commissions: 1977-2000",
+  "search_hits": [
+   {
+    "id": "f093cbbc-fdbb-4e00-bc87-d74b7ab73b0e",
+    "score": 100,
+    "title": "Commissions: 1977-2000",
+    "artist": "Inoyama Land",
+    "first_release_date": "2019-09-20",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "f093cbbc-fdbb-4e00-bc87-d74b7ab73b0e",
+   "url": "https://musicbrainz.org/release-group/f093cbbc-fdbb-4e00-bc87-d74b7ab73b0e",
+   "title": "Commissions: 1977-2000",
+   "artist": "Inoyama Land",
+   "first_release_date": "2019-09-20",
+   "primary_type": "Album",
+   "secondary_types": [
+    "Compilation"
+   ],
+   "genres": [
+    "ambient"
+   ],
+   "tags": [
+    "ambient"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "b52a59d5-de53-4e55-a05f-84ecb11921e4",
+    "title": "Commissions: 1977-2000",
+    "date": "2019-09-20",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Empire of Signs",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0195": {
+  "query_artist": "Ellen Fullman",
+  "query_title": "The Long String Instrument",
+  "search_hits": [
+   {
+    "id": "4dfa20d1-f7d1-404a-90f0-d88a18221a66",
+    "score": 100,
+    "title": "The Long String Instrument",
+    "artist": "Ellen Fullman",
+    "first_release_date": "1985",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "4dfa20d1-f7d1-404a-90f0-d88a18221a66",
+   "url": "https://musicbrainz.org/release-group/4dfa20d1-f7d1-404a-90f0-d88a18221a66",
+   "title": "The Long String Instrument",
+   "artist": "Ellen Fullman",
+   "first_release_date": "1985",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [
+    "https://www.discogs.com/master/899297"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "396cad9a-8722-4543-a254-82f6430d0cbb",
+    "title": "The Long String Instrument",
+    "date": "1985",
+    "country": "NL",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Apollo Records",
+      "catno": "AR 118501"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0194": {
+  "query_artist": "Laurie Spiegel",
+  "query_title": "The Expanding Universe",
+  "search_hits": [
+   {
+    "id": "57799d94-96a1-4b27-80e7-67183d62706a",
+    "score": 100,
+    "title": "The Expanding Universe",
+    "artist": "Laurie Spiegel",
+    "first_release_date": "1980",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "57799d94-96a1-4b27-80e7-67183d62706a",
+   "url": "https://musicbrainz.org/release-group/57799d94-96a1-4b27-80e7-67183d62706a",
+   "title": "The Expanding Universe",
+   "artist": "Laurie Spiegel",
+   "first_release_date": "1980",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "avant-garde",
+    "electronic",
+    "experimental",
+    "experimental electronic"
+   ],
+   "tags": [
+    "ambient",
+    "avant-garde",
+    "electronic",
+    "experimental",
+    "experimental electronic"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0002401866",
+    "https://www.discogs.com/master/470489"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "26792f3d-3026-49a0-9bb2-1a61895acd72",
+    "title": "The Expanding Universe",
+    "date": "1980",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Philo",
+      "catno": "PH9003"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0173": {
+  "query_artist": "Kara-Lis Coverdale",
+  "query_title": "A 480",
+  "search_hits": [
+   {
+    "id": "f0bc7108-d866-42b6-a28d-e45005604412",
+    "score": 100,
+    "title": "A 480",
+    "artist": "Kara‐Lis Coverdale",
+    "first_release_date": "2014-11-03",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "f0bc7108-d866-42b6-a28d-e45005604412",
+   "url": "https://musicbrainz.org/release-group/f0bc7108-d866-42b6-a28d-e45005604412",
+   "title": "A 480",
+   "artist": "Kara‐Lis Coverdale",
+   "first_release_date": "2014-11-03",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "classical",
+    "experimental"
+   ],
+   "tags": [
+    "classical",
+    "experimental"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "9f5ecedf-f815-43df-8b05-071f82658a32",
+    "title": "A 480",
+    "date": "2014-11-03",
+    "country": "CA",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Constellation Tatsu",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-1323": {
+  "query_artist": "Vladislav Delay",
+  "query_title": "Multila",
+  "search_hits": [
+   {
+    "id": "8e748392-288b-3f44-af2c-ce6b2ee24b94",
+    "score": 100,
+    "title": "Multila",
+    "artist": "Vladislav Delay",
+    "first_release_date": "2000-02-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "8e748392-288b-3f44-af2c-ce6b2ee24b94",
+   "url": "https://musicbrainz.org/release-group/8e748392-288b-3f44-af2c-ce6b2ee24b94",
+   "title": "Multila",
+   "artist": "Vladislav Delay",
+   "first_release_date": "2000-02-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "ambient",
+    "ambient techno"
+   ],
+   "tags": [
+    "electronic",
+    "ambient",
+    "ambient techno"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/Multila",
+    "https://www.discogs.com/master/6219",
+    "https://www.wikidata.org/wiki/Q6934715"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "2d5d4fc8-493f-4314-8e49-ba46ecc7c20a",
+    "title": "Multila",
+    "date": "2000-02-18",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Chain Reaction",
+      "catno": "CRD-09"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0959": {
+  "query_artist": "Ian William Craig",
+  "query_title": "Centres",
+  "search_hits": [
+   {
+    "id": "b2cc4536-d4cd-400a-a1b4-eeec2a9165fa",
+    "score": 100,
+    "title": "Centres",
+    "artist": "Ian William Craig",
+    "first_release_date": "2016-07-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "b2cc4536-d4cd-400a-a1b4-eeec2a9165fa",
+   "url": "https://musicbrainz.org/release-group/b2cc4536-d4cd-400a-a1b4-eeec2a9165fa",
+   "title": "Centres",
+   "artist": "Ian William Craig",
+   "first_release_date": "2016-07-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "modern classical",
+    "ambient",
+    "classical",
+    "electronic",
+    "experimental"
+   ],
+   "tags": [
+    "modern classical",
+    "ambient",
+    "classical",
+    "electronic",
+    "experimental"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/1023310"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "bf23ebce-f935-4b15-8dc8-a294ad663d87",
+    "title": "Centres",
+    "date": "2016-07-08",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "130701",
+      "catno": "CD13-22"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0980": {
+  "query_artist": "Huerco S",
+  "query_title": "For Those Of You Who Have Never (And Also Those Who Have)",
+  "search_hits": [
+   {
+    "id": "c708125f-d48f-4614-83ca-d4c0ec88204c",
+    "score": 100,
+    "title": "For Those of You Who Have Never (And Also Those Who Have)",
+    "artist": "Huerco S.",
+    "first_release_date": "2016-06-06",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "c708125f-d48f-4614-83ca-d4c0ec88204c",
+   "url": "https://musicbrainz.org/release-group/c708125f-d48f-4614-83ca-d4c0ec88204c",
+   "title": "For Those of You Who Have Never (And Also Those Who Have)",
+   "artist": "Huerco S.",
+   "first_release_date": "2016-06-06",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "electronic",
+    "experimental"
+   ],
+   "tags": [
+    "ambient",
+    "electronic",
+    "experimental"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/1016511",
+    "https://www.wikidata.org/wiki/Q104869719"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "695c9885-20b9-46c0-9a31-8eebe299c371",
+    "title": "For Those of You Who Have Never (And Also Those Who Have)",
+    "date": "2016-06-06",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Proibito",
+      "catno": "PRB018"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0668": {
+  "query_artist": "Rashad Becker",
+  "query_title": "Traditional Music Of Notional Species Vol. 1",
+  "search_hits": [
+   {
+    "id": "efc5d8ba-395b-48b3-af51-3c3762f49ad8",
+    "score": 100,
+    "title": "Traditional Music of Notional Species, Vol. I",
+    "artist": "Rashad Becker",
+    "first_release_date": "2013-07-29",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "55ccbb00-ddd5-4c94-98a3-e549673ed6d9",
+    "score": 100,
+    "title": "Traditional Music of Notional Species, Vol. II",
+    "artist": "Rashad Becker",
+    "first_release_date": "2016-12-01",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "d9e0352f-8d02-46b5-ac64-472ce1ca7626",
+    "score": 31,
+    "title": "Greatest Hits Vol. 1",
+    "artist": "Becker & Fagen",
+    "first_release_date": "1990",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   },
+   {
+    "id": "4b472623-e428-4af4-a17b-273f8bf33ec7",
+    "score": 30,
+    "title": "King of Kidsclub, Vol. 2",
+    "artist": "Markus Becker",
+    "first_release_date": "2018-06-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "9cebfcc0-2116-44ac-875a-5ac865a5fee1",
+    "score": 30,
+    "title": "We on 1",
+    "artist": "DJ Rashad",
+    "first_release_date": "2014-05-13",
+    "primary_type": "EP",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "efc5d8ba-395b-48b3-af51-3c3762f49ad8",
+   "url": "https://musicbrainz.org/release-group/efc5d8ba-395b-48b3-af51-3c3762f49ad8",
+   "title": "Traditional Music of Notional Species, Vol. I",
+   "artist": "Rashad Becker",
+   "first_release_date": "2013-07-29",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic"
+   ],
+   "tags": [
+    "electronic"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/rashad_becker/traditional_music_of_notional_species_vol__i/",
+    "https://www.allmusic.com/album/mw0002563837",
+    "https://www.discogs.com/master/583248",
+    "https://www.wikidata.org/wiki/Q139039652"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "b61988a3-c14b-477d-9363-395905ffd6b2",
+    "title": "Traditional Music of Notional Species, Vol. I",
+    "date": "2013-07-29",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "PAN",
+      "catno": "PAN 34"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0892": {
+  "query_artist": "Ariel Kalma and Robert Aiki Aubrey Lowe",
+  "query_title": "We Know Each Other Somehow",
+  "search_hits": [
+   {
+    "id": "52f25f50-0519-43d8-9f19-7eba916e38a0",
+    "score": 100,
+    "title": "FRKWYS, Volume 12: We Know Each Other Somehow",
+    "artist": "Robert Aiki Aubrey Lowe & Ariel Kalma",
+    "first_release_date": "2015-04-13",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "98ef47b4-026b-4334-9d23-0320c26d9d4b",
+    "score": 36,
+    "title": "We Have Each Other",
+    "artist": "TC, Groove Family & Franz Von",
+    "first_release_date": "2024-06-07",
+    "primary_type": "EP",
+    "secondary_types": []
+   },
+   {
+    "id": "08dd99ce-9ba9-4a8d-a35b-2b3c74f4ae9a",
+    "score": 35,
+    "title": "Each Other",
+    "artist": "Sylence & Cyber",
+    "first_release_date": "2015-05-11",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "74f2e33a-f396-4923-a550-11e22f16ec33",
+    "score": 35,
+    "title": "Each Other",
+    "artist": "Ängie & Harrison First",
+    "first_release_date": "2019-06-14",
+    "primary_type": "EP",
+    "secondary_types": []
+   },
+   {
+    "id": "53050850-cf1a-4890-a4e9-5531fd182db6",
+    "score": 33,
+    "title": "we should’ve killed each other",
+    "artist": "Bubble Tea and Cigarettes",
+    "first_release_date": "2024-11-01",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "52f25f50-0519-43d8-9f19-7eba916e38a0",
+   "url": "https://musicbrainz.org/release-group/52f25f50-0519-43d8-9f19-7eba916e38a0",
+   "title": "FRKWYS, Volume 12: We Know Each Other Somehow",
+   "artist": "Robert Aiki Aubrey Lowe & Ariel Kalma",
+   "first_release_date": "2015-04-13",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "electronic",
+    "experimental"
+   ],
+   "tags": [
+    "ambient",
+    "electronic",
+    "experimental"
+   ],
+   "urls": [],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "375ebdf6-db98-4c79-b5aa-ab9a6db25c8e",
+    "title": "FRKWYS, Volume 12: We Know Each Other Somehow",
+    "date": "2015-04-13",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "RVNG Intl.",
+      "catno": "FRKWYS12"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1055": {
+  "query_artist": "Mr Fingers",
+  "query_title": "Amnesia",
+  "search_hits": [],
+  "retry": {
+   "query_artist": "Mr. Fingers",
+   "query_title": "Amnesia",
+   "search_hits": []
+  },
+  "match": {
+   "id": "4671e08c-b6a3-394c-b792-0caf9b6ac23a",
+   "url": "https://musicbrainz.org/release-group/4671e08c-b6a3-394c-b792-0caf9b6ac23a",
+   "title": "Ammnesia",
+   "artist": "Mr. Fingers",
+   "resolved_by_hand": "artist discography browse on MusicBrainz"
+  },
+  "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
+ },
+ "cand-1061": {
+  "query_artist": "Moodymann",
+  "query_title": "Silentintroduction",
+  "search_hits": [
+   {
+    "id": "6dc31243-4cc6-3752-8d68-932d78b4ef33",
+    "score": 100,
+    "title": "Silentintroduction",
+    "artist": "Moodymann",
+    "first_release_date": "1997-11-14",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "6dc31243-4cc6-3752-8d68-932d78b4ef33",
+   "url": "https://musicbrainz.org/release-group/6dc31243-4cc6-3752-8d68-932d78b4ef33",
+   "title": "Silentintroduction",
+   "artist": "Moodymann",
+   "first_release_date": "1997-11-14",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "deep house",
+    "electronic",
+    "house"
+   ],
+   "tags": [
+    "deep house",
+    "electronic",
+    "house"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000236998",
+    "https://www.discogs.com/master/6119"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "bdad1e44-05c5-4e15-a44e-6c254f92f7bb",
+    "title": "Silentintroduction",
+    "date": "1997-11-14",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Planet E",
+      "catno": "PE 65234"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0663": {
+  "query_artist": "RP Boo",
+  "query_title": "Legacy",
+  "search_hits": [
+   {
+    "id": "4c3c8fbf-7fc6-4fc7-b65e-328a510b25ed",
+    "score": 100,
+    "title": "Legacy",
+    "artist": "RP Boo",
+    "first_release_date": "2013-05-13",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "adc51c49-2ab9-43bd-8bc4-519fc9d01ce5",
+    "score": 91,
+    "title": "Legacy, Volume 2",
+    "artist": "RP Boo",
+    "first_release_date": "2023-05-12",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "4c3c8fbf-7fc6-4fc7-b65e-328a510b25ed",
+   "url": "https://musicbrainz.org/release-group/4c3c8fbf-7fc6-4fc7-b65e-328a510b25ed",
+   "title": "Legacy",
+   "artist": "RP Boo",
+   "first_release_date": "2013-05-13",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic"
+   ],
+   "tags": [
+    "electronic"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/rp-boo/legacy-2/",
+    "https://www.allmusic.com/album/mw0002539773",
+    "https://www.discogs.com/master/563989"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "03743f65-dce7-4f1f-8970-3546e6ce4bf1",
+    "title": "Legacy",
+    "date": "2013-05-13",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Planet Mu",
+      "catno": "ZIQ335"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0252": {
+  "query_artist": "Jana Rush",
+  "query_title": "Painful Enlightenment",
+  "search_hits": [
+   {
+    "id": "15c6848a-e134-40e2-86e7-38b72d40a8eb",
+    "score": 100,
+    "title": "Painful Enlightenment",
+    "artist": "Jana Rush",
+    "first_release_date": "2021-08-13",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "15c6848a-e134-40e2-86e7-38b72d40a8eb",
+   "url": "https://musicbrainz.org/release-group/15c6848a-e134-40e2-86e7-38b72d40a8eb",
+   "title": "Painful Enlightenment",
+   "artist": "Jana Rush",
+   "first_release_date": "2021-08-13",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "footwork",
+    "electronica",
+    "juke"
+   ],
+   "tags": [
+    "electronic",
+    "footwork",
+    "electronica",
+    "juke",
+    "musikexpress.de",
+    "ph_2_stars"
+   ],
+   "urls": [
+    "https://www.albumoftheyear.org/album/399334-jana-rush-painful-enlightenment.php",
+    "https://www.musikexpress.de/reviews/jana-rush-painful-enlightenment/"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "9c530a2a-1dc8-4672-b4d7-7ff887b5bc0a",
+    "title": "Painful Enlightenment",
+    "date": "2021-08-13",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Planet Mu",
+      "catno": "ZIQ428"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0606": {
+  "query_artist": "Andy Stott",
+  "query_title": "Luxury Problems",
+  "search_hits": [
+   {
+    "id": "db2fa4bf-d3fe-446a-95d8-f60eaddc16b3",
+    "score": 100,
+    "title": "Luxury Problems",
+    "artist": "Andy Stott",
+    "first_release_date": "2012-10-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "db2fa4bf-d3fe-446a-95d8-f60eaddc16b3",
+   "url": "https://musicbrainz.org/release-group/db2fa4bf-d3fe-446a-95d8-f60eaddc16b3",
+   "title": "Luxury Problems",
+   "artist": "Andy Stott",
+   "first_release_date": "2012-10-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "techno",
+    "electronic"
+   ],
+   "tags": [
+    "techno",
+    "electronic",
+    "techno / house"
+   ],
+   "urls": [
+    "http://drownedinsound.com/releases/17307/reviews/4145657",
+    "http://pitchfork.com/reviews/albums/17205-luxury-problems/",
+    "http://www.factmag.com/2012/10/15/luxury-problems/",
+    "https://rateyourmusic.com/release/album/andy_stott/luxury_problems/",
+    "https://www.allmusic.com/album/mw0002424505",
+    "https://www.discogs.com/master/483836",
+    "https://www.wikidata.org/wiki/Q17144401"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "2a20caa4-0c92-4a93-ae11-953c30b78267",
+    "title": "Luxury Problems",
+    "date": "2012-10-18",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Modern Love",
+      "catno": "LOVE079"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0784": {
+  "query_artist": "Lorenzo Senni",
+  "query_title": "Superimpositions",
+  "search_hits": [
+   {
+    "id": "b0657fca-db35-4c30-97b7-ac02ebdd47e9",
+    "score": 100,
+    "title": "Superimpositions",
+    "artist": "Lorenzo Senni",
+    "first_release_date": "2014-08-29",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "b0657fca-db35-4c30-97b7-ac02ebdd47e9",
+   "url": "https://musicbrainz.org/release-group/b0657fca-db35-4c30-97b7-ac02ebdd47e9",
+   "title": "Superimpositions",
+   "artist": "Lorenzo Senni",
+   "first_release_date": "2014-08-29",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "hard trance"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "hard trance"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/732503"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "ea89af62-ed4a-450b-bba3-963bcf754db3",
+    "title": "Superimpositions",
+    "date": "2014-08-29",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Boomkat Editions",
+      "catno": "BKEDIT010"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0471": {
+  "query_artist": "Golden Teacher",
+  "query_title": "No Luscious Life",
+  "search_hits": [
+   {
+    "id": "cb32c1ee-94d1-4548-856e-a561f90edc21",
+    "score": 100,
+    "title": "No Luscious Life",
+    "artist": "Golden Teacher",
+    "first_release_date": "2017-11-03",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "cb32c1ee-94d1-4548-856e-a561f90edc21",
+   "url": "https://musicbrainz.org/release-group/cb32c1ee-94d1-4548-856e-a561f90edc21",
+   "title": "No Luscious Life",
+   "artist": "Golden Teacher",
+   "first_release_date": "2017-11-03",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "dancehall",
+    "disco",
+    "dub",
+    "electronic",
+    "experimental",
+    "house",
+    "new beat",
+    "pop"
+   ],
+   "tags": [
+    "dancehall",
+    "disco",
+    "dub",
+    "electronic",
+    "experimental",
+    "house",
+    "new beat",
+    "pop"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "759634ea-1235-4fc3-a376-14e844017813",
+    "title": "No Luscious Life",
+    "date": "2017-11-03",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Golden Teacher",
+      "catno": "GT003CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1320": {
+  "query_artist": "Black Dice",
+  "query_title": "Creature Comforts",
+  "search_hits": [
+   {
+    "id": "72858d2f-ac45-3784-8e2a-fc064e33b2d3",
+    "score": 100,
+    "title": "Creature Comforts",
+    "artist": "Black Dice",
+    "first_release_date": "2004-06-22",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "72858d2f-ac45-3784-8e2a-fc064e33b2d3",
+   "url": "https://musicbrainz.org/release-group/72858d2f-ac45-3784-8e2a-fc064e33b2d3",
+   "title": "Creature Comforts",
+   "artist": "Black Dice",
+   "first_release_date": "2004-06-22",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "leftfield",
+    "rock"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "abstract",
+    "leftfield",
+    "rock",
+    "rock and indie"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/black_dice/creature_comforts/",
+    "https://www.bbc.co.uk/music/reviews/jgxm",
+    "https://www.discogs.com/master/73328"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "ebd7ef85-4e8d-45cf-9de2-6538bfefa075",
+    "title": "Creature Comforts",
+    "date": "2004-06-22",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "DFA Records",
+      "catno": "dfa 2137"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0325": {
+  "query_artist": "Jan Jelinek",
+  "query_title": "Loop-Finding-Jazz-Records",
+  "search_hits": [
+   {
+    "id": "54a5531a-95d6-3d52-8b48-9c1cc3f2e943",
+    "score": 100,
+    "title": "Loop‐Finding‐Jazz‐Records",
+    "artist": "Jan Jelinek",
+    "first_release_date": "2001-02-02",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "54a5531a-95d6-3d52-8b48-9c1cc3f2e943",
+   "url": "https://musicbrainz.org/release-group/54a5531a-95d6-3d52-8b48-9c1cc3f2e943",
+   "title": "Loop‐Finding‐Jazz‐Records",
+   "artist": "Jan Jelinek",
+   "first_release_date": "2001-02-02",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "glitch",
+    "idm"
+   ],
+   "tags": [
+    "electronic",
+    "glitch",
+    "minimal",
+    "idm"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/jan_jelinek/loop_finding_jazz_records/",
+    "https://www.allmusic.com/album/mw0000115298",
+    "https://www.discogs.com/master/11367",
+    "https://www.wikidata.org/wiki/Q96390790"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "0a037803-a0b2-4c0a-9364-6371b92c48c7",
+    "title": "Loop‐Finding‐Jazz‐Records",
+    "date": "2001-02-02",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "~scape",
+      "catno": "007 cd"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0858": {
+  "query_artist": "EEK featuring Islam Chipsy",
+  "query_title": "Kahraba",
+  "search_hits": [
+   {
+    "id": "a6b08225-1665-4072-98d1-0af53dd45bcb",
+    "score": 100,
+    "title": "Kahraba",
+    "artist": "EEK",
+    "first_release_date": "2015-05-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "a6b08225-1665-4072-98d1-0af53dd45bcb",
+   "url": "https://musicbrainz.org/release-group/a6b08225-1665-4072-98d1-0af53dd45bcb",
+   "title": "Kahraba",
+   "artist": "EEK",
+   "first_release_date": "2015-05-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electro",
+    "electronic",
+    "experimental",
+    "folk",
+    "leftfield",
+    "rock",
+    "techno"
+   ],
+   "tags": [
+    "electro",
+    "electronic",
+    "experimental",
+    "folk",
+    "leftfield",
+    "rock",
+    "techno"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "340f3a2d-9f4a-4d65-8408-047d4b776821",
+    "title": "Kahraba",
+    "date": "2015-05-18",
+    "country": "EG",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Nashazphone",
+      "catno": "NP-15"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0536": {
+  "query_artist": "Dälek",
+  "query_title": "From Filthy Tongue Of Gods And Griots",
+  "search_hits": [
+   {
+    "id": "4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d",
+    "score": 100,
+    "title": "From Filthy Tongue of Gods and Griots",
+    "artist": "Dälek",
+    "first_release_date": "2002-08-05",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d",
+   "url": "https://musicbrainz.org/release-group/4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d",
+   "title": "From Filthy Tongue of Gods and Griots",
+   "artist": "Dälek",
+   "first_release_date": "2002-08-05",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental hip hop",
+    "abstract hip hop",
+    "avant-garde",
+    "electronic",
+    "experimental",
+    "industrial hip hop",
+    "noise",
+    "psychedelic"
+   ],
+   "tags": [
+    "experimental hip hop",
+    "abstract",
+    "abstract hip hop",
+    "aggressive",
+    "angry",
+    "anti-authoritarian",
+    "anti-religious",
+    "apocalyptic",
+    "atmospheric",
+    "avant-garde",
+    "cold",
+    "complex"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/From_Filthy_Tongue_of_Gods_and_Griots",
+    "https://rateyourmusic.com/release/album/dalek/from_filthy_tongue_of_gods_and_griots/",
+    "https://www.discogs.com/master/29455",
+    "https://www.wikidata.org/wiki/Q5505409"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "1a413cdf-01ec-4ba8-acb8-acb71ec8b002",
+    "title": "From Filthy Tongue of Gods and Griots",
+    "date": "2002-08-05",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Ipecac Recordings",
+      "catno": "IPC-30"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0540": {
+  "query_artist": "Divine Styler",
+  "query_title": "Spiral Walls Containing Autumns Of Light",
+  "search_hits": [
+   {
+    "id": "ffcdc2d6-2991-3ea5-a6bb-2a79e2ecd4fb",
+    "score": 100,
+    "title": "Spiral Walls Containing Autumns of Light",
+    "artist": "Divine Styler",
+    "first_release_date": "1992-04-14",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "ffcdc2d6-2991-3ea5-a6bb-2a79e2ecd4fb",
+   "url": "https://musicbrainz.org/release-group/ffcdc2d6-2991-3ea5-a6bb-2a79e2ecd4fb",
+   "title": "Spiral Walls Containing Autumns of Light",
+   "artist": "Divine Styler",
+   "first_release_date": "1992-04-14",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "electronic",
+    "experimental",
+    "hip hop",
+    "jazz",
+    "psychedelic",
+    "rock"
+   ],
+   "tags": [
+    "electronic",
+    "experimental",
+    "hip hop",
+    "jazz",
+    "psychedelic",
+    "rock"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/Spiral_Walls_Containing_Autumns_of_Light",
+    "https://www.discogs.com/master/300033",
+    "https://www.wikidata.org/wiki/Q7577751"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "2cd8a0b7-a662-4100-908c-1a66fe6e0d3e",
+    "title": "Spiral Walls Containing Autumns of Light",
+    "date": "1992-04-14",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Giant",
+      "catno": "9 24444-2"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1240": {
+  "query_artist": "Kool Keith",
+  "query_title": "Black Elvis/Lost In Space",
+  "search_hits": [
+   {
+    "id": "1b9a1163-5835-38e6-bb15-efd2f49861da",
+    "score": 100,
+    "title": "Black Elvis / Lost in Space",
+    "artist": "Kool Keith",
+    "first_release_date": "1999-08-02",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "cec77d95-c02c-4e5d-ad43-cc58ec9de880",
+    "score": 80,
+    "title": "Black Elvis 2",
+    "artist": "Kool Keith",
+    "first_release_date": "2023-06-16",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "a7d2300d-1b9f-4c46-8940-7a224729fc80",
+    "score": 59,
+    "title": "Official Space Tape",
+    "artist": "Kool Keith",
+    "first_release_date": "2004",
+    "primary_type": "Album",
+    "secondary_types": [
+     "DJ-mix"
+    ]
+   },
+   {
+    "id": "8cb48cb9-4fd7-3161-b227-7738bf15331d",
+    "score": 58,
+    "title": "The Lost Masters",
+    "artist": "Kool Keith",
+    "first_release_date": "2003",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "3c974b55-e40d-4355-a465-23d0d30a322c",
+    "score": 58,
+    "title": "Lost Masters Collection",
+    "artist": "Kool Keith",
+    "first_release_date": "2009-08-04",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "1b9a1163-5835-38e6-bb15-efd2f49861da",
+   "url": "https://musicbrainz.org/release-group/1b9a1163-5835-38e6-bb15-efd2f49861da",
+   "title": "Black Elvis / Lost in Space",
+   "artist": "Kool Keith",
+   "first_release_date": "1999-08-02",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "abstract hip hop",
+    "boom bap",
+    "east coast hip hop",
+    "experimental hip hop",
+    "hip hop"
+   ],
+   "tags": [
+    "abstract hip hop",
+    "afrofuturism",
+    "boom bap",
+    "east coast hip hop",
+    "experimental hip hop",
+    "hip hop"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000240050",
+    "https://www.discogs.com/master/32772",
+    "https://www.wikidata.org/wiki/Q4920725"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "49978799-a905-451d-84e4-8b489f3d7871",
+    "title": "Black Elvis / Lost in Space",
+    "date": "1999-08-02",
+    "country": "XE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Ruffhouse Records",
+      "catno": "495106 2"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1072": {
+  "query_artist": "New Kingdom",
+  "query_title": "Paradise Don’t Come Cheap",
+  "search_hits": [
+   {
+    "id": "0bdd326b-3e06-3c4d-a6b0-4328873a97d3",
+    "score": 100,
+    "title": "Paradise Don't Come Cheap",
+    "artist": "New Kingdom",
+    "first_release_date": "1996-07",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "0bdd326b-3e06-3c4d-a6b0-4328873a97d3",
+   "url": "https://musicbrainz.org/release-group/0bdd326b-3e06-3c4d-a6b0-4328873a97d3",
+   "title": "Paradise Don't Come Cheap",
+   "artist": "New Kingdom",
+   "first_release_date": "1996-07",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "hip hop"
+   ],
+   "tags": [
+    "hip hop"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "c197ce2e-7c92-4108-af77-a73f43b0c8c6",
+    "title": "Paradise Don't Come Cheap",
+    "date": "1996-07",
+    "country": "XE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Gee Street",
+      "catno": "524 199-2"
+     },
+     {
+      "name": "Gee Street",
+      "catno": "GEECD18"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1101": {
+  "query_artist": "Scaramanga",
+  "query_title": "Seven Eyes, Seven Horns",
+  "search_hits": [
+   {
+    "id": "bf7c31c2-cd17-3fea-92a7-255202f136cd",
+    "score": 100,
+    "title": "Seven Eyes, Seven Horns",
+    "artist": "Scaramanga",
+    "first_release_date": "1998",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "bf7c31c2-cd17-3fea-92a7-255202f136cd",
+   "url": "https://musicbrainz.org/release-group/bf7c31c2-cd17-3fea-92a7-255202f136cd",
+   "title": "Seven Eyes, Seven Horns",
+   "artist": "Scaramanga",
+   "first_release_date": "1998",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "hip hop"
+   ],
+   "tags": [
+    "hip hop"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/56423"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "0281c010-96f1-416b-9546-73222abb3661",
+    "title": "Seven Eyes, Seven Horns",
+    "date": "1998",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Sun Large Music",
+      "catno": "SL777"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0046": {
+  "query_artist": "ELUCID",
+  "query_title": "Save Yourself",
+  "search_hits": [
+   {
+    "id": "6ffd814a-b345-45af-8752-67018b1ec4ce",
+    "score": 100,
+    "title": "Save Yourself",
+    "artist": "Elucid",
+    "first_release_date": "2016-04-15",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "6ffd814a-b345-45af-8752-67018b1ec4ce",
+   "url": "https://musicbrainz.org/release-group/6ffd814a-b345-45af-8752-67018b1ec4ce",
+   "title": "Save Yourself",
+   "artist": "Elucid",
+   "first_release_date": "2016-04-15",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "hip hop",
+    "underground hip hop"
+   ],
+   "tags": [
+    "hip hop",
+    "underground hip hop"
+   ],
+   "urls": [],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "0a17e68a-6768-43c7-b480-e5badde25ba3",
+    "title": "Save Yourself",
+    "date": "2016-04-15",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Backwoodz Studioz",
+      "catno": "BWZ741CD"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "E L U C I D",
+   "query_title": "Save Yourself",
+   "rejected_match": "https://musicbrainz.org/release-group/09584d67-d7b0-484a-a068-3fdf9c05c523"
+  }
+ },
+ "cand-0825": {
+  "query_artist": "milo",
+  "query_title": "a toothpaste suburb",
+  "search_hits": [
+   {
+    "id": "f7b8f679-2a31-4cb7-8b5c-58267cd2dfbb",
+    "score": 100,
+    "title": "A Toothpaste Suburb",
+    "artist": "Milo",
+    "first_release_date": "2014-09-23",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "f7b8f679-2a31-4cb7-8b5c-58267cd2dfbb",
+   "url": "https://musicbrainz.org/release-group/f7b8f679-2a31-4cb7-8b5c-58267cd2dfbb",
+   "title": "A Toothpaste Suburb",
+   "artist": "Milo",
+   "first_release_date": "2014-09-23",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "broken beat",
+    "electronic",
+    "hip hop"
+   ],
+   "tags": [
+    "broken beat",
+    "electronic",
+    "hip hop"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0002829290",
+    "https://www.discogs.com/master/736729"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "cbd24867-dfe9-4dd3-993a-a93e2741d263",
+    "title": "A Toothpaste Suburb",
+    "date": "2014-09-23",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Hellfyre Club",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0277": {
+  "query_artist": "clipping.",
+  "query_title": "Splendor & Misery",
+  "search_hits": [
+   {
+    "id": "b5c6b555-6d29-465d-ae82-71519dcfae39",
+    "score": 100,
+    "title": "Splendor & Misery",
+    "artist": "clipping.",
+    "first_release_date": "2016-09-09",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "b5c6b555-6d29-465d-ae82-71519dcfae39",
+   "url": "https://musicbrainz.org/release-group/b5c6b555-6d29-465d-ae82-71519dcfae39",
+   "title": "Splendor & Misery",
+   "artist": "clipping.",
+   "first_release_date": "2016-09-09",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental hip hop",
+    "noise",
+    "abstract hip hop",
+    "dark ambient",
+    "electronic",
+    "experimental",
+    "hardcore hip hop",
+    "industrial hip hop",
+    "spirituals"
+   ],
+   "tags": [
+    "experimental hip hop",
+    "noise",
+    "abstract hip hop",
+    "dark ambient",
+    "electronic",
+    "experimental",
+    "hardcore hip hop",
+    "industrial hip hop",
+    "rap/hip-hop",
+    "spirituals"
+   ],
+   "urls": [
+    "https://genius.com/albums/Clipping/Splendor-misery",
+    "https://pitchfork.com/reviews/albums/22344-splendor-misery/",
+    "https://rateyourmusic.com/release/album/clipping/splendor-and-misery-1/",
+    "https://www.allmusic.com/album/mw0002965711",
+    "https://www.discogs.com/master/1054283",
+    "https://www.heavyblogisheavy.com/2016/10/14/prognotes-clippings-splendor-misery-part-i-all-black-everything/",
+    "https://www.heavyblogisheavy.com/2016/10/20/prognotes-clippings-splendor-misery-part-ii-long-way-away/",
+    "https://www.heavyblogisheavy.com/2016/11/03/prognotes-clippings-splendor-misery-part-iii-break-the-glass/",
+    "https://www.musik-sammler.de/album/818658/",
+    "https://www.whosampled.com/album/Clipping./Splendor-And-Misery/",
+    "https://www.wikidata.org/wiki/Q26252668"
+   ],
+   "release_count": 5,
+   "earliest_release": {
+    "id": "d1d9178f-8fc4-413c-a34c-1998ca5601ba",
+    "title": "Splendor & Misery",
+    "date": "2016-09-09",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Deathbomb Arc",
+      "catno": "DBA 150"
+     },
+     {
+      "name": "Sub Pop Records",
+      "catno": "SP 1173"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1079": {
+  "query_artist": "Loren Connors",
+  "query_title": "Hell’s Kitchen Park",
+  "search_hits": [
+   {
+    "id": "e1b1dc6d-9987-36f8-9ddb-2412bdada669",
+    "score": 100,
+    "title": "Hell's Kitchen Park",
+    "artist": "Loren MazzaCane Connors",
+    "first_release_date": "1993-08",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "c7972c00-c9a8-4f30-9648-7b5e2b4393d6",
+    "score": 68,
+    "title": "Hell! Hell! Hell! Hell! Hell!",
+    "artist": "Loren MazzaCane Connors",
+    "first_release_date": "1997-03",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "22e2391b-daa4-434e-8d54-6c8081dac7e5",
+    "score": 39,
+    "title": "Until Hell Freezes Over",
+    "artist": "Loren Gray",
+    "first_release_date": "2023-04-21",
+    "primary_type": "Single",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "e1b1dc6d-9987-36f8-9ddb-2412bdada669",
+   "url": "https://musicbrainz.org/release-group/e1b1dc6d-9987-36f8-9ddb-2412bdada669",
+   "title": "Hell's Kitchen Park",
+   "artist": "Loren MazzaCane Connors",
+   "first_release_date": "1993-08",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "avant-garde",
+    "jazz",
+    "rock"
+   ],
+   "tags": [
+    "avant-garde",
+    "jazz",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/195098"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "9c04980f-d728-47e7-b930-8701689f4cbe",
+    "title": "Hell's Kitchen Park",
+    "date": "1993-08",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Black Label",
+      "catno": "BL9301"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0039": {
+  "query_artist": "Marisa Anderson",
+  "query_title": "Into the Light",
+  "search_hits": [
+   {
+    "id": "16e66ddf-df48-4d6b-8806-d82b2cc2bc3b",
+    "score": 100,
+    "title": "Into the Light",
+    "artist": "Marisa Anderson",
+    "first_release_date": "2016-06-24",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "16e66ddf-df48-4d6b-8806-d82b2cc2bc3b",
+   "url": "https://musicbrainz.org/release-group/16e66ddf-df48-4d6b-8806-d82b2cc2bc3b",
+   "title": "Into the Light",
+   "artist": "Marisa Anderson",
+   "first_release_date": "2016-06-24",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk"
+   ],
+   "tags": [
+    "folk"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/marisa-anderson/into-the-light/",
+    "https://www.allmusic.com/album/mw0002973278",
+    "https://www.discogs.com/master/1322601",
+    "https://www.wikidata.org/wiki/Q113159008"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "9751c056-7bad-4e70-a220-1f1185571278",
+    "title": "Into the Light",
+    "date": "2016-06-24",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "[no label]",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0398": {
+  "query_artist": "Gwenifer Raymond",
+  "query_title": "Last Night I Heard The Dog Star Bark",
+  "search_hits": [
+   {
+    "id": "ac468a89-ce5b-4477-8950-202b6d744483",
+    "score": 100,
+    "title": "Last Night I Heard the Dog Star Bark",
+    "artist": "Gwenifer Raymond",
+    "first_release_date": "2025-09-05",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "ac468a89-ce5b-4477-8950-202b6d744483",
+   "url": "https://musicbrainz.org/release-group/ac468a89-ce5b-4477-8950-202b6d744483",
+   "title": "Last Night I Heard the Dog Star Bark",
+   "artist": "Gwenifer Raymond",
+   "first_release_date": "2025-09-05",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "american primitive guitar"
+   ],
+   "tags": [
+    "american primitive guitar"
+   ],
+   "urls": [],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "1e1267d2-1092-45f0-8bf3-f31e5aa18bb8",
+    "title": "Last Night I Heard the Dog Star Bark",
+    "date": "2025-09-05",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "We Are Busy Bodies",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0178": {
+  "query_artist": "Daniel Bachman",
+  "query_title": "Almanac Behind",
+  "search_hits": [
+   {
+    "id": "923300c0-e22f-4240-8287-49ff7b452aea",
+    "score": 100,
+    "title": "Almanac Behind",
+    "artist": "Daniel Bachman",
+    "first_release_date": "2022-11-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "923300c0-e22f-4240-8287-49ff7b452aea",
+   "url": "https://musicbrainz.org/release-group/923300c0-e22f-4240-8287-49ff7b452aea",
+   "title": "Almanac Behind",
+   "artist": "Daniel Bachman",
+   "first_release_date": "2022-11-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk",
+    "sound collage"
+   ],
+   "tags": [
+    "folk",
+    "sound collage"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "88f9eb4e-efce-437b-bac7-1416fc775156",
+    "title": "Almanac Behind",
+    "date": "2022-11-18",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Three Lobed Recordings",
+      "catno": "TLR-143"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1142": {
+  "query_artist": "Anne Briggs",
+  "query_title": "Anne Briggs",
+  "search_hits": [
+   {
+    "id": "0d9000b9-f827-43f3-8fcf-f4a916363930",
+    "score": 100,
+    "title": "Anne Briggs",
+    "artist": "Anne Briggs",
+    "first_release_date": "1971-04",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "e5673871-b4c2-4044-adbe-eacf9fdbf114",
+    "score": 82,
+    "title": "An Introduction to Anne Briggs",
+    "artist": "Anne Briggs",
+    "first_release_date": "2018",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   },
+   {
+    "id": "d1d4ccb2-9512-3fc5-ad11-a34f8191a5f8",
+    "score": 75,
+    "title": "Classic Anne Briggs: The Complete Topic Recordings",
+    "artist": "Anne Briggs",
+    "first_release_date": "1990",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "0d9000b9-f827-43f3-8fcf-f4a916363930",
+   "url": "https://musicbrainz.org/release-group/0d9000b9-f827-43f3-8fcf-f4a916363930",
+   "title": "Anne Briggs",
+   "artist": "Anne Briggs",
+   "first_release_date": "1971-04",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk"
+   ],
+   "tags": [
+    "folk"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/266532",
+    "https://www.wikidata.org/wiki/Q4768184"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "18ea65e8-32dd-3f7c-a18b-0a0bc40652dc",
+    "title": "Anne Briggs",
+    "date": "1971-04",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Topic Records",
+      "catno": "12T207"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0383": {
+  "query_artist": "青葉市子",
+  "query_title": "Luminescent Creatures",
+  "search_hits": [
+   {
+    "id": "d1e4e7cd-95aa-4fa9-b394-e1e57421d8d1",
+    "score": 100,
+    "title": "Luminescent Creatures",
+    "artist": "青葉市子",
+    "first_release_date": "2025-02-28",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d1e4e7cd-95aa-4fa9-b394-e1e57421d8d1",
+   "url": "https://musicbrainz.org/release-group/d1e4e7cd-95aa-4fa9-b394-e1e57421d8d1",
+   "title": "Luminescent Creatures",
+   "artist": "青葉市子",
+   "first_release_date": "2025-02-28",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "chamber folk",
+    "singer-songwriter"
+   ],
+   "tags": [
+    "chamber folk",
+    "singer-songwriter"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/%E9%9D%92%E8%91%89%E5%B8%82%E5%AD%90/luminescent-creatures/",
+    "https://www.discogs.com/master/3764718",
+    "https://www.wikidata.org/wiki/Q132798261"
+   ],
+   "release_count": 8,
+   "earliest_release": {
+    "id": "a2a71ae1-de62-4c6b-a61e-dc6181f79c44",
+    "title": "Luminescent Creatures",
+    "date": "2025-02-28",
+    "country": "JP",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "hermine",
+      "catno": "HERMCD-003"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "Ichiko Aoba",
+   "query_title": "Luminescent Creatures",
+   "rejected_match": null
+  }
+ },
+ "cand-0956": {
+  "query_artist": "Shirley Collins",
+  "query_title": "Lodestar",
+  "search_hits": [
+   {
+    "id": "b10f878c-076e-4a4c-8697-a03caef12b53",
+    "score": 100,
+    "title": "Lodestar",
+    "artist": "Shirley Collins",
+    "first_release_date": "2016-11-04",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "b10f878c-076e-4a4c-8697-a03caef12b53",
+   "url": "https://musicbrainz.org/release-group/b10f878c-076e-4a4c-8697-a03caef12b53",
+   "title": "Lodestar",
+   "artist": "Shirley Collins",
+   "first_release_date": "2016-11-04",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk",
+    "cajun",
+    "chamber folk"
+   ],
+   "tags": [
+    "folk",
+    "cajun",
+    "chamber folk",
+    "english folk music",
+    "traditional cajun music"
+   ],
+   "urls": [
+    "https://mainlynorfolk.info/shirley.collins/records/lodestar.html",
+    "https://rateyourmusic.com/release/album/shirley-collins/lodestar/",
+    "https://www.allmusic.com/album/mw0002981199",
+    "https://www.discogs.com/master/1081528",
+    "https://www.wikidata.org/wiki/Q28452650"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "3e05b583-7636-46fb-a5e5-0098c1afce62",
+    "title": "Lodestar",
+    "date": "2016-11-04",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Domino",
+      "catno": "WIGLP389X"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0291": {
+  "query_artist": "Chie Mukai",
+  "query_title": "I Can't Promise = 約束はできない",
+  "search_hits": [
+   {
+    "id": "37fa4de2-5725-4114-be17-4b2d7c725820",
+    "score": 100,
+    "title": "約束 / SEVEN",
+    "artist": "Chie",
+    "first_release_date": "2014-05-28",
+    "primary_type": "Single",
+    "secondary_types": []
+   }
+  ],
+  "retry": {
+   "query_artist": "Chie Mukai",
+   "query_title": "I Can't Promise",
+   "search_hits": []
+  },
+  "match": {
+   "id": "e9711519-80b1-43e4-b318-f6239a00458d",
+   "url": "https://musicbrainz.org/release-group/e9711519-80b1-43e4-b318-f6239a00458d",
+   "title": "約束はできない",
+   "artist": "Ché‐SHIZU",
+   "resolved_by_hand": "artist discography browse on MusicBrainz"
+  },
+  "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
+ },
+ "cand-0292": {
+  "query_artist": "Nagisa Ni Te",
+  "query_title": "On the Love Beach",
+  "search_hits": [
+   {
+    "id": "c10bbeb1-8a3a-38ba-a96b-99d5a7cba8fa",
+    "score": 100,
+    "title": "The Same as a Flower",
+    "artist": "Nagisa Ni Te",
+    "first_release_date": "2004-05-07",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "2d43c824-e2a4-41fc-9711-ec80edbb1983",
+    "score": 52,
+    "title": "on purpose",
+    "artist": "Ni/Co",
+    "first_release_date": "2024-01-12",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "4e43397a-39dd-4137-b435-17eda0e87bfe",
+    "score": 52,
+    "title": "Love Crime",
+    "artist": "Ni Slova",
+    "first_release_date": "2017-10-27",
+    "primary_type": "EP",
+    "secondary_types": []
+   },
+   {
+    "id": "d564d856-d5f5-4ba6-abf6-19100a876f33",
+    "score": 48,
+    "title": "Love the Junk of Society",
+    "artist": "Mo*Te",
+    "first_release_date": "2020",
+    "primary_type": "EP",
+    "secondary_types": []
+   },
+   {
+    "id": "1d02755b-a37e-4c29-8256-60b36c2b5f77",
+    "score": 48,
+    "title": "On It",
+    "artist": "LEViT∆TE",
+    "first_release_date": "2015-01-05",
+    "primary_type": "Single",
+    "secondary_types": []
+   }
+  ],
+  "retry": {
+   "query_artist": "渚にて",
+   "query_title": "On the Love Beach",
+   "search_hits": [
+    {
+     "id": "0f62de4c-6a50-415e-8c7d-8b78d2813a9a",
+     "score": 100,
+     "title": "MY ON WAY",
+     "artist": "村上来渚",
+     "first_release_date": "2024-08-09",
+     "primary_type": "Single",
+     "secondary_types": []
+    },
+    {
+     "id": "4ab210a5-b0cb-4d69-aed9-03d774c4d7fc",
+     "score": 98,
+     "title": "Baby Summer Love",
+     "artist": "村上来渚",
+     "first_release_date": "2025-08-06",
+     "primary_type": "Single",
+     "secondary_types": []
+    }
+   ]
+  },
+  "match": null,
+  "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
+ },
+ "cand-0295": {
+  "query_artist": "ゑでぃまぁこん EDDIE MARCON",
+  "query_title": "眩暗眩花 kura kura kurage (2018)",
+  "search_hits": [
+   {
+    "id": "5d6a1957-122d-41ea-8175-cad8e01c4e45",
+    "score": 100,
+    "title": "眩暗眩花",
+    "artist": "ゑでぃまぁこん",
+    "first_release_date": "2018-08-25",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "1f2ef41c-d796-45ec-bb81-84c9bdde11b8",
+    "score": 34,
+    "title": "六つの花と雪虫",
+    "artist": "ゑでぃまぁこん",
+    "first_release_date": "2015-11-22",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   }
+  ],
+  "match": {
+   "id": "5d6a1957-122d-41ea-8175-cad8e01c4e45",
+   "url": "https://musicbrainz.org/release-group/5d6a1957-122d-41ea-8175-cad8e01c4e45",
+   "title": "眩暗眩花",
+   "artist": "ゑでぃまぁこん",
+   "first_release_date": "2018-08-25",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk",
+    "pop",
+    "rock"
+   ],
+   "tags": [
+    "folk",
+    "pop",
+    "rock"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "de21b323-9441-40f5-9b75-65057575be52",
+    "title": "眩暗眩花",
+    "date": "2018-08-25",
+    "country": "JP",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Pong‐Kong Records",
+      "catno": "PK05"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0189": {
+  "query_artist": "Tara Clerkin Trio",
+  "query_title": "On The Turning Ground",
+  "search_hits": [
+   {
+    "id": "12a16834-7601-4218-9a1a-ef85aeced2aa",
+    "score": 100,
+    "title": "On the Turning Ground",
+    "artist": "Tara Clerkin Trio",
+    "first_release_date": "2023-11-03",
+    "primary_type": "EP",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "12a16834-7601-4218-9a1a-ef85aeced2aa",
+   "url": "https://musicbrainz.org/release-group/12a16834-7601-4218-9a1a-ef85aeced2aa",
+   "title": "On the Turning Ground",
+   "artist": "Tara Clerkin Trio",
+   "first_release_date": "2023-11-03",
+   "primary_type": "EP",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "f1c20581-d130-4b7f-ab33-6a53fc56c559",
+    "title": "On the Turning Ground",
+    "date": "2023-11-03",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "World of Echo",
+      "catno": "WOE013"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0871": {
+  "query_artist": "Laura Cannell",
+  "query_title": "Beneath Swooping Talons",
+  "search_hits": [
+   {
+    "id": "1e745638-1e10-4820-a1eb-7fe2ce517892",
+    "score": 100,
+    "title": "Beneath Swooping Talons",
+    "artist": "Laura Cannell",
+    "first_release_date": "2015-08-28",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "1e745638-1e10-4820-a1eb-7fe2ce517892",
+   "url": "https://musicbrainz.org/release-group/1e745638-1e10-4820-a1eb-7fe2ce517892",
+   "title": "Beneath Swooping Talons",
+   "artist": "Laura Cannell",
+   "first_release_date": "2015-08-28",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "classical",
+    "experimental",
+    "medieval"
+   ],
+   "tags": [
+    "classical",
+    "experimental",
+    "medieval"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "871bb431-1cf2-4ff9-958c-b6413cf12fbd",
+    "title": "Beneath Swooping Talons",
+    "date": "2015-08-28",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Front & Follow",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-1207": {
+  "query_artist": "Juana Molina",
+  "query_title": "Halo",
+  "search_hits": [
+   {
+    "id": "97d0495c-f222-4e40-9276-a36f4acb6ee0",
+    "score": 100,
+    "title": "Halo",
+    "artist": "Juana Molina",
+    "first_release_date": "2017-02-28",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "97d0495c-f222-4e40-9276-a36f4acb6ee0",
+   "url": "https://musicbrainz.org/release-group/97d0495c-f222-4e40-9276-a36f4acb6ee0",
+   "title": "Halo",
+   "artist": "Juana Molina",
+   "first_release_date": "2017-02-28",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "art rock",
+    "electronic",
+    "folktronica",
+    "indie rock",
+    "rock"
+   ],
+   "tags": [
+    "art rock",
+    "electronic",
+    "folktronica",
+    "indie rock",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/1173430",
+    "https://www.wikidata.org/wiki/Q30607735"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "d70806be-fe64-4f2e-9a2d-baebddeb894d",
+    "title": "Halo",
+    "date": "2017-02-28",
+    "country": "BE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Crammed Discs",
+      "catno": "CRAM275"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0888": {
+  "query_artist": "Księżyc",
+  "query_title": "Rabbit Eclipse",
+  "search_hits": [
+   {
+    "id": "d467fbb0-d3b6-452e-81e3-f468011dfc59",
+    "score": 100,
+    "title": "Rabbit Eclipse",
+    "artist": "Księżyc",
+    "first_release_date": "2015-11-16",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d467fbb0-d3b6-452e-81e3-f468011dfc59",
+   "url": "https://musicbrainz.org/release-group/d467fbb0-d3b6-452e-81e3-f468011dfc59",
+   "title": "Rabbit Eclipse",
+   "artist": "Księżyc",
+   "first_release_date": "2015-11-16",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "classical",
+    "electronic",
+    "experimental",
+    "folk"
+   ],
+   "tags": [
+    "classical",
+    "electronic",
+    "experimental",
+    "folk"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/ksiezyc/rabbit-eclipse/",
+    "https://www.discogs.com/master/989548"
+   ],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "49691ba4-6bd0-45f4-9235-e89d0cdbf0d4",
+    "title": "Rabbit Eclipse",
+    "date": "2015-11-16",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Penultimate Press",
+      "catno": "PP19CD"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1301": {
+  "query_artist": "Terry Riley",
+  "query_title": "Shri Camel",
+  "search_hits": [
+   {
+    "id": "caf5d71f-cdef-3e3b-aae4-e59a984f4c97",
+    "score": 100,
+    "title": "Shri Camel",
+    "artist": "Terry Riley",
+    "first_release_date": "1980",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "caf5d71f-cdef-3e3b-aae4-e59a984f4c97",
+   "url": "https://musicbrainz.org/release-group/caf5d71f-cdef-3e3b-aae4-e59a984f4c97",
+   "title": "Shri Camel",
+   "artist": "Terry Riley",
+   "first_release_date": "1980",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "classical",
+    "electronic",
+    "minimalism"
+   ],
+   "tags": [
+    "classical",
+    "electronic",
+    "minimalism"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000897951",
+    "https://www.discogs.com/master/49959",
+    "https://www.wikidata.org/wiki/Q7503758"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "bc1c4b7d-2f00-4196-ad30-8467ee7595aa",
+    "title": "Shri Camel",
+    "date": "1980",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "CBS",
+      "catno": "73929"
+     },
+     {
+      "name": "CBS",
+      "catno": "M 35164"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1332": {
+  "query_artist": "Fripp & Eno",
+  "query_title": "(No Pussyfooting)",
+  "search_hits": [
+   {
+    "id": "50dc7b51-830b-3bd9-9002-a0f104acfc27",
+    "score": 100,
+    "title": "(No Pussyfooting)",
+    "artist": "Fripp & Eno",
+    "first_release_date": "1973-11",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "50dc7b51-830b-3bd9-9002-a0f104acfc27",
+   "url": "https://musicbrainz.org/release-group/50dc7b51-830b-3bd9-9002-a0f104acfc27",
+   "title": "(No Pussyfooting)",
+   "artist": "Fripp & Eno",
+   "first_release_date": "1973-11",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "ambient",
+    "drone",
+    "electronic",
+    "rock",
+    "experimental"
+   ],
+   "tags": [
+    "ambient",
+    "drone",
+    "electronic",
+    "rock",
+    "366",
+    "experimental"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0000650170",
+    "https://www.discogs.com/master/9824",
+    "https://www.wikidata.org/wiki/Q1815536"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "04426ac9-5d82-47c2-98b5-857be7c27756",
+    "title": "(No Pussyfooting)",
+    "date": "1973",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Island",
+      "catno": "87 511 ET"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1124": {
+  "query_artist": "Emahoy TseguMaryam Gubroup",
+  "query_title": "Éthiopiques 21: Piano Solo",
+  "search_hits": [
+   {
+    "id": "aec58f04-64f5-3a08-a794-e0192788e481",
+    "score": 100,
+    "title": "Éthiopiques 21: Piano Solo",
+    "artist": "Emahoy Tsegué-Maryam Guèbrou",
+    "first_release_date": "2006",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Compilation"
+    ]
+   }
+  ],
+  "match": {
+   "id": "aec58f04-64f5-3a08-a794-e0192788e481",
+   "url": "https://musicbrainz.org/release-group/aec58f04-64f5-3a08-a794-e0192788e481",
+   "title": "Éthiopiques 21: Piano Solo",
+   "artist": "Emahoy Tsegué-Maryam Guèbrou",
+   "first_release_date": "2006",
+   "primary_type": "Album",
+   "secondary_types": [
+    "Compilation"
+   ],
+   "genres": [
+    "ethio-jazz",
+    "classical"
+   ],
+   "tags": [
+    "ethio-jazz",
+    "classical"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "fd107d3a-50d6-4def-8b21-cbe624a81b42",
+    "title": "Éthiopiques 21: Ethiopia Song",
+    "date": "2006",
+    "country": "FR",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Buda Musique",
+      "catno": "860122"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1120": {
+  "query_artist": "Pharaoh Sanders",
+  "query_title": "Karma",
+  "search_hits": [
+   {
+    "id": "22f978cb-26e6-3757-a13a-347970574eec",
+    "score": 100,
+    "title": "Karma",
+    "artist": "Pharoah Sanders",
+    "first_release_date": "1969",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "22f978cb-26e6-3757-a13a-347970574eec",
+   "url": "https://musicbrainz.org/release-group/22f978cb-26e6-3757-a13a-347970574eec",
+   "title": "Karma",
+   "artist": "Pharoah Sanders",
+   "first_release_date": "1969",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "avant-garde jazz",
+    "free jazz",
+    "spiritual jazz"
+   ],
+   "tags": [
+    "avant-garde jazz",
+    "free jazz",
+    "spiritual jazz"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/pharoah_sanders/karma/",
+    "https://www.allmusic.com/album/mw0000200235",
+    "https://www.discogs.com/master/54110",
+    "https://www.musik-sammler.de/album/107160/",
+    "https://www.wikidata.org/wiki/Q1571202"
+   ],
+   "release_count": 10,
+   "earliest_release": {
+    "id": "df151c91-79cf-49a6-9bab-374dec6a1812",
+    "title": "Karma",
+    "date": "1969",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "impulse!",
+      "catno": "AS-9181"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0333": {
+  "query_artist": "La Monte Young",
+  "query_title": "The Well-Tuned Piano in the Magenta Lights “87 V 10 6:43:00 PM — 87 V 11 1:07:45 AM NYC”",
+  "search_hits": [
+   {
+    "id": "7312b6c4-b979-4076-bd03-27937f444d9d",
+    "score": 100,
+    "title": "The Well-Tuned Piano in the Magenta Lights",
+    "artist": "La Monte Young - Marian Zazeela",
+    "first_release_date": "2000",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "794575ac-003f-4e60-be3d-83b225282cdc",
+    "score": 97,
+    "title": "The Well‐Tuned Piano 81 X 25 6:17:50–11:18:59 PM NYC",
+    "artist": "La Monte Young",
+    "first_release_date": "1987",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "771b35ca-fff5-4662-9233-6cccfefc2879",
+    "score": 69,
+    "title": "Sunday AM Blues / B♭ Dorian Blues / The Well Tuned Piano / Map of 49’s Dream",
+    "artist": "La Monte Young",
+    "first_release_date": "1992",
+    "primary_type": null,
+    "secondary_types": []
+   },
+   {
+    "id": "f4d54a0f-e548-4f5f-a5ee-66b8e8425dcb",
+    "score": 66,
+    "title": "V",
+    "artist": "Monte",
+    "first_release_date": "2019-06-22",
+    "primary_type": "EP",
+    "secondary_types": []
+   },
+   {
+    "id": "32bf0606-b58d-425a-91ea-b53cb001ad46",
+    "score": 54,
+    "title": "V The Volcanic",
+    "artist": "Kristeen Young",
+    "first_release_date": "2011-05-02",
+    "primary_type": "EP",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "7312b6c4-b979-4076-bd03-27937f444d9d",
+   "url": "https://musicbrainz.org/release-group/7312b6c4-b979-4076-bd03-27937f444d9d",
+   "title": "The Well-Tuned Piano in the Magenta Lights",
+   "artist": "La Monte Young - Marian Zazeela",
+   "first_release_date": "2000",
+   "primary_type": "Album",
+   "secondary_types": [
+    "Live"
+   ],
+   "genres": [
+    "classical"
+   ],
+   "tags": [
+    "classical"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "95e576b5-3b67-40bb-ae39-17ea34799de8",
+    "title": "The Well-Tuned Piano in the Magenta Lights",
+    "date": "2000",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Just Dreams",
+      "catno": "JD 002"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0335": {
+  "query_artist": "R. Andrew Lee",
+  "query_title": "November",
+  "search_hits": [
+   {
+    "id": "30db5829-5206-4931-ad79-938e26350e8e",
+    "score": 100,
+    "title": "November",
+    "artist": "Dennis Johnson; R. Andrew Lee",
+    "first_release_date": "2013-03-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "30db5829-5206-4931-ad79-938e26350e8e",
+   "url": "https://musicbrainz.org/release-group/30db5829-5206-4931-ad79-938e26350e8e",
+   "title": "November",
+   "artist": "Dennis Johnson; R. Andrew Lee",
+   "first_release_date": "2013-03-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "classical"
+   ],
+   "tags": [
+    "classical",
+    "minimal"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "565cf31b-2e37-4366-b1a8-472d7ae0a86a",
+    "title": "November",
+    "date": "2013-03-18",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Irritable Hedgehog",
+      "catno": "IHM007"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "Irritable Hedgehog",
+   "query_title": "Dennis Johnson: November",
+   "rejected_match": null
+  }
+ },
+ "cand-1083": {
+  "query_artist": "Flower-Corsano Duo",
+  "query_title": "The Four Aims",
+  "search_hits": [
+   {
+    "id": "4db2fcd2-ab09-4123-bb80-e619f58d436a",
+    "score": 100,
+    "title": "Four Aims",
+    "artist": "Flower-Corsano Duo",
+    "first_release_date": "2009-03-09",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "eff4412c-4992-403a-9893-cc7307ae2013",
+    "score": 56,
+    "title": "The Halcyon",
+    "artist": "Flower-Corsano Duo",
+    "first_release_date": "2022-02-19",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "2e86864a-5d9f-470f-8a9e-88f80df49fec",
+    "score": 55,
+    "title": "The Undisputed Dimension",
+    "artist": "Flower-Corsano Duo",
+    "first_release_date": "2007-01",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "f03006ca-f9d8-487f-b474-28d75188deaf",
+    "score": 55,
+    "title": "The Chocolate Cities",
+    "artist": "Flower-Corsano Duo",
+    "first_release_date": "2009-11",
+    "primary_type": null,
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "a5d017d4-e7d9-4f4c-9e76-f9f7d3332c24",
+    "score": 55,
+    "title": "The Radiant Mirror",
+    "artist": "Flower-Corsano Duo",
+    "first_release_date": "2006-12-04",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "4db2fcd2-ab09-4123-bb80-e619f58d436a",
+   "url": "https://musicbrainz.org/release-group/4db2fcd2-ab09-4123-bb80-e619f58d436a",
+   "title": "Four Aims",
+   "artist": "Flower-Corsano Duo",
+   "first_release_date": "2009-03-09",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "232dbb0d-62ca-475c-89f8-24b36ac6a098",
+    "title": "Four Aims",
+    "date": "2009-03-09",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "VHF Records",
+      "catno": "VHF#115"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0649": {
+  "query_artist": "Guardian Alien",
+  "query_title": "See The World Given To A One Love Entity",
+  "search_hits": [
+   {
+    "id": "d0eb3df3-d139-4ca5-b85f-0209073466a5",
+    "score": 100,
+    "title": "See the World Given to a One Love Entity",
+    "artist": "Guardian Alien",
+    "first_release_date": "2012-07-24",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d0eb3df3-d139-4ca5-b85f-0209073466a5",
+   "url": "https://musicbrainz.org/release-group/d0eb3df3-d139-4ca5-b85f-0209073466a5",
+   "title": "See the World Given to a One Love Entity",
+   "artist": "Guardian Alien",
+   "first_release_date": "2012-07-24",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "experimental",
+    "post-rock",
+    "rock"
+   ],
+   "tags": [
+    "cover art recursion",
+    "experimental",
+    "post-rock",
+    "rock"
+   ],
+   "urls": [
+    "https://rateyourmusic.com/release/album/guardian-alien/see-the-world-given-to-a-one-love-entity/"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "b839fcf8-2faf-4732-a6f2-0421043cc197",
+    "title": "See the World Given to a One Love Entity",
+    "date": "2012-07-24",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Thrill Jockey",
+      "catno": "THRILL313"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1306": {
+  "query_artist": "Mohamed Rouicha",
+  "query_title": "Ma Nagai Ana-jay",
+  "search_hits": [
+   {
+    "id": "7160b732-4788-4dab-a941-ae7d10a8d4f5",
+    "score": 100,
+    "title": "Ana Mzawga Ya Syadi",
+    "artist": "mohamed laaroussi",
+    "first_release_date": null,
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "7fe384be-a3b5-420c-b675-a00c7f7a59b1",
+    "score": 100,
+    "title": "HABIBI ANA MEN GHERAK",
+    "artist": "Mohamed Ramadan",
+    "first_release_date": "2026-08-05",
+    "primary_type": "Single",
+    "secondary_types": []
+   },
+   {
+    "id": "110a90de-84dc-4966-b7ab-71bbf56c873d",
+    "score": 72,
+    "title": "Ana Enta (Delarue & Orio Remix)",
+    "artist": "Mohamed Ramadan, ORIO & Delarue",
+    "first_release_date": "2026-05-29",
+    "primary_type": "Single",
+    "secondary_types": [
+     "Remix"
+    ]
+   }
+  ],
+  "retry": {
+   "query_artist": "Rouicha",
+   "query_title": "Ma Nagai",
+   "search_hits": []
+  },
+  "match": null,
+  "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
+ },
+ "cand-1244": {
+  "query_artist": "Khaira Arby",
+  "query_title": "Timbuktu Tarab",
+  "search_hits": [
+   {
+    "id": "9a069bde-e849-4a1a-98bd-e81e231213c6",
+    "score": 100,
+    "title": "Timbuktu Tarab",
+    "artist": "Khaira Arby",
+    "first_release_date": "2010",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "9a069bde-e849-4a1a-98bd-e81e231213c6",
+   "url": "https://musicbrainz.org/release-group/9a069bde-e849-4a1a-98bd-e81e231213c6",
+   "title": "Timbuktu Tarab",
+   "artist": "Khaira Arby",
+   "first_release_date": "2010",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "11ff7e8a-ceaf-4e36-affc-08d056c62931",
+    "title": "Timbuktu Tarab",
+    "date": "2010",
+    "country": "US",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Clermont Music",
+      "catno": "CLE-01-2010"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0703": {
+  "query_artist": "Tamikrest",
+  "query_title": "Chatma",
+  "search_hits": [
+   {
+    "id": "c33c1bca-4e14-4b38-ba5f-fe14a306fa74",
+    "score": 100,
+    "title": "Chatma",
+    "artist": "Tamikrest",
+    "first_release_date": "2013-09-13",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "c33c1bca-4e14-4b38-ba5f-fe14a306fa74",
+   "url": "https://musicbrainz.org/release-group/c33c1bca-4e14-4b38-ba5f-fe14a306fa74",
+   "title": "Chatma",
+   "artist": "Tamikrest",
+   "first_release_date": "2013-09-13",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "blues",
+    "desert blues",
+    "rock"
+   ],
+   "tags": [
+    "blues",
+    "desert blues",
+    "rock",
+    "tishoumaren"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "41b7faf4-88c3-487b-9b4a-a64cca025db4",
+    "title": "Chatma",
+    "date": "2013-09-13",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Glitterbeat",
+      "catno": "GBCD 007"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0819": {
+  "query_artist": "Noura Mint Seymali",
+  "query_title": "Tzenni",
+  "search_hits": [
+   {
+    "id": "f879d2dc-c7f6-4d44-ac8a-8e2e0cce60b5",
+    "score": 100,
+    "title": "Tzenni",
+    "artist": "Noura Mint Seymali",
+    "first_release_date": "2014-06-20",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "f879d2dc-c7f6-4d44-ac8a-8e2e0cce60b5",
+   "url": "https://musicbrainz.org/release-group/f879d2dc-c7f6-4d44-ac8a-8e2e0cce60b5",
+   "title": "Tzenni",
+   "artist": "Noura Mint Seymali",
+   "first_release_date": "2014-06-20",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "griot"
+   ],
+   "tags": [
+    "griot"
+   ],
+   "urls": [],
+   "release_count": 2,
+   "earliest_release": {
+    "id": "ad82076d-4e56-4c15-8607-8678b3632b63",
+    "title": "Tzenni",
+    "date": "2014-06-20",
+    "country": null,
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Glitterbeat",
+      "catno": "58828"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1337": {
+  "query_artist": "Jeri-Jeri",
+  "query_title": "800% Ndagga",
+  "search_hits": [
+   {
+    "id": "65a686ad-40c1-4a48-a9ac-3fdaceff4003",
+    "score": 100,
+    "title": "800% Ndagga",
+    "artist": "Mark Ernestus presents Jeri-Jeri",
+    "first_release_date": "2013-05-17",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "65a686ad-40c1-4a48-a9ac-3fdaceff4003",
+   "url": "https://musicbrainz.org/release-group/65a686ad-40c1-4a48-a9ac-3fdaceff4003",
+   "title": "800% Ndagga",
+   "artist": "Mark Ernestus presents Jeri-Jeri",
+   "first_release_date": "2013-05-17",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "59642cf7-cfee-4e06-afec-9b5297669d06",
+    "title": "800% Ndagga",
+    "date": "2013-05-17",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Ndagga",
+      "catno": "ND-06"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0854": {
+  "query_artist": "Mbongwana Star",
+  "query_title": "From Kinshasa",
+  "search_hits": [
+   {
+    "id": "a959ce18-327e-43d4-b79e-ca3227cac18f",
+    "score": 100,
+    "title": "From Kinshasa",
+    "artist": "Mbongwana Star",
+    "first_release_date": "2015-05-18",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "a959ce18-327e-43d4-b79e-ca3227cac18f",
+   "url": "https://musicbrainz.org/release-group/a959ce18-327e-43d4-b79e-ca3227cac18f",
+   "title": "From Kinshasa",
+   "artist": "Mbongwana Star",
+   "first_release_date": "2015-05-18",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [],
+   "tags": [
+    "african",
+    "weltmusik"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/845216",
+    "https://www.wikidata.org/wiki/Q20899446"
+   ],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "92d44caf-6c0d-44a7-a841-ec16cbce73e1",
+    "title": "From Kinshasa",
+    "date": "2015-05-18",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "World Circuit",
+      "catno": "WCD091"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0042": {
+  "query_artist": "Gaye Su Akyol",
+  "query_title": "İstikrarlı Hayal Hakikattir",
+  "search_hits": [
+   {
+    "id": "46b8ff7d-6bf2-4765-82f2-d75594e4ea34",
+    "score": 100,
+    "title": "İstikrarlı Hayal Hakikattir",
+    "artist": "Gaye Su Akyol",
+    "first_release_date": "2018-10-26",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "46b8ff7d-6bf2-4765-82f2-d75594e4ea34",
+   "url": "https://musicbrainz.org/release-group/46b8ff7d-6bf2-4765-82f2-d75594e4ea34",
+   "title": "İstikrarlı Hayal Hakikattir",
+   "artist": "Gaye Su Akyol",
+   "first_release_date": "2018-10-26",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk",
+    "rock"
+   ],
+   "tags": [
+    "folk",
+    "rock"
+   ],
+   "urls": [
+    "https://genius.com/albums/Gaye-su-akyol/Istikrarli-hayal-hakikattir",
+    "https://rateyourmusic.com/release/album/gaye-su-akyol/istikrarli-hayal-hakikattir/",
+    "https://www.allmusic.com/album/mw0003203102",
+    "https://www.discogs.com/master/1455717",
+    "https://www.musik-sammler.de/album/967707/",
+    "https://www.wikidata.org/wiki/Q97233085"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "25725e0e-c85a-4704-9a93-62cef4a25fb7",
+    "title": "İstikrarlı Hayal Hakikattir",
+    "date": "2018-10-26",
+    "country": "DE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Glitterbeat",
+      "catno": "GBCD 062"
+     }
+    ]
+   }
+  }
+ },
+ "cand-0145": {
+  "query_artist": "Los Wembler's de Iquitos",
+  "query_title": "Vision del Ayahuasca",
+  "search_hits": [
+   {
+    "id": "c25a3e52-ad95-47d3-b48e-68c9bcd48439",
+    "score": 100,
+    "title": "Visión del ayahuasca",
+    "artist": "Los Wembler’s de Iquitos",
+    "first_release_date": "2019-09-06",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "c25a3e52-ad95-47d3-b48e-68c9bcd48439",
+   "url": "https://musicbrainz.org/release-group/c25a3e52-ad95-47d3-b48e-68c9bcd48439",
+   "title": "Visión del ayahuasca",
+   "artist": "Los Wembler’s de Iquitos",
+   "first_release_date": "2019-09-06",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "chicha",
+    "cumbia amazónica",
+    "latin"
+   ],
+   "tags": [
+    "chicha",
+    "cumbia amazónica",
+    "latin"
+   ],
+   "urls": [],
+   "release_count": 1,
+   "earliest_release": {
+    "id": "8715ad15-0d43-49c2-badd-e7e6b995350f",
+    "title": "Visión del ayahuasca",
+    "date": "2019-09-06",
+    "country": "XW",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Barbès Records",
+      "catno": null
+     }
+    ]
+   }
+  }
+ },
+ "cand-0987": {
+  "query_artist": "잠비나이",
+  "query_title": "A Hermitage",
+  "search_hits": [
+   {
+    "id": "d1c08111-093d-4091-9d72-feee4c53d666",
+    "score": 100,
+    "title": "A Hermitage",
+    "artist": "잠비나이",
+    "first_release_date": "2016-06-17",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "d1c08111-093d-4091-9d72-feee4c53d666",
+   "url": "https://musicbrainz.org/release-group/d1c08111-093d-4091-9d72-feee4c53d666",
+   "title": "A Hermitage",
+   "artist": "잠비나이",
+   "first_release_date": "2016-06-17",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "folk rock",
+    "post-rock",
+    "rock"
+   ],
+   "tags": [
+    "folk rock",
+    "post-rock",
+    "rock"
+   ],
+   "urls": [
+    "https://www.allmusic.com/album/mw0002919320",
+    "https://www.discogs.com/master/1017371"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "1b9f0797-3fee-471c-9959-bb0a7b728940",
+    "title": "隱棲:은서",
+    "date": "2016-06-17",
+    "country": "XE",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Bella Union",
+      "catno": "BELLA535CD"
+     }
+    ]
+   }
+  },
+  "first_attempt": {
+   "query_artist": "Jambinai",
+   "query_title": "A Hermitage",
+   "rejected_match": null
+  }
+ },
+ "cand-0342": {
+  "query_artist": "minyo crusaders",
+  "query_title": "Echoes Of Japan",
+  "search_hits": [
+   {
+    "id": "4fce4f47-9fa2-42c0-b646-f53bc1fc274b",
+    "score": 100,
+    "title": "From Japan With Love",
+    "artist": "Minyo Crusaders",
+    "first_release_date": "2026-06-26",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "a580dd1e-cecf-3737-acaf-1dcae3ab3d92",
+    "score": 57,
+    "title": "Live in Japan",
+    "artist": "The Crusaders",
+    "first_release_date": "1993-04",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "bd2d3d43-74f8-367b-bcd4-df2f9b710fce",
+    "score": 54,
+    "title": "Live in Japan 2003",
+    "artist": "The Crusaders",
+    "first_release_date": "2004",
+    "primary_type": "Album",
+    "secondary_types": [
+     "Live"
+    ]
+   },
+   {
+    "id": "653443d0-8755-4982-a4f0-4bb3004d5244",
+    "score": 42,
+    "title": "Flavor of Life",
+    "artist": "Soul Crusaders",
+    "first_release_date": "2001-10-03",
+    "primary_type": "Album",
+    "secondary_types": []
+   },
+   {
+    "id": "cadbe31c-5801-3b52-96f8-a1c7ae579431",
+    "score": 42,
+    "title": "HOWLING SYMPHONY OF",
+    "artist": "BEAT CRUSADERS",
+    "first_release_date": "1999-07-01",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "retry": {
+   "query_artist": "Minyo Crusaders",
+   "query_title": "Echoes of Japan",
+   "search_hits": [
+    {
+     "id": "4fce4f47-9fa2-42c0-b646-f53bc1fc274b",
+     "score": 100,
+     "title": "From Japan With Love",
+     "artist": "Minyo Crusaders",
+     "first_release_date": "2026-06-26",
+     "primary_type": "Album",
+     "secondary_types": []
+    },
+    {
+     "id": "a580dd1e-cecf-3737-acaf-1dcae3ab3d92",
+     "score": 57,
+     "title": "Live in Japan",
+     "artist": "The Crusaders",
+     "first_release_date": "1993-04",
+     "primary_type": "Album",
+     "secondary_types": [
+      "Live"
+     ]
+    },
+    {
+     "id": "bd2d3d43-74f8-367b-bcd4-df2f9b710fce",
+     "score": 54,
+     "title": "Live in Japan 2003",
+     "artist": "The Crusaders",
+     "first_release_date": "2004",
+     "primary_type": "Album",
+     "secondary_types": [
+      "Live"
+     ]
+    },
+    {
+     "id": "653443d0-8755-4982-a4f0-4bb3004d5244",
+     "score": 42,
+     "title": "Flavor of Life",
+     "artist": "Soul Crusaders",
+     "first_release_date": "2001-10-03",
+     "primary_type": "Album",
+     "secondary_types": []
+    },
+    {
+     "id": "cadbe31c-5801-3b52-96f8-a1c7ae579431",
+     "score": 42,
+     "title": "HOWLING SYMPHONY OF",
+     "artist": "BEAT CRUSADERS",
+     "first_release_date": "1999-07-01",
+     "primary_type": "Album",
+     "secondary_types": []
+    }
+   ]
+  },
+  "match": null,
+  "note": "No MusicBrainz release group matches this record; search hits were other releases and are not used."
+ },
+ "cand-1063": {
+  "query_artist": "African Head Charge",
+  "query_title": "Off The Beaten Track",
+  "search_hits": [
+   {
+    "id": "5f051729-6a9a-3973-b86e-e37bbe3b86f3",
+    "score": 100,
+    "title": "Off the Beaten Track",
+    "artist": "African Head Charge",
+    "first_release_date": "1986",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "5f051729-6a9a-3973-b86e-e37bbe3b86f3",
+   "url": "https://musicbrainz.org/release-group/5f051729-6a9a-3973-b86e-e37bbe3b86f3",
+   "title": "Off the Beaten Track",
+   "artist": "African Head Charge",
+   "first_release_date": "1986",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "dub",
+    "electronic",
+    "electronica",
+    "experimental",
+    "reggae"
+   ],
+   "tags": [
+    "dub",
+    "electronic",
+    "electronica",
+    "experimental",
+    "reggae"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/19113"
+   ],
+   "release_count": 4,
+   "earliest_release": {
+    "id": "c785ee52-5d0e-4051-b418-9dfab1d32e37",
+    "title": "Off the Beaten Track",
+    "date": "1986",
+    "country": "GB",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "On-U Sound",
+      "catno": "ON-U LP 40"
+     }
+    ]
+   }
+  }
+ },
+ "cand-1208": {
+  "query_artist": "Véronique Vincent & Aksak Maboul",
+  "query_title": "Ex-Futur Album",
+  "search_hits": [
+   {
+    "id": "6b047394-1756-4bb7-9cfb-7ce09d6372a5",
+    "score": 100,
+    "title": "Ex-futur album",
+    "artist": "Véronique Vincent & Aksak Maboul",
+    "first_release_date": "2014-10-10",
+    "primary_type": "Album",
+    "secondary_types": []
+   }
+  ],
+  "match": {
+   "id": "6b047394-1756-4bb7-9cfb-7ce09d6372a5",
+   "url": "https://musicbrainz.org/release-group/6b047394-1756-4bb7-9cfb-7ce09d6372a5",
+   "title": "Ex-futur album",
+   "artist": "Véronique Vincent & Aksak Maboul",
+   "first_release_date": "2014-10-10",
+   "primary_type": "Album",
+   "secondary_types": [],
+   "genres": [
+    "avant-garde",
+    "electronic",
+    "europop",
+    "pop",
+    "rock"
+   ],
+   "tags": [
+    "avant-garde",
+    "electronic",
+    "europop",
+    "pop",
+    "rock"
+   ],
+   "urls": [
+    "https://www.discogs.com/master/775370"
+   ],
+   "release_count": 3,
+   "earliest_release": {
+    "id": "134f2304-dcba-4ce4-a9cb-b15c8ad459fa",
+    "title": "Ex-futur album",
+    "date": "2014-10-10",
+    "country": "FR",
+    "status": "Official",
+    "labels": [
+     {
+      "name": "Crammed Discs",
+      "catno": null
+     }
+    ]
+   }
+  }
+ }
+}

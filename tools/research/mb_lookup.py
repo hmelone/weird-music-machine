@@ -5,6 +5,7 @@ top candidates with their scores, and for the best match fetches the release
 group (first-release date, type, genres, tags, URL relations such as Wikipedia)
 and its earliest release (label, catalogue number, country).
 Raw responses are cached under RAW_DIR so the run is repeatable.
+Entries may carry mb_artist / mb_title (corrected query) or mb_release_group (chosen by hand).
 usage: mb_lookup.py SELECTION_JSON RAW_DIR OUT_JSON
 """
 import json, os, re, sys, time, urllib.parse, urllib.request
@@ -33,21 +34,24 @@ out = {}
 for s in selection:
     cid = s['candidate_id']
     artist, title = s.get('mb_artist') or s['artist_in_source'], s.get('mb_title') or s['title_in_source']
-    q = f'releasegroup:"{lucene(title)}" AND artist:"{lucene(artist)}"'
-    res = get('https://musicbrainz.org/ws/2/release-group/?fmt=json&limit=5&query=' + urllib.parse.quote(q), f'{cid}-search.json')
-    groups = res.get('release-groups', [])
+    if s.get('mb_release_group'):  # a release group chosen by hand after reading the search hits
+        groups = [{'id': s['mb_release_group'], 'score': None, 'title': title, 'artist-credit': [{'name': artist}]}]
+    else:
+        q = f'releasegroup:"{lucene(title)}" AND artist:"{lucene(artist)}"'
+        res = get('https://musicbrainz.org/ws/2/release-group/?fmt=json&limit=5&query=' + urllib.parse.quote(q), f'{cid}-search{s.get("retry", "")}.json')
+        groups = res.get('release-groups', [])
     if not groups:  # retry loosely: title only plus artist words
         q2 = f'releasegroup:({lucene(title)}) AND artist:({lucene(artist)})'
-        res = get('https://musicbrainz.org/ws/2/release-group/?fmt=json&limit=5&query=' + urllib.parse.quote(q2), f'{cid}-search2.json')
+        res = get('https://musicbrainz.org/ws/2/release-group/?fmt=json&limit=5&query=' + urllib.parse.quote(q2), f'{cid}-search2{s.get("retry", "")}.json')
         groups = res.get('release-groups', [])
     entry = {'query_artist': artist, 'query_title': title, 'search_hits': [{'id': g['id'], 'score': g.get('score'), 'title': g.get('title'), 'artist': ''.join(a.get('name', '') + a.get('joinphrase', '') for a in g.get('artist-credit', [])), 'first_release_date': g.get('first-release-date'), 'primary_type': g.get('primary-type'), 'secondary_types': g.get('secondary-types', [])} for g in groups]}
     if groups:
         best = groups[0]
-        rg = get(f"https://musicbrainz.org/ws/2/release-group/{best['id']}?fmt=json&inc=artist-credits+genres+tags+url-rels+releases", f'{cid}-rg.json')
+        rg = get(f"https://musicbrainz.org/ws/2/release-group/{best['id']}?fmt=json&inc=artist-credits+genres+tags+url-rels+releases", f'{cid}-rg{s.get("retry", "")}.json')
         releases = sorted([r for r in rg.get('releases', []) if r.get('date')], key=lambda r: r['date']) or rg.get('releases', [])
         first = None
         if releases:
-            rel = get(f"https://musicbrainz.org/ws/2/release/{releases[0]['id']}?fmt=json&inc=labels", f'{cid}-rel.json')
+            rel = get(f"https://musicbrainz.org/ws/2/release/{releases[0]['id']}?fmt=json&inc=labels", f'{cid}-rel{s.get("retry", "")}.json')
             first = {'id': rel.get('id'), 'title': rel.get('title'), 'date': rel.get('date'), 'country': rel.get('country'), 'status': rel.get('status'), 'labels': [{'name': (li.get('label') or {}).get('name'), 'catno': li.get('catalog-number')} for li in rel.get('label-info', [])]}
         entry['match'] = {'id': rg.get('id'), 'url': f"https://musicbrainz.org/release-group/{rg.get('id')}", 'title': rg.get('title'), 'artist': ''.join(a.get('name', '') + a.get('joinphrase', '') for a in rg.get('artist-credit', [])), 'first_release_date': rg.get('first-release-date'), 'primary_type': rg.get('primary-type'), 'secondary_types': rg.get('secondary-types', []), 'genres': [g['name'] for g in sorted(rg.get('genres', []), key=lambda g: -g.get('count', 0))], 'tags': [t['name'] for t in sorted(rg.get('tags', []), key=lambda t: -t.get('count', 0))][:12], 'urls': sorted({r['url']['resource'] for r in rg.get('relations', []) if r.get('url')}), 'release_count': len(rg.get('releases', [])), 'earliest_release': first}
     out[cid] = entry
