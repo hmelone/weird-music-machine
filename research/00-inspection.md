@@ -20,6 +20,12 @@ supplied separately and committed unchanged in this stage.
 (unstyled, fallback font). They were not recreated, because recreating the
 visual design would be a redesign.
 
+**Later (stage 2b):** `style.css` was reconstructed from a reference
+screenshot the owner supplied, because the original was not available. Fonts are
+self-hosted under `art-direction/fonts/` with their SIL Open Font Licences:
+Modak (masthead and display type), Archivo Narrow (navigation and headings)
+and Archivo (body and labels). No markup or artwork was changed.
+
 **Tests:** none were supplied. A test suite is added in stage 2.
 
 ## Corpus schema (all 250 records carry all 20 fields)
