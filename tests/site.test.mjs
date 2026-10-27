@@ -53,7 +53,7 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     const {page, errors} = await open(browser, url);
     const c = await counts(page);
     assert.equal(c.failed, false); assert.deepEqual(errors, []);
-    assert.ok(c.records.length >= 7 && c.records.every(v => v === String(corpus.length)), JSON.stringify(c.records));
+    assert.ok(c.records.length >= 6 && c.records.every(v => v === String(corpus.length)), JSON.stringify(c.records));
     assert.equal(c.additions, String(corpus.filter(r => !r.list_group).length));
     assert.equal(c.results, corpus.length + ' records / ' + corpus.length);
     assert.equal(c.progress, '0 / ' + corpus.length + ' HEARD');
@@ -146,13 +146,11 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
-  await t.test('the edition ledger and filter show how the collection grew', async () => {
+  await t.test('the edition filter browses what was added after the original collection', async () => {
     const {page} = await open(browser, url);
-    const ledger = await page.$$eval('.edition-ledger dd', els => els.map(e => e.textContent.trim()));
-    assert.deepEqual(ledger, ['130', '+' + (corpus.length - 130), String(corpus.length)]);
-    await page.click('[data-edition-browse="added"]');
+    await page.selectOption('#filter-edition', 'added');
     assert.equal((await counts(page)).results, (corpus.length - 130) + ' records / ' + corpus.length);
-    assert.equal(await page.inputValue('#filter-edition'), 'added');
+    assert.equal(await page.$('.edition-ledger'), null, 'the collection box is gone from the masthead');
     await page.close();
   });
 

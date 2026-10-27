@@ -33,7 +33,7 @@ const dateLabel = (value, time = false) => value ? new Intl.DateTimeFormat(undef
 export function renderCorpusCounts(doc, dataset, publications) {
   const additions = dataset.filter(r => !r.list_group);
   const years = additions.map(r => r.year).filter(Number.isInteger);
-  const values = {records: String(dataset.length), original: String(dataset.length - additions.length), additions: String(additions.length), 'addition-years': years.length ? Math.min(...years) + '–' + Math.max(...years) : ''};
+  const values = {records: String(dataset.length), additions: String(additions.length), 'addition-years': years.length ? Math.min(...years) + '–' + Math.max(...years) : ''};
   for (const node of doc.querySelectorAll('[data-count]')) if (Object.hasOwn(values, node.dataset.count)) node.textContent = values[node.dataset.count];
   for (const node of doc.querySelectorAll('[data-count-label]')) node.setAttribute('aria-label', dataset.length + ' ' + node.dataset.countLabel);
   const named = publications.length > 4 ? [...publications.slice(0,3), (publications.length - 3) + ' other publications'] : publications;
@@ -358,7 +358,6 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (button.id === 'toggle-genres') { genresExpanded = !genresExpanded; renderThreads(); return; }
     if (button.dataset.threadTab) { threadTab = button.dataset.threadTab; renderThreads(); return; }
     if (button.dataset.pathway) { reset(); filters.pathway = button.dataset.pathway; setView('collection'); $('#pathway-banner').scrollIntoView?.({behavior:'instant'}); $('#pathway-banner').focus({preventScroll:true}); return; }
-    if (button.dataset.editionBrowse) { reset(); filters.edition = button.dataset.editionBrowse; $('#filter-edition').value = filters.edition; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); return; }
     if (button.id === 'clear-pathway') { delete filters.pathway; limit = 24; render(); $('#search').focus(); return; }
     if (button.dataset.openMethod !== undefined) { setView('recommendations'); $('#how-recs').open = true; $('#how-recs').scrollIntoView?.({behavior:'instant', block:'center'}); $('#how-recs summary').focus(); return; }
     if (button.dataset.survey === 'open') return openSurvey();

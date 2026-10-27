@@ -42,7 +42,7 @@ A record's survey score is the number of wanted terms it has, divided by 3 and c
 
 ## Added in this edition
 
-A record belongs to the original collection when it has a `list_group` (The Wire's original 100 and its 30 runners-up, IDs `wire-001` to `wire-130`). Every other record (`wmm-0001` onward) counts as added. The masthead ledger and the Edition filter both compute this from the data.
+A record belongs to the original collection when it has a `list_group` (The Wire's original 100 and its 30 runners-up, IDs `wire-001` to `wire-130`). Every other record (`wmm-0001` onward) counts as added. The Edition filter computes this from the data.
 
 ## Personal notes
 
