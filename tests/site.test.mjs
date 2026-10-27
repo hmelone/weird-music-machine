@@ -168,6 +168,48 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
+  await t.test('personal notes save, survive reload, export, and keep existing log data', async () => {
+    const page = await browser.newPage();
+    const existing = {version: 1, records: {'wire-001': {status: 'heard', rating: 5, heardAt: '2026-01-01T00:00:00.000Z', updatedAt: '2026-01-01T00:00:00.000Z'}, 'wire-002': {status: 'want to hear', rating: null, heardAt: null, updatedAt: '2026-01-02T00:00:00.000Z'}}, events: [{id: 'wire-001', at: '2026-01-01T00:00:00.000Z', kind: 'rating', status: 'heard', rating: 5}], preference: 'strange'};
+    await page.addInitScript(log => { if (!sessionStorage.getItem('seeded')) { localStorage.setItem('weird-music-machine:v1', JSON.stringify(log)); sessionStorage.setItem('seeded', '1'); } }, existing);
+    await page.goto(url);
+    await page.waitForFunction(() => document.querySelectorAll('.record-card').length > 0);
+    await page.click('[data-details="wire-001"] >> nth=0');
+    await page.fill('#note-input', 'Gets beautiful around track 3.');
+    await page.click('[data-save-note="wire-001"]');
+    await page.click('[data-rate="wire-001"][data-value="4"] >> nth=-1');
+    assert.equal(await page.inputValue('#note-input'), 'Gets beautiful around track 3.');
+    await page.reload(); await page.waitForFunction(() => document.querySelectorAll('.record-card').length > 0);
+    const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
+    assert.equal(stored.records['wire-001'].note, 'Gets beautiful around track 3.');
+    assert.equal(stored.records['wire-001'].rating, 4);
+    assert.deepEqual(stored.records['wire-002'], existing.records['wire-002']);
+    assert.equal(stored.preference, 'strange');
+    assert.match(await page.textContent('[data-record="wire-001"] .card-note'), /track 3/);
+    await page.click('[data-tab="history"] >> nth=0'); await page.click('[data-history="notes"]');
+    assert.match(await page.textContent('#history-view'), /Gets beautiful around track 3/);
+    const [download] = await Promise.all([page.waitForEvent('download'), page.click('#export-log')]);
+    const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
+    assert.equal(exported.records['wire-001'].note, 'Gets beautiful around track 3.');
+    await page.close();
+  });
+
+  await t.test('importing a log merges notes and preferences without losing local data', async () => {
+    const page = await browser.newPage();
+    const local = {version: 1, records: {'wire-001': {status: 'heard', rating: 5, heardAt: '2026-01-01T00:00:00.000Z', updatedAt: '2026-01-01T00:00:00.000Z', note: 'local note', noteUpdatedAt: '2026-01-01T00:00:00.000Z'}}, events: [], preference: 'any'};
+    await page.addInitScript(log => { if (!sessionStorage.getItem('seeded')) { localStorage.setItem('weird-music-machine:v1', JSON.stringify(log)); sessionStorage.setItem('seeded', '1'); } }, local);
+    await page.goto(url); await page.waitForFunction(() => document.querySelectorAll('.record-card').length > 0);
+    const file = {version: 1, records: {'wire-001': {status: 'heard', rating: 3, heardAt: '2026-02-01T00:00:00.000Z', updatedAt: '2026-02-01T00:00:00.000Z'}, 'wmm-0164': {status: 'want to hear', rating: null, heardAt: null, updatedAt: '2026-02-01T00:00:00.000Z', note: 'Too jangly for me.'}}, events: [], preference: 'farout', survey: {status: 'saved', looking: ['noisy'], strangeness: 'farout', energy: 'intense', more: ['shoegaze'], less: [], savedAt: '2026-02-01T00:00:00.000Z'}};
+    await page.setInputFiles('#import-file', {name: 'log.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(file))});
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')).records['wmm-0164']);
+    const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
+    assert.equal(stored.records['wire-001'].rating, 3, 'imported rating applies');
+    assert.equal(stored.records['wire-001'].note, 'local note', 'a local note survives an import without one');
+    assert.equal(stored.records['wmm-0164'].note, 'Too jangly for me.');
+    assert.deepEqual(stored.survey.looking, ['noisy']);
+    await page.close();
+  });
+
   await t.test('a malformed corpus still fails the integrity check', async () => {
     const {page} = await open(browser, url, [...corpus, corpus[0]]);
     assert.equal((await counts(page)).failed, true);

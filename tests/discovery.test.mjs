@@ -74,3 +74,23 @@ test('"Added in this edition" is everything after the original Wire collection',
   assert.equal(original.length, 130); assert.equal(added.length, corpus.length - 130);
   assert.ok(original.every(r => r.id.startsWith('wire-')) && added.every(r => r.id.startsWith('wmm-')));
 });
+
+test('personal notes are stored on the log entry without touching ratings or history', async () => {
+  const {setNote, noteFor, NOTE_MAX} = await import('../engine.mjs');
+  let log = updateRecord(blankLog(), 'wire-001', {rating: 4}, '2026-01-01T00:00:00.000Z');
+  const before = JSON.stringify({records: log.records, events: log.events});
+  log = setNote(log, 'wire-001', '  Gets beautiful around track 3.  ', '2026-02-01T00:00:00.000Z');
+  assert.equal(noteFor(log, 'wire-001'), 'Gets beautiful around track 3.');
+  assert.equal(log.records['wire-001'].rating, 4); assert.equal(log.records['wire-001'].status, 'heard'); assert.equal(log.events.length, 1);
+  log = setNote(log, 'wmm-0200', 'Come back to this');
+  assert.equal(log.records['wmm-0200'].status, 'unheard');
+  const restored = sanitizeLog(JSON.parse(JSON.stringify(log)), corpus);
+  assert.equal(noteFor(restored, 'wire-001'), 'Gets beautiful around track 3.');
+  assert.equal(noteFor(restored, 'wmm-0200'), 'Come back to this');
+  assert.equal(setNote(log, 'wire-002', 'x'.repeat(NOTE_MAX + 50)).records['wire-002'].note.length, NOTE_MAX);
+  log = setNote(log, 'wire-001', '');
+  assert.equal(noteFor(log, 'wire-001'), ''); assert.equal('note' in log.records['wire-001'], false);
+  assert.equal(JSON.stringify({records: {'wire-001': {...log.records['wire-001']}}, events: log.events}), before, 'deleting a note restores the entry exactly');
+  const status = updateRecord(setNote(blankLog(), 'wire-003', 'keep me'), 'wire-003', {status: 'want to hear'});
+  assert.equal(noteFor(status, 'wire-003'), 'keep me', 'status changes keep the note');
+});
