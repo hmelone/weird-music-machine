@@ -225,6 +225,24 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
+  await t.test('the UX pass: grouped filters, phone collapse and discovery order', async () => {
+    const {page} = await open(browser, url);
+    assert.equal(await page.evaluate(() => document.querySelector('#more-filters').open), false, 'advanced filters start tucked away');
+    assert.equal(await page.isVisible('#filter-weirdness'), false);
+    await page.click('#more-filters summary'); await page.selectOption('#filter-weirdness', '5');
+    assert.equal((await page.textContent('#filter-count')).trim(), '· 1 ON');
+    assert.equal((await page.textContent('#more-filter-count')).trim(), '· 1 on');
+    const order = await page.$$eval('.discovery, .thread-directory', els => els.map(e => e.className));
+    assert.deepEqual(order, ['discovery', 'thread-directory'], 'tune in comes before the pathways');
+    assert.equal(await page.$$eval('[data-record^="wire-"] .card-source', els => els.length), 0, 'single-source originals skip the repeated source line');
+    await page.close();
+    const phone = await browser.newPage({viewport: {width: 390, height: 844}});
+    await phone.goto(url); await phone.waitForFunction(() => document.querySelectorAll('.record-card').length > 0);
+    assert.equal(await phone.evaluate(() => document.querySelector('#filter-details').open), false, 'filters start closed on phones');
+    assert.equal(await phone.evaluate(() => document.documentElement.scrollWidth - innerWidth), 0, 'no horizontal scroll');
+    await phone.close();
+  });
+
   await t.test('a malformed corpus still fails the integrity check', async () => {
     const {page} = await open(browser, url, [...corpus, corpus[0]]);
     assert.equal((await counts(page)).failed, true);

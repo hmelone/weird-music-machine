@@ -217,10 +217,16 @@ main { padding: 36px 0 64px; outline: none; }
 .collection-layout { display: grid; grid-template-columns: minmax(230px, 290px) 1fr; gap: clamp(20px, 3vw, 56px); align-items: start; }
 .filters { position: sticky; top: 120px; display: grid; gap: 24px; }
 .filters details { border: var(--rule); background: var(--paper); }
+.filter-count { margin-left: auto; margin-right: 10px; font: 700 12px/1 var(--sans); letter-spacing: .06em; }
+.more-filters { border: 0 !important; border-top: 1.5px solid var(--ink) !important; background: none !important; }
+.filters .more-filters summary { padding: 10px 0 0; border-bottom: 0; font: 700 12px/1.2 var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+.filters .more-filters[open] summary { padding-bottom: 8px; }
+.more-filters-body { display: grid; gap: 12px; }
+main, #pathway-banner, #how-recs, .records-panel { scroll-margin-top: 130px; }
 .filters summary { display: flex; justify-content: space-between; align-items: center; padding: 12px 14px; font: 400 28px/1 var(--display); cursor: pointer; list-style: none; border-bottom: var(--rule); }
 .filters summary::-webkit-details-marker { display: none; }
 .filter-disclosure::after { content: '+'; font: 700 22px/1 var(--sans); }
-details[open] .filter-disclosure::after { content: '−'; }
+details[open] > summary .filter-disclosure::after { content: '−'; }
 .filter-body { display: grid; gap: 12px; padding: 14px; }
 .filter-title { display: flex; justify-content: space-between; align-items: center; font: 700 12px/1.2 var(--sans); letter-spacing: .06em; }
 .filter-title button { background: none; border: 0; padding: 0; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }

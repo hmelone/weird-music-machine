@@ -106,6 +106,8 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     root.innerHTML = PATHWAYS.filter(p => p.group === threadTab).map(p => { const count = pathwayCounts.get(p.id); return '<button type="button" class="pathway-tile" data-pathway="' + p.id + '"><span class="thread-label">PATHWAY / ' + escapeHTML(group.toUpperCase()) + '</span><strong>' + escapeHTML(p.label.toUpperCase()) + '</strong><span class="thread-count">' + count + ' RELEASE' + (count===1 ? '' : 'S') + (count < PATHWAY_MIN ? ' · THIN' : '') + '</span><span class="thread-recipe">' + escapeHTML(pathwayRecipe(p)) + '</span><span class="thread-arrow" aria-hidden="true">↗</span></button>'; }).join('');
   }
   renderThreads();
+  // On narrow screens the filter panel starts closed so records are reachable without scrolling past every control.
+  if (win.matchMedia?.('(max-width: 820px)').matches) $('#filter-details').open = false;
   function renderPathwayBanner() {
     const banner = $('#pathway-banner'), pathway = PATHWAYS.find(p => p.id === filters.pathway);
     banner.hidden = !pathway;
@@ -172,16 +174,24 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   function scoreLine(record) { return '<div class="score-line" aria-label="Musical scores out of 5">' + ['weirdness','intensity','accessibility'].map(key => '<span class="score-item"><span class="score-label">' + labelCase(key) + '</span><b>' + (record[key] === null ? 'Unresolved' : record[key] + '<span aria-hidden="true"> / 5</span><span class="sr-only"> out of 5</span>') + '</b></span>').join('') + '</div>'; }
   function card(record, recommendation = null, mode = null) {
     const reason = recommendation ? '<div class="recommendation-reason"><h4>' + (mode === 'personalized' ? 'WHY THIS RECORD?' : mode === 'guided' ? 'FROM YOUR PREFERENCES' : 'AN OPEN DOOR') + '</h4>' + explanation(recommendation, mode).map(line => '<p>' + escapeHTML(line) + '</p>').join('') + '</div>' : '';
-    return '<article class="record-card" data-record="' + record.id + '"><div class="card-top"><span class="catalog-no">' + escapeHTML(catalogLabel(record)) + '</span><span class="card-group">' + (sourceCount(record) > 1 ? '<span class="multi-source">' + sourceCount(record) + ' SOURCES</span> ' : '') + escapeHTML(provenanceLabel(record)) + '</span></div><div class="card-main"><p class="card-artist">' + escapeHTML(record.artist) + '</p><h3 class="card-title"><button type="button" class="record-title-button" data-details="' + record.id + '">' + escapeHTML(record.title) + '</button></h3><p class="release-meta">' + escapeHTML(record.year ?? 'Year not stated') + ' / ' + escapeHTML(record.label ?? 'Label not stated') + ' · ' + escapeHTML(releaseTypeLabel(record)) + '</p>' + badge(record) + '<div class="tag-list">' + tags(record.genres, 'genre') + tags(record.styles.slice(0,2)) + '</div>' + (record.traits.length ? '<p class="trait-line">' + record.traits.slice(0,4).map(escapeHTML).join(' · ') + '</p>' : '<p class="trait-line">Classification unresolved. Explore the research notes.</p>') + '<p class="card-source">' + escapeHTML(sourceLine(record)) + '</p>' + (noteFor(log, record.id) ? '<p class="card-note"><span aria-hidden="true">✎</span><span class="sr-only">Your note:</span> ' + escapeHTML(noteFor(log, record.id)) + '</p>' : '') + '</div>' + scoreLine(record) + '<div class="card-actions"><div class="status-row">' + statusSelect(record) + '<button type="button" class="notes-button" data-details="' + record.id + '" aria-label="Record notes for ' + escapeHTML(record.title) + '">NOTES ↗</button></div>' + stars(record) + '</div>' + reason + '</article>';
+    return '<article class="record-card" data-record="' + record.id + '"><div class="card-top"><span class="catalog-no">' + escapeHTML(catalogLabel(record)) + '</span><span class="card-group">' + (sourceCount(record) > 1 ? '<span class="multi-source">' + sourceCount(record) + ' SOURCES</span> ' : '') + escapeHTML(provenanceLabel(record)) + '</span></div><div class="card-main"><p class="card-artist">' + escapeHTML(record.artist) + '</p><h3 class="card-title"><button type="button" class="record-title-button" data-details="' + record.id + '">' + escapeHTML(record.title) + '</button></h3><p class="release-meta">' + escapeHTML(record.year ?? 'Year not stated') + ' / ' + escapeHTML(record.label ?? 'Label not stated') + ' · ' + escapeHTML(releaseTypeLabel(record)) + '</p>' + badge(record) + '<div class="tag-list">' + tags(record.genres, 'genre') + tags(record.styles.slice(0,2)) + '</div>' + (record.traits.length ? '<p class="trait-line">' + record.traits.slice(0,4).map(escapeHTML).join(' · ') + '</p>' : '<p class="trait-line">Classification unresolved. Explore the research notes.</p>') + (isOriginal(record) && sourceCount(record) === 1 ? '' : '<p class="card-source">' + escapeHTML(sourceLine(record)) + '</p>') + (noteFor(log, record.id) ? '<p class="card-note"><span aria-hidden="true">✎</span><span class="sr-only">Your note:</span> ' + escapeHTML(noteFor(log, record.id)) + '</p>' : '') + '</div>' + scoreLine(record) + '<div class="card-actions"><div class="status-row">' + statusSelect(record) + '<button type="button" class="notes-button" data-details="' + record.id + '" aria-label="Record notes for ' + escapeHTML(record.title) + '">NOTES ↗</button></div>' + stars(record) + '</div>' + reason + '</article>';
   }
   function empty(title, message, action = 'reset') { return '<div class="empty-state"><h3>' + escapeHTML(title) + '</h3><p>' + escapeHTML(message) + '</p>' + (action ? '<button type="button" data-empty-action="' + action + '">' + (action === 'collection' ? 'EXPLORE THE COLLECTION ↗' : 'CLEAR FILTERS & OPEN ALL FREQUENCIES') + '</button>' : '') + '</div>'; }
   function renderBand() {
     for (const button of doc.querySelectorAll('[data-band]')) { const active = button.dataset.band === log.preference; button.setAttribute('aria-checked', String(active)); button.tabIndex = active ? 0 : -1; }
     $('#band-caption').textContent = 'Selected: ' + (log.preference === 'any' ? 'Any weirdness · 1–5' : BAND_LABELS[log.preference]);
   }
+  const ADVANCED_FILTERS = ['release_type', 'publication', 'weirdness', 'intensity', 'accessibility'];
+  function renderFilterCounts() {
+    const active = Object.entries(filters).filter(([key, value]) => value && !['query', 'pathway'].includes(key)).map(([key]) => key);
+    const advanced = active.filter(key => ADVANCED_FILTERS.includes(key)).length;
+    $('#filter-count').textContent = active.length ? '· ' + active.length + ' ON' : '';
+    $('#more-filter-count').textContent = advanced ? '· ' + advanced + ' on' : '';
+    if (advanced) $('#more-filters').open = true;
+  }
   function renderCatalog() {
     const personal = view === 'recommendations';
-    renderPathwayBanner();
+    renderPathwayBanner(); renderFilterCounts();
     $('#how-recs').hidden = !personal;
     $('.sort-label').hidden = personal;
     $('#view-heading').textContent = personal ? 'Follow your own strange path.' : 'A good place to get lost.';
@@ -347,7 +357,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (button.id === 'another-discovery') { renderHomeFeature(true); $('#another-discovery')?.focus({preventScroll:true}); return; }
     if (button.id === 'toggle-genres') { genresExpanded = !genresExpanded; renderThreads(); return; }
     if (button.dataset.threadTab) { threadTab = button.dataset.threadTab; renderThreads(); return; }
-    if (button.dataset.pathway) { reset(); filters.pathway = button.dataset.pathway; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); $('#pathway-banner')?.focus?.(); return; }
+    if (button.dataset.pathway) { reset(); filters.pathway = button.dataset.pathway; setView('collection'); $('#pathway-banner').scrollIntoView?.({behavior:'instant'}); $('#pathway-banner').focus({preventScroll:true}); return; }
     if (button.dataset.editionBrowse) { reset(); filters.edition = button.dataset.editionBrowse; $('#filter-edition').value = filters.edition; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); return; }
     if (button.id === 'clear-pathway') { delete filters.pathway; limit = 24; render(); $('#search').focus(); return; }
     if (button.dataset.openMethod !== undefined) { setView('recommendations'); $('#how-recs').open = true; $('#how-recs').scrollIntoView?.({behavior:'instant', block:'center'}); $('#how-recs summary').focus(); return; }
