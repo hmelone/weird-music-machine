@@ -146,6 +146,28 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
+  await t.test('the edition ledger and filter show how the collection grew', async () => {
+    const {page} = await open(browser, url);
+    const ledger = await page.$$eval('.edition-ledger dd', els => els.map(e => e.textContent.trim()));
+    assert.deepEqual(ledger, ['130', '+' + (corpus.length - 130), String(corpus.length)]);
+    await page.click('[data-edition-browse="added"]');
+    assert.equal((await counts(page)).results, (corpus.length - 130) + ' records / ' + corpus.length);
+    assert.equal(await page.inputValue('#filter-edition'), 'added');
+    await page.close();
+  });
+
+  await t.test('record notes explain why a record is here, with source overlap', async () => {
+    const {page} = await open(browser, url);
+    await page.fill('#search', 'Your Queen Is a Reptile');
+    assert.match(await page.textContent('.record-card .card-group'), /3 SOURCES/);
+    await page.click('[data-details="wmm-0084"] >> nth=0');
+    const block = await page.textContent('#dialog-body .provenance');
+    assert.match(block, /3 curated sources across 2 publications/);
+    assert.match(block, /Albums of the Year 2018/); assert.match(block, /No\. 7/); assert.match(block, /Unranked list/);
+    assert.equal(await page.$$eval('#dialog-body .provenance-list li', els => els.length), 3);
+    await page.close();
+  });
+
   await t.test('a malformed corpus still fails the integrity check', async () => {
     const {page} = await open(browser, url, [...corpus, corpus[0]]);
     assert.equal((await counts(page)).failed, true);

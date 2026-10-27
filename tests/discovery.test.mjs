@@ -68,3 +68,9 @@ test('old saved logs without survey or notes still load unchanged', () => {
   assert.equal(loaded.preference, 'strange');
   assert.equal('survey' in loaded, false);
 });
+
+test('"Added in this edition" is everything after the original Wire collection', () => {
+  const added = filterRecords(corpus, blankLog(), {edition: 'added'}), original = filterRecords(corpus, blankLog(), {edition: 'original'});
+  assert.equal(original.length, 130); assert.equal(added.length, corpus.length - 130);
+  assert.ok(original.every(r => r.id.startsWith('wire-')) && added.every(r => r.id.startsWith('wmm-')));
+});
