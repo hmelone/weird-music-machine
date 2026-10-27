@@ -21,8 +21,8 @@
       <div class="mastfoot"><span>AN ARCHIVE. A LISTENING LOG. A WAY THROUGH.</span><span id="progress">0 / 370 HEARD</span></div></section><div class="signal-strip" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><section class="entry-grid" id="machine-feature" aria-labelledby="feature-title"><div class="entry-aside"><span class="eyebrow" id="home-feature-label">AN OPEN DOOR</span><p>One record.<br>Another world.</p><button type="button" data-tab="recommendations">ALL DISCOVERIES ↗</button></div><div class="feature-teaser" id="home-feature"></div></section><p id="feature-announcement" class="sr-only" role="status"></p>
 
       <section class="thread-directory" aria-labelledby="thread-title">
-        <div class="thread-intro"><p class="eyebrow">TAKE A DETOUR / BROWSE BY GENRE</p><h2 id="thread-title">PULL A<br> <em>THREAD.</em></h2><p>Start with a sound.<br>See where it takes you.</p><span aria-hidden="true">↘</span></div>
-        <div class="thread-browser"><div class="thread-links genre-threads" id="genre-threads" aria-label="Browse genres"></div><button type="button" id="toggle-genres" aria-expanded="false" aria-controls="genre-threads">VIEW ALL GENRES +</button></div>
+        <div class="thread-intro"><p class="eyebrow">TAKE A DETOUR / PATHWAYS &amp; GENRES</p><h2 id="thread-title">PULL A<br> <em>THREAD.</em></h2><p>Start with a sound.<br>See where it takes you.</p><span aria-hidden="true">↘</span></div>
+        <div class="thread-browser"><div class="thread-tabs" role="tablist" aria-label="Ways into the archive"><button type="button" role="tab" id="thread-tab-moods" data-thread-tab="moods" aria-controls="thread-panel" aria-selected="true">Moods</button><button type="button" role="tab" id="thread-tab-textures" data-thread-tab="textures" aria-controls="thread-panel" aria-selected="false" tabindex="-1">Textures</button><button type="button" role="tab" id="thread-tab-scenes" data-thread-tab="scenes" aria-controls="thread-panel" aria-selected="false" tabindex="-1">Scenes</button><button type="button" role="tab" id="thread-tab-genres" data-thread-tab="genres" aria-controls="thread-panel" aria-selected="false" tabindex="-1">Genres</button></div><div class="thread-links" id="thread-panel" role="tabpanel" aria-labelledby="thread-tab-moods"></div><button type="button" id="toggle-genres" aria-expanded="false" aria-controls="thread-panel" hidden>VIEW ALL GENRES +</button><p class="small-note thread-note">Pathways are built only from the archive’s own genres, styles, traits and scores. Each tile shows its recipe.</p></div>
       </section>
     <section class="discovery" aria-labelledby="weird-heading">
       <div class="discovery-heading"><span class="section-no">01 / TUNE IN</span><h2 id="weird-heading">How weird do you want to go?</h2><p class="discovery-instructions" id="weird-instructions">Choose a weirdness level, then click <strong>Surprise Me</strong> to open an unheard release.</p></div>
@@ -36,6 +36,7 @@
         </div>
         <div class="discovery-bottom"><span id="band-caption" role="status">Selected: Any weirdness · 1–5</span><button type="button" id="surprise" class="surprise" aria-label="Surprise Me"><span class="step-number" aria-hidden="true">2</span> SURPRISE ME <span aria-hidden="true">↗</span></button></div>
         <p class="small-note">Your archive filters apply. Your chosen level also tunes The Machine Says.</p>
+        <div class="survey-strip" id="survey-strip" hidden></div>
       </div>
     </section>
 
@@ -77,7 +78,7 @@
             <label class="search-label"><span class="sr-only">Search records</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search artists, records, sounds…" autocomplete="off"></label>
             <label class="sort-label">SORT<select id="sort"><option value="list">Catalog order</option><option value="artist">Artist A–Z</option><option value="title">Title A–Z</option><option value="year-asc">Year · oldest first</option><option value="year-desc">Year · newest first</option><option value="weirdness-asc">Weirdness · low to high</option><option value="weirdness-desc">Weirdness · high to low</option><option value="intensity-asc">Intensity · low to high</option><option value="intensity-desc">Intensity · high to low</option><option value="accessibility-desc">Accessibility · high to low</option><option value="rating">Your rating · highest first</option><option value="recent">Most recently heard</option></select></label>
           </div>
-          <div class="results-bar"><span id="results-count" role="status" aria-live="polite">Loading the collection…</span><span id="results-context">YOUR NEXT OBSESSION COULD BE HERE.</span></div>
+          <div class="pathway-banner" id="pathway-banner" tabindex="-1" hidden></div><div class="results-bar"><span id="results-count" role="status" aria-live="polite">Loading the collection…</span><span id="results-context">YOUR NEXT OBSESSION COULD BE HERE.</span></div>
           <div id="record-grid" class="record-grid"></div>
           <div id="more-area"></div>
         </section>
@@ -96,6 +97,7 @@
     <footer><span>WEIRD MUSIC MACHINE / <span data-count="records">370</span> RELEASES</span><div><button type="button" id="export-log">Export listening log</button><button type="button" id="import-log">Import log</button><input type="file" id="import-file" accept=".json,application/json" hidden></div><span id="save-status">SAVED ON THIS BROWSER</span></footer>
   </div>
   <dialog id="record-dialog" aria-labelledby="dialog-heading"><div class="dialog-top"><span id="dialog-kicker">RECORD NOTES</span><button type="button" id="close-dialog" aria-label="Close record notes">CLOSE ×</button></div><div id="dialog-body"></div></dialog>
+  <dialog id="survey-dialog" aria-labelledby="survey-heading"><div class="dialog-top"><span>TUNE THE MACHINE / FIVE QUESTIONS</span><button type="button" id="close-survey" aria-label="Close preferences">CLOSE ×</button></div><form id="survey-form" class="survey-form"></form></dialog>
   <div id="toast" role="status" class="toast" hidden><span id="toast-message"></span><button type="button" id="undo">Undo</button><button type="button" id="dismiss-toast" aria-label="Dismiss notification">×</button></div>
   <noscript><p class="noscript">Enable JavaScript to browse the collection and use the local listening log.</p></noscript>
   <script type="module" src="./app.mjs"></script>

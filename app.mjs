@@ -1,4 +1,4 @@
-import {STORAGE_KEY, BANDS, BAND_LABELS, entryFor, loadLog, saveLog, sanitizeLog, updateRecord, filterRecords, sortRecords, recommend, explanation, surprise, tasteProfile, unresolved} from './engine.mjs';
+import {STORAGE_KEY, BANDS, BAND_LABELS, entryFor, loadLog, saveLog, sanitizeLog, updateRecord, filterRecords, sortRecords, recommend, explanation, surprise, tasteProfile, unresolved, PATHWAYS, PATHWAY_GROUPS, PATHWAY_MIN, pathwayMatches, SURVEY_MOODS, SURVEY_ENERGY, sanitizeSurvey, activeSurvey} from './engine.mjs';
 
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const labelCase = text => text ? text[0].toUpperCase() + text.slice(1) : '';
@@ -6,6 +6,17 @@ const catalogLabel = record => record.list_number !== null ? 'WIRE / ' + String(
 const provenanceLabel = record => record.list_group ? record.list_group.toUpperCase() : [...new Set((record.curation_sources || []).map(s => s.publication))].join(' / ').toUpperCase();
 const releaseTypeLabel = record => record.release_type && record.release_type !== 'unknown' ? labelCase(record.release_type) : 'Release type unresolved';
 const statusOptions = ['unheard', 'want to hear', 'heard'];
+const rangeText = ([min, max]) => min === max ? String(min) : min + '–' + max;
+// Plain-language recipe for a pathway, built from its rules so the tile shows exactly what it uses.
+export function pathwayRecipe(pathway) {
+  return pathway.rules.map(rule => {
+    const parts = [];
+    if (rule.any) { const terms = Object.values(rule.any).flat(); parts.push((rule.min > 1 ? 'at least ' + rule.min + ' of ' : '') + terms.join(' / ')); }
+    for (const group of rule.all || []) parts.push(Object.values(group).flat().join(' / '));
+    for (const [field, range] of Object.entries(rule.ranges || {})) parts.push(field + ' ' + rangeText(range));
+    return parts.join(' + ');
+  }).join(' — or — ');
+}
 const dateLabel = (value, time = false) => value ? new Intl.DateTimeFormat(undefined, {year:'numeric', month:'short', day:'numeric', ...(time ? {hour:'numeric',minute:'2-digit'} : {})}).format(new Date(value)) : 'Date not recorded';
 
 // Visible corpus counts come from the loaded dataset; the numbers in index.html are only no-script fallbacks.
@@ -30,7 +41,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   let log = loaded.log, undoSnapshot = null, timer = null, view = 'collection', historyMode = 'heard', limit = 24, activityLimit = 30, modalId = null, modalKicker = 'RECORD NOTES', lastOpener = null;
   let needsRecoveryBackup = !!loaded.error;
   let filters = {}, order = 'list', currentResults = [];
-  let featureId = null, featureMode = null, featurePoolKey = '', genresExpanded = false;
+  let featureId = null, featureMode = null, featurePoolKey = '', genresExpanded = false, threadTab = 'moods';
   if (['collection', 'recommendations', 'history', 'profile'].includes(win.location.hash.slice(1))) view = win.location.hash.slice(1);
 
   function warning(message) { $('#storage-warning').textContent = message; $('#storage-warning').hidden = !message; }
@@ -65,15 +76,76 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   const genreCounts = new Map();
   for (const record of dataset) for (const genre of new Set(record.genres)) genreCounts.set(genre, (genreCounts.get(genre) || 0) + 1);
   const genreThreads = [...genreCounts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
-  function renderGenreThreads() {
-    const root = $('#genre-threads');
+  const pathwayCounts = new Map(PATHWAYS.map(p => [p.id, dataset.filter(r => pathwayMatches(r, p)).length]));
+  function renderThreads() {
+    const root = $('#thread-panel');
     if (!root) return;
-    root.innerHTML = (genresExpanded ? genreThreads : genreThreads.slice(0,6)).map(([genre,count],index) => '<button type="button" data-genre-thread="' + escapeHTML(genre) + '"><span class="thread-label">GENRE / ' + String(index+1).padStart(2,'0') + '</span><strong>' + escapeHTML(genre.toUpperCase()) + '</strong><span class="thread-count">' + count + ' RELEASE' + (count===1 ? '' : 'S') + '</span><span class="thread-arrow" aria-hidden="true">↗</span></button>').join('');
-    $('#toggle-genres').setAttribute('aria-expanded',String(genresExpanded));
-    $('#toggle-genres').textContent = genresExpanded ? 'SHOW FEWER GENRES −' : 'VIEW ALL ' + genreThreads.length + ' GENRES +';
-    $('#toggle-genres').hidden = genreThreads.length <= 6;
+    for (const tab of doc.querySelectorAll('[data-thread-tab]')) { const active = tab.dataset.threadTab === threadTab; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1; }
+    root.setAttribute('aria-labelledby', 'thread-tab-' + threadTab);
+    if (threadTab === 'genres') {
+      root.innerHTML = (genresExpanded ? genreThreads : genreThreads.slice(0,6)).map(([genre,count],index) => '<button type="button" data-genre-thread="' + escapeHTML(genre) + '"><span class="thread-label">GENRE / ' + String(index+1).padStart(2,'0') + '</span><strong>' + escapeHTML(genre.toUpperCase()) + '</strong><span class="thread-count">' + count + ' RELEASE' + (count===1 ? '' : 'S') + '</span><span class="thread-arrow" aria-hidden="true">↗</span></button>').join('');
+      $('#toggle-genres').setAttribute('aria-expanded',String(genresExpanded));
+      $('#toggle-genres').textContent = genresExpanded ? 'SHOW FEWER GENRES −' : 'VIEW ALL ' + genreThreads.length + ' GENRES +';
+      $('#toggle-genres').hidden = genreThreads.length <= 6;
+      return;
+    }
+    $('#toggle-genres').hidden = true;
+    const group = PATHWAY_GROUPS.find(([key]) => key === threadTab)[1];
+    root.innerHTML = PATHWAYS.filter(p => p.group === threadTab).map(p => { const count = pathwayCounts.get(p.id); return '<button type="button" class="pathway-tile" data-pathway="' + p.id + '"><span class="thread-label">PATHWAY / ' + escapeHTML(group.toUpperCase()) + '</span><strong>' + escapeHTML(p.label.toUpperCase()) + '</strong><span class="thread-count">' + count + ' RELEASE' + (count===1 ? '' : 'S') + (count < PATHWAY_MIN ? ' · THIN' : '') + '</span><span class="thread-recipe">' + escapeHTML(pathwayRecipe(p)) + '</span><span class="thread-arrow" aria-hidden="true">↗</span></button>'; }).join('');
   }
-  renderGenreThreads();
+  renderThreads();
+  function renderPathwayBanner() {
+    const banner = $('#pathway-banner'), pathway = PATHWAYS.find(p => p.id === filters.pathway);
+    banner.hidden = !pathway;
+    if (!pathway) { banner.innerHTML = ''; return; }
+    banner.innerHTML = '<div><span class="eyebrow">PATHWAY</span><strong>' + escapeHTML(pathway.label) + '</strong><p>Built from: ' + escapeHTML(pathwayRecipe(pathway)) + '.' + (pathway.note ? ' ' + escapeHTML(pathway.note) : '') + '</p></div><button type="button" id="clear-pathway">Clear pathway ×</button>';
+  }
+
+  // --- preference survey: optional, local, and only a starting point for recommendations
+  const vocabCounts = field => { const m = new Map(); for (const r of dataset) for (const v of new Set(r[field])) m.set(v, (m.get(v) || 0) + 1); return [...m].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0])); };
+  const surveyTerms = {traits: vocabCounts('traits').map(([t]) => t), genres: vocabCounts('genres').filter(([,n]) => n >= 5).map(([t]) => t), styles: vocabCounts('styles').filter(([,n]) => n >= 5).map(([t]) => t)};
+  const surveySummary = survey => [survey.looking.map(m => SURVEY_MOODS[m].label).join(', ') || 'Open to anything', BAND_LABELS[survey.strangeness].split(' · ')[0], SURVEY_ENERGY[survey.energy].label.toLowerCase(), survey.more.length ? 'more ' + survey.more.slice(0,3).join(', ') + (survey.more.length > 3 ? '…' : '') : '', survey.less.length ? 'less ' + survey.less.slice(0,3).join(', ') + (survey.less.length > 3 ? '…' : '') : ''].filter(Boolean).join(' · ');
+  function renderSurveyStrip() {
+    const strip = $('#survey-strip'), survey = activeSurvey(log);
+    if (!strip) return;
+    if (survey) strip.innerHTML = '<p><span class="eyebrow">TUNED TO</span> ' + escapeHTML(surveySummary(survey)) + '</p><div><button type="button" class="text-button" data-survey="open">Change my preferences</button><button type="button" class="text-button" data-survey="reset">Reset preferences</button></div>';
+    else if (!log.survey) strip.innerHTML = '<p><strong>New here?</strong> Five quick questions give the machine somewhere to start before you’ve rated anything.</p><div><button type="button" class="survey-open" data-survey="open">Tune the machine ↗</button><button type="button" class="text-button" data-survey="skip">No thanks</button></div>';
+    else strip.innerHTML = '<p>No preferences saved. The machine learns from your ratings.</p><div><button type="button" class="text-button" data-survey="open">Set preferences</button></div>';
+    strip.hidden = false;
+  }
+  const chip = (name, value, label, checked, type = 'checkbox') => '<label class="chip"><input type="' + type + '" name="' + name + '" value="' + escapeHTML(value) + '"' + (checked ? ' checked' : '') + '><span>' + escapeHTML(label) + '</span></label>';
+  function termChips(name, chosen) {
+    const block = (field, label) => '<fieldset class="chip-group"><legend>' + label + '</legend>' + surveyTerms[field].map(t => chip(name, t, t, chosen.includes(t))).join('') + '</fieldset>';
+    const extra = chosen.some(t => !surveyTerms.traits.includes(t));
+    return block('traits', 'Traits') + '<details class="more-terms"' + (extra ? ' open' : '') + '><summary>More sounds: genres &amp; styles +</summary>' + block('genres', 'Genres') + block('styles', 'Styles') + '</details>';
+  }
+  function openSurvey() {
+    const s = log.survey?.status === 'saved' ? log.survey : {looking: [], strangeness: log.preference, energy: 'any', more: [], less: []};
+    $('#survey-form').innerHTML = '<h2 id="survey-heading">What should the machine listen for?</h2><p class="small-note">Optional. Answers stay in this browser, only shape local recommendations, and fade as your ratings build up. Change or reset them any time.</p>'
+      + '<fieldset class="survey-q"><legend><span>01</span> What are you looking for right now? <em>Pick any</em></legend><div class="chip-row">' + Object.entries(SURVEY_MOODS).map(([k, m]) => chip('looking', k, m.label, s.looking.includes(k))).join('') + '</div></fieldset>'
+      + '<fieldset class="survey-q"><legend><span>02</span> How strange do you want to go?</legend><div class="chip-row">' + [['familiar','Familiar'],['strange','Strange'],['farout','Far Out'],['unhinged','Completely Unhinged'],['any','Anything']].map(([k, l]) => chip('strangeness', k, l, s.strangeness === k, 'radio')).join('') + '</div></fieldset>'
+      + '<fieldset class="survey-q"><legend><span>03</span> What kind of energy?</legend><div class="chip-row">' + Object.entries(SURVEY_ENERGY).map(([k, e]) => chip('energy', k, e.label, s.energy === k, 'radio')).join('') + '</div></fieldset>'
+      + '<fieldset class="survey-q"><legend><span>04</span> What sounds do you want more of? <em>Optional</em></legend>' + termChips('more', s.more) + '</fieldset>'
+      + '<fieldset class="survey-q"><legend><span>05</span> Anything you want less of? <em>Optional</em></legend>' + termChips('less', s.less) + '</fieldset>'
+      + '<div class="survey-actions"><button type="submit" class="survey-save">Save preferences</button>' + (log.survey ? '' : '<button type="button" class="text-button" data-survey="skip">Skip for now</button>') + (activeSurvey(log) ? '<button type="button" class="text-button" data-survey="reset">Reset preferences</button>' : '') + '</div>';
+    const dialog = $('#survey-dialog');
+    if (!dialog.open) { if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open',''); }
+    $('#survey-form').querySelector('input')?.focus();
+  }
+  function closeSurvey() { const dialog = $('#survey-dialog'); if (dialog.open) { if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); } $('#survey-strip button')?.focus(); }
+  function setSurvey(next, message) {
+    const previous = log;
+    log = {...log, survey: next};
+    if (next?.status === 'saved') log.preference = next.strangeness;
+    const saved = persist(); limit = 24; render(); toast(message + (saved ? '' : ' Export your log to keep it.'), previous);
+  }
+  function saveSurvey(event) {
+    event.preventDefault();
+    const form = new FormData($('#survey-form'));
+    const more = form.getAll('more'), less = form.getAll('less').filter(t => !more.includes(t));
+    const survey = sanitizeSurvey({status: 'saved', looking: form.getAll('looking'), strangeness: form.get('strangeness') || 'any', energy: form.get('energy') || 'any', more, less, savedAt: now()}, dataset);
+    closeSurvey(); setSurvey(survey, 'Preferences saved. Ratings will take over as you add them.');
+  }
 
   function stars(record) {
     const state = entryFor(log, record.id), title = escapeHTML(record.title);
@@ -87,7 +159,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   function badge(record) { return unresolved(record) ? '<span class="metadata-badge unresolved">UNRESOLVED METADATA</span>' : ''; }
   function scoreLine(record) { return '<div class="score-line" aria-label="Musical scores out of 5">' + ['weirdness','intensity','accessibility'].map(key => '<span class="score-item"><span class="score-label">' + labelCase(key) + '</span><b>' + (record[key] === null ? 'Unresolved' : record[key] + '<span aria-hidden="true"> / 5</span><span class="sr-only"> out of 5</span>') + '</b></span>').join('') + '</div>'; }
   function card(record, recommendation = null, mode = null) {
-    const reason = recommendation ? '<div class="recommendation-reason"><h4>' + (mode === 'personalized' ? 'WHY THIS RECORD?' : 'AN OPEN DOOR') + '</h4>' + explanation(recommendation, mode).map(line => '<p>' + escapeHTML(line) + '</p>').join('') + '</div>' : '';
+    const reason = recommendation ? '<div class="recommendation-reason"><h4>' + (mode === 'personalized' ? 'WHY THIS RECORD?' : mode === 'guided' ? 'FROM YOUR PREFERENCES' : 'AN OPEN DOOR') + '</h4>' + explanation(recommendation, mode).map(line => '<p>' + escapeHTML(line) + '</p>').join('') + '</div>' : '';
     return '<article class="record-card" data-record="' + record.id + '"><div class="card-top"><span class="catalog-no">' + escapeHTML(catalogLabel(record)) + '</span><span class="card-group">' + escapeHTML(provenanceLabel(record)) + '</span></div><div class="card-main"><p class="card-artist">' + escapeHTML(record.artist) + '</p><h3 class="card-title"><button type="button" class="record-title-button" data-details="' + record.id + '">' + escapeHTML(record.title) + '</button></h3><p class="release-meta">' + escapeHTML(record.year ?? 'Year not stated') + ' / ' + escapeHTML(record.label ?? 'Label not stated') + ' · ' + escapeHTML(releaseTypeLabel(record)) + '</p>' + badge(record) + '<div class="tag-list">' + tags(record.genres, 'genre') + tags(record.styles.slice(0,2)) + '</div>' + (record.traits.length ? '<p class="trait-line">' + record.traits.slice(0,4).map(escapeHTML).join(' · ') + '</p>' : '<p class="trait-line">Classification unresolved. Explore the research notes.</p>') + '</div>' + scoreLine(record) + '<div class="card-actions"><div class="status-row">' + statusSelect(record) + '<button type="button" class="notes-button" data-details="' + record.id + '" aria-label="Record notes for ' + escapeHTML(record.title) + '">NOTES ↗</button></div>' + stars(record) + '</div>' + reason + '</article>';
   }
   function empty(title, message, action = 'reset') { return '<div class="empty-state"><h3>' + escapeHTML(title) + '</h3><p>' + escapeHTML(message) + '</p>' + (action ? '<button type="button" data-empty-action="' + action + '">' + (action === 'collection' ? 'EXPLORE THE COLLECTION ↗' : 'CLEAR FILTERS & OPEN ALL FREQUENCIES') + '</button>' : '') + '</div>'; }
@@ -97,6 +169,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   }
   function renderCatalog() {
     const personal = view === 'recommendations';
+    renderPathwayBanner();
     $('.sort-label').hidden = personal;
     $('#view-heading').textContent = personal ? 'Follow your own strange path.' : 'A good place to get lost.';
     $('#view-kicker').textContent = personal ? '02 / THE MACHINE SAYS' : '02 / THE RECORDS';
@@ -108,7 +181,8 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
       const intros = {
         personalized: 'Musical connections to the records you rate highly, adjusted by the ones you don’t. Each pick shows the actual shared metadata.',
         discovery: 'The machine is warming up. Rate heard records 4 or 5 stars to start personal connections. These are varied discovery picks, not personalized matches.',
-        avoidance: 'You have low ratings to steer away from. These discovery picks avoid the strongest matches; add some 4- or 5-star ratings to find sounds you love.'
+        avoidance: 'You have low ratings to steer away from. These discovery picks avoid the strongest matches; add some 4- or 5-star ratings to find sounds you love.',
+        guided: 'Starting from your saved preferences. Rate records 4 or 5 stars and your ratings will take over.'
       };
       $('#view-description').textContent = intros[recommendationResult.mode];
       $('#results-context').textContent = BAND_LABELS[log.preference].toUpperCase();
@@ -117,7 +191,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
       $('#view-description').textContent = 'Across eras and traditions. Pick a name. Pull a thread.';
       $('#results-context').textContent = 'YOUR NEXT OBSESSION COULD BE HERE.';
     }
-    $('#results-count').textContent = currentResults.length + (personal ? ' eligible ' + (recommendationResult.mode === 'personalized' ? 'recommendation' : 'discovery pick') : ' record') + (currentResults.length === 1 ? '' : 's') + (personal ? '' : ' / ' + dataset.length);
+    $('#results-count').textContent = currentResults.length + (personal ? ' eligible ' + (recommendationResult.mode === 'personalized' ? 'recommendation' : recommendationResult.mode === 'guided' ? 'preference match' : 'discovery pick') : ' record') + (currentResults.length === 1 ? '' : 's') + (personal ? '' : ' / ' + dataset.length);
     $('#record-grid').innerHTML = currentResults.length ? currentResults.slice(0,limit).map(item => personal ? card(item.record, item, recommendationResult.mode) : card(item)).join('') : empty(personal ? 'No signal at this setting.' : 'Nothing on this frequency.', personal ? 'No unheard, classified records with supported matches meet these settings. Try a different weirdness band or clear your filters.' : 'Try a different search or loosen one of the filters.');
     $('#more-area').innerHTML = currentResults.length > limit ? '<button type="button" class="load-more" id="load-more">MORE RECORDS ↓ <span>(' + (currentResults.length-limit) + ' remaining)</span></button>' : '';
   }
@@ -171,7 +245,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     const root = $('#home-feature');
     if (!root) return;
     const result = recommend(dataset, log, filters);
-    const personalized = result.mode === 'personalized';
+    const personalized = result.mode === 'personalized' || result.mode === 'guided';
     let item = null, hasAnother = false;
     if (personalized) {
       const key = JSON.stringify(result.items.map(i => [i.record.id,i.score]));
@@ -200,8 +274,8 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     }
     const r = item.record;
     const shared = [...new Set(item.evidence.slice(0,2).flatMap(e => [...e.shared.styles, ...e.shared.traits]))];
-    const reasons = personalized ? explanation(item, 'personalized') : ['A random unheard discovery matching your filters and weirdness setting. Rate records 4 or 5 stars to start personalized connections.'];
-    root.innerHTML = '<div class="feature-kicker"><span>THE MACHINE SAYS:</span><span>' + (personalized ? 'A CONNECTION FROM YOUR RATINGS' : 'RANDOM UNHEARD DISCOVERY') + '</span></div><h2 id="feature-title"><button type="button" data-details="' + r.id + '">' + escapeHTML(r.title.toUpperCase()) + '</button></h2><div class="feature-teaser-bottom"><p>' + escapeHTML(r.artist) + ', ' + escapeHTML(r.year ?? 'Year not stated') + '</p><button type="button" class="feature-arrow" data-details="' + r.id + '" aria-label="Open ' + escapeHTML(r.title) + '">↗</button></div><div class="feature-explanation">' + reasons.map(line => '<p>' + escapeHTML(line) + '</p>').join('') + '</div>' + (shared.length ? '<p class="feature-shared">SHARED / ' + shared.map(escapeHTML).join(' · ') + '</p>' : '<p class="feature-shared">' + r.styles.map(escapeHTML).join(' / ') + '</p>') + '<div class="feature-meta"><span>' + escapeHTML(catalogLabel(r)) + ' / ' + escapeHTML(releaseTypeLabel(r)) + '</span>' + scoreLine(r) + '</div><div class="feature-actions"><button type="button" id="another-discovery"' + (!hasAnother ? ' disabled' : '') + '>ANOTHER ONE <span aria-hidden="true">↗</span></button><span>' + (hasAnother ? (personalized ? 'FOLLOW THE NEXT CONNECTION' : 'TAKE ANOTHER CHANCE') : 'THE ONLY MATCH AT THIS SETTING') + '</span></div>';
+    const reasons = personalized ? explanation(item, result.mode) : ['A random unheard discovery matching your filters and weirdness setting. Rate records 4 or 5 stars to start personalized connections.'];
+    root.innerHTML = '<div class="feature-kicker"><span>THE MACHINE SAYS:</span><span>' + (result.mode === 'guided' ? 'FROM YOUR PREFERENCES' : personalized ? 'A CONNECTION FROM YOUR RATINGS' : 'RANDOM UNHEARD DISCOVERY') + '</span></div><h2 id="feature-title"><button type="button" data-details="' + r.id + '">' + escapeHTML(r.title.toUpperCase()) + '</button></h2><div class="feature-teaser-bottom"><p>' + escapeHTML(r.artist) + ', ' + escapeHTML(r.year ?? 'Year not stated') + '</p><button type="button" class="feature-arrow" data-details="' + r.id + '" aria-label="Open ' + escapeHTML(r.title) + '">↗</button></div><div class="feature-explanation">' + reasons.map(line => '<p>' + escapeHTML(line) + '</p>').join('') + '</div>' + (shared.length ? '<p class="feature-shared">SHARED / ' + shared.map(escapeHTML).join(' · ') + '</p>' : '<p class="feature-shared">' + r.styles.map(escapeHTML).join(' / ') + '</p>') + '<div class="feature-meta"><span>' + escapeHTML(catalogLabel(r)) + ' / ' + escapeHTML(releaseTypeLabel(r)) + '</span>' + scoreLine(r) + '</div><div class="feature-actions"><button type="button" id="another-discovery"' + (!hasAnother ? ' disabled' : '') + '>ANOTHER ONE <span aria-hidden="true">↗</span></button><span>' + (hasAnother ? (personalized ? 'FOLLOW THE NEXT CONNECTION' : 'TAKE ANOTHER CHANCE') : 'THE ONLY MATCH AT THIS SETTING') + '</span></div>';
     if (advance && $('#feature-announcement')) $('#feature-announcement').textContent = (personalized ? 'Next recommendation: ' : 'New discovery: ') + r.artist + ' — ' + r.title;
   }
   function render() {
@@ -212,7 +286,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     $('#history-view').hidden = view !== 'history';
     $('#profile-view').hidden = view !== 'profile';
     for (const button of doc.querySelectorAll('[data-tab]')) { if (button.dataset.tab === view) button.setAttribute('aria-current','page'); else button.removeAttribute('aria-current'); }
-    renderBand(); renderHomeFeature();
+    renderBand(); renderSurveyStrip(); renderHomeFeature();
     if (view === 'collection' || view === 'recommendations') renderCatalog();
     else if (view === 'history') renderHistory();
     else renderProfile();
@@ -236,7 +310,14 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   function click(event) {
     const button = event.target.closest('button'); if (!button) return;
     if (button.id === 'another-discovery') { renderHomeFeature(true); $('#another-discovery')?.focus({preventScroll:true}); return; }
-    if (button.id === 'toggle-genres') { genresExpanded = !genresExpanded; renderGenreThreads(); return; }
+    if (button.id === 'toggle-genres') { genresExpanded = !genresExpanded; renderThreads(); return; }
+    if (button.dataset.threadTab) { threadTab = button.dataset.threadTab; renderThreads(); return; }
+    if (button.dataset.pathway) { reset(); filters.pathway = button.dataset.pathway; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); $('#pathway-banner')?.focus?.(); return; }
+    if (button.id === 'clear-pathway') { delete filters.pathway; limit = 24; render(); $('#search').focus(); return; }
+    if (button.dataset.survey === 'open') return openSurvey();
+    if (button.dataset.survey === 'skip') { closeSurvey(); setSurvey({status: 'skipped', looking: [], strangeness: 'any', energy: 'any', more: [], less: [], savedAt: now()}, 'No problem. The machine will learn from your ratings.'); return; }
+    if (button.dataset.survey === 'reset') { closeSurvey(); setSurvey({status: 'skipped', looking: [], strangeness: 'any', energy: 'any', more: [], less: [], savedAt: now()}, 'Preferences reset. Your ratings and listening log are unchanged.'); return; }
+    if (button.id === 'close-survey') return closeSurvey();
     if (button.dataset.genreThread) { reset(); filters.genre = button.dataset.genreThread; $('#filter-genre').value = button.dataset.genreThread; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); return; }
     if (button.dataset.tab) { setView(button.dataset.tab); if (button.closest('.site-header, .entry-aside')) $('#main').scrollIntoView?.({behavior:'instant'}); return; }
     if (button.dataset.band) { log = {...log,preference:button.dataset.band}; persist(); limit = 24; render(); return; }
@@ -265,6 +346,8 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   }
   function change(event) {
     const target = event.target;
+    if (target.closest?.('#survey-form') && ['more','less'].includes(target.name) && target.checked) { const other = target.name === 'more' ? 'less' : 'more'; const twin = $('#survey-form').querySelector('input[name="' + other + '"][value="' + CSS.escape(target.value) + '"]'); if (twin) twin.checked = false; return; }
+    if (target.closest?.('#survey-form')) return;
     if (target.dataset.status) { const id = target.dataset.status; changeRecord(id,{status:target.value}); (modalId ? $('#dialog-body') : doc).querySelector('[data-status="' + id + '"]')?.focus(); }
     else if (target.dataset.filter) { filters[target.dataset.filter] = target.value; limit = 24; render(); }
     else if (target.id === 'sort') { order = target.value; limit = 24; render(); }
@@ -277,6 +360,11 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
       if (event.key === 'Home') index = 0; else if (event.key === 'End') index = last; else index = (current + (['ArrowRight','ArrowDown'].includes(event.key) ? 1 : -1) + buttons.length) % buttons.length;
       buttons[index].click(); buttons[index].focus();
     }
+    if (event.target.matches('[data-thread-tab]') && ['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) {
+      event.preventDefault(); const tabs = [...doc.querySelectorAll('[data-thread-tab]')], current = tabs.indexOf(event.target);
+      const index = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (current + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+      tabs[index].click(); tabs[index].focus();
+    }
     if (event.key === 'Escape' && modalId) closeRecord();
   }
   async function importFile(event) {
@@ -287,7 +375,9 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
       const previous = log;
       const merged = [...log.events,...incoming.events];
       const uniqueEvents = new Map(merged.map(e => [JSON.stringify(e),e]));
-      log = {...log, records:{...log.records,...incoming.records}, preference:incoming.preference, events:[...uniqueEvents.values()].sort((a,b) => Date.parse(a.at)-Date.parse(b.at)).slice(-2000)};
+      const records = {...log.records};
+      for (const [id, entry] of Object.entries(incoming.records)) records[id] = {...records[id], ...entry};  // keeps a local note when the file has none
+      log = {...log, records, preference:incoming.preference, ...(incoming.survey ? {survey: incoming.survey} : {}), events:[...uniqueEvents.values()].sort((a,b) => Date.parse(a.at)-Date.parse(b.at)).slice(-2000)};
       persist(); render(); toast('Log imported. Existing entries kept unless included in the file.',previous);
     } catch (error) { toast(error.message || 'Could not read that listening log. Your existing log is unchanged.'); }
     finally { event.target.value = ''; }
@@ -296,6 +386,8 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   doc.addEventListener('click',click); doc.addEventListener('change',change); doc.addEventListener('input',input); doc.addEventListener('keydown',keydown);
   $('#import-file').addEventListener('change',importFile); win.addEventListener('storage',sync);
   $('#record-dialog').addEventListener('click',event => { if (event.target === $('#record-dialog')) closeRecord(); });
+  $('#survey-form').addEventListener('submit', saveSurvey);
+  $('#survey-dialog').addEventListener('click', event => { if (event.target === $('#survey-dialog')) closeSurvey(); });
   render();
   return {getLog:() => log, getView:() => view, getFilters:() => ({...filters}), setView, openRecord, getVisibleRecords:() => currentResults.map(item => item.record || item), destroy:() => { if (timer) win.clearTimeout(timer); doc.removeEventListener('click',click);doc.removeEventListener('change',change);doc.removeEventListener('input',input);doc.removeEventListener('keydown',keydown);win.removeEventListener('storage',sync); }};
 }

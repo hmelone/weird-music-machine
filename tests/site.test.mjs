@@ -90,6 +90,62 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
+  await t.test('weirdness selector offers five equal options with Any selected by default', async () => {
+    const {page} = await open(browser, url);
+    const bands = await page.$$eval('[data-band]', els => els.map(e => [e.dataset.band, e.getAttribute('role'), e.getAttribute('aria-checked'), e.tabIndex]));
+    assert.deepEqual(bands.map(b => b[0]), ['any', 'familiar', 'strange', 'farout', 'unhinged']);
+    assert.ok(bands.every(b => b[1] === 'radio'));
+    assert.deepEqual(bands.map(b => b[2]), ['true', 'false', 'false', 'false', 'false']);
+    await page.focus('[data-band="any"]'); await page.keyboard.press('End');
+    assert.equal(await page.getAttribute('[data-band="unhinged"]', 'aria-checked'), 'true');
+    await page.keyboard.press('ArrowRight');
+    assert.equal(await page.getAttribute('[data-band="any"]', 'aria-checked'), 'true');
+    await page.close();
+  });
+
+  await t.test('a pathway filters the archive and can be cleared', async () => {
+    const {page} = await open(browser, url);
+    await page.click('[data-thread-tab="scenes"]');
+    await page.click('[data-pathway="motorik-forever"]');
+    assert.match(await page.textContent('#pathway-banner'), /Motorik Forever/);
+    assert.match((await counts(page)).results, /^15 records/);
+    await page.click('#clear-pathway');
+    assert.equal(await page.isHidden('#pathway-banner'), true);
+    assert.equal((await counts(page)).results, corpus.length + ' records / ' + corpus.length);
+    await page.close();
+  });
+
+  await t.test('the survey is optional, saved locally, exported, and resettable', async () => {
+    const {page} = await open(browser, url);
+    assert.equal(await page.isVisible('#survey-strip [data-survey="open"]'), true);
+    await page.click('#survey-strip [data-survey="open"]');
+    await page.check('#survey-form input[name="looking"][value="hypnotic"]');
+    await page.check('#survey-form input[name="strangeness"][value="farout"]');
+    await page.check('#survey-form input[name="energy"][value="calm"]');
+    await page.click('#survey-form .survey-save');
+    const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
+    assert.equal(stored.survey.status, 'saved'); assert.deepEqual(stored.survey.looking, ['hypnotic']);
+    assert.equal(stored.preference, 'farout');
+    assert.equal(await page.getAttribute('[data-band="farout"]', 'aria-checked'), 'true');
+    assert.match(await page.textContent('#survey-strip'), /Hypnotic/);
+    const [download] = await Promise.all([page.waitForEvent('download'), page.click('#export-log')]);
+    const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
+    assert.deepEqual(exported.survey.looking, ['hypnotic']);
+    await page.click('#survey-strip [data-survey="reset"]');
+    const after = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
+    assert.equal(after.survey.status, 'skipped');
+    await page.close();
+  });
+
+  await t.test('skipping the survey hides the first-visit prompt for good', async () => {
+    const {page} = await open(browser, url);
+    await page.click('#survey-strip [data-survey="skip"]');
+    await page.reload();
+    await page.waitForFunction(() => document.querySelector('#results-count')?.textContent !== 'Loading the collection…');
+    assert.equal(await page.isVisible('#survey-strip [data-survey="skip"]'), false);
+    await page.close();
+  });
+
   await t.test('a malformed corpus still fails the integrity check', async () => {
     const {page} = await open(browser, url, [...corpus, corpus[0]]);
     assert.equal((await counts(page)).failed, true);
