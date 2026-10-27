@@ -1,0 +1,3265 @@
+{
+ "summary": {
+  "selected": 123,
+  "by_area": {
+   "Psychedelic and neo-psychedelic rock": 14,
+   "Krautrock, kosmische, space rock and motorik": 13,
+   "Noise rock, post-punk, art rock and post-hardcore": 12,
+   "Shoegaze, dream pop, slowcore and textural guitar": 11,
+   "Midwest emo and emo": 7,
+   "Ambient and experimental electronic": 14,
+   "Beat-oriented electronic": 10,
+   "Left-field and experimental hip-hop": 8,
+   "Indie folk and unusual acoustic music": 14,
+   "Modal, hypnotic, repetitive, drone and trance": 8,
+   "Global psychedelic and experimental traditions": 12
+  }
+ },
+ "rules": [
+  "  * never pick a record by one of the owner's representative artists (Swans,",
+  "    Cocteau Twins, Talk Talk, Unwound, Caribou/Daphni... appeared in the pool and were skipped);",
+  "  * prefer discoveries over very familiar canon, unless several lists cite a record;",
+  "  * prefer artists not already in the corpus;",
+  "  * spread picks across areas, eras and regions.",
+  "`also` merges citations from pool entries that name the same release under a",
+  "different artist string (for example a Bandcamp label account)."
+ ],
+ "selection": [
+  {
+   "candidate_id": "cand-1308",
+   "artist_in_source": "Les Rallizes Denudes",
+   "title_in_source": "Heavier Than A Death In The Family",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Japanese feedback-psych touchstone picked by Gnod's Paddy Shine; fills the noisy end of psych.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Let It Happen: Paddy Shine’s Baker’s Dozen",
+     "list_year": 2022,
+     "rank": null,
+     "position": 6,
+     "url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/7/",
+     "source_file": "research/candidates/quietus-bd-paddy-shine-gnod-moundabout-bakers-dozen.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0377",
+   "artist_in_source": "The Soft Boys",
+   "title_in_source": "Underwater Moonlight",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "1980 neo-psych guitar-pop landmark from Bandcamp Daily's '80s neo-psych guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Best ’80s Neo-Psych on Bandcamp",
+     "list_year": 2021,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/neo-psych-rock-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-neo-psych-rock-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://thesoftboys.bandcamp.com/album/underwater-moonlight",
+    "item_type": "album",
+    "band_location": "Cambridge, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0426",
+   "artist_in_source": "Träd, Gräs och Stenar",
+   "title_in_source": "Träd, Gräs och Stenar",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Swedish communal drone-psych from the \"Nuggets\" guide; a global, hypnotic take on psych rock.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Best Psych-Rock “Nuggets” on Bandcamp",
+     "list_year": 2018,
+     "rank": null,
+     "position": 6,
+     "url": "https://daily.bandcamp.com/lists/nuggets-psych-rock-bandcamp",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-nuggets-psych-rock-bandcamp.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://tradgrasochstenar.bandcamp.com/album/tr-d-gr-s-och-stenar",
+    "item_type": "album",
+    "band_location": "Sweden"
+   }
+  },
+  {
+   "candidate_id": "cand-0423",
+   "artist_in_source": "High Rise",
+   "title_in_source": "High Rise II",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Overdriven Japanese psych-noise power trio; sits between Kikagaku Moyo and Ty Segall's heavier side.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Best Psych-Rock “Nuggets” on Bandcamp",
+     "list_year": 2018,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/nuggets-psych-rock-bandcamp",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-nuggets-psych-rock-bandcamp.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://highrise.bandcamp.com/album/high-rise-ii",
+    "item_type": "album",
+    "band_location": "Tokyo, Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-0465",
+   "artist_in_source": "Bardo Pond",
+   "title_in_source": "On The Ellipse",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Philadelphia's heavy drone-psych institution, chosen from Bandcamp Daily's Philly psych history.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "A Brief History of Philly Psych",
+     "list_year": 2021,
+     "rank": null,
+     "position": 6,
+     "url": "https://daily.bandcamp.com/lists/philadelphia-psych-rock-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-philadelphia-psych-rock-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://bardopondmusic.bandcamp.com/album/on-the-ellipse",
+    "item_type": "album",
+    "band_location": "Philadelphia, Pennsylvania"
+   }
+  },
+  {
+   "candidate_id": "cand-0463",
+   "artist_in_source": "Espers",
+   "title_in_source": "II",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Philadelphia psych-folk ensemble; textural, modal and dreamy.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "A Brief History of Philly Psych",
+     "list_year": 2021,
+     "rank": null,
+     "position": 4,
+     "url": "https://daily.bandcamp.com/lists/philadelphia-psych-rock-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-philadelphia-psych-rock-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://espers.bandcamp.com/album/ii",
+    "item_type": "album",
+    "band_location": "Philadelphia, Pennsylvania"
+   }
+  },
+  {
+   "candidate_id": "cand-0362",
+   "artist_in_source": "Moon Duo",
+   "title_in_source": "Occult Architecture Vol. 1",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Motorik-leaning, repetitive modern psych from the psych concept-album guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Seven Trippy Modern Psych-Rock Concept Albums on Bandcamp",
+     "list_year": 2017,
+     "rank": null,
+     "position": 4,
+     "url": "https://daily.bandcamp.com/lists/modern-psych-rock-concept-albums-on-bandcamp",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-modern-psych-rock-concept-albums-on-bandcamp.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://moonduo.bandcamp.com/album/occult-architecture-vol-1",
+    "item_type": "album",
+    "band_location": "Portland, Oregon"
+   }
+  },
+  {
+   "candidate_id": "cand-0360",
+   "artist_in_source": "Circle",
+   "title_in_source": "Pori",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Finnish \"new wave of Finnish heavy metal\"/kraut-psych band; repetitive and strange.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Seven Trippy Modern Psych-Rock Concept Albums on Bandcamp",
+     "list_year": 2017,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/modern-psych-rock-concept-albums-on-bandcamp",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-modern-psych-rock-concept-albums-on-bandcamp.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://circlefinland.bandcamp.com/album/pori",
+    "item_type": "album",
+    "band_location": "Pori, Finland"
+   }
+  },
+  {
+   "candidate_id": "cand-0648",
+   "artist_in_source": "Goat",
+   "title_in_source": "World Music",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Swedish global-psych collective, ranked in The Quietus' 2012 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2012",
+     "list_year": 2012,
+     "rank": 70,
+     "position": 70,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/the-quietus-albums-of-the-year-2012/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2012.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0453",
+   "artist_in_source": "Jessamine",
+   "title_in_source": "Jessamine",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Seattle space-rock/drone band from Bandcamp Daily's Cascadian psych history.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Cascadian Psych in the ’90s: A History",
+     "list_year": 2025,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/pacific-northwest-psychedelic-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-pacific-northwest-psychedelic-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://jessamine.bandcamp.com/album/jessamine",
+    "item_type": "album",
+    "band_location": "Seattle, Washington"
+   }
+  },
+  {
+   "candidate_id": "cand-0643",
+   "artist_in_source": "Bo Ningen",
+   "title_in_source": "Line The Wall",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Japanese psych-noise band, ranked in The Quietus' 2012 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2012",
+     "list_year": 2012,
+     "rank": 65,
+     "position": 65,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/the-quietus-albums-of-the-year-2012/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2012.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1118",
+   "artist_in_source": "Aphrodite’s Child",
+   "title_in_source": "666 (The Apocalypse of John, 13/18)",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Greek psych-prog double album chosen by Caribou's Dan Snaith.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Beautiful Colours Everywhere: Dan Snaith Of Caribou’s Favourite LPs",
+     "list_year": 2014,
+     "rank": null,
+     "position": 2,
+     "url": "https://thequietus.com/interviews/bakers-dozen/caribou-dan-snaith-favourite-albums-interview/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/caribou-dan-snaith-favourite-albums-interview/3/",
+     "source_file": "research/candidates/quietus-bd-caribou-dan-snaith-favourite-albums-interview.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1161",
+   "artist_in_source": "Boredoms",
+   "title_in_source": "Vision Creation Newsun",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Boredoms' tribal psych-trance high point, chosen by black midi's Geordie Greep.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Thirteen Convulsions: Geordie Greep’s Favourite Albums",
+     "list_year": 2022,
+     "rank": null,
+     "position": 9,
+     "url": "https://thequietus.com/interviews/bakers-dozen/geordie-greep-black-midi-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/geordie-greep-black-midi-bakers-dozen-favourite-albums/10/",
+     "source_file": "research/candidates/quietus-bd-geordie-greep-black-midi-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0654",
+   "artist_in_source": "Grumbling Fur",
+   "title_in_source": "Glynnaestra",
+   "area": "psych",
+   "area_label": "Psychedelic and neo-psychedelic rock",
+   "reason": "Psychedelic art-pop that topped The Quietus' 2013 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2013",
+     "list_year": 2013,
+     "rank": 1,
+     "position": 1,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2013/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2013.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Thrill Jockey"
+   }
+  },
+  {
+   "candidate_id": "cand-1274",
+   "artist_in_source": "Cluster",
+   "title_in_source": "II",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Kosmische classic chosen by Michael Rother; the corpus has Cluster's debut but not this one.",
+   "merged_candidates": [],
+   "artist_in_corpus": true,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "“I Enjoy Silence!”: Michael Rother’s 13 Favourite Albums",
+     "list_year": 2019,
+     "rank": null,
+     "position": 8,
+     "url": "https://thequietus.com/interviews/bakers-dozen/michael-rother-interview-2019-neu-harmonia-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/michael-rother-interview-2019-neu-harmonia-favourite-albums/9/",
+     "source_file": "research/candidates/quietus-bd-michael-rother-interview-2019-neu-harmonia-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1275",
+   "artist_in_source": "Kraftwerk",
+   "title_in_source": "Ralf Und Florian",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Kraftwerk's pre-Autobahn record, chosen by former Kraftwerk member Michael Rother.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "“I Enjoy Silence!”: Michael Rother’s 13 Favourite Albums",
+     "list_year": 2019,
+     "rank": null,
+     "position": 9,
+     "url": "https://thequietus.com/interviews/bakers-dozen/michael-rother-interview-2019-neu-harmonia-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/michael-rother-interview-2019-neu-harmonia-favourite-albums/10/",
+     "source_file": "research/candidates/quietus-bd-michael-rother-interview-2019-neu-harmonia-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1192",
+   "artist_in_source": "Can",
+   "title_in_source": "Delay 1968",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Can's shelved first album, chosen by Spiritualized's Jason Pierce; Can are not yet in the corpus.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "There’s Nothing Better: Jason Pierce’s Favourite Albums",
+     "list_year": 2024,
+     "rank": null,
+     "position": 3,
+     "url": "https://thequietus.com/interviews/bakers-dozen/jason-pierce-spiritualized-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/jason-pierce-spiritualized-bakers-dozen-favourite-albums/4/",
+     "source_file": "research/candidates/quietus-bd-jason-pierce-spiritualized-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1062",
+   "artist_in_source": "Manuel Göttsching",
+   "title_in_source": "E2-E4",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "One-take sequencer-and-guitar improvisation bridging kosmische and techno; chosen by Ride's Andy Bell.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Mood Music: Andy Bell’s Favourite Albums",
+     "list_year": 2021,
+     "rank": null,
+     "position": 12,
+     "url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/13/",
+     "source_file": "research/candidates/quietus-bd-andy-bell-ride-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0316",
+   "artist_in_source": "Cozmic Corridors",
+   "title_in_source": "Cozmic Corridors",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Obscure kosmische record from Bandcamp Daily's krautrock rarities guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Kosmische Path Less Traveled: Nine Krautrock Rarities to Know",
+     "list_year": 2020,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/krautrock-rarities-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-krautrock-rarities-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://cozmiccorridors.bandcamp.com/album/cozmic-corridors",
+    "item_type": "album",
+    "band_location": "Germany"
+   }
+  },
+  {
+   "candidate_id": "cand-0128",
+   "artist_in_source": "Cavern of Anti-Matter",
+   "title_in_source": "Hormone Lemonade",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Tim Gane's post-Stereolab motorik project, from the krautrock-legacy feature.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Cavern of Anti-Matter and the Enduring Legacy of Krautrock",
+     "list_year": 2018,
+     "rank": null,
+     "position": 1,
+     "url": "https://daily.bandcamp.com/lists/cavern-of-anti-matter-and-the-enduring-legacy-of-krautrock",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-cavern-of-anti-matter-and-the-enduring-legacy-of-krautrock.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://cavernofanti-matter.bandcamp.com/album/hormone-lemonade",
+    "item_type": "album",
+    "band_location": "Berlin, Germany"
+   }
+  },
+  {
+   "candidate_id": "cand-1279",
+   "artist_in_source": "Fuck Buttons",
+   "title_in_source": "Tarot Sport",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Motorik electronic noise chosen by Michael Rother.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "“I Enjoy Silence!”: Michael Rother’s 13 Favourite Albums",
+     "list_year": 2019,
+     "rank": null,
+     "position": 13,
+     "url": "https://thequietus.com/interviews/bakers-dozen/michael-rother-interview-2019-neu-harmonia-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/michael-rother-interview-2019-neu-harmonia-favourite-albums/14/",
+     "source_file": "research/candidates/quietus-bd-michael-rother-interview-2019-neu-harmonia-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0657",
+   "artist_in_source": "Factory Floor",
+   "title_in_source": "Factory Floor",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Hypnotic, motorik post-punk electronics, ranked in The Quietus' 2013 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2013",
+     "list_year": 2013,
+     "rank": 4,
+     "position": 4,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2013/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2013.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "DFA"
+   }
+  },
+  {
+   "candidate_id": "cand-0873",
+   "artist_in_source": "GNOD",
+   "title_in_source": "Infinity Machines",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Gnod's long-form kraut/drone record, ranked in The Quietus' 2015 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 22,
+     "position": 22,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Rocket"
+   }
+  },
+  {
+   "candidate_id": "cand-0954",
+   "artist_in_source": "Innercity Ensemble",
+   "title_in_source": "III",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Polish kraut-jazz-psych ensemble, ranked third in The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 3,
+     "position": 3,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Instant Classic"
+   }
+  },
+  {
+   "candidate_id": "cand-1107",
+   "artist_in_source": "Stereolab",
+   "title_in_source": "Cobra And Phases Group Play Voltage In The Milky Night",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Stereolab's motorik/space-age pop peak, chosen by Deerhunter's Bradford Cox.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Nicely Proposed, Coxy! Bradford Cox Of Deerhunter’s Favourite LPs",
+     "list_year": 2015,
+     "rank": null,
+     "position": 4,
+     "url": "https://thequietus.com/interviews/bakers-dozen/bradford-cox-deerhunter-atlas-sound-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/bradford-cox-deerhunter-atlas-sound-favourite-albums/5/",
+     "source_file": "research/candidates/quietus-bd-bradford-cox-deerhunter-atlas-sound-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1053",
+   "artist_in_source": "Spacemen 3",
+   "title_in_source": "The Perfect Prescription",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Drone-led space rock chosen by Ride's Andy Bell.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Mood Music: Andy Bell’s Favourite Albums",
+     "list_year": 2021,
+     "rank": null,
+     "position": 3,
+     "url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/4/",
+     "source_file": "research/candidates/quietus-bd-andy-bell-ride-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0618",
+   "artist_in_source": "Oren Ambarchi",
+   "title_in_source": "Sagittarian Domain",
+   "area": "kraut",
+   "area_label": "Krautrock, kosmische, space rock and motorik",
+   "reason": "Single-pulse, motorik long-form guitar piece, ranked in The Quietus' 2012 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2012",
+     "list_year": 2012,
+     "rank": 40,
+     "position": 40,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/the-quietus-albums-of-the-year-2012/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2012.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0109",
+   "artist_in_source": "Dazzling Killmen",
+   "title_in_source": "Face of Collapse: Deluxe Edition",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "St. Louis noise-rock record from Bandcamp Daily's math-rock guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Brutalist Riffs: A Guide to Math Rock",
+     "list_year": 2025,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/brutalist-riffs-a-guide-to-math-rock",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-brutalist-riffs-a-guide-to-math-rock.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://dazzlingkillmen.bandcamp.com/album/face-of-collapse-deluxe-edition",
+    "item_type": "album",
+    "band_location": "St. Louis, Missouri"
+   }
+  },
+  {
+   "candidate_id": "cand-0107",
+   "artist_in_source": "Breadwinner",
+   "title_in_source": "Burner",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Richmond noise-rock/math-rock touchstone from the same guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Brutalist Riffs: A Guide to Math Rock",
+     "list_year": 2025,
+     "rank": null,
+     "position": 1,
+     "url": "https://daily.bandcamp.com/lists/brutalist-riffs-a-guide-to-math-rock",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-brutalist-riffs-a-guide-to-math-rock.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://breadwinner.bandcamp.com/album/burner",
+    "item_type": "album",
+    "band_location": "Richmond, Virginia"
+   }
+  },
+  {
+   "candidate_id": "cand-1230",
+   "artist_in_source": "Men’s Recovery Project",
+   "title_in_source": "Bolides Over Basra",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Absurdist Midwest noise/post-hardcore oddity chosen by Liars' Angus Andrew.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "No Barrier Fun: Angus Andrew Of Liars’ Favourite LPs",
+     "list_year": 2014,
+     "rank": null,
+     "position": 2,
+     "url": "https://thequietus.com/interviews/bakers-dozen/liars-angus-andrew-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/liars-angus-andrew-favourite-albums/3/",
+     "source_file": "research/candidates/quietus-bd-liars-angus-andrew-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1109",
+   "artist_in_source": "Storm & Stress",
+   "title_in_source": "Under Thunder And Fluorescent Lights",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Ian Williams' (Don Caballero, Battles) free-form art-rock, chosen by Bradford Cox.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Nicely Proposed, Coxy! Bradford Cox Of Deerhunter’s Favourite LPs",
+     "list_year": 2015,
+     "rank": null,
+     "position": 6,
+     "url": "https://thequietus.com/interviews/bakers-dozen/bradford-cox-deerhunter-atlas-sound-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/bradford-cox-deerhunter-atlas-sound-favourite-albums/7/",
+     "source_file": "research/candidates/quietus-bd-bradford-cox-deerhunter-atlas-sound-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1080",
+   "artist_in_source": "Rudolph Grey",
+   "title_in_source": "Mask Of Light",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "No-wave guitar noise chosen by Ben Chasny.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Organs Of Ecstasy: Ben Chasny’s Favourite Albums",
+     "list_year": 2023,
+     "rank": null,
+     "position": 3,
+     "url": "https://thequietus.com/interviews/bakers-dozen/ben-chasny-six-organs-bakers-dozen-favourite-music/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/ben-chasny-six-organs-bakers-dozen-favourite-music/4/",
+     "source_file": "research/candidates/quietus-bd-ben-chasny-six-organs-bakers-dozen-favourite-music.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1313",
+   "artist_in_source": "This Heat",
+   "title_in_source": "Deceit",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Post-punk/art-rock landmark chosen by Gnod's Paddy Shine.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Let It Happen: Paddy Shine’s Baker’s Dozen",
+     "list_year": 2022,
+     "rank": null,
+     "position": 11,
+     "url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/12/",
+     "source_file": "research/candidates/quietus-bd-paddy-shine-gnod-moundabout-bakers-dozen.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1112",
+   "artist_in_source": "The Fall",
+   "title_in_source": "Hex Enduction Hour",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "The Fall's hypnotic two-drummer post-punk, chosen by Bradford Cox.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Nicely Proposed, Coxy! Bradford Cox Of Deerhunter’s Favourite LPs",
+     "list_year": 2015,
+     "rank": null,
+     "position": 9,
+     "url": "https://thequietus.com/interviews/bakers-dozen/bradford-cox-deerhunter-atlas-sound-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/bradford-cox-deerhunter-atlas-sound-favourite-albums/10/",
+     "source_file": "research/candidates/quietus-bd-bradford-cox-deerhunter-atlas-sound-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0067",
+   "artist_in_source": "Eddy Current Suppression Ring",
+   "title_in_source": "Primary Colours",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Melbourne garage/post-punk from Bandcamp Daily's Australian post-punk guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Australia’s Post-Punk Underground Can’t Stop",
+     "list_year": 2025,
+     "rank": null,
+     "position": 7,
+     "url": "https://daily.bandcamp.com/lists/australian-post-punk",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-australian-post-punk.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://eddycurrentsuppressionring.bandcamp.com/album/primary-colours-2",
+    "item_type": "album",
+    "band_location": "Melbourne, Australia"
+   }
+  },
+  {
+   "candidate_id": "cand-0879",
+   "artist_in_source": "Hey Colossus",
+   "title_in_source": "Radio Static High",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "UK heavy noise/psych rock, ranked in The Quietus' 2015 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 28,
+     "position": 28,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Rocket"
+   }
+  },
+  {
+   "candidate_id": "cand-0974",
+   "artist_in_source": "Sex Swing",
+   "title_in_source": "Sex Swing",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Noise-psych supergroup, ranked in The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 24,
+     "position": 24,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "the Quietus Phonographic Corporation"
+   }
+  },
+  {
+   "candidate_id": "cand-0952",
+   "artist_in_source": "Årabrot",
+   "title_in_source": "The Gospel",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Norwegian noise/art rock that topped The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 1,
+     "position": 1,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Fysisk Format"
+   }
+  },
+  {
+   "candidate_id": "cand-0529",
+   "artist_in_source": "Kowloon Walled City",
+   "title_in_source": "Container Ships",
+   "area": "noise",
+   "area_label": "Noise rock, post-punk, art rock and post-hardcore",
+   "reason": "Slow, heavy noise-rock from Bandcamp Daily's slowcore timeline.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Slowcore: A Brief Timeline",
+     "list_year": 2017,
+     "rank": null,
+     "position": 14,
+     "url": "https://daily.bandcamp.com/lists/slowcore-a-brief-timeline",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-slowcore-a-brief-timeline.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://kowloonwalledcity.bandcamp.com/album/container-ships",
+    "item_type": "album",
+    "band_location": "Oakland, California"
+   }
+  },
+  {
+   "candidate_id": "cand-1367",
+   "artist_in_source": "A.R. Kane",
+   "title_in_source": "69",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Proto-shoegaze dub-noise chosen by Slowdive's Neil Halstead.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "A Document in Time: Neil Halstead Of Slowdive’s Baker’s Dozen",
+     "list_year": 2017,
+     "rank": null,
+     "position": 5,
+     "url": "https://thequietus.com/interviews/bakers-dozen/slowdive-neil-halstead-interview-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/slowdive-neil-halstead-interview-favourite-albums/6/",
+     "source_file": "research/candidates/quietus-bd-slowdive-neil-halstead-interview-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1358",
+   "artist_in_source": "Dif Juz",
+   "title_in_source": "Out Of The Trees",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "4AD ambient post-punk chosen by Cocteau Twins' Simon Raymonde.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Perfect Calibrations: Simon Raymonde’s Favourite Albums",
+     "list_year": 2014,
+     "rank": null,
+     "position": 8,
+     "url": "https://thequietus.com/interviews/bakers-dozen/simon-raymonde-cocteau-twins-snowbird-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/simon-raymonde-cocteau-twins-snowbird-favourite-albums/9/",
+     "source_file": "research/candidates/quietus-bd-simon-raymonde-cocteau-twins-snowbird-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0095",
+   "artist_in_source": "Flying Saucer Attack",
+   "title_in_source": "Flying Saucer Attack (aka Rural Psychedelia)",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Bristol \"rural psychedelia\" shoegaze from Bandcamp Daily's Bristol feature.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Movietone, Flying Saucer Attack, and Bristol’s Quiet Psych Scene",
+     "list_year": 2023,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/bristol-psych-scene-report",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-bristol-psych-scene-report.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://flyingsaucerattack.bandcamp.com/album/flying-saucer-attack-aka-rural-psychedelia",
+    "item_type": "album",
+    "band_location": "Bristol, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0094",
+   "artist_in_source": "Movietone",
+   "title_in_source": "Movietone",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Bristol slowcore/dream band from the same feature.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Movietone, Flying Saucer Attack, and Bristol’s Quiet Psych Scene",
+     "list_year": 2023,
+     "rank": null,
+     "position": 1,
+     "url": "https://daily.bandcamp.com/lists/bristol-psych-scene-report",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-bristol-psych-scene-report.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://movietone.bandcamp.com/album/movietone",
+    "item_type": "album",
+    "band_location": "Bristol, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0512",
+   "artist_in_source": "Bailterspace",
+   "title_in_source": "Robot World",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "New Zealand noise-pop/shoegaze from Bandcamp Daily's rare-shoegaze guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Rare Shoegaze Gems From All Eras Unearthed",
+     "list_year": 2023,
+     "rank": null,
+     "position": 14,
+     "url": "https://daily.bandcamp.com/lists/rare-shoegaze-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-rare-shoegaze-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://bailterspace.bandcamp.com/album/robot-world",
+    "item_type": "album",
+    "band_location": "New York, New York"
+   }
+  },
+  {
+   "candidate_id": "cand-0511",
+   "artist_in_source": "astrobrite",
+   "title_in_source": "pinkshinyultrablast",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Lo-fi bedroom shoegaze from the rare-shoegaze guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Rare Shoegaze Gems From All Eras Unearthed",
+     "list_year": 2023,
+     "rank": null,
+     "position": 13,
+     "url": "https://daily.bandcamp.com/lists/rare-shoegaze-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-rare-shoegaze-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://astrobrite.bandcamp.com/album/pinkshinyultrablast",
+    "item_type": "album",
+    "band_location": "Chicago, Illinois"
+   }
+  },
+  {
+   "candidate_id": "cand-0503",
+   "artist_in_source": "No Joy",
+   "title_in_source": "Wait To Pleasure",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Montreal noise-pop/shoegaze from the rare-shoegaze guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Rare Shoegaze Gems From All Eras Unearthed",
+     "list_year": 2023,
+     "rank": null,
+     "position": 5,
+     "url": "https://daily.bandcamp.com/lists/rare-shoegaze-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-rare-shoegaze-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://nojoy.bandcamp.com/album/wait-to-pleasure",
+    "item_type": "album",
+    "band_location": "Montreal, Québec"
+   }
+  },
+  {
+   "candidate_id": "cand-0500",
+   "artist_in_source": "Jefre Cantu-Ledesma",
+   "title_in_source": "LOVE IS A STREAM",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Ambient-shoegaze guitar loops from the rare-shoegaze guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Rare Shoegaze Gems From All Eras Unearthed",
+     "list_year": 2023,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/rare-shoegaze-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-rare-shoegaze-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://jefrecantu-ledesma.bandcamp.com/album/love-is-a-stream",
+    "item_type": "album",
+    "band_location": "New York"
+   }
+  },
+  {
+   "candidate_id": "cand-0518",
+   "artist_in_source": "Bedhead",
+   "title_in_source": "WhatFunLifeWas",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Texan slowcore close to The American Analog Set, from the slowcore timeline.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Slowcore: A Brief Timeline",
+     "list_year": 2017,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/slowcore-a-brief-timeline",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-slowcore-a-brief-timeline.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://bedhead.bandcamp.com/album/whatfunlifewas",
+    "item_type": "album",
+    "band_location": "Dallas, Texas"
+   }
+  },
+  {
+   "candidate_id": "cand-0560",
+   "artist_in_source": "Hood",
+   "title_in_source": "Rustic Houses, Forlorn Valleys",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Yorkshire post-rock/folk-drift from Bandcamp Daily's UK post-rock history.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Untold History of UK Post-Rock",
+     "list_year": 2024,
+     "rank": null,
+     "position": 5,
+     "url": "https://daily.bandcamp.com/lists/uk-post-rock-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-uk-post-rock-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://hoodband.bandcamp.com/album/rustic-houses-forlorn-valleys",
+    "item_type": "album",
+    "band_location": "Wetherby, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0565",
+   "artist_in_source": "Pram",
+   "title_in_source": "The Museum Of Imaginary Animals",
+   "area": "gaze",
+   "area_label": "Shoegaze, dream pop, slowcore and textural guitar",
+   "reason": "Birmingham art-pop/post-rock from the same history.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Untold History of UK Post-Rock",
+     "list_year": 2024,
+     "rank": null,
+     "position": 10,
+     "url": "https://daily.bandcamp.com/lists/uk-post-rock-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-uk-post-rock-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://pram.bandcamp.com/album/the-museum-of-imaginary-animals",
+    "item_type": "album",
+    "band_location": "UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0207",
+   "artist_in_source": "Joan of Arc",
+   "title_in_source": "So Much Staying Alive and Lovelessness",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "Tim Kinsella's experimental Chicago emo, from \"Emo's Greatest Second Acts\".",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Emo’s Greatest Second Acts",
+     "list_year": 2017,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/emos-greatest-second-acts",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-emos-greatest-second-acts.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://joanofarc.bandcamp.com/album/so-much-staying-alive-and-lovelessness",
+    "item_type": "album",
+    "band_location": "Chicago, Illinois"
+   }
+  },
+  {
+   "candidate_id": "cand-0246",
+   "artist_in_source": "American Football",
+   "title_in_source": "American Football",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "The Midwest emo reference point, from \"Football and Emo\".",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Football and Emo: A Love Story",
+     "list_year": 2017,
+     "rank": null,
+     "position": 1,
+     "url": "https://daily.bandcamp.com/lists/football-and-emo-a-love-story",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-football-and-emo-a-love-story.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://americanfootball.bandcamp.com/album/american-football",
+    "item_type": "album",
+    "band_location": "Champaign, Illinois"
+   }
+  },
+  {
+   "candidate_id": "cand-0212",
+   "artist_in_source": "Jets to Brazil",
+   "title_in_source": "Perfecting Loneliness",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "Jawbreaker/Texas Is the Reason members' second act, from the same guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Emo’s Greatest Second Acts",
+     "list_year": 2017,
+     "rank": null,
+     "position": 7,
+     "url": "https://daily.bandcamp.com/lists/emos-greatest-second-acts",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-emos-greatest-second-acts.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://jetstobrazil.bandcamp.com/album/perfecting-loneliness",
+    "item_type": "album",
+    "band_location": "Brooklyn, New York"
+   }
+  },
+  {
+   "candidate_id": "cand-0247",
+   "artist_in_source": "Chinese Football",
+   "title_in_source": "Here comes a new challenger!",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "Chinese math-emo from \"Football and Emo\"; a global take on Midwest emo.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Football and Emo: A Love Story",
+     "list_year": 2017,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/football-and-emo-a-love-story",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-football-and-emo-a-love-story.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://chinesefootball.bandcamp.com/album/here-comes-a-new-challenger",
+    "item_type": "album",
+    "band_location": "Wuhan, China"
+   }
+  },
+  {
+   "candidate_id": "cand-0231",
+   "artist_in_source": "Home Is Where",
+   "title_in_source": "i became birds",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "Fifth-wave emo with folk and noise, from Bandcamp Daily's new-emo guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The New Generation of Emo In Eight Releases",
+     "list_year": 2021,
+     "rank": null,
+     "position": 7,
+     "url": "https://daily.bandcamp.com/lists/fifth-wave-emo-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-fifth-wave-emo-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://homeiswhere.bandcamp.com/album/i-became-birds",
+    "item_type": "album",
+    "band_location": "Palm Coast, Florida"
+   }
+  },
+  {
+   "candidate_id": "cand-0226",
+   "artist_in_source": "Dogleg",
+   "title_in_source": "Melee",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "Detroit post-hardcore-leaning emo from the same guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The New Generation of Emo In Eight Releases",
+     "list_year": 2021,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/fifth-wave-emo-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-fifth-wave-emo-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://dogleg.bandcamp.com/album/melee-2",
+    "item_type": "album",
+    "band_location": "Detroit, Michigan"
+   }
+  },
+  {
+   "candidate_id": "cand-0227",
+   "artist_in_source": "glass beach",
+   "title_in_source": "the first glass beach album",
+   "area": "emo",
+   "area_label": "Midwest emo and emo",
+   "reason": "Genre-hopping, strange emo from the same guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The New Generation of Emo In Eight Releases",
+     "list_year": 2021,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/fifth-wave-emo-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-fifth-wave-emo-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://glassbeach.bandcamp.com/album/the-first-glass-beach-album",
+    "item_type": "album",
+    "band_location": "Seattle, Washington"
+   }
+  },
+  {
+   "candidate_id": "cand-1218",
+   "artist_in_source": "Tetsou Inoue",
+   "title_in_source": "World Receiver",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Ambient record chosen by Laraaji and also featured in Bandcamp Daily's '90s ambient guide.",
+   "merged_candidates": [
+    "cand-0001"
+   ],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Tell-tale Pulsations: Laraaji Picks His 13 Favourite Albums",
+     "list_year": 2017,
+     "rank": null,
+     "position": 3,
+     "url": "https://thequietus.com/interviews/bakers-dozen/laraaji-interview-baker-s-dozen-favourite-albums-cafe-oto/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/laraaji-interview-baker-s-dozen-favourite-albums-cafe-oto/4/",
+     "source_file": "research/candidates/quietus-bd-laraaji-interview-baker-s-dozen-favourite-albums-cafe-oto.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    },
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "’90s Ambient: Diving Even Deeper",
+     "list_year": 2023,
+     "rank": null,
+     "position": 1,
+     "url": "https://daily.bandcamp.com/lists/90s-ambient-list-pt-2",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-90s-ambient-list-pt-2.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)",
+     "merged_from": "cand-0001"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1217",
+   "artist_in_source": "Steve Roach",
+   "title_in_source": "Dreamtime Return",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Tribal-ambient touchstone chosen by Laraaji.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Tell-tale Pulsations: Laraaji Picks His 13 Favourite Albums",
+     "list_year": 2017,
+     "rank": null,
+     "position": 2,
+     "url": "https://thequietus.com/interviews/bakers-dozen/laraaji-interview-baker-s-dozen-favourite-albums-cafe-oto/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/laraaji-interview-baker-s-dozen-favourite-albums-cafe-oto/3/",
+     "source_file": "research/candidates/quietus-bd-laraaji-interview-baker-s-dozen-favourite-albums-cafe-oto.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1294",
+   "artist_in_source": "Edward Artemiev",
+   "title_in_source": "Warmth Of Earth",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Soviet electronic composer chosen by Oneohtrix Point Never.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Oneohtrix Point Never Talks His 13 Favourite Albums",
+     "list_year": 2011,
+     "rank": null,
+     "position": 3,
+     "url": "https://thequietus.com/interviews/bakers-dozen/oneohtrix-point-never-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/oneohtrix-point-never-favourite-albums/4/",
+     "source_file": "research/candidates/quietus-bd-oneohtrix-point-never-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1346",
+   "artist_in_source": "Michel Redolfi",
+   "title_in_source": "Desert Tracks",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Electroacoustic desert soundscapes chosen by Loop's Robert Hampson.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Soundhead: Robert Hampson Of Loop’s Favourite Albums",
+     "list_year": 2013,
+     "rank": null,
+     "position": 7,
+     "url": "https://thequietus.com/interviews/bakers-dozen/robert-hampson-loop-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/robert-hampson-loop-favourite-albums/8/",
+     "source_file": "research/candidates/quietus-bd-robert-hampson-loop-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1344",
+   "artist_in_source": "Luc Ferrari",
+   "title_in_source": "Presque Rien",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Field-recording landmark chosen by Robert Hampson.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Soundhead: Robert Hampson Of Loop’s Favourite Albums",
+     "list_year": 2013,
+     "rank": null,
+     "position": 5,
+     "url": "https://thequietus.com/interviews/bakers-dozen/robert-hampson-loop-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/robert-hampson-loop-favourite-albums/6/",
+     "source_file": "research/candidates/quietus-bd-robert-hampson-loop-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0297",
+   "artist_in_source": "Inoyama Land",
+   "title_in_source": "Commissions: 1977-2000",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Japanese environmental music from Bandcamp Daily's kankyō ongaku guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Music That Lives With You: Japanese Environmental Music on Bandcamp",
+     "list_year": 2021,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/japanese-environmental-music-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-japanese-environmental-music-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://inoyamaland.bandcamp.com/album/commissions-1977-2000",
+    "item_type": "album",
+    "band_location": "Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-0195",
+   "artist_in_source": "Ellen Fullman",
+   "title_in_source": "The Long String Instrument",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Long-string drone instrument from the drone-composition guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Deeper Listening: An Introduction to Drone Composition",
+     "list_year": 2021,
+     "rank": null,
+     "position": 4,
+     "url": "https://daily.bandcamp.com/lists/drone-composition-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-drone-composition-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://ellenfullman-sv.bandcamp.com/album/the-long-string-instrument",
+    "item_type": "album",
+    "band_location": "Berkeley, California"
+   }
+  },
+  {
+   "candidate_id": "cand-0194",
+   "artist_in_source": "Laurie Spiegel",
+   "title_in_source": "The Expanding Universe",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Pioneering algorithmic electronic music from the drone-composition guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Deeper Listening: An Introduction to Drone Composition",
+     "list_year": 2021,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/drone-composition-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-drone-composition-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://lauriespiegel.bandcamp.com/album/the-expanding-universe",
+    "item_type": "album",
+    "band_location": "New York, New York"
+   }
+  },
+  {
+   "candidate_id": "cand-0173",
+   "artist_in_source": "Kara-Lis Coverdale",
+   "title_in_source": "A 480",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Organ-and-electronics ambient from the contemporary-ambient survey.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "A Massive Survey of Contemporary Ambient Music",
+     "list_year": 2017,
+     "rank": null,
+     "position": 26,
+     "url": "https://daily.bandcamp.com/lists/contemporary-ambient-music-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-contemporary-ambient-music-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://kara-liscoverdale.bandcamp.com/album/a-480",
+    "item_type": "album",
+    "band_location": "Brant, Ontario"
+   }
+  },
+  {
+   "candidate_id": "cand-1323",
+   "artist_in_source": "Vladislav Delay",
+   "title_in_source": "Multila",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Dub-techno-ambient chosen by Panda Bear.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Everything Serves The Rhythm: Panda Bear’s Favourite Albums",
+     "list_year": 2015,
+     "rank": null,
+     "position": 8,
+     "url": "https://thequietus.com/interviews/bakers-dozen/panda-bear-animal-collective-favourite-albums-interview/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/panda-bear-animal-collective-favourite-albums-interview/9/",
+     "source_file": "research/candidates/quietus-bd-panda-bear-animal-collective-favourite-albums-interview.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0959",
+   "artist_in_source": "Ian William Craig",
+   "title_in_source": "Centres",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Tape-decay choral ambient, ranked in The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 8,
+     "position": 8,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "FatCat"
+   }
+  },
+  {
+   "candidate_id": "cand-0980",
+   "artist_in_source": "Huerco S",
+   "title_in_source": "For Those Of You Who Have Never (And Also Those Who Have)",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Ambient/dub-techno, ranked in The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 30,
+     "position": 30,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Proibito"
+   }
+  },
+  {
+   "candidate_id": "cand-0668",
+   "artist_in_source": "Rashad Becker",
+   "title_in_source": "Traditional Music Of Notional Species Vol. 1",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Synthetic \"folk music of imaginary species\", ranked in The Quietus' 2013 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2013",
+     "list_year": 2013,
+     "rank": 15,
+     "position": 15,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2013/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2013.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "PAN"
+   }
+  },
+  {
+   "candidate_id": "cand-0892",
+   "artist_in_source": "Ariel Kalma and Robert Aiki Aubrey Lowe",
+   "title_in_source": "We Know Each Other Somehow",
+   "area": "ambient",
+   "area_label": "Ambient and experimental electronic",
+   "reason": "Hypnotic sax, synth and electronics duo, ranked in The Quietus' 2015 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 41,
+     "position": 41,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Frkwys"
+   }
+  },
+  {
+   "candidate_id": "cand-1055",
+   "artist_in_source": "Mr Fingers",
+   "title_in_source": "Amnesia",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Deep house foundation chosen by Andy Bell.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Mood Music: Andy Bell’s Favourite Albums",
+     "list_year": 2021,
+     "rank": null,
+     "position": 5,
+     "url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/6/",
+     "source_file": "research/candidates/quietus-bd-andy-bell-ride-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1061",
+   "artist_in_source": "Moodymann",
+   "title_in_source": "Silentintroduction",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Detroit deep house chosen by Andy Bell.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Mood Music: Andy Bell’s Favourite Albums",
+     "list_year": 2021,
+     "rank": null,
+     "position": 11,
+     "url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/12/",
+     "source_file": "research/candidates/quietus-bd-andy-bell-ride-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0663",
+   "artist_in_source": "RP Boo",
+   "title_in_source": "Legacy",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Footwork originator, ranked tenth in The Quietus' 2013 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2013",
+     "list_year": 2013,
+     "rank": 10,
+     "position": 10,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2013/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2013.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Planet Mu"
+   }
+  },
+  {
+   "candidate_id": "cand-0252",
+   "artist_in_source": "Jana Rush",
+   "title_in_source": "Painful Enlightenment",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Dark, experimental footwork from Bandcamp Daily's footwork guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "RP Boo, Jana Rush, and DJ Manny’s Guide to Footwork",
+     "list_year": 2021,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/footwork-chicago-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-footwork-chicago-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://jaru.bandcamp.com/album/painful-enlightenment",
+    "item_type": "album"
+   }
+  },
+  {
+   "candidate_id": "cand-0606",
+   "artist_in_source": "Andy Stott",
+   "title_in_source": "Luxury Problems",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Slowed, murky techno, ranked in The Quietus' 2012 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2012",
+     "list_year": 2012,
+     "rank": 28,
+     "position": 28,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/the-quietus-albums-of-the-year-2012/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2012.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0784",
+   "artist_in_source": "Lorenzo Senni",
+   "title_in_source": "Superimpositions",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Pointillist trance deconstruction, ranked in The Quietus' 2014 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2014",
+     "list_year": 2014,
+     "rank": 33,
+     "position": 33,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2014/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2014.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Boomkat"
+   }
+  },
+  {
+   "candidate_id": "cand-0471",
+   "artist_in_source": "Golden Teacher",
+   "title_in_source": "No Luscious Life",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Glasgow post-punk dance band, from Bandcamp Daily's post-punk dance list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Nine Dance Artists Influenced by Post-Punk",
+     "list_year": 2018,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/post-punk-dance-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-post-punk-dance-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://goldenteacher.bandcamp.com/album/no-luscious-life",
+    "item_type": "album",
+    "band_location": "Glasgow, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-1320",
+   "artist_in_source": "Black Dice",
+   "title_in_source": "Creature Comforts",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Noise-electronic collage close to Animal Collective, chosen by Panda Bear.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Everything Serves The Rhythm: Panda Bear’s Favourite Albums",
+     "list_year": 2015,
+     "rank": null,
+     "position": 5,
+     "url": "https://thequietus.com/interviews/bakers-dozen/panda-bear-animal-collective-favourite-albums-interview/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/panda-bear-animal-collective-favourite-albums-interview/6/",
+     "source_file": "research/candidates/quietus-bd-panda-bear-animal-collective-favourite-albums-interview.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0325",
+   "artist_in_source": "Jan Jelinek",
+   "title_in_source": "Loop-Finding-Jazz-Records",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Glitch/microhouse built from jazz samples, from the microhouse guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Exploring Microhouse Past, Present, and Future",
+     "list_year": 2022,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/microhouse-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-microhouse-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://janjelinek.bandcamp.com/album/loop-finding-jazz-records",
+    "item_type": "album",
+    "band_location": "Berlin, Germany"
+   }
+  },
+  {
+   "candidate_id": "cand-0858",
+   "artist_in_source": "EEK featuring Islam Chipsy",
+   "title_in_source": "Kahraba",
+   "area": "beat",
+   "area_label": "Beat-oriented electronic",
+   "reason": "Cairo electro-shaabi keyboard trance, ranked in The Quietus' 2015 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 7,
+     "position": 7,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Nashazphone"
+   }
+  },
+  {
+   "candidate_id": "cand-0536",
+   "artist_in_source": "Dälek",
+   "title_in_source": "From Filthy Tongue Of Gods And Griots",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Noise-rap landmark from Bandcamp Daily's noise-rap list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Best Noise Rap on Bandcamp",
+     "list_year": 2020,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/the-best-noise-rap-on-bandcamp",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-the-best-noise-rap-on-bandcamp.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://dalek.bandcamp.com/album/from-filthy-tongue-of-gods-and-griots",
+    "item_type": "album",
+    "band_location": "Union City, New Jersey"
+   }
+  },
+  {
+   "candidate_id": "cand-0540",
+   "artist_in_source": "Divine Styler",
+   "title_in_source": "Spiral Walls Containing Autumns Of Light",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Avant-garde rap/noise outlier from the same list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Best Noise Rap on Bandcamp",
+     "list_year": 2020,
+     "rank": null,
+     "position": 6,
+     "url": "https://daily.bandcamp.com/lists/the-best-noise-rap-on-bandcamp",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-the-best-noise-rap-on-bandcamp.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://divinestyler.bandcamp.com/album/spiral-walls-containing-autumns-of-light",
+    "item_type": "album",
+    "band_location": "Los Angeles, California"
+   }
+  },
+  {
+   "candidate_id": "cand-1240",
+   "artist_in_source": "Kool Keith",
+   "title_in_source": "Black Elvis/Lost In Space",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Kool Keith's sci-fi rap, chosen by Liars' Angus Andrew.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "No Barrier Fun: Angus Andrew Of Liars’ Favourite LPs",
+     "list_year": 2014,
+     "rank": null,
+     "position": 12,
+     "url": "https://thequietus.com/interviews/bakers-dozen/liars-angus-andrew-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/liars-angus-andrew-favourite-albums/13/",
+     "source_file": "research/candidates/quietus-bd-liars-angus-andrew-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1072",
+   "artist_in_source": "New Kingdom",
+   "title_in_source": "Paradise Don’t Come Cheap",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Psychedelic rock-rap, chosen by Andrew Falkous.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "“My Dad Wrote That Better”: Andrew Falkous’ Baker’s Dozen",
+     "list_year": 2018,
+     "rank": null,
+     "position": 9,
+     "url": "https://thequietus.com/interviews/bakers-dozen/andy-falkous-future-of-the-left-interview-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/andy-falkous-future-of-the-left-interview-favourite-albums/10/",
+     "source_file": "research/candidates/quietus-bd-andy-falkous-future-of-the-left-interview-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1101",
+   "artist_in_source": "Scaramanga",
+   "title_in_source": "Seven Eyes, Seven Horns",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Underground rap chosen by Billy Woods.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Origin Story: Billy Woods’ Favourite Albums",
+     "list_year": 2023,
+     "rank": null,
+     "position": 11,
+     "url": "https://thequietus.com/interviews/bakers-dozen/billy-woods-bakers-dozen-favourite-music/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/billy-woods-bakers-dozen-favourite-music/12/",
+     "source_file": "research/candidates/quietus-bd-billy-woods-bakers-dozen-favourite-music.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0046",
+   "artist_in_source": "E L U C I D",
+   "title_in_source": "Save Yourself",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Abstract rap from Bandcamp Daily's art-rap guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "A Walk Through The Avant-Garde World of ‘Art Rap’ Music",
+     "list_year": 2017,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/art-rap-artists-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-art-rap-artists-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://elucid.bandcamp.com/album/save-yourself",
+    "item_type": "album",
+    "band_location": "New York"
+   }
+  },
+  {
+   "candidate_id": "cand-0825",
+   "artist_in_source": "milo",
+   "title_in_source": "a toothpaste suburb",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Philosophical, lo-fi rap, ranked in The Quietus' 2014 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2014",
+     "list_year": 2014,
+     "rank": 74,
+     "position": 74,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2014/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2014.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Hellfyre Club"
+   }
+  },
+  {
+   "candidate_id": "cand-0277",
+   "artist_in_source": "clipping.",
+   "title_in_source": "Splendor & Misery",
+   "area": "hiphop",
+   "area_label": "Left-field and experimental hip-hop",
+   "reason": "Sci-fi concept rap from the hip-hop concept-album list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The Best Hip-Hop Concept Albums on Bandcamp",
+     "list_year": 2020,
+     "rank": null,
+     "position": 5,
+     "url": "https://daily.bandcamp.com/lists/hip-hop-concept-albums-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-hip-hop-concept-albums-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://clppng.bandcamp.com/album/splendor-misery",
+    "item_type": "album",
+    "band_location": "Los Angeles, California"
+   }
+  },
+  {
+   "candidate_id": "cand-1079",
+   "artist_in_source": "Loren Connors",
+   "title_in_source": "Hell’s Kitchen Park",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Abstract solo guitar chosen by Ben Chasny.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Organs Of Ecstasy: Ben Chasny’s Favourite Albums",
+     "list_year": 2023,
+     "rank": null,
+     "position": 2,
+     "url": "https://thequietus.com/interviews/bakers-dozen/ben-chasny-six-organs-bakers-dozen-favourite-music/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/ben-chasny-six-organs-bakers-dozen-favourite-music/3/",
+     "source_file": "research/candidates/quietus-bd-ben-chasny-six-organs-bakers-dozen-favourite-music.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0039",
+   "artist_in_source": "Marisa Anderson",
+   "title_in_source": "Into the Light",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "American primitive guitar from Bandcamp Daily's guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Steel Strings and Wood: A Guide to American Primitive Music",
+     "list_year": 2018,
+     "rank": null,
+     "position": 10,
+     "url": "https://daily.bandcamp.com/lists/american-primitive-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-american-primitive-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://marisaanderson.bandcamp.com/album/into-the-light",
+    "item_type": "album",
+    "band_location": "Portland, Oregon"
+   }
+  },
+  {
+   "candidate_id": "cand-0398",
+   "artist_in_source": "Gwenifer Raymond",
+   "title_in_source": "Last Night I Heard The Dog Star Bark",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Welsh fingerstyle guitar from the British solo acoustic guitar primer.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Reveries & Ritual: A British Solo Acoustic Guitar Primer",
+     "list_year": 2025,
+     "rank": null,
+     "position": 4,
+     "url": "https://daily.bandcamp.com/lists/new-solo-british-uk-guitarists-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-new-solo-british-uk-guitarists-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://gweniferraymond.bandcamp.com/album/last-night-i-heard-the-dog-star-bark",
+    "item_type": "album",
+    "band_location": "Brighton, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0178",
+   "artist_in_source": "Daniel Bachman",
+   "title_in_source": "Almanac Behind",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Drone-folk guitar from \"The New Psychedelia\".",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The New Psychedelia",
+     "list_year": 2024,
+     "rank": null,
+     "position": 2,
+     "url": "https://daily.bandcamp.com/lists/contemporary-psychedelic-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-contemporary-psychedelic-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://danielbachman.bandcamp.com/album/almanac-behind",
+    "item_type": "album",
+    "band_location": "Madison, Virginia"
+   }
+  },
+  {
+   "candidate_id": "cand-1142",
+   "artist_in_source": "Anne Briggs",
+   "title_in_source": "Anne Briggs",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Unaccompanied British folk chosen by Earth's Dylan Carlson.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Earth’s Dylan Carlson Discusses His 13 Favourite Albums",
+     "list_year": 2012,
+     "rank": null,
+     "position": 1,
+     "url": "https://thequietus.com/interviews/bakers-dozen/dylan-carlson-earth-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/dylan-carlson-earth-favourite-albums/2/",
+     "source_file": "research/candidates/quietus-bd-dylan-carlson-earth-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0383",
+   "artist_in_source": "Ichiko Aoba",
+   "title_in_source": "Luminescent Creatures",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Japanese chamber folk from Bandcamp Daily's chamber-folk guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "A Delicate Fusion: A New Era of Chamber Folk",
+     "list_year": 2025,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/new-chamber-folk-music-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-new-chamber-folk-music-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://ichikoaoba.bandcamp.com/album/luminescent-creatures-2",
+    "item_type": "album",
+    "band_location": "Tokyo, Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-0956",
+   "artist_in_source": "Shirley Collins",
+   "title_in_source": "Lodestar",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "English folk comeback, ranked fifth in The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 5,
+     "position": 5,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Domino"
+   }
+  },
+  {
+   "candidate_id": "cand-0291",
+   "artist_in_source": "Chie Mukai",
+   "title_in_source": "I Can't Promise = 約束はできない",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Japanese experimental folk from the Japanese acid-folk guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Going Deep on Japanese Acid Folk",
+     "list_year": 2024,
+     "rank": null,
+     "position": 6,
+     "url": "https://daily.bandcamp.com/lists/japanese-acid-folk-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-japanese-acid-folk-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://chiemukai1.bandcamp.com/album/i-cant-promise",
+    "item_type": "album",
+    "band_location": "Osaka, Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-0292",
+   "artist_in_source": "Nagisa Ni Te",
+   "title_in_source": "On the Love Beach",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Japanese psych-folk duo from the same guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Going Deep on Japanese Acid Folk",
+     "list_year": 2024,
+     "rank": null,
+     "position": 7,
+     "url": "https://daily.bandcamp.com/lists/japanese-acid-folk-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-japanese-acid-folk-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://nagisanite.bandcamp.com/album/on-the-love-beach",
+    "item_type": "album",
+    "band_location": "Osaka, Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-0295",
+   "artist_in_source": "ゑでぃまぁこん EDDIE MARCON",
+   "title_in_source": "眩暗眩花 kura kura kurage (2018)",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Japanese acid folk from the same guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Going Deep on Japanese Acid Folk",
+     "list_year": 2024,
+     "rank": null,
+     "position": 10,
+     "url": "https://daily.bandcamp.com/lists/japanese-acid-folk-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-japanese-acid-folk-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://eddiemarcon.bandcamp.com/album/kura-kura-kurage-2018",
+    "item_type": "album",
+    "band_location": "Himeji, Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-0189",
+   "artist_in_source": "Tara Clerkin Trio",
+   "title_in_source": "On The Turning Ground",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Bristol hypnotic chamber folk from \"The New Psychedelia\".",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "The New Psychedelia",
+     "list_year": 2024,
+     "rank": null,
+     "position": 13,
+     "url": "https://daily.bandcamp.com/lists/contemporary-psychedelic-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-contemporary-psychedelic-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://taraclerkintrio.bandcamp.com/album/on-the-turning-ground",
+    "item_type": "album",
+    "band_location": "Bristol, UK"
+   }
+  },
+  {
+   "candidate_id": "cand-0871",
+   "artist_in_source": "Laura Cannell",
+   "title_in_source": "Beneath Swooping Talons",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Medieval-inflected drone fiddle and recorder, ranked in The Quietus' 2015 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 20,
+     "position": 20,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Front & Follow"
+   }
+  },
+  {
+   "candidate_id": "cand-1207",
+   "artist_in_source": "Juana Molina",
+   "title_in_source": "Halo",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Looped, hypnotic Argentine folktronica chosen by Laetitia Sadier.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Finding The Connection: Laetitia Sadier’s Favourite Albums",
+     "list_year": 2017,
+     "rank": null,
+     "position": 5,
+     "url": "https://thequietus.com/interviews/bakers-dozen/laetitia-sadier-interview-stereolab-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/laetitia-sadier-interview-stereolab-favourite-albums/6/",
+     "source_file": "research/candidates/quietus-bd-laetitia-sadier-interview-stereolab-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0888",
+   "artist_in_source": "Księżyc",
+   "title_in_source": "Rabbit Eclipse",
+   "area": "folk",
+   "area_label": "Indie folk and unusual acoustic music",
+   "reason": "Polish folk-ambient cited by two sources (Paddy Shine and The Quietus' 2015 list).",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 37,
+     "position": 37,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    },
+    {
+     "publication": "The Quietus",
+     "list_title": "Let It Happen: Paddy Shine’s Baker’s Dozen",
+     "list_year": 2022,
+     "rank": null,
+     "position": 1,
+     "url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/2/",
+     "source_file": "research/candidates/quietus-bd-paddy-shine-gnod-moundabout-bakers-dozen.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Penultimate Press"
+   }
+  },
+  {
+   "candidate_id": "cand-1301",
+   "artist_in_source": "Terry Riley",
+   "title_in_source": "Shri Camel",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Terry Riley's modal keyboard loops, chosen by Oneohtrix Point Never.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Oneohtrix Point Never Talks His 13 Favourite Albums",
+     "list_year": 2011,
+     "rank": null,
+     "position": 10,
+     "url": "https://thequietus.com/interviews/bakers-dozen/oneohtrix-point-never-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/oneohtrix-point-never-favourite-albums/11/",
+     "source_file": "research/candidates/quietus-bd-oneohtrix-point-never-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1332",
+   "artist_in_source": "Fripp & Eno",
+   "title_in_source": "(No Pussyfooting)",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Tape-loop drone duet chosen by Richard Pinhas.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "It’s Always Rock & Roll: Richard Pinhas’ Baker’s Dozen",
+     "list_year": 2022,
+     "rank": null,
+     "position": 4,
+     "url": "https://thequietus.com/interviews/bakers-dozen/richard-pinhas-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/richard-pinhas-bakers-dozen-favourite-albums/5/",
+     "source_file": "research/candidates/quietus-bd-richard-pinhas-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1124",
+   "artist_in_source": "Emahoy TseguMaryam Gubroup",
+   "title_in_source": "Éthiopiques 21: Piano Solo",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Ethiopian nun's solo piano, chosen by Dan Snaith (Jason Pierce chose a different release by her).",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Beautiful Colours Everywhere: Dan Snaith Of Caribou’s Favourite LPs",
+     "list_year": 2014,
+     "rank": null,
+     "position": 8,
+     "url": "https://thequietus.com/interviews/bakers-dozen/caribou-dan-snaith-favourite-albums-interview/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/caribou-dan-snaith-favourite-albums-interview/9/",
+     "source_file": "research/candidates/quietus-bd-caribou-dan-snaith-favourite-albums-interview.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1120",
+   "artist_in_source": "Pharaoh Sanders",
+   "title_in_source": "Karma",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Modal spiritual jazz chosen by Dan Snaith.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Beautiful Colours Everywhere: Dan Snaith Of Caribou’s Favourite LPs",
+     "list_year": 2014,
+     "rank": null,
+     "position": 4,
+     "url": "https://thequietus.com/interviews/bakers-dozen/caribou-dan-snaith-favourite-albums-interview/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/caribou-dan-snaith-favourite-albums-interview/5/",
+     "source_file": "research/candidates/quietus-bd-caribou-dan-snaith-favourite-albums-interview.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0333",
+   "artist_in_source": "La Monte Young",
+   "title_in_source": "The Well-Tuned Piano in the Magenta Lights “87 V 10 6:43:00 PM — 87 V 11 1:07:45 AM NYC”",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Just-intonation drone piano from the minimalism guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Masterpieces of Minimalism",
+     "list_year": 2022,
+     "rank": null,
+     "position": 4,
+     "url": "https://daily.bandcamp.com/lists/minimalism-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-minimalism-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://lamonteyoung.bandcamp.com/album/the-well-tuned-piano-in-the-magenta-lights-87-v-10-6-43-00-pm-87-v-11-1-07-45-am-nyc",
+    "item_type": "album",
+    "band_location": "New York, New York"
+   }
+  },
+  {
+   "candidate_id": "cand-0335",
+   "artist_in_source": "Irritable Hedgehog",
+   "title_in_source": "Dennis Johnson: November",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Proto-minimalist piano work from the minimalism guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Masterpieces of Minimalism",
+     "list_year": 2022,
+     "rank": null,
+     "position": 6,
+     "url": "https://daily.bandcamp.com/lists/minimalism-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-minimalism-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://recordings.irritablehedgehog.com/album/dennis-johnson-november-2",
+    "item_type": "album",
+    "band_location": "Kansas City, Missouri"
+   }
+  },
+  {
+   "candidate_id": "cand-1083",
+   "artist_in_source": "Flower-Corsano Duo",
+   "title_in_source": "The Four Aims",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Free-modal shruti box and drums duo chosen by Ben Chasny.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Organs Of Ecstasy: Ben Chasny’s Favourite Albums",
+     "list_year": 2023,
+     "rank": null,
+     "position": 6,
+     "url": "https://thequietus.com/interviews/bakers-dozen/ben-chasny-six-organs-bakers-dozen-favourite-music/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/ben-chasny-six-organs-bakers-dozen-favourite-music/7/",
+     "source_file": "research/candidates/quietus-bd-ben-chasny-six-organs-bakers-dozen-favourite-music.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0649",
+   "artist_in_source": "Guardian Alien",
+   "title_in_source": "See The World Given To A One Love Entity",
+   "area": "modal",
+   "area_label": "Modal, hypnotic, repetitive, drone and trance",
+   "reason": "Ecstatic drum-led psych-drone, ranked in The Quietus' 2012 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2012",
+     "list_year": 2012,
+     "rank": 71,
+     "position": 71,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/the-quietus-albums-of-the-year-2012/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2012.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1306",
+   "artist_in_source": "Mohamed Rouicha",
+   "title_in_source": "Ma Nagai Ana-jay",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Moroccan Amazigh lotar music chosen by Paddy Shine.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Let It Happen: Paddy Shine’s Baker’s Dozen",
+     "list_year": 2022,
+     "rank": null,
+     "position": 4,
+     "url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/paddy-shine-gnod-moundabout-bakers-dozen/5/",
+     "source_file": "research/candidates/quietus-bd-paddy-shine-gnod-moundabout-bakers-dozen.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1244",
+   "artist_in_source": "Khaira Arby",
+   "title_in_source": "Timbuktu Tarab",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Malian singer chosen by Mdou Moctar.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Resistance Songs: Mdou Moctar’s Favourite Music",
+     "list_year": 2021,
+     "rank": null,
+     "position": 3,
+     "url": "https://thequietus.com/interviews/bakers-dozen/mdou-moctar-bakers-dozen-favourite-music/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/mdou-moctar-bakers-dozen-favourite-music/4/",
+     "source_file": "research/candidates/quietus-bd-mdou-moctar-bakers-dozen-favourite-music.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0703",
+   "artist_in_source": "Tamikrest",
+   "title_in_source": "Chatma",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Tuareg desert rock, ranked in The Quietus' 2013 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2013",
+     "list_year": 2013,
+     "rank": 51,
+     "position": 51,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2013/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2013.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Glitterbeat"
+   }
+  },
+  {
+   "candidate_id": "cand-0819",
+   "artist_in_source": "Noura Mint Seymali",
+   "title_in_source": "Tzenni",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Mauritanian griot psych, ranked in The Quietus' 2014 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2014",
+     "list_year": 2014,
+     "rank": 68,
+     "position": 68,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2014/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2014.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Glitterbeat"
+   }
+  },
+  {
+   "candidate_id": "cand-1337",
+   "artist_in_source": "Jeri-Jeri",
+   "title_in_source": "800% Ndagga",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Senegalese sabar drumming meets Berlin dub-techno; chosen by Richard Pinhas.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "It’s Always Rock & Roll: Richard Pinhas’ Baker’s Dozen",
+     "list_year": 2022,
+     "rank": null,
+     "position": 10,
+     "url": "https://thequietus.com/interviews/bakers-dozen/richard-pinhas-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/richard-pinhas-bakers-dozen-favourite-albums/11/",
+     "source_file": "research/candidates/quietus-bd-richard-pinhas-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-0854",
+   "artist_in_source": "Mbongwana Star",
+   "title_in_source": "From Kinshasa",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Kinshasa street-psych band, ranked third in The Quietus' 2015 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2015",
+     "list_year": 2015,
+     "rank": 3,
+     "position": 3,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/best-albums-2015/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2015.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "World Circuit"
+   }
+  },
+  {
+   "candidate_id": "cand-0042",
+   "artist_in_source": "Gaye Su Akyol",
+   "title_in_source": "İstikrarlı Hayal Hakikattir",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Turkish psych from Bandcamp Daily's Anatolian rock guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Anatolian Rock 101: Key Releases to Know",
+     "list_year": 2020,
+     "rank": null,
+     "position": 3,
+     "url": "https://daily.bandcamp.com/lists/anatolian-rock-list",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-anatolian-rock-list.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://gayesuakyol.bandcamp.com/album/i-stikrarl-hayal-hakikattir",
+    "item_type": "album",
+    "band_location": "Istanbul, Turkey"
+   }
+  },
+  {
+   "candidate_id": "cand-0145",
+   "artist_in_source": "Los Wembler's de Iquitos",
+   "title_in_source": "Vision del Ayahuasca",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Peruvian chicha psych from the chicha guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Chicha Forever: The Evolution of Peruvian Cumbia",
+     "list_year": 2026,
+     "rank": null,
+     "position": 8,
+     "url": "https://daily.bandcamp.com/lists/chicha-cumbia-peru-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-chicha-cumbia-peru-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://loswemblersdeiquitos.bandcamp.com/album/vision-del-ayahuasca",
+    "item_type": "album",
+    "band_location": "Iquitos, Peru"
+   }
+  },
+  {
+   "candidate_id": "cand-0987",
+   "artist_in_source": "Jambinai",
+   "title_in_source": "A Hermitage",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Korean gugak post-rock, ranked in The Quietus' 2016 list.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Albums of the Year 2016",
+     "list_year": 2016,
+     "rank": 37,
+     "position": 37,
+     "url": "https://thequietus.com/tq-charts/albums-of-the-year/albums-of-the-year-2016/",
+     "pick_url": null,
+     "source_file": "research/candidates/quietus-aoty-2016.json",
+     "list_type": "Year-end list (ranked)"
+    }
+   ],
+   "source_hints": {
+    "label_in_source": "Bella Union"
+   }
+  },
+  {
+   "candidate_id": "cand-0342",
+   "artist_in_source": "minyo crusaders",
+   "title_in_source": "Echoes Of Japan",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Japanese minyō-meets-cumbia band from the minyō guide.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "Bandcamp Daily",
+     "list_title": "Reevaluating the Minyo “Revival”",
+     "list_year": 2025,
+     "rank": null,
+     "position": 1,
+     "url": "https://daily.bandcamp.com/lists/minyo-japanese-folk-album-guide",
+     "pick_url": null,
+     "source_file": "research/candidates/bcd-minyo-japanese-folk-album-guide.json",
+     "list_type": "Bandcamp Daily list/guide (editorial; featured releases in page order, unranked)"
+    }
+   ],
+   "source_hints": {
+    "bandcamp_url": "https://minyocrusaders.bandcamp.com/album/echoes-of-japan",
+    "item_type": "album",
+    "band_location": "Tokyo, Japan"
+   }
+  },
+  {
+   "candidate_id": "cand-1063",
+   "artist_in_source": "African Head Charge",
+   "title_in_source": "Off The Beaten Track",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Psychedelic African dub, chosen by Andy Bell.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Mood Music: Andy Bell’s Favourite Albums",
+     "list_year": 2021,
+     "rank": null,
+     "position": 13,
+     "url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/andy-bell-ride-bakers-dozen-favourite-albums/14/",
+     "source_file": "research/candidates/quietus-bd-andy-bell-ride-bakers-dozen-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  },
+  {
+   "candidate_id": "cand-1208",
+   "artist_in_source": "Véronique Vincent & Aksak Maboul",
+   "title_in_source": "Ex-Futur Album",
+   "area": "global",
+   "area_label": "Global psychedelic and experimental traditions",
+   "reason": "Belgian art-pop/collage chosen by Laetitia Sadier.",
+   "merged_candidates": [],
+   "artist_in_corpus": false,
+   "citations": [
+    {
+     "publication": "The Quietus",
+     "list_title": "Finding The Connection: Laetitia Sadier’s Favourite Albums",
+     "list_year": 2017,
+     "rank": null,
+     "position": 6,
+     "url": "https://thequietus.com/interviews/bakers-dozen/laetitia-sadier-interview-stereolab-favourite-albums/",
+     "pick_url": "https://thequietus.com/interviews/bakers-dozen/laetitia-sadier-interview-stereolab-favourite-albums/7/",
+     "source_file": "research/candidates/quietus-bd-laetitia-sadier-interview-stereolab-favourite-albums.json",
+     "list_type": "Baker's Dozen (artist-curated favourite records; numbered for presentation, unranked)"
+    }
+   ],
+   "source_hints": {}
+  }
+ ]
+}
