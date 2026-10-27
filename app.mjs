@@ -92,14 +92,13 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   }
   function empty(title, message, action = 'reset') { return '<div class="empty-state"><h3>' + escapeHTML(title) + '</h3><p>' + escapeHTML(message) + '</p>' + (action ? '<button type="button" data-empty-action="' + action + '">' + (action === 'collection' ? 'EXPLORE THE COLLECTION ↗' : 'CLEAR FILTERS & OPEN ALL FREQUENCIES') + '</button>' : '') + '</div>'; }
   function renderBand() {
-    for (const button of doc.querySelectorAll('[data-band]')) { const active = button.dataset.band === log.preference; button.setAttribute('aria-checked', String(active)); button.tabIndex = active || (log.preference === 'any' && button.dataset.band === 'familiar') ? 0 : -1; }
-    $('#any-band').setAttribute('aria-pressed', String(log.preference === 'any'));
+    for (const button of doc.querySelectorAll('[data-band]')) { const active = button.dataset.band === log.preference; button.setAttribute('aria-checked', String(active)); button.tabIndex = active ? 0 : -1; }
     $('#band-caption').textContent = 'Selected: ' + (log.preference === 'any' ? 'Any weirdness · 1–5' : BAND_LABELS[log.preference]);
   }
   function renderCatalog() {
     const personal = view === 'recommendations';
     $('.sort-label').hidden = personal;
-    $('#view-heading').textContent = personal ? 'Follow your own strange.' : 'A good place to get lost.';
+    $('#view-heading').textContent = personal ? 'Follow your own strange path.' : 'A good place to get lost.';
     $('#view-kicker').textContent = personal ? '02 / THE MACHINE SAYS' : '02 / THE RECORDS';
     $('#view-stamp').innerHTML = personal ? 'LISTEN<br>CLOSER' : 'START<br>ANYWHERE';
     let recommendationResult;
@@ -115,7 +114,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
       $('#results-context').textContent = BAND_LABELS[log.preference].toUpperCase();
     } else {
       currentResults = sortRecords(filterRecords(dataset, log, filters), log, order);
-      $('#view-description').textContent = 'An open-eared archive across eras and traditions. Pick a name. Pull a thread.';
+      $('#view-description').textContent = 'Across eras and traditions. Pick a name. Pull a thread.';
       $('#results-context').textContent = 'YOUR NEXT OBSESSION COULD BE HERE.';
     }
     $('#results-count').textContent = currentResults.length + (personal ? ' eligible ' + (recommendationResult.mode === 'personalized' ? 'recommendation' : 'discovery pick') : ' record') + (currentResults.length === 1 ? '' : 's') + (personal ? '' : ' / ' + dataset.length);
@@ -251,7 +250,6 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (button.dataset.history) { historyMode = button.dataset.history; activityLimit = 30; renderHistory(); return; }
     if (button.dataset.emptyAction) return button.dataset.emptyAction === 'collection' ? setView('collection') : reset(true);
     if (button.id === 'reset-filters') return reset();
-    if (button.id === 'any-band') { log = {...log,preference:'any'}; persist(); limit = 24; render(); return; }
     if (button.id === 'surprise') { const selected = surprise(dataset,log,filters,log.preference,random); if (selected) openRecord(selected.id,'THE MACHINE PICKED / TAKE A CHANCE'); else toast('No unheard records match your filters and weirdness setting. Try another frequency.'); return; }
     if (button.id === 'close-dialog') return closeRecord();
     if (button.id === 'load-more') { limit += 24; renderCatalog(); return; }
@@ -275,7 +273,8 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   function keydown(event) {
     if (event.target.matches('[data-band]') && ['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key)) {
       event.preventDefault(); const buttons = [...doc.querySelectorAll('[data-band]')], current = buttons.indexOf(event.target); let index;
-      if (event.key === 'Home') index = 0; else if (event.key === 'End') index = 3; else index = (current + (['ArrowRight','ArrowDown'].includes(event.key) ? 1 : -1) + 4) % 4;
+      const last = buttons.length - 1;
+      if (event.key === 'Home') index = 0; else if (event.key === 'End') index = last; else index = (current + (['ArrowRight','ArrowDown'].includes(event.key) ? 1 : -1) + buttons.length) % buttons.length;
       buttons[index].click(); buttons[index].focus();
     }
     if (event.key === 'Escape' && modalId) closeRecord();

@@ -25,20 +25,21 @@
         <div class="thread-browser"><div class="thread-links genre-threads" id="genre-threads" aria-label="Browse genres"></div><button type="button" id="toggle-genres" aria-expanded="false" aria-controls="genre-threads">VIEW ALL GENRES +</button></div>
       </section>
     <section class="discovery" aria-labelledby="weird-heading">
-      <div class="discovery-heading"><span class="section-no">01 / TUNE IN</span><h2 id="weird-heading">How weird do you want to go?</h2><p class="adventure-caption">Choose your adventure</p><p class="discovery-instructions" id="weird-instructions">Choose a weirdness level, then click <strong>Surprise Me</strong> to open an unheard release.</p></div>
+      <div class="discovery-heading"><span class="section-no">01 / TUNE IN</span><h2 id="weird-heading">How weird do you want to go?</h2><p class="discovery-instructions" id="weird-instructions">Choose a weirdness level, then click <strong>Surprise Me</strong> to open an unheard release.</p></div>
       <div class="discovery-controls">
         <p class="discovery-step">1 / CHOOSE A LEVEL</p><div class="frequency" role="radiogroup" aria-label="Discovery weirdness preference" aria-describedby="weird-instructions">
+          <button type="button" role="radio" aria-checked="true" data-band="any"><span>01–05</span>Any</button>
           <button type="button" role="radio" aria-checked="false" data-band="familiar"><span>01–02</span>Familiar</button>
           <button type="button" role="radio" aria-checked="false" data-band="strange"><span>03</span>Strange</button>
           <button type="button" role="radio" aria-checked="false" data-band="farout"><span>04</span>Far Out</button>
           <button type="button" role="radio" aria-checked="false" data-band="unhinged"><span>05</span>Completely<br>Unhinged</button>
         </div>
-        <div class="discovery-bottom"><button type="button" id="any-band" class="text-button">◎ Any weirdness</button><span id="band-caption" role="status">Selected: Any weirdness · 1–5</span><button type="button" id="surprise" class="surprise" aria-label="Surprise Me"><span class="step-number" aria-hidden="true">2</span> SURPRISE ME <span aria-hidden="true">↗</span></button></div>
+        <div class="discovery-bottom"><span id="band-caption" role="status">Selected: Any weirdness · 1–5</span><button type="button" id="surprise" class="surprise" aria-label="Surprise Me"><span class="step-number" aria-hidden="true">2</span> SURPRISE ME <span aria-hidden="true">↗</span></button></div>
         <p class="small-note">Your archive filters apply. Your chosen level also tunes The Machine Says.</p>
       </div>
     </section>
 
-    <div class="machine-divider"><span class="machine-eye" aria-hidden="true"><img src="./art-direction/images/psychedelic-machine.png" alt="" width="1254" height="1254" loading="lazy"></span><p>FOLLOW THE SIGNAL<br><span><span data-count="records">370</span> releases. Keep looking.</span></p><a href="#main" aria-label="Go to the complete archive">↓</a></div>
+    <div class="machine-divider"><span class="machine-eye" aria-hidden="true"><img src="./art-direction/images/psychedelic-machine.png" alt="" width="1254" height="1254" loading="lazy"></span><p>FOLLOW THE SIGNAL<br><span>Into the archive. Keep looking.</span></p><a href="#main" aria-label="Go to the complete archive">↓</a></div>
     <nav class="tabs" aria-label="Main sections">
       <button type="button" data-tab="collection" aria-current="page">The archive <span data-count="records">370</span></button>
       <button type="button" data-tab="recommendations">For your ears <span>↗</span></button>
@@ -67,11 +68,11 @@
               <p class="small-note">These scores describe the music. Your stars describe how much you like it.</p>
             </div>
           </details>
-          <div class="margin-note"><span aria-hidden="true">↳</span><p>Follow a thread.<br>Take a detour.<br>Keep your ears open.</p></div>
+          
         </aside>
         <section class="records-panel" aria-labelledby="view-heading">
           <div class="view-heading"><div><p class="section-no" id="view-kicker">02 / THE RECORDS</p><h2 id="view-heading">A good place to get lost.</h2></div><span class="stamp" id="view-stamp">START<br>ANYWHERE</span></div>
-          <p class="view-description" id="view-description">An open-eared archive across eras and traditions. Pick a name. Pull a thread.</p>
+          <p class="view-description" id="view-description">Across eras and traditions. Pick a name. Pull a thread.</p>
           <div class="search-sort">
             <label class="search-label"><span class="sr-only">Search records</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search artists, records, sounds…" autocomplete="off"></label>
             <label class="sort-label">SORT<select id="sort"><option value="list">Catalog order</option><option value="artist">Artist A–Z</option><option value="title">Title A–Z</option><option value="year-asc">Year · oldest first</option><option value="year-desc">Year · newest first</option><option value="weirdness-asc">Weirdness · low to high</option><option value="weirdness-desc">Weirdness · high to low</option><option value="intensity-asc">Intensity · low to high</option><option value="intensity-desc">Intensity · high to low</option><option value="accessibility-desc">Accessibility · high to low</option><option value="rating">Your rating · highest first</option><option value="recent">Most recently heard</option></select></label>

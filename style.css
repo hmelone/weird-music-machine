@@ -111,18 +111,22 @@ cite { font-style: italic; }
 #toggle-genres { background: none; border: 0; border-bottom: var(--rule); padding: 4px 0; font: 700 14px/1.2 var(--sans); letter-spacing: .05em; }
 
 /* Discovery */
-.discovery { display: grid; grid-template-columns: 1fr 1.25fr; gap: var(--gutter); padding: 56px 0; }
-.discovery-heading { display: flex; flex-direction: column; gap: 16px; }
-.adventure-caption { font: 600 26px/1.1 var(--narrow); }
+.discovery { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; padding: 56px 0; }
+.discovery-heading { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: end; gap: 12px var(--gutter); }
+.discovery-heading .section-no { grid-column: 1 / -1; }
 .discovery-instructions { max-width: 46ch; }
 .discovery-controls { display: grid; gap: 18px; align-content: start; }
-.frequency { display: grid; grid-template-columns: repeat(4, 1fr); border: var(--rule); }
-.frequency button { display: grid; gap: 10px; align-content: space-between; min-height: 170px; padding: 16px; text-align: left; background: var(--paper); border: 0; border-right: var(--rule); font: 400 clamp(26px, 2.2vw, 42px)/.9 var(--display); text-transform: uppercase; }
-.frequency button:last-child { border-right: 0; }
-.frequency button span { font: 700 13px/1 var(--sans); letter-spacing: .06em; }
-.frequency button:hover { background: var(--paper-light); }
-.frequency button[aria-checked="true"] { background: var(--ink); color: var(--paper); }
+/* Weirdness selector: five equal options in one radiogroup */
+.frequency { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.frequency button { position: relative; display: grid; align-content: space-between; gap: 18px; min-height: 156px; padding: 14px 14px 16px; text-align: left; background: var(--paper-light); border: var(--rule); box-shadow: 4px 4px 0 var(--ink); font: 400 clamp(22px, 2.3vw, 40px)/.92 var(--display); text-transform: uppercase; overflow-wrap: normal; hyphens: none; transition: transform .12s ease, box-shadow .12s ease, background-color .12s ease; }
+.frequency button span { font: 700 12px/1 var(--sans); letter-spacing: .08em; }
+.frequency button::after { content: ''; position: absolute; top: 12px; right: 12px; width: 16px; height: 16px; border: 2px solid currentColor; border-radius: 50%; background: transparent; }
+.frequency button:hover { background: var(--paper); transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink); }
+.frequency button:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+.frequency button[aria-checked="true"] { background: var(--ink); color: var(--paper); box-shadow: 4px 4px 0 var(--red); }
 .frequency button[aria-checked="true"] span { color: var(--lime); }
+.frequency button[aria-checked="true"]::after { background: var(--lime); border-color: var(--lime); box-shadow: 0 0 0 3px var(--ink), 0 0 0 5px var(--lime); }
+.frequency button:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
 .discovery-bottom { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
 .discovery-bottom #band-caption { font-weight: 700; flex: 1; }
 .text-button[aria-pressed="true"] { background: var(--lime); text-decoration: none; padding: 4px 8px; }
@@ -164,8 +168,6 @@ details[open] .filter-disclosure::after { content: '−'; }
 .filter-body label { display: grid; gap: 4px; font: 700 12px/1.2 var(--sans); letter-spacing: .04em; text-transform: uppercase; }
 select { width: 100%; appearance: none; padding: 9px 34px 9px 10px; border: var(--rule); border-radius: 0; background: var(--paper-light) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23141414' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 11px center; font: 500 15px/1.2 var(--sans); text-transform: none; letter-spacing: 0; }
 .filter-rule { border-top: var(--rule); margin: 6px 0 2px; }
-.margin-note { display: flex; gap: 10px; font: 600 20px/1.15 var(--narrow); }
-.margin-note span { font-size: 26px; line-height: 1; }
 
 .records-panel { min-width: 0; }
 .view-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
@@ -307,9 +309,10 @@ dialog::backdrop { background: rgba(20, 20, 20, .72); }
   .masthead-machine { font-size: 1.04em; }
   .collection-layout { grid-template-columns: 1fr; }
   .filters { position: static; }
-  .frequency { grid-template-columns: repeat(2, 1fr); }
-  .frequency button:nth-child(2) { border-right: 0; }
-  .frequency button:nth-child(-n+2) { border-bottom: var(--rule); }
+  .frequency { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .frequency button { min-height: 112px; }
+  .frequency button:first-child { grid-column: 1 / -1; min-height: 88px; }
+  .discovery-heading { grid-template-columns: 1fr; }
   .profile-columns, .range-panels { grid-template-columns: 1fr; }
   .profile-column { border-right: 0; border-bottom: var(--rule); }
   .profile-column:last-child { border-bottom: 0; }
