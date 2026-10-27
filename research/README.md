@@ -56,8 +56,11 @@ Picks the parser could not tie to one specific release are kept, flagged
 | Discogs, AllMusic | Refuse automated requests (HTTP 403). |
 | Internet Archive | Timed out from this environment. |
 
-All fetches identify honestly as `Claude-User`; browser user agents were not
-used to get past access controls.
+**User agent.** The first fetches of The Quietus (the Baker's Dozen index and
+pages) and one Bandcamp Daily test used a browser-style user agent. The
+Quietus's robots.txt allows all agents, and it serves the same pages to an
+honestly identified agent. After the robots.txt check, every fetch identified
+as `Claude-User`, and no access control was bypassed.
 
 ## Stage 4 — deduplication
 
