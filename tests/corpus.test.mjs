@@ -60,3 +60,17 @@ test('no duplicate artist/title pairs, ignoring case, accents and punctuation', 
     seen.set(key(record), record.id);
   }
 });
+
+test('new records have resolved scores and a known release type', () => {
+  const types = new Set(['album', 'live album', 'compilation', 'single', 'EP', 'mini-album']);
+  for (const record of additions) {
+    for (const key of ['weirdness', 'intensity', 'accessibility']) assert.ok(Number.isInteger(record[key]), record.id + ' ' + key);
+    assert.ok(types.has(record.release_type), record.id + ' release type ' + record.release_type);
+  }
+});
+
+test('the corpus additions are exactly the researched records', () => {
+  const researched = readJSON('research/04-enriched-additions.json').records;
+  assert.deepEqual(additions.slice(-researched.length), researched);
+  assert.equal(additions.filter(r => !researched.some(x => x.id === r.id)).length, additions.length - researched.length);
+});
