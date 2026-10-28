@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {loadCorpus} from './helpers.mjs';
-import {PATHWAYS, PATHWAY_MIN, pathwayMatches, filterRecords, blankLog, sanitizeLog, sanitizeSurvey, surveyVocabulary, recommend, updateRecord, SURVEY_MOODS, SURVEY_WEIGHT} from '../engine.mjs';
+import {PATHWAYS, PATHWAY_MIN, pathwayMatches, filterRecords, blankLog, sanitizeLog, sanitizeSurvey, surveyVocabulary, recommend, updateRecord, SURVEY_MOODS, SURVEY_ENERGY, surprise, surpriseTuned, tunedMatch, surveyFit} from '../engine.mjs';
 
 const corpus = loadCorpus();
 const vocab = surveyVocabulary(corpus);
@@ -37,28 +37,39 @@ test('survey answers are cleaned against the real vocabulary', () => {
   for (const mood of Object.values(SURVEY_MOODS)) for (const t of mood.terms) assert.ok(vocab.has(t), 'mood term not in corpus: ' + t);
 });
 
-test('a saved survey guides recommendations until ratings take over', () => {
+test('preferences tune Surprise Me only when it is set to pick from them', () => {
   let log = blankLog();
   log.survey = sanitizeSurvey({status: 'saved', looking: ['hypnotic'], energy: 'calm', more: [], less: ['abrasive']}, corpus);
-  const guided = recommend(corpus, log);
-  assert.equal(guided.mode, 'guided');
-  assert.ok(guided.items.length > 0);
-  for (const item of guided.items) { assert.equal(item.survey.avoided.length, 0); assert.ok(item.survey.matched.length > 0); }
-  log = updateRecord(log, 'wmm-0171', {rating: 5});
-  const one = recommend(corpus, log);
-  assert.equal(one.mode, 'personalized');
-  const maxOne = Math.max(...one.items.map(i => i.surveyContribution));
-  assert.ok(maxOne <= SURVEY_WEIGHT / 2 + 1e-9);
-  for (const [id, rating] of [['wmm-0167', 5], ['wmm-0162', 4], ['wmm-0168', 4], ['wmm-0161', 5]]) log = updateRecord(log, id, {rating});
-  const five = recommend(corpus, log);
-  assert.ok(Math.max(...five.items.map(i => i.surveyContribution)) < maxOne, 'survey weight shrinks as ratings accumulate');
+  const draws = (l, n = 300) => { const seen = new Set(); for (let i = 0; i < n; i++) seen.add(surprise(corpus, l, {}, l.preference, () => i / n).id); return [...seen].map(id => corpus.find(r => r.id === id)); };
+  assert.equal(surpriseTuned(log), false, 'saving answers alone does not tune anything');
+  const anything = draws(log);
+  assert.ok(anything.some(r => !tunedMatch(r, log.survey)));
+  log = {...log, surpriseMode: 'tuned'};
+  assert.equal(surpriseTuned(log), true);
+  const tuned = draws(log);
+  assert.ok(tuned.length > 1);
+  for (const r of tuned) {
+    assert.ok(!r.traits.includes('abrasive') && !r.styles.includes('abrasive') && !r.genres.includes('abrasive'), r.id + ' avoided');
+    assert.ok(r.intensity >= SURVEY_ENERGY.calm.range[0] && r.intensity <= SURVEY_ENERGY.calm.range[1], r.id + ' energy');
+    assert.ok(surveyFit(r, log.survey).matched.length > 0, r.id + ' matches a mood');
+  }
+  const farout = {...log, preference: 'farout'};
+  assert.ok(draws(farout).every(r => r.weirdness === 4), 'the weirdness level still applies');
+  assert.equal(surprise(corpus, {...log, survey: {...log.survey, status: 'skipped'}}, {}, 'any', () => 0) !== null, true, 'a cleared survey falls back to anything');
 });
 
-test('without a survey, recommendations behave exactly as before', () => {
-  assert.equal(recommend(corpus, blankLog()).mode, 'discovery');
-  const log = updateRecord(blankLog(), 'wire-030', {rating: 1});
-  assert.equal(recommend(corpus, log).mode, 'avoidance');
-  assert.ok(recommend(corpus, updateRecord(log, 'wire-002', {rating: 5})).items.every(i => i.surveyContribution === 0));
+test('preferences never change The Machine Says', () => {
+  let log = updateRecord(blankLog(), 'wire-002', {rating: 5});
+  const before = recommend(corpus, log);
+  log = {...log, surpriseMode: 'tuned', survey: sanitizeSurvey({status: 'saved', looking: ['noisy'], energy: 'intense', more: ['shoegaze'], less: [], savedAt: '2026-01-01T00:00:00.000Z'}, corpus)};
+  assert.deepEqual(recommend(corpus, log), before);
+  assert.deepEqual(recommend(corpus, {...blankLog(), survey: log.survey, surpriseMode: 'tuned'}), recommend(corpus, blankLog()));
+});
+
+test('the Surprise Me setting is saved, cleaned and defaults to anything', () => {
+  const survey = sanitizeSurvey({status: 'saved', looking: ['noisy'], energy: 'any', more: [], less: []}, corpus);
+  assert.equal(sanitizeLog({version: 1, records: {}, events: [], preference: 'any', survey, surpriseMode: 'tuned'}, corpus).surpriseMode, 'tuned');
+  assert.equal('surpriseMode' in sanitizeLog({version: 1, records: {}, events: [], preference: 'any', surpriseMode: 'bogus'}, corpus), false);
 });
 
 test('old saved logs without survey or notes still load unchanged', () => {

@@ -24,6 +24,7 @@ export function sanitizeLog(value, dataset) {
   clean.preference = Object.hasOwn(BANDS, value.preference) ? value.preference : 'any';
   const survey = sanitizeSurvey(value.survey, dataset);
   if (survey) clean.survey = survey;
+  if (value.surpriseMode === 'tuned') clean.surpriseMode = 'tuned';
   clean.events = (Array.isArray(value.events) ? value.events : []).filter(e => e && known.has(e.id) && date(e.at) && ['status', 'rating'].includes(e.kind)).slice(-2000).map(e => ({id: e.id, at: e.at, kind: e.kind, status: ['unheard', 'want to hear', 'heard'].includes(e.status) ? e.status : 'unheard', rating: Number.isInteger(e.rating) && e.rating >= 1 && e.rating <= 5 ? e.rating : null}));
   return clean;
 }
@@ -131,7 +132,7 @@ function ruleMatches(record, rule) {
 export const pathwayMatches = (record, pathway) => !!pathway && pathway.rules.some(rule => ruleMatches(record, rule));
 export const pathwayTerms = (record, pathway) => [...new Set(pathway.rules.flatMap(rule => [...termsIn(record, rule.any), ...(rule.all || []).flatMap(g => termsIn(record, g))]))];
 
-// Preference survey: optional, local, and always outweighed by ratings as they accumulate.
+// Preference survey: optional and local. It only tunes Surprise Me's random pick, when the listener asks for that.
 // Each answer maps only onto metadata that exists in the corpus.
 export const SURVEY_MOODS = Object.freeze({
   psychedelic: {label: 'Psychedelic', terms: ['psychedelic', 'psychedelic rock', 'psychedelic folk', 'psychedelic pop', 'neo-psychedelia', 'space rock']},
@@ -145,7 +146,6 @@ export const SURVEY_MOODS = Object.freeze({
   surprise: {label: 'Surprise me', terms: []},
 });
 export const SURVEY_ENERGY = Object.freeze({calm: {label: 'Calm', range: [1, 2]}, middle: {label: 'Somewhere in the middle', range: [2, 4]}, intense: {label: 'Intense', range: [4, 5]}, any: {label: 'No preference', range: null}});
-export const SURVEY_WEIGHT = .3;
 export const surveyVocabulary = dataset => new Set(dataset.flatMap(r => [...r.genres, ...r.styles, ...r.traits]));
 export function sanitizeSurvey(value, dataset) {
   if (!value || typeof value !== 'object' || !['saved', 'skipped'].includes(value.status)) return null;
@@ -212,8 +212,7 @@ export function recommend(dataset, log, filters = {}, preference = log.preferenc
   const anchors = dataset.filter(r => !unresolved(r) && entryFor(log, r.id).status === 'heard' && RATING_WEIGHTS[entryFor(log, r.id).rating]);
   const positives = anchors.filter(r => entryFor(log, r.id).rating >= 4);
   const negatives = anchors.filter(r => entryFor(log, r.id).rating <= 2);
-  const survey = activeSurvey(log);
-  const mode = positives.length ? 'personalized' : survey ? 'guided' : negatives.length ? 'avoidance' : 'discovery';
+  const mode = positives.length ? 'personalized' : negatives.length ? 'avoidance' : 'discovery';
   const denominator = anchors.reduce((sum, r) => sum + Math.abs(RATING_WEIGHTS[entryFor(log, r.id).rating]), 0) || 1;
   const ranked = eligible.map(record => {
     const evidence = anchors.map(anchor => {
@@ -223,18 +222,8 @@ export function recommend(dataset, log, filters = {}, preference = log.preferenc
       const contribution = rating <= 2 && !strong ? 0 : RATING_WEIGHTS[rating] * similarity.score;
       return {anchor, rating, shared: similarity.shared, similarity: similarity.score, contribution};
     });
-    const ratingScore = evidence.reduce((sum, e) => sum + e.contribution, 0) / denominator;
-    // Survey answers are a starting point: their weight shrinks as rated records accumulate.
-    const fit = survey ? surveyFit(record, survey) : null;
-    const surveyContribution = fit ? SURVEY_WEIGHT * fit.score / (1 + anchors.length) : 0;
-    return {record, score: ratingScore + surveyContribution, ratingScore, survey: fit, surveyContribution, evidence: evidence.filter(e => e.rating >= 4 && overlapExists(e.shared)).sort((a, b) => b.contribution - a.contribution || catalogOrder(a.anchor, b.anchor)), negativeEvidence: evidence.filter(e => e.contribution < 0)};
+    return {record, score: evidence.reduce((sum, e) => sum + e.contribution, 0) / denominator, evidence: evidence.filter(e => e.rating >= 4 && overlapExists(e.shared)).sort((a, b) => b.contribution - a.contribution || catalogOrder(a.anchor, b.anchor)), negativeEvidence: evidence.filter(e => e.contribution < 0)};
   });
-  if (mode === 'guided') {
-    // No positive ratings yet: rank by saved preferences, dropping records with avoided sounds.
-    const kept = ranked.filter(item => !item.survey.avoided.length && (item.survey.open ? item.survey.inEnergy : item.survey.score > 0));
-    const open = kept.every(item => item.survey.open);
-    return {mode, items: open ? discoveryRotation(kept) : kept.sort((a, b) => b.score - a.score || catalogOrder(a.record, b.record)), anchorCount: anchors.length};
-  }
   if (mode === 'discovery') return {mode, items: discoveryRotation(ranked), anchorCount: 0};
   const supported = mode === 'personalized' ? ranked.filter(r => r.evidence.length && r.score > 0) : ranked;
   return {mode, items: supported.sort((a, b) => b.score - a.score || catalogOrder(a.record, b.record)), anchorCount: anchors.length};
@@ -254,7 +243,6 @@ function discoveryRotation(items) {
 }
 
 export function explanation(item, mode) {
-  if (mode === 'guided') return [item.survey?.matched.length ? 'Matches your saved preferences: ' + item.survey.matched.slice(0, 4).join(', ') + '.' : 'A varied pick within your saved energy and strangeness preferences.', 'Rate records 4 or 5 stars and your ratings will take over from the survey.'];
   if (mode === 'discovery') return ['A discovery pick from a varied, fixed rotation. Rate a heard record 4 or 5 stars to start making connections.'];
   if (mode === 'avoidance') {
     const negative = item.negativeEvidence[0];
@@ -266,11 +254,19 @@ export function explanation(item, mode) {
     if (e.shared.traits.length) parts.push('shared traits: ' + e.shared.traits.slice(0, 4).join(', '));
     if (e.shared.genres.length) parts.push('shared genres: ' + e.shared.genres.join(', '));
     return 'You rated ' + e.anchor.artist + ' — ' + e.anchor.title + ' ' + e.rating + ' stars; ' + parts.join('; ') + '.';
-  }).concat(item.surveyContribution > 0 && item.survey?.matched.length ? ['Your saved preferences nudged it up a little: ' + item.survey.matched.slice(0, 3).join(', ') + '.'] : []);
+  });
 }
 
+// Surprise Me picks uniformly at random. When the listener chooses "My preferences", the pool is first narrowed to
+// records that match at least one wanted sound, contain none of the unwanted ones, and sit in the chosen energy range.
+export const surpriseTuned = log => log.surpriseMode === 'tuned' && !!activeSurvey(log);
+export function tunedMatch(record, survey) {
+  const fit = surveyFit(record, survey);
+  return !fit.avoided.length && fit.inEnergy && (fit.open || fit.matched.length > 0) ? fit : null;
+}
 export function surprise(dataset, log, filters = {}, preference = log.preference, random = Math.random) {
-  const candidates = filterRecords(dataset, log, filters).filter(r => entryFor(log, r.id).status !== 'heard' && withinBand(r, preference));
+  const survey = surpriseTuned(log) ? activeSurvey(log) : null;
+  const candidates = filterRecords(dataset, log, filters).filter(r => entryFor(log, r.id).status !== 'heard' && withinBand(r, preference) && (!survey || tunedMatch(r, survey)));
   return candidates.length ? candidates[Math.min(candidates.length - 1, Math.max(0, Math.floor(random() * candidates.length)))] : null;
 }
 

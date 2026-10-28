@@ -24,21 +24,25 @@ A record joins a pathway when it satisfies any one of the pathway's rules. Terms
 
 **Weakest support.** Motorik Forever (15), Shoegaze & Textural (17) and Weird Hip-Hop (19) are the smallest pathways. Almost all of their records are recent additions, because the original Wire collection has little shoegaze, hip-hop or krautrock-with-pulse. Motorik isn't a tag in the corpus, so that pathway uses a documented stand-in. Hazy & Beautiful matched only 9 records on dreamy styles alone; a second rule (atmospheric + melodic at low intensity) brings it to 28 without inventing metadata.
 
-## Preference survey
+## Preferences for Surprise Me
 
-The survey is optional and has five questions. Preferences only shape The Machine Says, so that's where they live: a strip above the recommendations shows each saved answer and what it currently does, with Change and Reset. A small link beside the homepage pick ("Tune the machine", or "Change preferences" once saved) is the only other entry point, and nothing blocks the archive. Answers are stored in the existing listening log (`localStorage` key `weird-music-machine:v1`, field `survey`), so export, import and cross-tab sync carry them. Each answer is validated against the corpus vocabulary when loaded.
+Preferences are an optional way to tune random picks, and nothing else. Beside **Surprise Me** is a **Pick from** choice:
+
+* **Anything** (the default): Surprise Me picks any unheard record within your weirdness level and archive filters, as before.
+* **My preferences**: Surprise Me, and the homepage's random "open door" pick, choose only among those records that also fit your answers. The first time you choose it, four quick questions open. Cancel leaves the setting on Anything. Once you save, the answers appear under the choice with **Edit** and **Reset**. Switching back to Anything keeps the answers for next time. Reset clears them and returns to Anything.
+
+The Machine Says (the rating-based recommendations) and the archive never use preferences. The weirdness level comes from the selector above, so the survey doesn't ask for it again.
+
+The answers and the setting are stored in the existing listening log (`localStorage` key `weird-music-machine:v1`, fields `survey` and `surpriseMode`), so export, import and cross-tab sync carry them. Each answer is checked against the corpus vocabulary when it loads.
 
 | Answer | What it does |
 | --- | --- |
 | What are you looking for? | Each mood maps to existing terms (`SURVEY_MOODS`). "Guitar-heavy" uses guitar-led styles as a stand-in, since guitar isn't tagged. "Surprise me" adds no terms. |
-| How strange? | Sets the existing weirdness band, which the selector can change later. |
-| What kind of energy? | Calm = intensity 1–2, middle = 2–4, intense = 4–5. Records outside the range score half. |
+| What kind of energy? | Calm = intensity 1–2, middle = 2–4, intense = 4–5. Records outside the range are left out. |
 | More of | Adds terms (any trait; genres and styles with at least 5 records). |
-| Less of | Records with any of these terms are excluded from preference-led picks and pushed down afterwards. |
+| Less of | Records with any of these terms are left out. |
 
-A record's survey score is the number of wanted terms it has, divided by 3 and capped at 1. A record with an avoided term scores −1.
-
-**How ratings take over.** With no 4- or 5-star ratings, The Machine Says runs in *guided* mode, ranking unheard records by survey score. Once you rate records highly, ratings drive the ranking as before, and the survey only adds `0.3 × score ÷ (1 + rated records)`. That is at most 0.15 after one rating and 0.05 after five, so ratings dominate as they accumulate. Without a saved survey, recommendations are exactly as before. **Reset preferences** clears the answers and keeps ratings, statuses and notes.
+A record fits (`tunedMatch` in `engine.mjs`) when it has at least one wanted term, or any record if you chose no moods or sounds. It must also be within the energy range and carry none of the terms you want less of. If nothing fits at the current setting, Surprise Me says so and suggests another level or Anything.
 
 ## Added in this edition
 

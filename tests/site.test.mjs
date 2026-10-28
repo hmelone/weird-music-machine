@@ -6,6 +6,7 @@ import {readFile} from 'node:fs/promises';
 import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
 import {root, loadCorpus, enlargedCorpus} from './helpers.mjs';
+import {tunedMatch} from '../engine.mjs';
 
 let chromium = null;
 for (const base of [import.meta.url, 'file:///opt/node-tools/']) { try { ({chromium} = createRequire(base)('playwright')); break; } catch {} }
@@ -115,42 +116,50 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
-  await t.test('the survey is optional, saved locally, exported, and resettable', async () => {
+  await t.test('Surprise Me can pick from saved preferences, and only that changes', async () => {
     const {page} = await open(browser, url);
-    assert.equal(await page.isVisible('.discovery #survey-strip'), false, 'preferences are not part of the weirdness selector');
-    assert.equal(await page.isVisible('#home-prefs [data-survey="open"]'), true);
-    await page.click('#home-prefs [data-survey="open"]');
+    assert.equal(await page.getAttribute('#surprise-tune [data-surprise-mode="any"]', 'aria-checked'), 'true', 'anything by default');
+    const featureBefore = await page.textContent('#home-feature .feature-kicker');
+    await page.click('[data-tab="recommendations"] >> nth=0');
+    const recsBefore = await page.$$eval('.record-card', els => els.map(e => e.id || e.textContent.slice(0, 60)));
+    await page.click('[data-tab="collection"] >> nth=0');
+    await page.click('#surprise-tune [data-surprise-mode="tuned"]');
+    assert.equal(await page.isVisible('#survey-dialog'), true, 'first use asks the questions');
+    await page.click('#cancel-survey');
+    assert.equal(await page.getAttribute('#surprise-tune [data-surprise-mode="any"]', 'aria-checked'), 'true', 'cancelling changes nothing');
+    await page.click('#surprise-tune [data-surprise-mode="tuned"]');
+    assert.equal(await page.$$eval('#survey-form input[name="strangeness"]', els => els.length), 0, 'weirdness comes from the selector, not the survey');
     await page.check('#survey-form input[name="looking"][value="hypnotic"]');
-    await page.check('#survey-form input[name="strangeness"][value="farout"]');
     await page.check('#survey-form input[name="energy"][value="calm"]');
     await page.click('#survey-form .survey-save');
     const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
-    assert.equal(stored.survey.status, 'saved'); assert.deepEqual(stored.survey.looking, ['hypnotic']);
-    assert.equal(stored.preference, 'farout');
-    assert.equal(await page.getAttribute('[data-band="farout"]', 'aria-checked'), 'true');
-    assert.match(await page.textContent('#home-prefs'), /tuned to your preferences/);
+    assert.equal(stored.survey.status, 'saved'); assert.deepEqual(stored.survey.looking, ['hypnotic']); assert.equal(stored.surpriseMode, 'tuned');
+    assert.equal(stored.preference, 'any', 'saving preferences leaves the weirdness level alone');
+    assert.equal(await page.getAttribute('#surprise-tune [data-surprise-mode="tuned"]', 'aria-checked'), 'true');
+    const summary = await page.textContent('#surprise-tune');
+    assert.match(summary, /Looking for\s*Hypnotic/); assert.match(summary, /Energy\s*Calm/);
+    assert.match(await page.textContent('#home-feature .feature-kicker'), /TUNED TO YOUR PREFERENCES/);
+    for (let i = 0; i < 5; i++) {
+      await page.click('#surprise');
+      const title = (await page.textContent('#dialog-heading')).trim().toLowerCase();
+      const picked = corpus.filter(r => r.title.toLowerCase() === title);
+      assert.ok(picked.length && picked.some(r => tunedMatch(r, stored.survey)), title + ' fits the preferences');
+      await page.click('#close-dialog');
+    }
     await page.click('[data-tab="recommendations"] >> nth=0');
-    const strip = await page.textContent('#survey-strip');
-    assert.match(strip, /Looking for\s*Hypnotic/); assert.match(strip, /Weirdness\s*Far Out/); assert.match(strip, /Energy\s*Calm/);
-    assert.match(strip, /steer the picks below/);
+    assert.deepEqual(await page.$$eval('.record-card', els => els.map(e => e.id || e.textContent.slice(0, 60))), recsBefore, 'The Machine Says is unchanged');
     const [download] = await Promise.all([page.waitForEvent('download'), page.click('#export-log')]);
     const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
-    assert.deepEqual(exported.survey.looking, ['hypnotic']);
-    await page.click('#survey-strip [data-survey="reset"]');
+    assert.deepEqual(exported.survey.looking, ['hypnotic']); assert.equal(exported.surpriseMode, 'tuned');
+    await page.click('[data-tab="collection"] >> nth=0');
+    await page.click('#surprise-tune [data-surprise-mode="any"]');
+    assert.equal(await page.textContent('#home-feature .feature-kicker'), featureBefore);
+    assert.equal(await page.isVisible('#surprise-tune [data-survey="reset"]'), false, 'summary only shows while tuned');
+    await page.click('#surprise-tune [data-surprise-mode="tuned"]');
+    assert.equal(await page.isVisible('#survey-dialog'), false, 'saved answers are reused');
+    await page.click('#surprise-tune [data-survey="reset"]');
     const after = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
-    assert.equal(after.survey.status, 'skipped');
-    await page.close();
-  });
-
-  await t.test('skipping the survey hides the first-visit prompt for good', async () => {
-    const {page} = await open(browser, url);
-    await page.click('[data-tab="recommendations"] >> nth=0');
-    await page.click('#survey-strip [data-survey="skip"]');
-    await page.reload();
-    await page.waitForFunction(() => document.querySelector('#results-count')?.textContent !== 'Loading the collection…');
-    await page.click('[data-tab="recommendations"] >> nth=0');
-    assert.equal(await page.isVisible('#survey-strip [data-survey="skip"]'), false);
-    assert.equal((await page.textContent('#home-prefs')).trim(), '');
+    assert.equal(after.survey.status, 'skipped'); assert.equal(after.surpriseMode, 'any');
     await page.close();
   });
 
@@ -226,7 +235,7 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.click('[data-open-method]');
     assert.equal(await page.evaluate(() => document.querySelector('#how-recs').open), true);
     const text = await page.textContent('#how-recs');
-    for (const phrase of ['45%', 'twice as much', '0.3 ÷ (1 +', 'never recommended', 'deterministic', 'Surprise Me']) assert.ok(text.includes(phrase), phrase);
+    for (const phrase of ['45%', 'twice as much', 'never change these recommendations', 'never recommended', 'deterministic', 'Surprise Me']) assert.ok(text.includes(phrase), phrase);
     assert.equal(await page.$$eval('details.method', els => els.length), 1, 'no duplicate methodology');
     await page.close();
   });
