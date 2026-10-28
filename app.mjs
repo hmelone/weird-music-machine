@@ -30,15 +30,12 @@ export function pathwayRecipe(pathway) {
 const dateLabel = (value, time = false) => value ? new Intl.DateTimeFormat(undefined, {year:'numeric', month:'short', day:'numeric', ...(time ? {hour:'numeric',minute:'2-digit'} : {})}).format(new Date(value)) : 'Date not recorded';
 
 // Visible corpus counts come from the loaded dataset; the numbers in index.html are only no-script fallbacks.
-export function renderCorpusCounts(doc, dataset, publications) {
+export function renderCorpusCounts(doc, dataset) {
   const additions = dataset.filter(r => !r.list_group);
   const years = additions.map(r => r.year).filter(Number.isInteger);
   const values = {records: String(dataset.length), additions: String(additions.length), 'addition-years': years.length ? Math.min(...years) + '–' + Math.max(...years) : ''};
   for (const node of doc.querySelectorAll('[data-count]')) if (Object.hasOwn(values, node.dataset.count)) node.textContent = values[node.dataset.count];
   for (const node of doc.querySelectorAll('[data-count-label]')) node.setAttribute('aria-label', dataset.length + ' ' + node.dataset.countLabel);
-  const named = publications.length > 4 ? [...publications.slice(0,3), (publications.length - 3) + ' other publications'] : publications;
-  const list = typeof Intl.ListFormat === 'function' ? new Intl.ListFormat('en', {style:'long', type:'conjunction'}).format(named) : named.join(', ');
-  for (const node of doc.querySelectorAll('[data-publications]')) node.textContent = list.replace(', and ', ' and ');
   const meta = doc.querySelector('meta[name="description"]');
   if (meta) meta.setAttribute('content', meta.getAttribute('content').replace(/^\d+ releases/, dataset.length + ' releases'));
 }
@@ -81,7 +78,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   for (const record of dataset) for (const publication of new Set((record.curation_sources || []).map(s => s.publication))) publicationCounts.set(publication, (publicationCounts.get(publication) || 0) + 1);
   const publications = [...publicationCounts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0])).map(([publication]) => publication);
   if ($('#filter-publication')) $('#filter-publication').innerHTML = '<option value="">All publications</option>' + publications.map(p => '<option value="' + escapeHTML(p) + '">' + escapeHTML(p) + '</option>').join('');
-  renderCorpusCounts(doc, dataset, publications);
+  renderCorpusCounts(doc, dataset);
   const originalCount = dataset.filter(isOriginal).length;
   if ($('#filter-edition')) $('#filter-edition').innerHTML = '<option value="">All editions</option><option value="original">Original collection (' + originalCount + ')</option><option value="added">Added in this edition (' + (dataset.length - originalCount) + ')</option>';
 

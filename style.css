@@ -63,7 +63,6 @@ cite { font-style: italic; }
 .intro { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(24px, 4vw, 72px); align-items: end; margin-top: 40px; }
 .intro > p:first-child { font: 600 clamp(30px, 3.2vw, 60px)/1.12 var(--narrow); letter-spacing: -.015em; }
 .intro em { font-style: normal; background: linear-gradient(transparent 12%, var(--lime) 12%); padding: 0 .12em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-.intro-note { max-width: 40ch; font-size: 15px; }
 
 .signal-strip { display: flex; height: 20px; margin: 0 calc(var(--gutter) * -1); border-block: var(--rule); }
 .signal-strip i { flex: 1; background: var(--ink); }
