@@ -118,14 +118,18 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   // --- preference survey: optional, local, and only a starting point for recommendations
   const vocabCounts = field => { const m = new Map(); for (const r of dataset) for (const v of new Set(r[field])) m.set(v, (m.get(v) || 0) + 1); return [...m].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0])); };
   const surveyTerms = {traits: vocabCounts('traits').map(([t]) => t), genres: vocabCounts('genres').filter(([,n]) => n >= 5).map(([t]) => t), styles: vocabCounts('styles').filter(([,n]) => n >= 5).map(([t]) => t)};
-  const surveySummary = survey => [survey.looking.map(m => SURVEY_MOODS[m].label).join(', ') || 'Open to anything', BAND_LABELS[survey.strangeness].split(' · ')[0], SURVEY_ENERGY[survey.energy].label.toLowerCase(), survey.more.length ? 'more ' + survey.more.slice(0,3).join(', ') + (survey.more.length > 3 ? '…' : '') : '', survey.less.length ? 'less ' + survey.less.slice(0,3).join(', ') + (survey.less.length > 3 ? '…' : '') : ''].filter(Boolean).join(' · ');
-  function renderSurveyStrip() {
-    const strip = $('#survey-strip'), survey = activeSurvey(log);
+  const listOf = (terms, max = 4) => terms.slice(0, max).join(', ') + (terms.length > max ? ' +' + (terms.length - max) : '');
+  // Every answer is labelled, so the summary says what each part refers to.
+  const surveySummary = survey => [['Looking for', survey.looking.map(m => SURVEY_MOODS[m].label).join(', ') || 'anything'], ['Weirdness', BAND_LABELS[survey.strangeness].split(' · ')[0].replace(' weirdness', '')], ['Energy', SURVEY_ENERGY[survey.energy].label], survey.more.length ? ['More of', listOf(survey.more)] : null, survey.less.length ? ['Less of', listOf(survey.less)] : null].filter(Boolean);
+  // Preferences only shape The Machine Says, so their controls live there (and beside the homepage pick).
+  function renderSurveyStrip(mode) {
+    const strip = $('#survey-strip'), home = $('#home-prefs'), survey = activeSurvey(log);
+    if (home) home.innerHTML = survey ? '<span>Picks tuned to your preferences.</span><button type="button" class="text-button" data-survey="open">Change preferences</button>' : !log.survey ? '<button type="button" class="text-button" data-survey="open">Tune the machine ↗</button><span>Five quick questions for better first picks.</span>' : '';
     if (!strip) return;
-    if (survey) strip.innerHTML = '<p><span class="eyebrow">TUNED TO</span> ' + escapeHTML(surveySummary(survey)) + '</p><div><button type="button" class="text-button" data-survey="open">Change my preferences</button><button type="button" class="text-button" data-survey="reset">Reset preferences</button></div>';
-    else if (!log.survey) strip.innerHTML = '<p><strong>New here?</strong> Five quick questions give the machine somewhere to start before you’ve rated anything.</p><div><button type="button" class="survey-open" data-survey="open">Tune the machine ↗</button><button type="button" class="text-button" data-survey="skip">No thanks</button></div>';
-    else strip.innerHTML = '<p>No preferences saved. The machine learns from your ratings.</p><div><button type="button" class="text-button" data-survey="open">Set preferences</button></div>';
-    strip.hidden = false;
+    strip.hidden = view !== 'recommendations';
+    if (survey) strip.innerHTML = '<div class="survey-summary"><span class="eyebrow">YOUR PREFERENCES</span><p>' + (mode === 'personalized' ? 'Your ratings lead these picks now; your preferences only nudge the order a little.' : 'These steer the picks below until you rate records 4 or 5 stars.') + '</p><dl>' + surveySummary(survey).map(([k, v]) => '<div><dt>' + k + '</dt><dd>' + escapeHTML(v) + '</dd></div>').join('') + '</dl></div><div><button type="button" class="text-button" data-survey="open">Change my preferences</button><button type="button" class="text-button" data-survey="reset">Reset preferences</button></div>';
+    else if (!log.survey) strip.innerHTML = '<p><strong>Nothing rated yet?</strong> Answer five quick questions and the machine will pick from your tastes until your ratings take over.</p><div><button type="button" class="survey-open" data-survey="open">Tune the machine ↗</button><button type="button" class="text-button" data-survey="skip">No thanks</button></div>';
+    else strip.innerHTML = '<p>No preferences saved: these picks come from your ratings alone.</p><div><button type="button" class="text-button" data-survey="open">Set preferences</button></div>';
   }
   const chip = (name, value, label, checked, type = 'checkbox') => '<label class="chip"><input type="' + type + '" name="' + name + '" value="' + escapeHTML(value) + '"' + (checked ? ' checked' : '') + '><span>' + escapeHTML(label) + '</span></label>';
   function termChips(name, chosen) {
@@ -146,7 +150,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (!dialog.open) { if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open',''); }
     $('#survey-form').querySelector('input')?.focus();
   }
-  function closeSurvey() { const dialog = $('#survey-dialog'); if (dialog.open) { if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); } $('#survey-strip button')?.focus(); }
+  function closeSurvey() { const dialog = $('#survey-dialog'); if (dialog.open) { if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); } (view === 'recommendations' ? $('#survey-strip button') : $('#home-prefs button'))?.focus(); }
   function setSurvey(next, message) {
     const previous = log;
     log = {...log, survey: next};
@@ -323,7 +327,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     $('#history-view').hidden = view !== 'history';
     $('#profile-view').hidden = view !== 'profile';
     for (const button of doc.querySelectorAll('[data-tab]')) { if (button.dataset.tab === view) button.setAttribute('aria-current','page'); else button.removeAttribute('aria-current'); }
-    renderBand(); renderSurveyStrip(); renderHomeFeature();
+    renderBand(); renderSurveyStrip(recommend(dataset, log, filters).mode); renderHomeFeature();
     if (view === 'collection' || view === 'recommendations') renderCatalog();
     else if (view === 'history') renderHistory();
     else renderProfile();

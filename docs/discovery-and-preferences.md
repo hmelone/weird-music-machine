@@ -26,7 +26,7 @@ A record joins a pathway when it satisfies any one of the pathway's rules. Terms
 
 ## Preference survey
 
-The survey is optional and has five questions. It's offered once, in a strip under the weirdness selector, and never blocks the archive. Answers are stored in the existing listening log (`localStorage` key `weird-music-machine:v1`, field `survey`), so export, import and cross-tab sync carry them. Each answer is validated against the corpus vocabulary when loaded.
+The survey is optional and has five questions. Preferences only shape The Machine Says, so that's where they live: a strip above the recommendations shows each saved answer and what it currently does, with Change and Reset. A small link beside the homepage pick ("Tune the machine", or "Change preferences" once saved) is the only other entry point, and nothing blocks the archive. Answers are stored in the existing listening log (`localStorage` key `weird-music-machine:v1`, field `survey`), so export, import and cross-tab sync carry them. Each answer is validated against the corpus vocabulary when loaded.
 
 | Answer | What it does |
 | --- | --- |

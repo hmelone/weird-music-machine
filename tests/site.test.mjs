@@ -117,8 +117,9 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
 
   await t.test('the survey is optional, saved locally, exported, and resettable', async () => {
     const {page} = await open(browser, url);
-    assert.equal(await page.isVisible('#survey-strip [data-survey="open"]'), true);
-    await page.click('#survey-strip [data-survey="open"]');
+    assert.equal(await page.isVisible('.discovery #survey-strip'), false, 'preferences are not part of the weirdness selector');
+    assert.equal(await page.isVisible('#home-prefs [data-survey="open"]'), true);
+    await page.click('#home-prefs [data-survey="open"]');
     await page.check('#survey-form input[name="looking"][value="hypnotic"]');
     await page.check('#survey-form input[name="strangeness"][value="farout"]');
     await page.check('#survey-form input[name="energy"][value="calm"]');
@@ -127,7 +128,11 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     assert.equal(stored.survey.status, 'saved'); assert.deepEqual(stored.survey.looking, ['hypnotic']);
     assert.equal(stored.preference, 'farout');
     assert.equal(await page.getAttribute('[data-band="farout"]', 'aria-checked'), 'true');
-    assert.match(await page.textContent('#survey-strip'), /Hypnotic/);
+    assert.match(await page.textContent('#home-prefs'), /tuned to your preferences/);
+    await page.click('[data-tab="recommendations"] >> nth=0');
+    const strip = await page.textContent('#survey-strip');
+    assert.match(strip, /Looking for\s*Hypnotic/); assert.match(strip, /Weirdness\s*Far Out/); assert.match(strip, /Energy\s*Calm/);
+    assert.match(strip, /steer the picks below/);
     const [download] = await Promise.all([page.waitForEvent('download'), page.click('#export-log')]);
     const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
     assert.deepEqual(exported.survey.looking, ['hypnotic']);
@@ -139,10 +144,13 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
 
   await t.test('skipping the survey hides the first-visit prompt for good', async () => {
     const {page} = await open(browser, url);
+    await page.click('[data-tab="recommendations"] >> nth=0');
     await page.click('#survey-strip [data-survey="skip"]');
     await page.reload();
     await page.waitForFunction(() => document.querySelector('#results-count')?.textContent !== 'Loading the collection…');
+    await page.click('[data-tab="recommendations"] >> nth=0');
     assert.equal(await page.isVisible('#survey-strip [data-survey="skip"]'), false);
+    assert.equal((await page.textContent('#home-prefs')).trim(), '');
     await page.close();
   });
 
