@@ -108,9 +108,8 @@ cite { font-style: italic; }
 #toggle-genres { background: none; border: 0; border-bottom: var(--rule); padding: 4px 0; font: 700 14px/1.2 var(--sans); letter-spacing: .05em; }
 
 /* Ways in: pathway and genre tabs */
-.thread-tabs { display: flex; flex-wrap: wrap; width: 100%; border: var(--rule); border-bottom: 0; }
-.thread-tabs button { flex: 1 1 auto; padding: 12px 18px; background: var(--paper); border: 0; border-right: var(--rule); font: 600 clamp(18px, 1.5vw, 24px)/1.1 var(--narrow); text-align: left; }
-.thread-tabs button:last-child { border-right: 0; }
+.thread-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); width: 100%; border-top: var(--rule); border-left: var(--rule); }
+.thread-tabs button { flex: 1 1 auto; padding: 12px 18px; background: var(--paper); border: 0; border-right: var(--rule); border-bottom: var(--rule); font: 600 clamp(18px, 1.5vw, 24px)/1.1 var(--narrow); text-align: left; }
 .thread-tabs button:hover { background: var(--paper-light); }
 .thread-tabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
 .thread-tabs button[aria-selected="true"]::after { content: ' ●'; color: var(--lime); }
