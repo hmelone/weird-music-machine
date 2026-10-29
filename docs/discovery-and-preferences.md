@@ -26,10 +26,11 @@ A record joins a pathway when it satisfies any one of the pathway's rules. Terms
 
 ## Preferences for Surprise Me
 
-Preferences are an optional way to tune random picks, and nothing else. Beside **Surprise Me** is a **Pick from** choice:
+Preferences are an optional way to tune random picks, and nothing else.
 
-* **Anything** (the default): Surprise Me picks any unheard record within your weirdness level and archive filters, as before.
-* **My preferences**: Surprise Me, and the homepage's random "open door" pick, choose only among those records that also fit your answers. The first time you choose it, four quick questions open. Cancel leaves the setting on Anything. Once you save, the answers appear under the choice with **Edit** and **Reset**. Switching back to Anything keeps the answers for next time. Reset clears them and returns to Anything.
+* **Set them at the top of the page.** Under the intro, **Set preferences** opens four quick questions. Once saved, the answers show there, labelled, with **Edit** and **Reset**, plus a line saying whether random picks are using them.
+* **Choose per random pick.** The homepage's random "open door" pick and **Surprise Me** each have a **Pick from** choice: **Anything** (the default) or **My preferences**. They share one setting, so changing either changes both. Choosing My preferences before any are saved opens the questions; Cancel leaves it on Anything. Saving preferences switches random picks to them. Switching back to Anything keeps the answers for later. Reset clears them and returns to Anything.
+* Once you have 4- or 5-star ratings, the homepage shows a connection from your ratings instead of a random pick, so its Pick from choice is hidden. Surprise Me keeps its choice.
 
 The Machine Says (the rating-based recommendations) and the archive never use preferences. The weirdness level comes from the selector above, so the survey doesn't ask for it again.
 

@@ -118,14 +118,14 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   const listOf = (terms, max = 4) => terms.slice(0, max).join(', ') + (terms.length > max ? ' +' + (terms.length - max) : '');
   // Every answer is labelled, so the summary says what each part refers to.
   const surveySummary = survey => [['Looking for', survey.looking.map(m => SURVEY_MOODS[m].label).join(', ') || 'anything'], ['Energy', SURVEY_ENERGY[survey.energy].label], survey.more.length ? ['More of', listOf(survey.more)] : null, survey.less.length ? ['Less of', listOf(survey.less)] : null].filter(Boolean);
-  // Surprise Me can pick from anything, or only from records that fit the saved preferences.
-  function renderSurpriseTune() {
-    const root = $('#surprise-tune');
-    if (!root) return;
-    const tuned = surpriseTuned(log), survey = activeSurvey(log);
-    root.innerHTML = '<div class="tune-choice" role="radiogroup" aria-label="Surprise Me picks from"><span class="tune-label" aria-hidden="true">PICK FROM</span>'
-      + [['any', 'Anything'], ['tuned', 'My preferences']].map(([k, l]) => '<button type="button" role="radio" data-surprise-mode="' + k + '" aria-checked="' + ((k === 'tuned') === tuned) + '">' + l + '</button>').join('') + '</div>'
-      + (tuned ? '<div class="tune-summary"><dl>' + surveySummary(survey).map(([k, v]) => '<div><dt>' + k + '</dt><dd>' + escapeHTML(v) + '</dd></div>').join('') + '</dl><button type="button" class="text-button" data-survey="open">Edit</button><button type="button" class="text-button" data-survey="reset">Reset</button></div>' : '');
+  // Preferences are set once at the top of the page; each random pick can use them or ignore them.
+  function renderPreferences() {
+    const panel = $('#prefs-panel'), survey = activeSurvey(log), tuned = surpriseTuned(log);
+    if (panel) panel.innerHTML = survey
+      ? '<span class="eyebrow">YOUR PREFERENCES</span><dl>' + surveySummary(survey).map(([k, v]) => '<div><dt>' + k + '</dt><dd>' + escapeHTML(v) + '</dd></div>').join('') + '</dl><p class="prefs-note">' + (tuned ? 'Random picks follow these.' : 'Not in use: random picks are set to Anything.') + '</p><div class="prefs-actions"><button type="button" class="text-button" data-survey="open">Edit</button><button type="button" class="text-button" data-survey="reset">Reset</button></div>'
+      : '<span class="eyebrow">YOUR PREFERENCES</span><p class="prefs-note">Four quick questions. Random picks can then follow them, or not: your choice each time.</p><button type="button" class="prefs-set" data-survey="open">Set preferences ↗</button>';
+    for (const root of doc.querySelectorAll('[data-tune]')) root.innerHTML = '<div class="tune-choice" role="radiogroup" aria-label="' + (root.dataset.tune === 'home' ? 'This random pick comes from' : 'Surprise Me picks from') + '"><span class="tune-label" aria-hidden="true">PICK FROM</span>'
+      + [['any', 'Anything'], ['tuned', 'My preferences']].map(([k, l]) => '<button type="button" role="radio" data-surprise-mode="' + k + '" aria-checked="' + ((k === 'tuned') === tuned) + '">' + l + '</button>').join('') + '</div>';
   }
   const chip = (name, value, label, checked, type = 'checkbox') => '<label class="chip"><input type="' + type + '" name="' + name + '" value="' + escapeHTML(value) + '"' + (checked ? ' checked' : '') + '><span>' + escapeHTML(label) + '</span></label>';
   function termChips(name, chosen) {
@@ -135,17 +135,18 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
   }
   function openSurvey() {
     const s = activeSurvey(log) || {looking: [], energy: 'any', more: [], less: []};
-    $('#survey-form').innerHTML = '<h2 id="survey-heading">What should Surprise Me pick from?</h2><p class="small-note">Random picks will come only from unheard records that fit these answers, at the weirdness level you chose. Nothing else changes: The Machine Says and the archive ignore them. Answers stay in this browser.</p>'
+    $('#survey-form').innerHTML = '<h2 id="survey-heading">What are you in the mood for?</h2><p class="small-note">When a random pick is set to “My preferences”, it comes only from unheard records that fit these answers, at the weirdness level you chose. The Machine Says and the archive ignore them. Answers stay in this browser.</p>'
       + '<fieldset class="survey-q"><legend><span>01</span> What are you looking for right now? <em>Pick any</em></legend><div class="chip-row">' + Object.entries(SURVEY_MOODS).map(([k, m]) => chip('looking', k, m.label, s.looking.includes(k))).join('') + '</div></fieldset>'
       + '<fieldset class="survey-q"><legend><span>02</span> What kind of energy?</legend><div class="chip-row">' + Object.entries(SURVEY_ENERGY).map(([k, e]) => chip('energy', k, e.label, s.energy === k, 'radio')).join('') + '</div></fieldset>'
       + '<fieldset class="survey-q"><legend><span>03</span> What sounds do you want more of? <em>Optional</em></legend>' + termChips('more', s.more) + '</fieldset>'
       + '<fieldset class="survey-q"><legend><span>04</span> Anything you want less of? <em>Optional</em></legend>' + termChips('less', s.less) + '</fieldset>'
-      + '<div class="survey-actions"><button type="submit" class="survey-save">Save and use for Surprise Me</button><button type="button" class="text-button" id="cancel-survey">Cancel</button></div>';
+      + '<div class="survey-actions"><button type="submit" class="survey-save">Save preferences</button><button type="button" class="text-button" id="cancel-survey">Cancel</button></div>';
     const dialog = $('#survey-dialog');
     if (!dialog.open) { if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open',''); }
     $('#survey-form').querySelector('input')?.focus();
   }
-  function closeSurvey() { const dialog = $('#survey-dialog'); if (dialog.open) { if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); } $('#surprise-tune [aria-checked="true"]')?.focus(); }
+  let surveyReturn = null;  // where focus goes when the survey closes
+  function closeSurvey() { const dialog = $('#survey-dialog'); if (dialog.open) { if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); } if (surveyReturn) doc.querySelector(surveyReturn)?.focus(); surveyReturn = null; }
   function setSurvey(next, message) {
     const previous = log;
     log = {...log, survey: next, surpriseMode: next?.status === 'saved' ? 'tuned' : 'any'};
@@ -156,7 +157,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     const form = new FormData($('#survey-form'));
     const more = form.getAll('more'), less = form.getAll('less').filter(t => !more.includes(t));
     const survey = sanitizeSurvey({status: 'saved', looking: form.getAll('looking'), strangeness: 'any', energy: form.get('energy') || 'any', more, less, savedAt: now()}, dataset);
-    closeSurvey(); setSurvey(survey, 'Surprise Me now picks from your preferences.');
+    closeSurvey(); setSurvey(survey, 'Preferences saved. Random picks now follow them.');
   }
 
   function stars(record) {
@@ -300,6 +301,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
       featurePoolKey = '';
     }
     featureMode = personalized ? 'personalized' : 'discovery';
+    if ($('#home-tune')) $('#home-tune').hidden = personalized;  // a rating-based connection isn't random, so the choice wouldn't apply
     featureId = item?.record.id || null;
     if ($('#home-feature-label')) $('#home-feature-label').textContent = personalized ? 'FOLLOW A CONNECTION' : 'AN OPEN DOOR';
     if (!item) {
@@ -320,7 +322,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     $('#history-view').hidden = view !== 'history';
     $('#profile-view').hidden = view !== 'profile';
     for (const button of doc.querySelectorAll('[data-tab]')) { if (button.dataset.tab === view) button.setAttribute('aria-current','page'); else button.removeAttribute('aria-current'); }
-    renderBand(); renderSurpriseTune(); renderHomeFeature();
+    renderBand(); renderPreferences(); renderHomeFeature();
     if (view === 'collection' || view === 'recommendations') renderCatalog();
     else if (view === 'history') renderHistory();
     else renderProfile();
@@ -357,15 +359,16 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (button.dataset.pathway) { reset(); filters.pathway = button.dataset.pathway; setView('collection'); $('#pathway-banner').scrollIntoView?.({behavior:'instant'}); $('#pathway-banner').focus({preventScroll:true}); return; }
     if (button.id === 'clear-pathway') { delete filters.pathway; limit = 24; render(); $('#search').focus(); return; }
     if (button.dataset.openMethod !== undefined) { setView('recommendations'); $('#how-recs').open = true; $('#how-recs').scrollIntoView?.({behavior:'instant', block:'center'}); $('#how-recs summary').focus(); return; }
-    if (button.dataset.survey === 'open') return openSurvey();
-    if (button.dataset.survey === 'reset') { closeSurvey(); setSurvey({status: 'skipped', looking: [], strangeness: 'any', energy: 'any', more: [], less: [], savedAt: now()}, 'Preferences cleared. Surprise Me picks from anything again.'); return; }
+    if (button.dataset.survey === 'open') { surveyReturn = '#prefs-panel [data-survey]'; return openSurvey(); }
+    if (button.dataset.survey === 'reset') { closeSurvey(); setSurvey({status: 'skipped', looking: [], strangeness: 'any', energy: 'any', more: [], less: [], savedAt: now()}, 'Preferences cleared. Random picks come from anything again.'); return; }
     if (button.id === 'close-survey' || button.id === 'cancel-survey') return closeSurvey();
     if (button.dataset.surpriseMode) {
       const mode = button.dataset.surpriseMode;
-      if (mode === 'tuned' && !activeSurvey(log)) return openSurvey();  // nothing changes until the answers are saved
+      const here = '[data-tune="' + button.closest('[data-tune]').dataset.tune + '"] [data-surprise-mode="' + mode + '"]';
+      if (mode === 'tuned' && !activeSurvey(log)) { surveyReturn = here; return openSurvey(); }  // nothing changes until the answers are saved
       if ((mode === 'tuned') === surpriseTuned(log)) return;
       log = {...log, surpriseMode: mode}; persist(); render();
-      $('#surprise-tune [data-surprise-mode="' + mode + '"]')?.focus();
+      doc.querySelector(here)?.focus();
       return;
     }
     if (button.dataset.genreThread) { reset(); filters.genre = button.dataset.genreThread; $('#filter-genre').value = button.dataset.genreThread; setView('collection'); $('#main').scrollIntoView?.({behavior:'instant'}); return; }
@@ -383,7 +386,7 @@ export function createApp({dataset, doc, storage, now = () => new Date().toISOSt
     if (button.dataset.history) { historyMode = button.dataset.history; activityLimit = 30; renderHistory(); return; }
     if (button.dataset.emptyAction) return button.dataset.emptyAction === 'collection' ? setView('collection') : reset(true);
     if (button.id === 'reset-filters') return reset();
-    if (button.id === 'surprise') { const selected = surprise(dataset,log,filters,log.preference,random); if (selected) openRecord(selected.id,'THE MACHINE PICKED / TAKE A CHANCE'); else toast(surpriseTuned(log) ? 'No unheard records fit your preferences at this setting. Try another frequency, or pick from Anything.' : 'No unheard records match your filters and weirdness setting. Try another frequency.'); return; }
+    if (button.id === 'surprise') { const selected = surprise(dataset,log,filters,log.preference,random); if (selected) openRecord(selected.id,'THE MACHINE PICKED / TAKE A CHANCE'); else toast(surpriseTuned(log) ? 'No unheard records fit your preferences at this setting. Try another level, or pick from Anything.' : 'No unheard records match your filters and weirdness setting. Try another frequency.'); return; }
     if (button.id === 'close-dialog') return closeRecord();
     if (button.id === 'load-more') { limit += 24; renderCatalog(); return; }
     if (button.id === 'more-activity') { activityLimit += 30; renderHistory(); return; }

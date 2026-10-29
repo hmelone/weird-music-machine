@@ -116,8 +116,10 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.close();
   });
 
-  await t.test('Surprise Me can pick from saved preferences, and only that changes', async () => {
+  await t.test('preferences are set at the top and each random pick can use them', async () => {
     const {page} = await open(browser, url);
+    assert.equal(await page.isVisible('#prefs-panel [data-survey="open"]'), true, 'Set preferences sits at the top');
+    assert.equal(await page.getAttribute('#home-tune [data-surprise-mode="any"]', 'aria-checked'), 'true', 'the homepage pick has its own control');
     assert.equal(await page.getAttribute('#surprise-tune [data-surprise-mode="any"]', 'aria-checked'), 'true', 'anything by default');
     const featureBefore = await page.textContent('#home-feature .feature-kicker');
     await page.click('[data-tab="recommendations"] >> nth=0');
@@ -136,7 +138,9 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     assert.equal(stored.survey.status, 'saved'); assert.deepEqual(stored.survey.looking, ['hypnotic']); assert.equal(stored.surpriseMode, 'tuned');
     assert.equal(stored.preference, 'any', 'saving preferences leaves the weirdness level alone');
     assert.equal(await page.getAttribute('#surprise-tune [data-surprise-mode="tuned"]', 'aria-checked'), 'true');
-    const summary = await page.textContent('#surprise-tune');
+    assert.equal(await page.getAttribute('#home-tune [data-surprise-mode="tuned"]', 'aria-checked'), 'true', 'both random picks share the setting');
+    const summary = await page.textContent('#prefs-panel');
+    assert.match(summary, /Random picks follow these/);
     assert.match(summary, /Looking for\s*Hypnotic/); assert.match(summary, /Energy\s*Calm/);
     assert.match(await page.textContent('#home-feature .feature-kicker'), /TUNED TO YOUR PREFERENCES/);
     for (let i = 0; i < 5; i++) {
@@ -154,10 +158,12 @@ test('site in the browser', {skip: !chromium && 'Playwright not installed'}, asy
     await page.click('[data-tab="collection"] >> nth=0');
     await page.click('#surprise-tune [data-surprise-mode="any"]');
     assert.equal(await page.textContent('#home-feature .feature-kicker'), featureBefore);
-    assert.equal(await page.isVisible('#surprise-tune [data-survey="reset"]'), false, 'summary only shows while tuned');
-    await page.click('#surprise-tune [data-surprise-mode="tuned"]');
+    assert.match(await page.textContent('#prefs-panel'), /Not in use/, 'answers are kept while not in use');
+    await page.click('#home-tune [data-surprise-mode="tuned"]');
+    assert.match(await page.textContent('#home-feature .feature-kicker'), /TUNED TO YOUR PREFERENCES/);
     assert.equal(await page.isVisible('#survey-dialog'), false, 'saved answers are reused');
-    await page.click('#surprise-tune [data-survey="reset"]');
+    await page.click('#prefs-panel [data-survey="reset"]');
+    assert.equal(await page.isVisible('#prefs-panel [data-survey="open"]'), true);
     const after = await page.evaluate(() => JSON.parse(localStorage.getItem('weird-music-machine:v1')));
     assert.equal(after.survey.status, 'skipped'); assert.equal(after.surpriseMode, 'any');
     await page.close();
